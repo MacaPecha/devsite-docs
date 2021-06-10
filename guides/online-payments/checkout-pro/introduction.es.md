@@ -33,13 +33,13 @@ Checkout Pro es la integración que **te permite cobrar a través de nuestro for
 * Pagar con los principales [medios de pago](https://www.mercadopago.com.pe/ayuda/medios-de-pago-cuotas-promociones_264) del país.
 ------------
 * Una **experiencia de compra adaptada** y accesible desde cualquier celular o computadora.
-* **Compras en un click.** Al pagar con una cuenta de Mercado Pago, se recuerdan los datos y tarjetas de los compradores, por lo que permite pagos ingresando solo el código de seguridad o dinero en cuenta.
-* **Compras de invitados.** No es necesario crear una cuenta de Mercado Pago para poder hacer el pago.
+* **Compras en un click.** Al pagar con una cuenta de Mercado Libre, se recuerdan los datos y tarjetas de los compradores, por lo que permite pagos ingresando solo el código de seguridad o dinero en cuenta.
+* **Compras de invitados.** No es necesario crear una cuenta de Mercado Libre para poder hacer el pago.
 ----[mla, mlb]----
 * **Pago con dos tarjetas.** Por ejemplo, para casos de montos altos.
 ------------
 
-## Diferencias de Checkout Pro con otras herramientas de Mercado Pago
+## Diferencias de Checkout Pro con otras herramientas de Mercado Libre
 
 ----[mla, mlb]----
 |                                       | Checkout Pro | Web Tokenize Checkout | API |

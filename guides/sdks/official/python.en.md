@@ -1,7 +1,7 @@
 ---
   indexable: false
 ---
-# Mercado Pago SDK module for Payments integration
+# Mercado Libre SDK module for Payments integration
 
 
 * [Install](#bookmark_install)

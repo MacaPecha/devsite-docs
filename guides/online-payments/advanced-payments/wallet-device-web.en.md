@@ -4,7 +4,7 @@
 
 # Device web
 
-Mercado Pago has its own fraud prevention tools. For `Wallet` its **required** o send information about buyer’s device, which will help avoid fraudulent transactions.
+Mercado Libre has its own fraud prevention tools. For `Wallet` its **required** o send information about buyer’s device, which will help avoid fraudulent transactions.
 
 > WARNING
 >

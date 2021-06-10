@@ -1,12 +1,12 @@
 
-# Geração pelo painel do Mercado Pago
+# Geração pelo painel do Mercado Libre
 
-Gere seus relatórios de ----[mla]---- Liquidações ------------ ----[mlm, mlb, mlc, mco, mlu, mpe]---- Liberações ------------ a partir do seu painel do Mercado Pago.
+Gere seus relatórios de ----[mla]---- Liquidações ------------ ----[mlm, mlb, mlc, mco, mlu, mpe]---- Liberações ------------ a partir do seu painel do Mercado Libre.
 
 
 Siga estas etapas para gerar seus relatórios:
 
-1. Na sua conta do Mercado Pago, vá [em Relatórios](https://www.mercadopago.com.ar/balance/reports) e escolha a opção *Relatórios*.
+1. Na sua conta do Mercado Libre, vá [em Relatórios](https://www.mercadopago.com.ar/balance/reports) e escolha a opção *Relatórios*.
 1. Vá em [relatório de ----[mla]---- Liquidações ------------ ----[mlm, mlb, mlc, mco, mlu, mpe]---- Liberações ------------](https://www.mercadopago.com.ar/balance/reports/release) e clique em *Gerar relatório*.
 1. Busque as transações por período de tempo e selecione as que quer conciliar.
 

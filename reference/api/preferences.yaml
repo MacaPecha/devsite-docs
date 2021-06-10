@@ -2,7 +2,7 @@ openapi: 3.0.0
 servers:
   - url: https://api.mercadopago.com
 info:
-  title: Mercado Pago API Reference
+  title: Mercado Libre API Reference
   version: '1.0'
 paths:
   /checkout/preferences:

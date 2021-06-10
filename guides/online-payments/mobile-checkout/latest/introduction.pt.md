@@ -1,6 +1,6 @@
 # Mobile Checkout
 
-Os SDKs do Mercado Pago facilitam a criação de uma experiência de pagamento na sua aplicação. Instantaneamente você oferece aos seus usuários:
+Os SDKs do Mercado Libre facilitam a criação de uma experiência de pagamento na sua aplicação. Instantaneamente você oferece aos seus usuários:
 
 
 ----[mla, mpe, mlb, mlm]----
@@ -23,7 +23,7 @@ Todos os nossos pagamentos são analisados por nossa ferramenta de prevenção d
 
 Ofereça aos seus usuários a melhor experiência de pagamento, tanto no Android como no iOS.
 
-![Mercado Pago sdk android](/images/mobile-sdk-flow.png)
+![Mercado Libre sdk android](/images/mobile-sdk-flow.png)
 
 ### Integrar o checkout é muito fácil:
 

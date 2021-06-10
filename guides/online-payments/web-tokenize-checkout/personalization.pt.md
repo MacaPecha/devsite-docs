@@ -31,7 +31,7 @@ Ao usar o método `render` um **botão de pagamento é mostrado para abrir o Web
 | Parâmetro | Tipo de dado | Descrição |
 | --- | --- | --- |
 | `container` | string | CSS Selector (identificador) do elemento onde se deseja mostrar o botão de pagamento. Permite definir o tipo de botão. |
-| `type` (opcional) | string | Permite definir o tipo de botão. Atualmente, só aceita o valor ’wallet’ que mostra um botão de pagamento com a marca do Mercado Pago. **Valor por padrão**: botão de pagamento simples. |
+| `type` (opcional) | string | Permite definir o tipo de botão. Atualmente, só aceita o valor ’wallet’ que mostra um botão de pagamento com a marca do Mercado Libre. **Valor por padrão**: botão de pagamento simples. |
 | `label` (opcional) | string | Valor do texto do botão. **Por padrão**: “Pagar” |
 
 Puedes utilizar este método de dos formas distintas:
@@ -91,7 +91,7 @@ button.mercadopago-button {
 }
 ```
 
-![Botón de pago con estilo personalizado Mercado Pago Web Tokenize Checkout](/images/paybutton-modified-css.png)
+![Botón de pago con estilo personalizado Mercado Libre Web Tokenize Checkout](/images/paybutton-modified-css.png)
 
 ### Abertura automática do  Web Tokenize Checkout
 
@@ -133,7 +133,7 @@ Adicione o atributo `theme` da seguinte maneira às opções de inicialização 
 
 #### Status padrão
 
-![Standard status header Mercado Pago](/images/cow/cow-ui-header__pt.png)
+![Standard status header Mercado Libre](/images/cow/cow-ui-header__pt.png)
 
 #### Personalização
 
@@ -147,7 +147,7 @@ theme: {
 ```
 ]]]
 
-![Header customization Mercado Pago](/images/cow/cow-ui-header--custom__pt.png)
+![Header customization Mercado Libre](/images/cow/cow-ui-header--custom__pt.png)
 
 ### Elementos
 
@@ -186,7 +186,7 @@ theme: {
 }
 ```
 
-![Personalización del color de fuente Mercado Pago Web Tokenize Checkout](/images/cow/cow-ui-fontcolor__light.png)
+![Personalización del color de fuente Mercado Libre Web Tokenize Checkout](/images/cow/cow-ui-fontcolor__light.png)
 
 Para uma cor de elemento *escuro*, a cor do texto será *branca* ou `#fff.` Por exemplo:
 
@@ -196,7 +196,7 @@ theme: {
 }
 ```
 
-![Personalización de color de fuente en elementos oscuros Mercado Pago Web Tokenize Checkout](/images/cow/cow-ui-fontcolor__dark.png)
+![Personalización de color de fuente en elementos oscuros Mercado Libre Web Tokenize Checkout](/images/cow/cow-ui-fontcolor__dark.png)
 
 ## Detalhe da compra
 

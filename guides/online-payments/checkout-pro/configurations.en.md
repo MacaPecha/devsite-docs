@@ -173,7 +173,7 @@ You can also set a payment method to appear by default or define the maximum num
 | `excluded_payment_methods` | Method that excludes by specific [payment methods](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/resources/localization/payment-methods#bookmark_payment_methods_by_country): Visa, Mastercard or American Express, among others. |
 | `excluded_payment_types` | Method that excludes by type of [payment method](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/resources/localization/payment-methods#bookmark_payment_methods_by_country): cash, credit or debit cards. |
 | `installments` | Method that defines the amount of maximum number of installments to offer. |
-| `purpose` | When the "wallet purchase" value is indicated, Checkout will accept payments exclusively from Mercado Pago registered users, with card and account balance. |
+| `purpose` | When the "wallet purchase" value is indicated, Checkout will accept payments exclusively from Mercado Libre registered users, with card and account balance. |
 
 [[[
 ```php
@@ -329,7 +329,7 @@ Check [credit times by payment method](https://www.mercadopago[FAKER][URL][DOMAI
 >
 > Important
 >
-> If the cash payment is paid after the expiration date, the amount will be refunded to the payer's Mercado Pago account.
+> If the cash payment is paid after the expiration date, the amount will be refunded to the payer's Mercado Libre account.
 ------------
 
 ### Binary Mode
@@ -541,10 +541,10 @@ curl -X POST \
 ## Accept payments from registered users only
 
 ----[mla, mlb]----
-You can accept payments with the Mercado Pago wallet exclusively from registered users, with cards, money in account and Mercado Crédito.
+You can accept payments with the Mercado Libre wallet exclusively from registered users, with cards, money in account and Mercado Crédito.
 ------------
 ----[mlm, mlc, mco, mpe, mlu]----
-You can accept payments with the Mercado Pago wallet exclusively from registered users, with cards and money in account.
+You can accept payments with the Mercado Libre wallet exclusively from registered users, with cards and money in account.
 ------------
 
 This allows your customers to have their account information available instantly, such as their saved cards and addresses.
@@ -553,7 +553,7 @@ This allows your customers to have their account information available instantly
 >
 > Important
 >
-> Please note that by adding this option you will not be able to receive payments from users who do not have a Mercado Pago or Mercado Libre account and you will not be able to collect by cash or transfer.
+> Please note that by adding this option you will not be able to receive payments from users who do not have a Mercado Libre or Mercado Libre account and you will not be able to collect by cash or transfer.
 
 To accept payments from registered users only, add the following attribute to your preferences:
 
@@ -599,7 +599,7 @@ We know it’s important to maximize your ads effectiveness. For this reason, we
 >
 > Note
 >
-> Only instantly approved payments with credit or debit cards, money in Mercado Pago or with Mercado Credits will be associated.
+> Only instantly approved payments with credit or debit cards, money in Mercado Libre or with Mercado Credits will be associated.
 ------------
 
 ----[mlm, mlc, mco, mpe, mlu]----
@@ -607,7 +607,7 @@ We know it’s important to maximize your ads effectiveness. For this reason, we
 >
 > Note
 >
-> Only instantly approved payments with credit or debit cards, or with money in Mercado Pago will be associated.
+> Only instantly approved payments with credit or debit cards, or with money in Mercado Libre will be associated.
 ------------
 
 ### Associate a Facebook Pixel
@@ -930,7 +930,7 @@ Our [Partners](https://partners.mercadopago.com/) can obtain business metrics. T
 | Header | Code Type | Identifiers |
 | --- | --- | --- |
 | `x-integrator-id` | Integrator | For developers or agencies that conducted the integration. |
-| `x-platform-id` | Platform | For the platforms or modules that offer Mercado Pago in their solutions. |
+| `x-platform-id` | Platform | For the platforms or modules that offer Mercado Libre in their solutions. |
 | `x-corporation-id` | Corporations | For accounts associated with a seller's account or economic group. |
 
 > If you need your `integrator_id` or your` platform_id`, [request your code now](https://docs.google.com/forms/d/1EeO__nZuqHf4cb81NpwtDSybPT7COluSZVrXR4A8F7Q/edit). 
@@ -1024,7 +1024,7 @@ curl -X POST \
 
 ![Pago 2 tarjetas](/images/web-payment-checkout/pay_2_tarjetas.png)
 
-You can enable the option to offer to pay with two credit cards from the Mercado Pago account.
+You can enable the option to offer to pay with two credit cards from the Mercado Libre account.
 To activate the payment option, go to your [business options](https://www.mercadopago.com.ar/settings/my-business) and choose the option _Receive payments with 2 credit cards_.
 
 ![Config pago 2 tarjetas](/images/web-payment-checkout/config_pago_dos_tarjetas.gif)

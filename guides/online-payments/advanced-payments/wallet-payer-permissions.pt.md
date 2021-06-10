@@ -4,7 +4,7 @@
 
 # Solicitar permissão
 
-### Solicitar permissões a seus usuários para acessar sua carteira do Mercado Pago
+### Solicitar permissões a seus usuários para acessar sua carteira do Mercado Libre
 
 Deve-se implementar o fluxo de autorização, para solicitar a seus usuários as permisões para acessar sua carteira. Isso se realiza utilizando um fluxo de Oauth.
 

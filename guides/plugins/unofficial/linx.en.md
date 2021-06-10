@@ -7,27 +7,27 @@
 
 ## What is Linx Commerce?
 
-It is a **virtual platform that enables you to receive payments with Mercado Pago**.
+It is a **virtual platform that enables you to receive payments with Mercado Libre**.
 
 You can offer your customers payment by [credit card](#bookmark_set_up_credit_card_data) and [boleto](#bookmark_set_up_boleto_data) in your store.
 
 ## Settings Steps
 
-These are the **steps to start charging with Mercado Pago**:
+These are the **steps to start charging with Mercado Libre**:
 
-1. Create a [seller account](https://www.mercadopago[FAKER][URL][DOMAIN]/activities) in Mercado Pago if you don't have one yet.
-1. Add Mercado Pago as method of payment in your store.
-1. Set up methods of payment with Mercado Pago.
+1. Create a [seller account](https://www.mercadopago[FAKER][URL][DOMAIN]/activities) in Mercado Libre if you don't have one yet.
+1. Add Mercado Libre as method of payment in your store.
+1. Set up methods of payment with Mercado Libre.
 1. Set up contract methods of payment.  
 
-## Add Mercado Pago as method of payment
+## Add Mercado Libre as method of payment
 
-To **add Mercado Pago to your store**, follow these steps:
+To **add Mercado Libre to your store**, follow these steps:
 
 1. Go to "Methods of payment" in your store administration panel, Settings section. 
 1. Enter "Add method of payment".
-1. On the Service Vendor list, look for Mercado Pago and click on "Next step".
-1. Define a name for Mercado Pago V2 method of payment and select "Active" state.
+1. On the Service Vendor list, look for Mercado Libre and click on "Next step".
+1. Define a name for Mercado Libre V2 method of payment and select "Active" state.
 <p>&nbsp;</p>
 
 ![LINX Configuracao](/images/linx/linx_adicione_meio_pagamento-1.gif)
@@ -35,18 +35,18 @@ To **add Mercado Pago to your store**, follow these steps:
 
 ## Set up methods of payment
 
-Once Mercado Pago is added, you can offer payment by [credit card](#bookmark_set_up_credit_card_data) and [Boleto](#bookmark_set_up_boleto_data).
+Once Mercado Libre is added, you can offer payment by [credit card](#bookmark_set_up_credit_card_data) and [Boleto](#bookmark_set_up_boleto_data).
 
 You can also [offer interest free installments](#bookmark_set_interest_free_installments_in_your_mercado_pago_account) and set up [rates and terms](https://www.mercadopago[FAKER][URL][DOMAIN]/settings/release-options/) of your online sales whenever you want.
 
 ### Set up data for integration
 
-Once you added the method of payment, **set up data for integration with Mercado Pago** like this: 
+Once you added the method of payment, **set up data for integration with Mercado Libre** like this: 
 
-1. Go to “Integration” tab and fill out Public Key and Access Token Key fields with the relevant [production credentials]([FAKER][CREDENTIALS][URL]) of your Mercado Pago account.
+1. Go to “Integration” tab and fill out Public Key and Access Token Key fields with the relevant [production credentials]([FAKER][CREDENTIALS][URL]) of your Mercado Libre account.
 1. Fill out the name to appear on your invoice so that your customer can recognize you.
-1. If you want to test your payments, in Test Mode section, select "Yes". Then fill out Public Key and Access Token Key with [test credentials]([FAKER][CREDENTIALS][URL]) of your Mercado Pago account. 
-1. In installment section, select "External (Mercado Pago API) to use instalment settings from your Mercado Pago account directly. 
+1. If you want to test your payments, in Test Mode section, select "Yes". Then fill out Public Key and Access Token Key with [test credentials]([FAKER][CREDENTIALS][URL]) of your Mercado Libre account. 
+1. In installment section, select "External (Mercado Libre API) to use instalment settings from your Mercado Libre account directly. 
 1. Finally, click on "Save".
 <p>&nbsp;</p>
 
@@ -103,7 +103,7 @@ To **set up boleto data in your store**, follow these steps:
 ![LINX Configuracao](/images/linx/linx_configurando_boleto-4.gif)
 <p>&nbsp;</p>
 
-## Set interest free installments in your Mercado Pago account
+## Set interest free installments in your Mercado Libre account
 
 1. Log in your Mercado Libre account and see "Your business".
 1. Go to "Settings" option, then to "Offering interest free installments" and click on "Activate".

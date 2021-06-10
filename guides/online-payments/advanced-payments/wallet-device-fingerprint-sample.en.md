@@ -49,7 +49,7 @@
 
 #### Example of Fingerprint via SDK
 
-It’s possible to get a fingerprint from a mobile device via Mercado Pago SDK.
+It’s possible to get a fingerprint from a mobile device via Mercado Libre SDK.
 
 Device [Android](https://github.com/mercadopago/px-android)
 ```android

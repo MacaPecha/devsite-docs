@@ -1,19 +1,19 @@
-# Geração de QR pelo painel do Mercado Pago
+# Geração de QR pelo painel do Mercado Libre
 
 ## Como faço uma cobrança com QR?
 
-Para receber pagamentos com QR em seu negócio, **pode imprimi-lo e colá-lo em local visível ou mostrá-lo em seu dispositivo móvel** e receber pelo app do Mercado Pago.
+Para receber pagamentos com QR em seu negócio, **pode imprimi-lo e colá-lo em local visível ou mostrá-lo em seu dispositivo móvel** e receber pelo app do Mercado Libre.
 
 Se receber com seu QR impresso, você pode colocar o valor a pagar desde seu computador ou simplesmente pedir ao cliente que o ingresse depois de escanear o código. 
 
 ## Como você coloca o valor? 
 
-1. Ingresse à secção Código QR em [sua conta do Mercado Pago](https://www.mercadopago.com.br/qr-code/amount).
+1. Ingresse à secção Código QR em [sua conta do Mercado Libre](https://www.mercadopago.com.br/qr-code/amount).
 2. Escolha o local e o caixa onde estiver recebendo. 
 3. Coloque o valor a ser pago. 
-4. Seu cliente escaneia o QR a partir do app do Mercado Libre ou Mercado Pago e escolhe como lhe pagar. 
+4. Seu cliente escaneia o QR a partir do app do Mercado Libre ou Mercado Libre e escolhe como lhe pagar. 
 
-Você poderá ver a confirmação da cobrança no momento e o detalhe da atividade de sua conta de Mercado Pago.
+Você poderá ver a confirmação da cobrança no momento e o detalhe da atividade de sua conta de Mercado Libre.
 
 ## Como receber pelo app?
 
@@ -25,7 +25,7 @@ Primeiramente, você deve [criar um link de pagamento](https://www.mercadopago.c
 
 ## Fique sabendo sobre suas cobranças recebidas
 
-Você pode consultar suas vendas na relação das atividades de [sua conta de Mercado Pago](https://www.mercadopago.com.br/activities) ou [integrar notificações](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/notifications/ipn) em seu sistema.
+Você pode consultar suas vendas na relação das atividades de [sua conta de Mercado Libre](https://www.mercadopago.com.br/activities) ou [integrar notificações](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/notifications/ipn) em seu sistema.
 
 ---
 ### Próximos passos

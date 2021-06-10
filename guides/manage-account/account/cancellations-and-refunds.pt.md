@@ -26,7 +26,7 @@ Somente é possível cancelar pagamentos que se encontrem com status `pending` o
 
 Os cancelamentos são utilizados principalmente com **meios de pagamento em dinheiro**.
 
-Embora os tickets fora de mídia expirem, o usuário pode gerá-los novamente inserindo a transação de sua conta no Mercado Pago. Para cancelá-los definitivamente, sem a possibilidade de gerá-los novamente, evitando problemas de retenção de estoque por exemplo, é necessário que você execute o cancelamento deles.
+Embora os tickets fora de mídia expirem, o usuário pode gerá-los novamente inserindo a transação de sua conta no Mercado Libre. Para cancelá-los definitivamente, sem a possibilidade de gerá-los novamente, evitando problemas de retenção de estoque por exemplo, é necessário que você execute o cancelamento deles.
 
 Para realizar o cancelamento, faça a seguinte requisição enviando o `status` `cancelled`:
 
@@ -106,7 +106,7 @@ Deve haver saldo suficiente disponível em sua conta para efetuar a devolução 
 
 Caso o comprador tenha efetuado o pagamento com cartão, o valor será devolvido no próprio cartão.
 
-Para pagamentos realizados a partir de outros meios, o valor a ser devolvido será depositado na conta Mercado Pago do comprador. Caso não possua uma conta, criaremos uma utilizando o e-mail que foi utilizado para realizar o pagamento.
+Para pagamentos realizados a partir de outros meios, o valor a ser devolvido será depositado na conta Mercado Libre do comprador. Caso não possua uma conta, criaremos uma utilizando o e-mail que foi utilizado para realizar o pagamento.
 
 ### Efetue a devolução integral do pagamento
 

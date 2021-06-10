@@ -6,7 +6,7 @@
 
 # Discount campaigns
 
-Create discount campaigns to boost your sales using the marketing tools of your Mercado Pago account in the section Configuration for your Business: [Create discount](https://www.mercadopago[FAKER][URL][DOMAIN]/campaigns/create).
+Create discount campaigns to boost your sales using the marketing tools of your Mercado Libre account in the section Configuration for your Business: [Create discount](https://www.mercadopago[FAKER][URL][DOMAIN]/campaigns/create).
 
 You can create two types of campaigns:
 

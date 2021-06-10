@@ -7,25 +7,25 @@
 
 ## What is Wix?
 
-Wix is a **virtual platform that enables you to receive payments with Mercado Pago**.
+Wix is a **virtual platform that enables you to receive payments with Mercado Libre**.
 
-With it, you can offer your clients the possibility of [charging through Mercado Pago website](#bookmark_set_up_methods_of_payment).
+With it, you can offer your clients the possibility of [charging through Mercado Libre website](#bookmark_set_up_methods_of_payment).
 
 ## Settings steps
 
-1. Create a [seller account](https://www.mercadopago[FAKER][URL][DOMAIN]/activities) in Mercado Pago if you don't have one yet.
-1. Add Mercado Pago as method of payment in your store.
+1. Create a [seller account](https://www.mercadopago[FAKER][URL][DOMAIN]/activities) in Mercado Libre if you don't have one yet.
+1. Add Mercado Libre as method of payment in your store.
 1. Set up methods of payment.
 
-## Add Mercado Pago as method of payment
+## Add Mercado Libre as method of payment
 
-To **add Mercado Pago to your store**, follow these steps:
+To **add Mercado Libre to your store**, follow these steps:
 
 Go to “Payment methods” in the section Modules from the admin panel of your store.
 
 1. In the Settings section of the control panel, go to "Payments".
 1. Click on “Add method of payment”.
-1. Finally, in the list of payment methods, select Mercado Pago and click on “Add”.
+1. Finally, in the list of payment methods, select Mercado Libre and click on “Add”.
 
 <p>&nbsp;</p>
 
@@ -34,17 +34,17 @@ Go to “Payment methods” in the section Modules from the admin panel of your 
 
 ## Set up methods of payment
 
-Wix allows you to receive payments with Checkout Pro, where the buyer will be redirected to Mercado Pago to make the payment and will return to your store when the purchase is completed.
+Wix allows you to receive payments with Checkout Pro, where the buyer will be redirected to Mercado Libre to make the payment and will return to your store when the purchase is completed.
 
 You can also [offer interest free installments](#bookmark_set_interest_free_installments_in_your_mercado_pago_account) and set up [rates and terms](https://www.mercadopago[FAKER][URL][DOMAIN]/settings/release-options/) of your online sales whenever you want.
 
-## Activate your Mercado Pago account
+## Activate your Mercado Libre account
 
-To **set up the activation of your Mercado Pago account**, follow these steps:
+To **set up the activation of your Mercado Libre account**, follow these steps:
 
-1. In the payment methods panel, look for Mercado Pago and select "Set up the account to activate".
+1. In the payment methods panel, look for Mercado Libre and select "Set up the account to activate".
 1. Click on “Connect an existing account”.
-1. Complete the fields Client ID and Client Secret with the [production credentials]([FAKER][CREDENTIALS][URL]) of your Mercado Pago account.
+1. Complete the fields Client ID and Client Secret with the [production credentials]([FAKER][CREDENTIALS][URL]) of your Mercado Libre account.
 1. Finally, click on “Connect my account”.
 
 <p>&nbsp;</p>
@@ -54,7 +54,7 @@ To **set up the activation of your Mercado Pago account**, follow these steps:
 
 > Find all the information about your credentials in our [FAQs](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/faqs/credentials).
 
-## Set interest free installments in your Mercado Pago account
+## Set interest free installments in your Mercado Libre account
 
 1. Log in your Mercado Libre account and see "Your business".
 1. Go to "Settings" option, then to "Offering interest free installments" and click on "Activate".

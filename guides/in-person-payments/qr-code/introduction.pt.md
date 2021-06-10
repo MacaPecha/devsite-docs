@@ -1,34 +1,34 @@
 # O que é o código QR?
 
-O QR é um **código único vinculado à sua conta de Mercado Pago**, que lhe permite receber pagamentos de uma forma simples, rápida e segura. 
+O QR é um **código único vinculado à sua conta de Mercado Libre**, que lhe permite receber pagamentos de uma forma simples, rápida e segura. 
 
 ----[mlb]----
 
-![Pagos QR Mercado Pago](/images/mobile/qr_mla2.es.png)
+![Pagos QR Mercado Libre](/images/mobile/qr_mla2.es.png)
 ------------
 ----[mla]----
 
-![Pagos QR Mercado Pago](/images/mobile/qr_mla2.es.png)
+![Pagos QR Mercado Libre](/images/mobile/qr_mla2.es.png)
 
 ------------
 ----[mlm]----
-![Pagos QR Mercado Pago](/images/mobile/qr_mla2.es.png)
+![Pagos QR Mercado Libre](/images/mobile/qr_mla2.es.png)
 ------------
 
 ## Quais são os benefícios?
 
 * Você pode gerá-lo sem custo extra. 
-* **Pagamentos imediatos**. Mercado Pago lembra os dados e cartões dos compradores, processando os pagamentos na hora. 
+* **Pagamentos imediatos**. Mercado Libre lembra os dados e cartões dos compradores, processando os pagamentos na hora. 
 * Permite receber com os principais [meios de pagamento](https://www.mercadopago.com.br/ajuda/meios-de-pagamento-parcelamento_264) de seu país.
 * Cobranças com **o custo mais baixo do mercado**.
-* Oferecer uma **experiência de compra segura desde qualquer dispositivo móvel** com o app de Mercado Pago ou Mercado Livre.
+* Oferecer uma **experiência de compra segura desde qualquer dispositivo móvel** com o app de Mercado Libre ou Mercado Livre.
 ----[mlb]----
 * [Aceitar pagamentos com Pix](https://www.mercadopago.com.br/pix) para começar a receber dinheiro no instante, todos os dias e de qualquer banco ou carteira.
 ------------
 
 ## Como funciona?
 
-Para receber pagamentos com QR em seu negócio, **você pode imprimi-lo e colá-lo em local visível ou exibi-lo em seu dispositivo móvel** e receber desde o app de Mercado Pago.
+Para receber pagamentos com QR em seu negócio, **você pode imprimi-lo e colá-lo em local visível ou exibi-lo em seu dispositivo móvel** e receber desde o app de Mercado Libre.
 
 
 ![Flujo QR](/images/mobile/qr_flujo.pt.png)
@@ -38,7 +38,7 @@ Para receber pagamentos com QR em seu negócio, **você pode imprimi-lo e colá-
 >
 > Nota
 >
-> Caso seu modelo não necessite de integração com sistema de ponto de venda, você pode consultar todas as informações disponíveis em [geração de QR pelo painel do Mercado Pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/in-person-payments/qr-code/integrations-front).
+> Caso seu modelo não necessite de integração com sistema de ponto de venda, você pode consultar todas as informações disponíveis em [geração de QR pelo painel do Mercado Libre](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/in-person-payments/qr-code/integrations-front).
 
 ## Tipos de integração
 

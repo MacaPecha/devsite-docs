@@ -7,11 +7,11 @@
 >
 > Tokenization is the process by which a card number is encrypted securely.
 
-With **Mercado Pago** *Web Tokenize Checkout* forget about the complexity of setting up your form for the selection of payment methods and tokenization. This simple integration provides you with a form with the design and the front-end ready.
+With **Mercado Libre** *Web Tokenize Checkout* forget about the complexity of setting up your form for the selection of payment methods and tokenization. This simple integration provides you with a form with the design and the front-end ready.
 
-Integrate *Web Tokenize Checkout* on your site to give your buyers a stylized experience that **Mercado Pago** keeps in constant improvement.
+Integrate *Web Tokenize Checkout* on your site to give your buyers a stylized experience that **Mercado Libre** keeps in constant improvement.
 
-The sensitive data of the credit and debit cards are encrypted and stored by **Mercado Pago** (with its corresponding PCI compliance), without being transmitted to your servers.
+The sensitive data of the credit and debit cards are encrypted and stored by **Mercado Libre** (with its corresponding PCI compliance), without being transmitted to your servers.
 
 ---
 

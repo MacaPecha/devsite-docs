@@ -1,6 +1,6 @@
 # Recibir un pago con tarjeta
 
-Con Mercado Pago puedes capturar los datos de la tarjeta de forma segura a través del Tokenizer.
+Con Mercado Libre puedes capturar los datos de la tarjeta de forma segura a través del Tokenizer.
 
 
 ### Paso 1: Incorporar datos del viewport
@@ -95,7 +95,7 @@ issuer_id = request.POST.get("issuer_id")
 
 ### Paso 4: Realizar el pago
 
-Para realizar el pago, debes realizar un API call usando el [SDK de Mercado Pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/sdks) que corresponda con el lenguaje de programación que estés utilizando en tu sitio.
+Para realizar el pago, debes realizar un API call usando el [SDK de Mercado Libre](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/sdks) que corresponda con el lenguaje de programación que estés utilizando en tu sitio.
 
 Solamente debes realizar un *API call* incluyendo los datos que recibiste del checkout:
 
@@ -263,4 +263,4 @@ Para realizar pagos de prueba (con tus credenciales de TEST), es necesario que u
 
 ### Promociones
 
-Te recomendamos incluir el [link de promociones](https://www.mercadopago.com.ar/promociones) de **Mercado Pago**, o bien implementar uno de nuestros [banners de medios de pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/resources/banners/introduction).
+Te recomendamos incluir el [link de promociones](https://www.mercadopago.com.ar/promociones) de **Mercado Libre**, o bien implementar uno de nuestros [banners de medios de pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/resources/banners/introduction).

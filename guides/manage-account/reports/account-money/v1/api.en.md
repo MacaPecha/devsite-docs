@@ -1023,11 +1023,11 @@ EXTERNAL_REFERENCE;SOURCE_ID;USER_ID;PAYMENT_METHOD_TYPE;PAYMENT_METHOD;SITE;TRA
 
 > LEFT_BUTTON_RECOMMENDED_EN
 >
-> Generating from Mercado Pago
+> Generating from Mercado Libre
 >
-> Download your reports manually or scheduled from your Mercado Pago account.         
+> Download your reports manually or scheduled from your Mercado Libre account.         
 >
-> [Generating from Mercado Pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/manage-account/reports/account-money/panel)
+> [Generating from Mercado Libre](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/manage-account/reports/account-money/panel)
 
 > RIGHT_BUTTON_RECOMMENDED_EN
 >

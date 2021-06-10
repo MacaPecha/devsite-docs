@@ -19,9 +19,9 @@ Ingresa el nombre del negocio para que aparezca en la factura de tus clientes y 
 >
 > Nota
 >
-> El campo de `integrator_id` no es obligatorio a la hora de realizar una integración. Deberán completarlo los Partners de Mercado Pago, por lo que si no sos Partner debes dejarlo vacío.
+> El campo de `integrator_id` no es obligatorio a la hora de realizar una integración. Deberán completarlo los Partners de Mercado Libre, por lo que si no sos Partner debes dejarlo vacío.
 >
-> Para ser un Partner deberás homologarte o certificarte como tal. Para conocer más sobre las certificaciones para desarrolladores de Mercado Pago y cómo obtener tu ID, [déjanos tu contacto](https://docs.google.com/forms/d/e/1FAIpQLSdbA1Y8_9RD2xTCRDHLxeVYrrSIy5s2ME8Ku6_gEcSu60KUHQ/viewform). 
+> Para ser un Partner deberás homologarte o certificarte como tal. Para conocer más sobre las certificaciones para desarrolladores de Mercado Libre y cómo obtener tu ID, [déjanos tu contacto](https://docs.google.com/forms/d/e/1FAIpQLSdbA1Y8_9RD2xTCRDHLxeVYrrSIy5s2ME8Ku6_gEcSu60KUHQ/viewform). 
 
 <span></span>
 
@@ -76,8 +76,8 @@ Elige qué experiencia de compra tendrán tus clientes a la hora de pagar:
 
 | Experiencia de pago | Características |
 | --- | --- |
-| Redirect | Tus clientes serán redirigidos a una página de Mercado Pago con el formulario de pagos para terminar la compra.|
-| Modal **(NUEVO)** | Tus clientes accederán al formulario de pagos de Mercado Pago sin salir de tu tienda. Si lo desactivas, serán redirigidos a otra página. |
+| Redirect | Tus clientes serán redirigidos a una página de Mercado Libre con el formulario de pagos para terminar la compra.|
+| Modal **(NUEVO)** | Tus clientes accederán al formulario de pagos de Mercado Libre sin salir de tu tienda. Si lo desactivas, serán redirigidos a otra página. |
 
 > NOTE
 >
@@ -97,7 +97,7 @@ Elige qué experiencia de compra tendrán tus clientes a la hora de pagar:
 >
 > Prueba y recibe pagos
 >
-> Pon a prueba el módulo y verifica que todo funcione bien para empezar a recibir el dinero de tus ventas en Mercado Pago.
+> Pon a prueba el módulo y verifica que todo funcione bien para empezar a recibir el dinero de tus ventas en Mercado Libre.
 >
 >
 > [Recibir pagos](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/plugins/prestashop/receive-payments)

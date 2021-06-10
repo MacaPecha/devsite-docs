@@ -1,17 +1,17 @@
 ---
   indexable: false
 ---
-# ZenCart - Mercado Pago Module (v1.5.x)
+# ZenCart - Mercado Libre Module (v1.5.x)
 
 > WARNING
 >
 > Oferecemos suporte somente para plugins oficiais
 >
-> Esta documentação não conta com o suporte oficial do Mercado Pago. Se você quiser fazer alterações, pode [modificar o código aberto no GitHub](https://github.com/mercadopago/devsite-docs/blob/development/guides/plugins/unofficial/zencart.pt.md).
+> Esta documentação não conta com o suporte oficial do Mercado Libre. Se você quiser fazer alterações, pode [modificar o código aberto no GitHub](https://github.com/mercadopago/devsite-docs/blob/development/guides/plugins/unofficial/zencart.pt.md).
 
 ## Funcionalidades
 
-O módulo do Mercado Pago para o ZenCart esta integrado com as seguintes funcionalidades e soluções de pagamento:
+O módulo do Mercado Libre para o ZenCart esta integrado com as seguintes funcionalidades e soluções de pagamento:
 
 * [Checkout básico (Redirecionado, Iframe ou Lightbox)](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/solutions/payments/basic-checkout/receive-payments)
 * Pagamento com dois cartões
@@ -36,7 +36,7 @@ O módulo do Mercado Pago para o ZenCart esta integrado com as seguintes funcion
 
 ## Instalação
 
-1. Faça o download do modulo do Mercado Pago.
+1. Faça o download do modulo do Mercado Libre.
 
 2. Copie a pasta do modulo na Raiz da sua loja ZenCart.
 
@@ -44,9 +44,9 @@ O módulo do Mercado Pago para o ZenCart esta integrado com as seguintes funcion
 
 1. Na pagina de administração da sua loja, va até a opção **Modules > Payment**.
 
-2. Em **Payment Modules** selecione **Mercado Pago**.
+2. Em **Payment Modules** selecione **Mercado Libre**.
 
-3. Em **Mercado Pago** clique no botão **Install**.
+3. Em **Mercado Libre** clique no botão **Install**.
 
 4. Agora, é muito importante você configurar o seu **CLIENT_ID** e **CLIENT_SECRET**.
 
@@ -82,14 +82,14 @@ Obtenha o seu [CLIENT_ID e CLIENT_SECRET]([FAKER][CREDENTIALS][URL]).
   * **Limit installments**: Selecione o numero de parcelas máximas que estará disponível para o comprador;
   * **Exclude Methods**: Selecione os métodos de pagamento que você deseja **não aceitar**;
   * **Live or Sandbox**: Habilite o modo sandbox para realizar pagamentos de test;
-  * **Sort order of display**: Ordem de exibição do Mercado Pago;
+  * **Sort order of display**: Ordem de exibição do Mercado Libre;
 
 ## Suporte
 
 Caso tenha alguma dúvida, problema ou erro temos um canal de atendimento.
 Escreva para o nosso [formulário de apoio](/support) com as seguintes informações:
 
-* Email da sua conta Mercado Pago.
+* Email da sua conta Mercado Libre.
 * Detalhes sobre a sua duvida, problema ou erro.
 * Arquivos que possa ajudar no entendimento (Print-Screen, Video, Arquivos de Log, etc).
 * Versão do ZenCart.

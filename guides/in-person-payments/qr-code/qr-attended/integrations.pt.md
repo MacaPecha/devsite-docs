@@ -6,7 +6,7 @@ Para receber por meio de um código QR modelo atendido, deverá criar um pedido 
 
 Explicamos como funciona o modelo atendido:
 
-![Fluxo de pagamento no ponto de venda QR Mercado Pago](/images/mobile/qr-user-flow.pt.png)
+![Fluxo de pagamento no ponto de venda QR Mercado Libre](/images/mobile/qr-user-flow.pt.png)
 
 <span></span>
 
@@ -24,7 +24,7 @@ https://api.mercadopago.com/instore/qr/seller/collectors/USER_ID/stores/EXTERNAL
 {
     "external_reference": "order-id-1234",
     "title": "Title",
-    "description": "Mercado Pago",
+    "description": "Mercado Libre",
     "notification_url": "www.yourserver.com",
     "expiration_date": "2023-08-22T16:34:56.559-04:00",
     "total_amount": 100.0,
@@ -33,7 +33,7 @@ https://api.mercadopago.com/instore/qr/seller/collectors/USER_ID/stores/EXTERNAL
             "sku_number": "KS955RUR",
             "category": "FOOD",
             "title": "Item1",
-            "description": "Item1 Mercado Pago",
+            "description": "Item1 Mercado Libre",
             "unit_price": 20,
             "quantity": 5,
             "unit_measure": "unit",
@@ -93,7 +93,7 @@ Assim que o pedido for criado, ele estará disponível para ser **digitalizado e
 >
 > Nota
 >
-> Leve em consideração que se não fez previamente o carregamento do nome de seu negócio ou a logomarca em [sua conta de Mercado Pago](https://www.mercadopago.com.br/settings/account), o título e a imagem do pedido que o cliente veja no app serão as do item carregado. 
+> Leve em consideração que se não fez previamente o carregamento do nome de seu negócio ou a logomarca em [sua conta de Mercado Libre](https://www.mercadopago.com.br/settings/account), o título e a imagem do pedido que o cliente veja no app serão as do item carregado. 
 
 ## Remover um pedido
 

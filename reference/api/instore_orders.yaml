@@ -2,7 +2,7 @@ openapi: 3.0.0
 servers:
   - url: https://api.mercadopago.com
 info:
-  title: Mercado Pago API Reference
+  title: Mercado Libre API Reference
   version: '1.0'
 paths:
   /mpmobile/instore/qr/{user_id}/{external_id}:
@@ -44,12 +44,12 @@ paths:
                   example: http://www.yourserver.com
                 sponsor_id:
                   type: string
-                  description: Mercado Pago's USER_ID of the integrator system.
+                  description: Mercado Libre's USER_ID of the integrator system.
                   example: '446566691'
                 items:
                   type: array
                   description: Information on the products involved in the order.
-                  items: 
+                  items:
                     type: object
                     properties:
                       id:
@@ -316,7 +316,7 @@ components:
       type: string
       example: ARS
       description: Currency identifier in ISO_4217 format.
-      enum: 
+      enum:
         - ARS -- Argentine peso.
         - BRL -- Brazil real.
         - CLP -- Chilean peso.

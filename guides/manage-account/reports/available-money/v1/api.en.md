@@ -453,7 +453,7 @@ Know the fields you can configure to adjust your preferences before you start:
 | `refund_detailed` (optional) | <br/>Displays the reference code (external_reference) of the refund instead of the reference code (external_reference) of the payment.<br/><br/> |
 | `include_withdrawal` (optional) | <br/>Includes withdrawals in the report.<br/><br/> |
 | `coupon_detailed` (optional) | <br/>Includes a column to show the detail of the discount coupons.<br/><br/> |
-| `detailed` | <br/>Includes columns with more detailed information about your operations:<br/> - Mercado Pago Fee (`mp_fee_amount`)<br/> - Fee for offering interest-free installments (`financing_fee_amount`)<br/> - Gross amount of the operation (`gross_amount`)<br/> - Payment methods (`payment_method`)<br/> - Installments (`installments`)<br/> - Discount coupon (`coupon_amount`) <br/> - Shipping Costs (`shipping_fee_amount`) <br/> - Taxes charged for withholdings of IIBB (`taxes_amount`) <br/> - Amount received for split purchases (`seller_amount`)<br/><br/>|
+| `detailed` | <br/>Includes columns with more detailed information about your operations:<br/> - Mercado Libre Fee (`mp_fee_amount`)<br/> - Fee for offering interest-free installments (`financing_fee_amount`)<br/> - Gross amount of the operation (`gross_amount`)<br/> - Payment methods (`payment_method`)<br/> - Installments (`installments`)<br/> - Discount coupon (`coupon_amount`) <br/> - Shipping Costs (`shipping_fee_amount`) <br/> - Taxes charged for withholdings of IIBB (`taxes_amount`) <br/> - Amount received for split purchases (`seller_amount`)<br/><br/>|
 | `file_name_prefix` | <br/>Prefix that composes the report name once generated and ready for download.<br/><br/> |
 | `frequency` | <br/>Indicates the daily, weekly or monthly frequency of scheduled reports.<br/><br/> - `frequency` applies type *monthly* to the day of the month or *weekly* to the day of the week.<br/> - `hour` Hour Time of day to generate the report. <br/> - `type` Type indicates the type of frequency *daily*, *weekly* and *monthly*.<br/><br/> |
 | `scheduled` (read_only) | <br/>Informative field that indicates if there are already scheduled reports in the user account.<br/><br/> |
@@ -910,11 +910,11 @@ Download the file with this command:
 
 > LEFT_BUTTON_REQUIRED_EN
 >
-> Generating from Mercado Pago
+> Generating from Mercado Libre
 >
-> You can generate your Available Balance reports from the Mercado Pago panel in three simple steps.
+> You can generate your Available Balance reports from the Mercado Libre panel in three simple steps.
 >
-> [Generating from Mercado Pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/manage-account/reports/available-money/panel)
+> [Generating from Mercado Libre](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/manage-account/reports/available-money/panel)
 
 > RIGHT_BUTTON_REQUIRED_EN
 >

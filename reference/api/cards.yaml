@@ -2,7 +2,7 @@ openapi: 3.0.0
 servers:
   - url: https://api.mercadopago.com
 info:
-  title: Mercado Pago API Reference
+  title: Mercado Libre API Reference
   version: '1.0'
 paths:
   /v1/customers/{customer_id}/cards:
@@ -789,7 +789,7 @@ paths:
                   live_mode:
                     type: boolean
                     example: true
-        
+
         '400':
           description: Error
           content:

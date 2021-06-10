@@ -6,7 +6,7 @@ Para cobrar a través de un código QR modelo atendido, deberás crear una orden
 
 Te explicamos cómo funciona el modelo atendido: 
 
-![Flujo de pago en punto de venta QR Mercado Pago](/images/mobile/qr-user-flow.es.png)
+![Flujo de pago en punto de venta QR Mercado Libre](/images/mobile/qr-user-flow.es.png)
 
 <span></span>
 
@@ -25,7 +25,7 @@ https://api.mercadopago.com/instore/qr/seller/collectors/USER_ID/stores/EXTERNAL
 {
     "external_reference": "order-id-1234",
     "title": "Title",
-    "description": "Mercado Pago",
+    "description": "Mercado Libre",
     "notification_url": "www.yourserver.com",
     "expiration_date": "2023-08-22T16:34:56.559-04:00",
     "total_amount": 100.0,
@@ -34,7 +34,7 @@ https://api.mercadopago.com/instore/qr/seller/collectors/USER_ID/stores/EXTERNAL
             "sku_number": "KS955RUR",
             "category": "FOOD",
             "title": "Item1",
-            "description": "Item1 Mercado Pago",
+            "description": "Item1 Mercado Libre",
             "unit_price": 20,
             "quantity": 5,
             "unit_measure": "unit",
@@ -95,7 +95,7 @@ Una vez creada la orden, ya se encuentra disponible para ser **escaneada y pagad
 > 
 > Nota
 > 
-> Ten en cuenta que si no cargaste previamente el nombre de tu negocio o el logo en [tu cuenta de Mercado Pago](https://www.mercadopago.com.ar/settings/account), el título y la imagen de la orden que el cliente vea en la app serán las del primer ítem cargado. 
+> Ten en cuenta que si no cargaste previamente el nombre de tu negocio o el logo en [tu cuenta de Mercado Libre](https://www.mercadopago.com.ar/settings/account), el título y la imagen de la orden que el cliente vea en la app serán las del primer ítem cargado. 
 
 
 ## Eliminar una orden

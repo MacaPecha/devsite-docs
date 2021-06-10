@@ -20,7 +20,7 @@ Once the application has been created, you will get the `APP_ID` (application id
 
 ## 2. Connecting accounts
 
-To operate in Mercado Pago on behalf of your seller, you need to request their authorization first. 
+To operate in Mercado Libre on behalf of your seller, you need to request their authorization first. 
 
 2.1. To do so, redirect the user to the following URL replacing the value of `client_id` for the `APP_ID` and the same `redirect_uri` you set up in the previous step:
 
@@ -44,7 +44,7 @@ You will now receive the authorization code and the secure identifier at the spe
 
 `hhttp://www.URL_de_retorno.com?code=AUTHORIZATION_CODE&state=id=RANDOM_ID`
 
-> Don’t send confidential information or credentials of the Mercado Pago account.
+> Don’t send confidential information or credentials of the Mercado Libre account.
 
 ### Create your user’s credentials
 
@@ -260,7 +260,7 @@ payment = payment_response["response"]
 ```
 ]]]
 
-The seller will receive the difference between the total amount and the fees, both the fee of Mercado Pago and the Marketplace, as well as any other amount that should be deducted from the sale.
+The seller will receive the difference between the total amount and the fees, both the fee of Mercado Libre and the Marketplace, as well as any other amount that should be deducted from the sale.
 
 ### Notifications
 
@@ -272,7 +272,7 @@ For more information, go to the [notifications section](https://www.mercadopago[
 
 ### Refunds and cancellations
 
-The cancellations and refunds can be made either by the marketplace or by the seller, via API or through the Mercado Pago account.
+The cancellations and refunds can be made either by the marketplace or by the seller, via API or through the Mercado Libre account.
 In case the Marketplace is the one that does the refund/cancellation, you´ll have to use the credentials obtained for that user in the Oauth process.
 
 Cancellations can only be made using the cancellation API.

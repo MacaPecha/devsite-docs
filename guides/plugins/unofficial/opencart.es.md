@@ -7,22 +7,22 @@
 >
 > Solo damos soporte a plugins oficiales
 >
-> Esta documentación no cuenta con soporte oficial de Mercado Pago. Si quieres realizar algún cambio, puedes [modificar el código abierto en GitHub](https://github.com/mercadopago/devsite-docs/blob/development/guides/plugins/unofficial/opencart.es.md).
+> Esta documentación no cuenta con soporte oficial de Mercado Libre. Si quieres realizar algún cambio, puedes [modificar el código abierto en GitHub](https://github.com/mercadopago/devsite-docs/blob/development/guides/plugins/unofficial/opencart.es.md).
 
-#### Mercado Pago Module (Opencart v1.4.9, 1.5.x, 2.x - 2.2, 2.3, 3.x)
+#### Mercado Libre Module (Opencart v1.4.9, 1.5.x, 2.x - 2.2, 2.3, 3.x)
 
 ## Funcionalidades
 
-El módulo de Mercado Pago para Opencart tiene las siguientes funcionalidades:
+El módulo de Mercado Libre para Opencart tiene las siguientes funcionalidades:
 
 | Funcionalidades | Checkout Básico | Checkout Transparente |
 | --- | --- | --- |
 | Pago con tarjeta de crédito | ✔ | ✔ |
 | Otros medios de pago | ✔ | ✔ |
-| Interfaz provista por Mercado Pago | ✔ | |
+| Interfaz provista por Mercado Libre | ✔ | |
 | Calculadora de cuotas | ✔ | ✔ |
 | IPN y webhooks | ✔ | ✔ |
-| Descuentos con cupones de Mercado Pago | ✔ | |
+| Descuentos con cupones de Mercado Libre | ✔ | |
 | Log y herramientas de debug | ✔ | ✔ |
 | Conversión de moneda | | ✔ |
 | Status de credenciales y de la plataforma | ✔ | ✔ |
@@ -30,7 +30,7 @@ El módulo de Mercado Pago para Opencart tiene las siguientes funcionalidades:
 
 ### El checkout para tu negocio:
 
-Mercado Pago ofrece dos métodos de checkout que facilitan el procesamiento de pagos en tu tienda online:
+Mercado Libre ofrece dos métodos de checkout que facilitan el procesamiento de pagos en tu tienda online:
 
 **Checkout Básico**
 
@@ -40,7 +40,7 @@ Ideal para vendedores que buscan rapidez y agilidad en la integración. Sus prin
 * Control limitado de la experiencia de compra - muestra la ventana de checkout como redirección, modal o iframe.
 * Almacene la tarjeta del comprador para mejorar la experiencia de compra.
 * Acepta otros medios de pago como boletos, además de tarjetas.
-* Acepta los cupones de descuento de Mercado Pago.
+* Acepta los cupones de descuento de Mercado Libre.
 
 *Disponible para Argentina, Brasil, Chile, Colômbia, México, Peru e Uruguai*
 
@@ -84,7 +84,7 @@ Ofrezca un checkout personalizado a su experiencia de marca con nuestra API de p
 
 ## Instalación
 
-1. Descargue el módulo de Mercado Pago
+1. Descargue el módulo de Mercado Libre
 
  * [OpenCart 2.3](https://github.com/mercadopago/cart-opencart-2/archive/master.zip)
  * [OpenCart 3.x](https://github.com/mercadopago/cart-opencart-3/archive/master.zip)
@@ -98,7 +98,7 @@ Ofrezca un checkout personalizado a su experiencia de marca con nuestra API de p
 
 ## Configuración
 
-1. De nuevo en **Extensions> Payments> MercadoPago**, haga clic en **Edit** para configurar su cuenta de Mercado Pago:
+1. De nuevo en **Extensions> Payments> MercadoPago**, haga clic en **Edit** para configurar su cuenta de Mercado Libre:
 <br>
 
 ![Open cart configuration page](images/opencart/MPAccount.png)
@@ -122,7 +122,7 @@ Ofrezca un checkout personalizado a su experiencia de marca con nuestra API de p
  * **Enabled**: Habilita/desabilita esta solución de pago.
  * **Type Checkout (you're using Standard Checkout)**: Define los tipos de checkout, las opciones son:
   * *Iframe*: Abre una URL de OpenCart con el iframe como contenido.
-  * *Redirect*: Redirecciona la URL del Mercado Pago.
+  * *Redirect*: Redirecciona la URL del Mercado Libre.
   * *Lightbox*: Similar a la opción de Iframe pero abre una lightbox en lugar de un iframe.
 
 

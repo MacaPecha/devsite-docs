@@ -6,11 +6,11 @@
 
 # Envío de dinheiro
 
-No Mercado Pago, provemos os serviços necessários para poder realizar envios de dinheiro de maneira imediata e sem custo, a partir da sua conta do Mercado Pago a outra conta do Mercado Pago.
+No Mercado Libre, provemos os serviços necessários para poder realizar envios de dinheiro de maneira imediata e sem custo, a partir da sua conta do Mercado Libre a outra conta do Mercado Libre.
 
 ## Crie uma aplicação
 
-Para criar uma aplicação é preciso acessar com a sua conta do Mercado Pago o seguinte link: [https://applications.mercadopago.com/](https://applications.mercadopago.com/). Para poder operar com a API de envio de dinheiro  a aplicação deve ser habilitada para esse fim. Essas permissões são habilitadas pelo Mercado Pago, envie ao seu assessor comercial o APP ID da aplicação para poder realizar a configuração correspondente.
+Para criar uma aplicação é preciso acessar com a sua conta do Mercado Libre o seguinte link: [https://applications.mercadopago.com/](https://applications.mercadopago.com/). Para poder operar com a API de envio de dinheiro  a aplicação deve ser habilitada para esse fim. Essas permissões são habilitadas pelo Mercado Libre, envie ao seu assessor comercial o APP ID da aplicação para poder realizar a configuração correspondente.
 
 > WARNING
 >
@@ -64,12 +64,12 @@ Caso envie o "concept_id" = "payroll" ou "supply" sem que o APP ID tenha escopo 
 
 ## Integração por API
 
-Essa solução consiste na utilização das API's do Mercado Pago para realizar a criação do pagamento. Toda a experiência é conduzida pelo integrador.
+Essa solução consiste na utilização das API's do Mercado Libre para realizar a criação do pagamento. Toda a experiência é conduzida pelo integrador.
 
 Para o envio de dinheiro pode-se especificar o receptor do pagamento de duas maneiras:
 
-- Utilizando o email associado a conta do Mercado Pago.
-- Utilizando o ID da conta do Mercado Pago.
+- Utilizando o email associado a conta do Mercado Libre.
+- Utilizando o ID da conta do Mercado Libre.
 
 A seguir um exemplo de criação de pagamento utilizando o email:
 

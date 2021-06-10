@@ -6,16 +6,16 @@ Cuando tengas lista tu integración y quieras comenzar a recibir pagos, tienes q
 
 Con este proceso, se puede garantizar la seguridad de los datos de tus clientes, el cumplimiento de las normas o disposiciones legales de cada país y lograr la mejor experiencia de compra para tus ventas.
 
-[Conoce los términos y condiciones de Mercado Pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/resources/legal/terms-and-conditions).
+[Conoce los términos y condiciones de Mercado Libre](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/resources/legal/terms-and-conditions).
 
 ## ¿Qué validamos?
-Con el fin de asegurar tanto la mejor calidad de integración como experiencia de usuario para el cliente final, desde Mercado Pago necesitamos que se cumplan ciertos requisitos antes de salir a producción.
+Con el fin de asegurar tanto la mejor calidad de integración como experiencia de usuario para el cliente final, desde Mercado Libre necesitamos que se cumplan ciertos requisitos antes de salir a producción.
 
 ## Seguridad
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Usa las librerías oficiales y cuida la seguridad de los datos
 
-Por un lado, es importante que utilices la librería MercadoPago.js como es provista por Mercado Pago. No puedes modificarla ni alojarla en tus servidores. Y por otro lado, asegúrate de no incluir el atributo `name` al crear un formulario de tarjeta para cuidar la seguridad de los datos.
+Por un lado, es importante que utilices la librería MercadoPago.js como es provista por Mercado Libre. No puedes modificarla ni alojarla en tus servidores. Y por otro lado, asegúrate de no incluir el atributo `name` al crear un formulario de tarjeta para cuidar la seguridad de los datos.
 
 Estas medidas permiten cuidar los datos sensibles, cumplir con los estándares de seguridad requeridos y mantenerte siempre actualizado.
 
@@ -33,7 +33,7 @@ Puedes ver más información en la [sección de Mejora la aprobación](https://w
 
 ## Notificaciones y búsqueda de pagos
 
-Para poder aprovechar al máximo los beneficios de la integración de Mercado Pago, uno de los puntos claves a destacar es la utilización de notificaciones para la actualización de los pedidos en tiempo real en tu sistema.
+Para poder aprovechar al máximo los beneficios de la integración de Mercado Libre, uno de los puntos claves a destacar es la utilización de notificaciones para la actualización de los pedidos en tiempo real en tu sistema.
 Ambos tipos de notificaciones, [IPN](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/notifications/ipn) o [Webhooks](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/notifications/webhooks), se envían de un servidor a otro mediante una llamada `HTTP POST` en relación a tus transacciones.
 Implementando estas notificaciones, podrás enterarte de todas las actualizaciones de tus transacciones en el momento.
 
@@ -45,7 +45,7 @@ Como se menciona en la [sección de Mensajes de respuesta](https://www.mercadopa
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sé transparente con las promociones y financiación
 
-Debes aclarar que las promociones son ofrecidas por Mercado Pago. Puedes [incluir un banner de medios de pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/resources/banners/introduction) o [sumar el link a la sección de promociones](https://www.mercadopago.com/mla/credit_card_promos.htm). Como también, debes informar los [costos de financiación que aplican a tus clientes](https://www.mercadopago[FAKER][URL][DOMAIN]/ayuda/costos-financiacion_621).
+Debes aclarar que las promociones son ofrecidas por Mercado Libre. Puedes [incluir un banner de medios de pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/resources/banners/introduction) o [sumar el link a la sección de promociones](https://www.mercadopago.com/mla/credit_card_promos.htm). Como también, debes informar los [costos de financiación que aplican a tus clientes](https://www.mercadopago[FAKER][URL][DOMAIN]/ayuda/costos-financiacion_621).
 
 ----[mla]----
 > NOTE

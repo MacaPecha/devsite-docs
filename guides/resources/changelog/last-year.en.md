@@ -1,6 +1,6 @@
 # Changelog
 
-Find out everything about the new versions and updates of Mercado Pago integrations.
+Find out everything about the new versions and updates of Mercado Libre integrations.
 
 ---
 
@@ -97,7 +97,7 @@ We have released a new version of SDK NodeJS 1.5.1.
 >
 > PRODUCT: MAGENTO 1
 
-Mercado Pago’s module for Magento 1 is no longer processing payments.
+Mercado Libre’s module for Magento 1 is no longer processing payments.
 
 [Go to announcement](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/plugins/official/magento)
 
@@ -150,7 +150,7 @@ We have released the new version 4.3.0 for PrestaShop.
 >
 > PRODUCT: SUBSCRIPTIONS
 
-Mercado Pago subscriptions allow you to receive recurring payments by credit and debit card. You can set the periodicity of collection you want and the time you want to keep the subscription active.
+Mercado Libre subscriptions allow you to receive recurring payments by credit and debit card. You can set the periodicity of collection you want and the time you want to keep the subscription active.
 
 [Create subscriptions](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/online-payments/subscriptions/introduction)
 ------------
@@ -163,7 +163,7 @@ Mercado Pago subscriptions allow you to receive recurring payments by credit and
 
 > CHANGELOG
 >
-> Receive payments only by the Mercado Pago wallet
+> Receive payments only by the Mercado Libre wallet
 >
 > FEATURE: FEATURE
 >
@@ -171,7 +171,7 @@ Mercado Pago subscriptions allow you to receive recurring payments by credit and
 
 Now, you can add the option to receive payments only from registered users with the Checkout Pro wallet mode. This means that your buyers will pay you exclusively with their saved cards or with their account balance.
 
-[Receive payments by Mercado Pago wallet](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/online-payments/checkout-pro/configurations/#bookmark_accept_payments_from_registered_users_only)
+[Receive payments by Mercado Libre wallet](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/online-payments/checkout-pro/configurations/#bookmark_accept_payments_from_registered_users_only)
 
 ### October 26th
 
@@ -397,7 +397,7 @@ We have released the new version 4.3.0 for WooCommerce.
 >
 > PRODUCT: MERCADO PAGO
 
-Our payment IDs will now be 11 digits long. Our APIs and SDKs operate on data type `long` so this change should not impact your integration with Mercado Pago.
+Our payment IDs will now be 11 digits long. Our APIs and SDKs operate on data type `long` so this change should not impact your integration with Mercado Libre.
 If you have any doubts, we recommend reviewing how you manage and store our Payment ID in your integration in order to avoid any inconvenience.
 
 For further information, visit our [API Reference](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/reference/payments/_payments/post).
@@ -448,7 +448,7 @@ We have released a new version of SDK .NET 1.8.1.
 >
 > PRODUCT: CREDENTIALS
 
-Are you going to integrate Mercado Pago for another account? Now you can request access to their credentials quickly and safely.
+Are you going to integrate Mercado Libre for another account? Now you can request access to their credentials quickly and safely.
 
 [Learn more about how to request credentials](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/resources/faqs/credentials)
 

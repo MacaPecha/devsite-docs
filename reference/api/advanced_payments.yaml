@@ -2,7 +2,7 @@ openapi: 3.0.0
 servers:
   - url: https://api.mercadopago.com
 info:
-  title: Mercado Pago API Reference
+  title: Mercado Libre API Reference
   version: '1.0'
 paths:
   /v1/advanced_payments:
@@ -35,7 +35,7 @@ paths:
                         if the payer is a customer).
                       enum:
                         - customer -- The payer is a client and belongs to the collector
-                        - registered -- The account corresponds to a registered user of Mercado Pago
+                        - registered -- The account corresponds to a registered user of Mercado Libre
                     identification:
                       type: object
                       description: Personal identification.
@@ -114,7 +114,7 @@ paths:
                           Method of processing the payments (aggregator by
                           default).
                         enum:
-                          - aggregator -- Processes the payment using the commerce number of Mercado Pago
+                          - aggregator -- Processes the payment using the commerce number of Mercado Libre
                           - gateway -- Processes the payment using the commerce number of the Seller
                       issuer_id:
                         type: string
@@ -806,7 +806,7 @@ paths:
                 status:
                   type: string
                   description: Advanced Payment status.
-                  enum: 
+                  enum:
                     - pending -- The user has not finalized the payment process yet.
                     - approved -- The payment was approved and accredited.
                     - rejected -- The payment was rejected. The user could retry the payment.

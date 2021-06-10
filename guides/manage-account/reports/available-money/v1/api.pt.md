@@ -450,7 +450,7 @@ Confira os campos que você pode configurar para ajustar suas preferências ante
 | `refund_detailed` (opcional) | <br/>Mostra o código de referência (external_reference) do reembolso em vez do código de referência (external_reference) do pagamento.<br/><br/> |
 | `include_withdrawal` (opcional) | <br/>Inclui as retiradas de dinheiro no relatório.<br/><br/> |
 | `coupon_detailed` (opcional) | <br/>Inclui uma coluna para mostrar os detalhes dos cupons de desconto.<br/><br/> |
-| `detailed` | <br/>Inclui colunas com informações mais detalhadas sobre suas operações:<br/> - Comissão do Mercado Pago (`mp_fee_amount`)<br/> - Comissão por oferecer parcelas sem juros (`financing_fee_amount`)<br/> - Valor bruto da transação (`gross_amount`)<br/> - Meios de pagamento (`payment_method`)<br/> - Parcelas (`installments`)<br/> - Cupom de desconto (`coupon_amount`) <br/> - Custos de envio (`shipping_fee_amount`) <br/> - Impostos cobrados por retenções de IIBB (`taxes_amount`) <br/> - Valor recebido por compras com split (`seller_amount`)<br/><br/>|
+| `detailed` | <br/>Inclui colunas com informações mais detalhadas sobre suas operações:<br/> - Comissão do Mercado Libre (`mp_fee_amount`)<br/> - Comissão por oferecer parcelas sem juros (`financing_fee_amount`)<br/> - Valor bruto da transação (`gross_amount`)<br/> - Meios de pagamento (`payment_method`)<br/> - Parcelas (`installments`)<br/> - Cupom de desconto (`coupon_amount`) <br/> - Custos de envio (`shipping_fee_amount`) <br/> - Impostos cobrados por retenções de IIBB (`taxes_amount`) <br/> - Valor recebido por compras com split (`seller_amount`)<br/><br/>|
 | `file_name_prefix` | <br/>Prefixo que compõe o nome do relatório assim que estiver gerado e pronto para baixar.<br/><br/> |
 | `frequency` | <br/>Indica a frequência diária, semanal ou mensal dos relatórios programados.<br/><br/> - `frequency` aplica type *monthly* ao dia do mês ou *weekly* ao dia da semana<br/> - `hour` hora do dia que o relatório deve ser gerado<br/> - `type` indica o tipo de frequência: *daily* (diária), *weekly* (semanal) y *monthly* (mensal).<br/><br/> |
 | `scheduled` (read_only) | <br/>Campo informativo que indica se já existem relatórios programados na conta do usuário.<br/><br/> |
@@ -924,11 +924,11 @@ DATE,SOURCE_ID,EXTERNAL_REFERENCE,RECORD_TYPE,DESCRIPTION,NET_CREDIT_AMOUNT,NET_
 
 > LEFT_BUTTON_RECOMMENDED_PT
 >
-> Geração a partir do Mercado Pago
+> Geração a partir do Mercado Libre
 >
-> Gere seus relatórios de Dinheiro Disponível a partir do painel do Mercado Pago em 3 etapas simples.
+> Gere seus relatórios de Dinheiro Disponível a partir do painel do Mercado Libre em 3 etapas simples.
 >
-> [Geração a partir do Mercado Pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/manage-account/reports/available-money/panel)
+> [Geração a partir do Mercado Libre](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/manage-account/reports/available-money/panel)
 
 > RIGHT_BUTTON_RECOMMENDED_PT
 >

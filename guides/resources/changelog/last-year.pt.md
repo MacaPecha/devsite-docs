@@ -1,6 +1,6 @@
 # Changelog
 
-Descubra tudo sobre as novas versões e atualizações das integrações do Mercado Pago.
+Descubra tudo sobre as novas versões e atualizações das integrações do Mercado Libre.
 
 ---
 
@@ -97,7 +97,7 @@ Lançamos uma nova versão do SDK NodeJS 1.5.1.
 >
 > PRODUCT: MAGENTO 1
 
-O módulo do Mercado Pago para Magento 1 deixou de processar pagamentos.
+O módulo do Mercado Libre para Magento 1 deixou de processar pagamentos.
 
 [Ir para o anúncio](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/plugins/official/magento)
 
@@ -151,7 +151,7 @@ Lançamos a nova versão 4.3.0 para PrestaShop.
 >
 > PRODUCT: ASSINATURAS
 
-As assinaturas do Mercado Pago permitem que você receba pagamentos recorrentes com cartão. Você pode definir a frequência de pagamento desejada e o período de tempo que quer manter a assinatura ativa.
+As assinaturas do Mercado Libre permitem que você receba pagamentos recorrentes com cartão. Você pode definir a frequência de pagamento desejada e o período de tempo que quer manter a assinatura ativa.
 
 [Criar assinaturas](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/subscriptions/introduction)
 ------------
@@ -164,7 +164,7 @@ As assinaturas do Mercado Pago permitem que você receba pagamentos recorrentes 
 
 > CHANGELOG
 >
-> Receba pagamentos somente com a carteira do Mercado Pago
+> Receba pagamentos somente com a carteira do Mercado Libre
 >
 > FEATURE: FEATURE
 >
@@ -172,7 +172,7 @@ As assinaturas do Mercado Pago permitem que você receba pagamentos recorrentes 
 
 Agora, você pode adicionar a opção de receber pagamentos somente de usuários cadastrados com o Checkout Pro modo carteira. Isto significa que seus compradores pagarão exclusivamente com seus cartões salvos ou com saldo em conta.
 
-[Receber pagamentos com a carteira do Mercado Pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/checkout-pro/configurations/#bookmark_aceitar_pagamentos_somente_de_usuários_cadastrados)
+[Receber pagamentos com a carteira do Mercado Libre](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/checkout-pro/configurations/#bookmark_aceitar_pagamentos_somente_de_usuários_cadastrados)
 
 ### 26 de outubro
 
@@ -410,7 +410,7 @@ Lançamos a nova versão 4.3.0 para WooCommerce.
 >
 > PRODUCT: MERCADO PAGO
 
-Os IDs de pagamento passarão de 10 para 11 dígitos. Nossas APIs e SDKs operam com um tipo de dado `long`, portanto não haverá impacto na operação com o Mercado Pago. 
+Os IDs de pagamento passarão de 10 para 11 dígitos. Nossas APIs e SDKs operam com um tipo de dado `long`, portanto não haverá impacto na operação com o Mercado Libre. 
 Caso tenha dúvidas, recomendamos que revise a administração e armazenamento do nosso Payment ID na sua integração para evitar qualquer inconveniente. 
 
 Veja todas as informações em [Referência API](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/reference/payments/_payments/post).
@@ -461,7 +461,7 @@ Lançamos uma nova versão do SDK .NET 1.8.1.
 >
 > PRODUCT: CREDENCIAIS
 
-Vai integrar Mercado Pago para outra pessoa? Agora você pode solicitar acesso a suas credenciais de forma rápida e segura.
+Vai integrar Mercado Libre para outra pessoa? Agora você pode solicitar acesso a suas credenciais de forma rápida e segura.
 
 [Saiba mais sobre como solicitar credenciais](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/resources/faqs/credentials)
 

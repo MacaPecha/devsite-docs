@@ -1,6 +1,6 @@
 # Integrate Checkout Pro
 
-Integrating Mercado Pago's Checkout Pro allows you to charge your customers through our web form from any device in a simple, fast and secure way.
+Integrating Mercado Libre's Checkout Pro allows you to charge your customers through our web form from any device in a simple, fast and secure way.
 
 Use our [sample projects](#bookmark_sample_projects) for a complete integration. You can adapt them according to your needs.
 
@@ -10,7 +10,7 @@ Use our [sample projects](#bookmark_sample_projects) for a complete integration.
 
 1. Generate your preference
 
-	1.1 Add the SDK downloaded from Mercado Pago in your project and the credentials to enable its use.
+	1.1 Add the SDK downloaded from Mercado Libre in your project and the credentials to enable its use.
 
 	1.2 Set the preference according to your product or service.<br><br>
 
@@ -34,19 +34,19 @@ Installing the Checkout Pro consists of two steps:
 
 Write the following code consisting of two parts:
 
-1.1 Add the [Mercado Pago SDK](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/online-payments/checkout-pro/previous-requirements#bookmark_previous_requirements) in your project and the [credentials]([FAKER][CREDENTIALS][URL]) to enable its use:
+1.1 Add the [Mercado Libre SDK](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/online-payments/checkout-pro/previous-requirements#bookmark_previous_requirements) in your project and the [credentials]([FAKER][CREDENTIALS][URL]) to enable its use:
 
 [[[
 ```php
 <?php
-// Mercado Pago SDK
+// Mercado Libre SDK
 require __DIR__ .  '/vendor/autoload.php';
 // Add Your credentials
 MercadoPago\SDK::setAccessToken('PROD_ACCESS_TOKEN');
 ?>
 ```
 ```node
-// Mercado Pago SDK
+// Mercado Libre SDK
 const mercadopago = require ('mercadopago');
 // Add Your credentials
 mercadopago.configure({
@@ -54,25 +54,25 @@ mercadopago.configure({
 });
 ```
 ```java
-// Mercado Pago SDK
+// Mercado Libre SDK
 import com.mercadopago.MercadoPago;
 // Add Your credentials
 MercadoPago.SDK.setAccessToken("PROD_ACCESS_TOKEN");
 ```
 ```ruby
-# Mercado Pago SDK
+# Mercado Libre SDK
 require 'mercadopago'
 # Add Your credentials
 sdk = Mercadopago::SDK.new('PROD_ACCESS_TOKEN')
 ```
 ```csharp
-// Mercado Pago SDK
+// Mercado Libre SDK
  using MercadoPago.Config;
  // Add Your credentials
 MercadoPagoConfig.AccessToken = "PROD_ACCESS_TOKEN";
 ```
 ```python
-# Mercado Pago SDK
+# Mercado Libre SDK
 import mercadopago
 # Add Your credentials
 sdk = mercadopago.SDK("PROD_ACCESS_TOKEN")
@@ -338,7 +338,7 @@ curl -X POST \
 >
 > Accept payments only from registered users
 >
-> If you want to accept payments only from registered users, with cards and money in Mercado Pago account, review [this section](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/online-payments/checkout-pro/configurations/#bookmark_accept_payments_from_registered_users_only) for more information.
+> If you want to accept payments only from registered users, with cards and money in Mercado Libre account, review [this section](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/online-payments/checkout-pro/configurations/#bookmark_accept_payments_from_registered_users_only) for more information.
 
 <span></span>
 
@@ -391,7 +391,7 @@ You can check other ways to open the checkout in the [Customizations section](ht
 >
 > Important
 >
-> Do not forget to access from another browser or log out of your Mercado Pago account before testing it. You cannot make a payment with the same account you created the payment form.<br/>
+> Do not forget to access from another browser or log out of your Mercado Libre account before testing it. You cannot make a payment with the same account you created the payment form.<br/>
 
 #### Excellent! You finished your integration.
 
@@ -419,8 +419,8 @@ _Click on the link within your site and [test the integration of your Checkout P
 
 > RIGHT_BUTTON_RECOMMENDED_EN
 >
-> Accepts payments by Mercado Pago wallet
+> Accepts payments by Mercado Libre wallet
 >
-> It allows payments only from Mercado Pago registered users, with cards and available balance.
+> It allows payments only from Mercado Libre registered users, with cards and available balance.
 >
 > [Registered users](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/online-payments/checkout-pro/configurations/#bookmark_accept_payments_from_registered_users_only)

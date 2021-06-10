@@ -23,7 +23,7 @@ You can see the payment status in the API response as `rejected` and the reason 
 }
 ```
 
-Also, you can find more information about payment details on [Mercado Pago activity section](https://www.mercadopago.com.ar/), where payments are being receive.
+Also, you can find more information about payment details on [Mercado Libre activity section](https://www.mercadopago.com.ar/), where payments are being receive.
 
 > WARNING
 >

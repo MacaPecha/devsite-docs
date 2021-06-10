@@ -2,7 +2,7 @@ openapi: 3.0.0
 servers:
   - url: https://api.mercadopago.com
 info:
-  title: Mercado Pago API Reference
+  title: Mercado Libre API Reference
   version: '1.0'
 paths:
   /instore/qr/seller/collectors/{user_id}/pos/{external_pos_id}/orders:
@@ -103,7 +103,7 @@ paths:
                             example: Pasta
                           description:
                             type: string
-                            example: Compra en Mercado Pago
+                            example: Compra en Mercado Libre
                           unit_measure:
                             $ref: '#/components/schemas/unit_measure'
                           quantity:
@@ -120,7 +120,7 @@ paths:
                       example: Compra
                     description:
                       type: string
-                      example: Compra en Mercado Pago
+                      example: Compra en Mercado Libre
                     sponsor:
                       type: object
                       properties:
@@ -274,7 +274,7 @@ paths:
                   properties:
                     id:
                       type: number
-                      description: Mercado Pago's USER_ID of the integrator system.
+                      description: Mercado Libre's USER_ID of the integrator system.
                       example: 446566691
                 cash_out:
                   type: object
@@ -345,6 +345,6 @@ components:
       type: string
       description: Unit of measure of the item.
       example: unit
-      enum: 
+      enum:
         - unit -- Unit
         - pack -- Pack

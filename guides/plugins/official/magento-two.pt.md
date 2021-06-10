@@ -18,7 +18,7 @@
 
 ## Funcionalidades
 
-O módulo do Mercado Pago para o Magento esta integrado com as seguintes funcionalidades e soluções de pagamento:
+O módulo do Mercado Libre para o Magento esta integrado com as seguintes funcionalidades e soluções de pagamento:
 
 * [Checkout Pro](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/checkout-pro/introduction)
     * [Pagamento com dois cartões](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/checkout-pro/configurations/#bookmark_pagamentos_com_2_cartão_de_crédito)
@@ -38,7 +38,7 @@ O módulo do Mercado Pago para o Magento esta integrado com as seguintes funcion
 
 ## Instalação
 
-Esse processo irá explicar a instalação do módulo Mercado Pago via Composer:
+Esse processo irá explicar a instalação do módulo Mercado Libre via Composer:
 
 **Instalação via Composer**
 
@@ -62,7 +62,7 @@ Esse processo irá explicar a instalação do módulo Mercado Pago via Composer:
 
 > chmod 777 -R var/ pub/ generated/
 
-6) Pronto! o módulo do Mercado Pago foi instalado com sucesso.
+6) Pronto! o módulo do Mercado Libre foi instalado com sucesso.
 
 
 ## Configurações de Cartão de Crédito----[mlb]----, Pix------------ e Boleto (Custom Checkout)
@@ -71,7 +71,7 @@ Veja o passo a passo para configurar o módulo para aceitar pagamentos via Cart�
 
 1) Vá até o menu **Stores > Configuration > Sales > Payment Methods**:
 
-2) Para configurar as credenciais, acesse a opção Mercado Pago > Credentials. Irá aparecer o campo da Public key e o campo do Access token. Obtenha suas credenciais na seção [Credenciais]([FAKER][CREDENTIALS][URL]).
+2) Para configurar as credenciais, acesse a opção Mercado Libre > Credentials. Irá aparecer o campo da Public key e o campo do Access token. Obtenha suas credenciais na seção [Credenciais]([FAKER][CREDENTIALS][URL]).
 
 > Existem dois tipos de credenciais:
 > * Modo Sandbox: As credenciais desse modo são utilizadas para realizar testes.
@@ -92,14 +92,14 @@ Para habilitar pagamentos por boleto > **Custom Checkout - Offline Payment Metho
 > Importante
 >
 > Antes de configurar o Pix como meio de pagamento, lembre-se de:<br><br>
-> - [Baixar a última versão](https://br.wordpress.org/plugins/woocommerce-mercadopago/#description) para atualizar seu plugin do Mercado Pago.<br>
-> - Cadastrar sua chave no Mercado Pago. Se isso não for feito, seus clientes não conseguirão finalizar a compra. [Veja como fazer](https://www.mercadopago.com.br/stop/pix?url=https%3A%2F%2Fwww.mercadopago.com.br%2Fadmin-pix-keys%2Fmy-keys&authentication_mode=required).
+> - [Baixar a última versão](https://br.wordpress.org/plugins/woocommerce-mercadopago/#description) para atualizar seu plugin do Mercado Libre.<br>
+> - Cadastrar sua chave no Mercado Libre. Se isso não for feito, seus clientes não conseguirão finalizar a compra. [Veja como fazer](https://www.mercadopago.com.br/stop/pix?url=https%3A%2F%2Fwww.mercadopago.com.br%2Fadmin-pix-keys%2Fmy-keys&authentication_mode=required).
 
 ------------ 
 
 Ao acessar, clique no botão **Configure** para visualizar as opções de configuração. Selecione as opções conforme preferir e marque o campo **Enabled** como **Yes**. Em seguida, clique em **Save Config**.
 
-![Mercado Pago Custom Checkout Configuration](images/magento2/mercadopago_custom_checkout_configuration.png)
+![Mercado Libre Custom Checkout Configuration](images/magento2/mercadopago_custom_checkout_configuration.png)
 
 4) Pronto! O meio de pagamento será habilitado com sucesso no checkout!
 
@@ -110,7 +110,7 @@ Esse processo irá explicar como configurar o módulo para aceitar pagamentos co
 
 1) Vá até o menu  **Stores > Configuration > Sales > Payment Methods**.
 
-2) Para configurar as credenciais acesse a opção **Mercado Pago - Classic Checkout**, logo em seguida clique em **Configure**. Irá aparecer o campo de **Client id** e o campo **Client secret**. Obtenha suas credenciais na seção [Credenciais]([FAKER][CREDENTIALS][URL]).
+2) Para configurar as credenciais acesse a opção **Mercado Libre - Classic Checkout**, logo em seguida clique em **Configure**. Irá aparecer o campo de **Client id** e o campo **Client secret**. Obtenha suas credenciais na seção [Credenciais]([FAKER][CREDENTIALS][URL]).
 
 3) Com as credenciais preenchidas, agora é necessário habilitar o método de pagamento. Vá até a opção **Enable** e marque como **Yes**.
 Aproveite e também configure o Tipo do Checkout (**Type Checkout**) e se o usuário deve retornar a sua loja ao finalizar o checkout (**Auto Redirect**).
@@ -126,9 +126,9 @@ Esse processo irá explicar como configurar os status de pedido para as notifica
 
 1) Vá até o menu **Stores > Configuration > Sales > Payment Methods**.
 
-2) Para configurar os status acesse a opção **Mercado Pago - Global Configuration**, vá até a opção **Order Status Options**.
+2) Para configurar os status acesse a opção **Mercado Libre - Global Configuration**, vá até a opção **Order Status Options**.
 Para cada status de pagamento você poderá escolher um status de pedido, assim que a sua loja receber a notificação de pagamento o módulo atualizará automaticamente o pedido para o status escolhido. Para salvar as configurações clique no botão **Save Config**.
 
-> O módulo está preparado para receber as notificações de pagamento de forma automática, ou seja, sem a necessidade de configurar a sua conta Mercado Pago ou o módulo.
+> O módulo está preparado para receber as notificações de pagamento de forma automática, ou seja, sem a necessidade de configurar a sua conta Mercado Libre ou o módulo.
 
 3) Pronto! os status de notificação foram configurados com sucesso.

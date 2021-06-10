@@ -11,18 +11,18 @@ Sabemos que alguns termos são novos. Antes de começar, os deixamos à mão.
 | _Credenciais (credentials)_ | Suas credenciais são as **chaves que te informamos para que você possa configurar suas integrações.**<br/>Existem dois tipos:<br/><br/>**Public key**. Chave pública da aplicação para saber, por exemplo, os meios de pagamento e criptografar os dados do cartão. Você deve usá-las somente para as suas integrações.<br/>**Access token**. Chave privada da aplicação para gerar pagamentos. Você deve usá-la somente para suas integrações.<br/><br/>Para poder encontrá-las, confira suas [credenciais]([FAKER][CREDENTIALS][URL]) e selecione as produtivas.<br/><br/> |
 | _Ponto de inicio (init_point)_ | É a **URL obtida na hora de gerar a preferência** e que dá início ao fluxo de pagamento do Checkout Pro. |
 | _Ítem (ítem)_ | Faz referência ao produto ou serviço que se quer oferecer. Pode ser um ou uma lista. |
-| _Aplicação (application)_ | As aplicações são usadas para processar os pagamentos do vendedor. **Cada aplicação identifica uma integração específica**, pois cada uma possui suas próprias [credenciais]([FAKER][CREDENTIALS][URL]). Uma conta do Mercado Pago pode ter diversas aplicações.<br/><br/>Você pode encontrar as informações de cada uma em credenciais. Ao entrar, um será criado automaticamente ou você poderá [criar uma aplicação](https://applications.mercadopago.com) sempre que precisar. |
+| _Aplicação (application)_ | As aplicações são usadas para processar os pagamentos do vendedor. **Cada aplicação identifica uma integração específica**, pois cada uma possui suas próprias [credenciais]([FAKER][CREDENTIALS][URL]). Uma conta do Mercado Libre pode ter diversas aplicações.<br/><br/>Você pode encontrar as informações de cada uma em credenciais. Ao entrar, um será criado automaticamente ou você poderá [criar uma aplicação](https://applications.mercadopago.com) sempre que precisar. |
 
 ## Pré-requisitos
 
 Observe estes pontos antes de começar a integração:
 
 ### 1. Acesse uma conta
-Para poder começar a integração, é necessário **contar com uma conta do Mercado Pago ou do Mercado Livre.**
+Para poder começar a integração, é necessário **contar com uma conta do Mercado Libre ou do Mercado Livre.**
 
 Você pode [Entrar](https://www.mercadolibre.com/jms/[FAKER][GLOBALIZE][SITE_ID]/lgz/login?platform_id=mp&go=https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/checkout-pro/previous-requirements) em uma conta existente ou [Criar uma nova conta](https://www.mercadopago[FAKER][URL][DOMAIN]).
 
-### 2. Instale do SDK do Mercado Pago
+### 2. Instale do SDK do Mercado Libre
 **Instale o SDK oficial** para simplificar sua integração com as nossas APIs.
 
 [[[
@@ -51,17 +51,17 @@ Para instalar o SDK no seu projeto [Maven](http://maven.apache.org/install.html)
 ```
 ```ruby
 ===
-O SDK do Mercado Pago está disponível como [gema](https://rubygems.org/gems/mercadopago-sdk), para instalá-la, você deve executar o seguinte código na linha de comandos:
+O SDK do Mercado Libre está disponível como [gema](https://rubygems.org/gems/mercadopago-sdk), para instalá-la, você deve executar o seguinte código na linha de comandos:
 ===
 gem install mercadopago-sdk
 ```
 ```csharp
 ===
 ----[mlb]----
-Use [NuGet](https://docs.microsoft.com/pt-br/nuget/reference/nuget-exe-cli-reference) para instalar o SDK .NET de Mercado Pago.
+Use [NuGet](https://docs.microsoft.com/pt-br/nuget/reference/nuget-exe-cli-reference) para instalar o SDK .NET de Mercado Libre.
 ------------
 ----[mla, mlm, mco, mlc, mlu]----
-Use [NuGet](https://docs.microsoft.com/es-es/nuget/reference/nuget-exe-cli-reference) para instalar el SDK .NET de Mercado Pago.
+Use [NuGet](https://docs.microsoft.com/es-es/nuget/reference/nuget-exe-cli-reference) para instalar el SDK .NET de Mercado Libre.
 ------------
 Execute o seguinte comando no seu terminal:
 ===
@@ -69,7 +69,7 @@ nuget install mercadopago-sdk
 ```
 ```python
 ===
-O SDK do Mercado Pago está disponível como [pip](https://pypi.org/project/mercadopago/), para instalá-la, você deve executar o seguinte código na linha de comandos:
+O SDK do Mercado Libre está disponível como [pip](https://pypi.org/project/mercadopago/), para instalá-la, você deve executar o seguinte código na linha de comandos:
 ===
 pip3 install mercadopago
 ```

@@ -6,16 +6,16 @@ Once your integration is ready, to start receiving payments you must [activate y
 
 This process can ensure your customers' data security, compliance with legal standards or the provisions in each country, and the best shopping experience for your sales.
 
-[View the Terms and Conditions of Mercado Pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/resources/legal/terms-and-conditions).
+[View the Terms and Conditions of Mercado Libre](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/resources/legal/terms-and-conditions).
 
 ## What we validate?
-In order to ensure both the best integration quality and user experience for the end customer, from Mercado Pago we need certain conditions before going into production environment.
+In order to ensure both the best integration quality and user experience for the end customer, from Mercado Libre we need certain conditions before going into production environment.
 
 ## Security
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use the official libraries and ensure data security
 
-On one hand, you need to use MercadoPago.js library, as provided by Mercado Pago. You can't change or host it on your servers. And, on the other, you need to make sure not to put the `name` attribute when creating a card form to take care of data security.
+On one hand, you need to use MercadoPago.js library, as provided by Mercado Libre. You can't change or host it on your servers. And, on the other, you need to make sure not to put the `name` attribute when creating a card form to take care of data security.
 
 These measures protect your customer's sensitive data, meet the required security standards, and keep yours up to date.
 
@@ -33,7 +33,7 @@ You can see more information in the [Improves approval section](https://www.merc
 
 ## Notifications and payment search
 
-In order to take full advantage of the Mercado Pago integration, one of the key points to highlight is the use of notifications to update orders in real time in your system.
+In order to take full advantage of the Mercado Libre integration, one of the key points to highlight is the use of notifications to update orders in real time in your system.
 Both types of notifications, [IPN](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/notifications/ipn) or [Webhooks](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/notifications/webhooks), are sent from one server to another through an `HTTP POST` request informing your transactions.
 By implementing these notifications, you will be able to find out all the updates of your transactions at the moment.
 
@@ -45,7 +45,7 @@ As mentioned in the [Handling Responses section](https://www.mercadopago[FAKER][
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Be transparent with promotions and financing
 
-You need to be clear about which promotions are offered by Mercado Pago. You can [include a payment method banner](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/resources/banners/introduction) or [add a link to the promotions section](https://www.mercadopago.com/mla/credit_card_promos.htm). Besides, you need to inform [financing costs applicable to your customers](https://www.mercadopago[FAKER][URL][DOMAIN]/ayuda/costos-financiacion_621).
+You need to be clear about which promotions are offered by Mercado Libre. You can [include a payment method banner](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/resources/banners/introduction) or [add a link to the promotions section](https://www.mercadopago.com/mla/credit_card_promos.htm). Besides, you need to inform [financing costs applicable to your customers](https://www.mercadopago[FAKER][URL][DOMAIN]/ayuda/costos-financiacion_621).
 
 ----[mla]----
 > NOTE
@@ -64,9 +64,9 @@ You need to have a policy on terms and conditions and make it clear that you are
 
 > LEFT_BUTTON_RECOMMENDED_EN
 >
-> Accepts payments by Mercado Pago wallet
+> Accepts payments by Mercado Libre wallet
 >
-> It allows payments only from Mercado Pago registered users, with cards and available balance.
+> It allows payments only from Mercado Libre registered users, with cards and available balance.
 >
 > [Registered users](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/online-payments/checkout-api/wallet-integration)
 

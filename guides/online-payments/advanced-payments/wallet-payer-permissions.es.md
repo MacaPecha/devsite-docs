@@ -4,7 +4,7 @@
 
 # Solicitar permisos
 
-### Solicitar permiso a sus usuarios para acceder a su billetera de Mercado Pago
+### Solicitar permiso a sus usuarios para acceder a su billetera de Mercado Libre
 
 Implementar el flujo de autorización, para solicitar a sus usuarios el permiso para acceder a su billetera. Esto se realiza utilizando un flujo de Oauth.
 

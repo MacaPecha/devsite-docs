@@ -44,7 +44,7 @@ MercadoPago.js te permite gerenciar os dados do cartão para cumprir com os requ
 >
 > h3
 >
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Instale o SDK do Mercado Pago
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Instale o SDK do Mercado Libre
 
 Instale o [SDKs oficial](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/sdks) para simplificar sua integração com nossas APIs.
 
@@ -75,17 +75,17 @@ Para instalar o SDK no seu projeto [Maven](http://maven.apache.org/install.html)
 ```
 ```ruby
 ===
-O SDK de Mercado Pago está disponível como [gema](https://rubygems.org/gems/mercadopago-sdk), para instá-la execute o seguinte código na sua linha de comandos:
+O SDK de Mercado Libre está disponível como [gema](https://rubygems.org/gems/mercadopago-sdk), para instá-la execute o seguinte código na sua linha de comandos:
 ===
 gem install mercadopago-sdk
 ```
 ```csharp
 ===
 ----[mlb]----
-Use [NuGet](https://docs.microsoft.com/pt-br/nuget/reference/nuget-exe-cli-reference) para instalar o SDK .NET de Mercado Pago.
+Use [NuGet](https://docs.microsoft.com/pt-br/nuget/reference/nuget-exe-cli-reference) para instalar o SDK .NET de Mercado Libre.
 ------------
 ----[mla, mlm, mco, mlc, mlu]----
-Use [NuGet](https://docs.microsoft.com/es-es/nuget/reference/nuget-exe-cli-reference) para instalar el SDK .NET de Mercado Pago.
+Use [NuGet](https://docs.microsoft.com/es-es/nuget/reference/nuget-exe-cli-reference) para instalar el SDK .NET de Mercado Libre.
 ------------
 Execute o seguinte comando no seu terminal:
 ===
@@ -93,7 +93,7 @@ nuget install mercadopago-sdk
 ```
 ```python
 ===
-O SDK de Mercado Pago está disponível como [pip](https://pypi.org/project/mercadopago/), para instalá-la execute o seguinte código na sua linha de comandos:
+O SDK de Mercado Libre está disponível como [pip](https://pypi.org/project/mercadopago/), para instalá-la execute o seguinte código na sua linha de comandos:
 ===
 pip3 install mercadopago
 ```
@@ -119,7 +119,7 @@ Quando sua integração estiver pronta e quiser começar a receber pagamentos, c
 >
 > Construa e configure sua própria experiência de pagamentos.
 >
-> [Integrar Checkout Transparente do Mercado Pago para cartão](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/checkout-api/v2/receiving-payment-by-card)
+> [Integrar Checkout Transparente do Mercado Libre para cartão](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/checkout-api/v2/receiving-payment-by-card)
 ------------
 ----[mla, mlm, mpe, mco, mlu, mlc]----
 > LEFT_BUTTON_REQUIRED_PT
@@ -128,7 +128,7 @@ Quando sua integração estiver pronta e quiser começar a receber pagamentos, c
 >
 > Construa e configure sua própria experiência de pagamentos.
 >
-> [Integrar Checkout API do Mercado Pago para cartão](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/checkout-api/v2/receiving-payment-by-card)
+> [Integrar Checkout API do Mercado Libre para cartão](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/checkout-api/v2/receiving-payment-by-card)
 ------------
 
 > RIGHT_BUTTON_RECOMMENDED_PT

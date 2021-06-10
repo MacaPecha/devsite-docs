@@ -7,9 +7,9 @@ sites_supported:
   - mlc
 ---
 
-# Banners de Mercado Pago 
+# Banners de Mercado Libre 
 
-Ofereça os benefícios de pagar com Mercado Pago no seu site
+Ofereça os benefícios de pagar com Mercado Libre no seu site
 
 ----[mla]----
 

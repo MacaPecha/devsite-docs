@@ -92,7 +92,7 @@ issuer_id = request.POST.get("issuer_id")
 
 ### Passo 4: Realizar o pagamento
 
-Para realizar o pagamento, deverá efetuar uma chamada a API utilizando o [SDK do Mercado Pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/sdks) que corresponda a linguagem de programação que está utilizando em seu site.
+Para realizar o pagamento, deverá efetuar uma chamada a API utilizando o [SDK do Mercado Libre](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/sdks) que corresponda a linguagem de programação que está utilizando em seu site.
 
 Somente deverá incluir uma *chamada à API* incluindo os dados que recebeu do checkout:
 
@@ -260,4 +260,4 @@ Para realizar pagamentos de teste (com suas credenciais de TEST), é necessário
 
 ### Promoções
 
-Recomendamos incluir o [link de promoções](https://www.mercadopago.com.br/promocoes) do **Mercado Pago**, ou então implementar um de nossos [banners de formas de pagamento](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/resources/banners/introduction).
+Recomendamos incluir o [link de promoções](https://www.mercadopago.com.br/promocoes) do **Mercado Libre**, ou então implementar um de nossos [banners de formas de pagamento](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/resources/banners/introduction).

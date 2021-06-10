@@ -1,6 +1,6 @@
 # Receive card payments
 
-With Mercado Pago you can collect card information in a secure way through our Tokenizer.
+With Mercado Libre you can collect card information in a secure way through our Tokenizer.
 
 ### Step 1: Add viewport data
 
@@ -92,7 +92,7 @@ issuer_id = request.POST.get("issuer_id")
 
 ### Step 4: Creating the payment
 
-To make the payment, you must perform an API call using the [SDK de Mercado Pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/sdks) that corresponds with the programming language that you are using on your site.
+To make the payment, you must perform an API call using the [SDK de Mercado Libre](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/sdks) that corresponds with the programming language that you are using on your site.
 
 You should only make an *API call* including the data you received from the checkout:
 
@@ -260,4 +260,4 @@ To make testing payments (with your TEST credentials), you need to use [test car
 
 ### Installments offer
 
-We recommend you include the [installments offer link](https://www.mercadopago.com.ar/promociones) of **Mercado Pago**, or implement one of our [payment methods banner](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/resources/banners/introduction).
+We recommend you include the [installments offer link](https://www.mercadopago.com.ar/promociones) of **Mercado Libre**, or implement one of our [payment methods banner](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/resources/banners/introduction).

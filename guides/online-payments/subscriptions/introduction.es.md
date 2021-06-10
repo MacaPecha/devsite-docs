@@ -1,6 +1,6 @@
 # ¿Qué es Suscripciones?
 
-Las suscripciones de Mercado Pago te permiten recibir pagos de forma recurrente, con tarjeta de crédito y débito. La disponibilidad de los medios de pago varía según la forma de integración.
+Las suscripciones de Mercado Libre te permiten recibir pagos de forma recurrente, con tarjeta de crédito y débito. La disponibilidad de los medios de pago varía según la forma de integración.
 
 ## Roles disponibles
 
@@ -12,7 +12,7 @@ Existen dos roles involucrados:
 > 
 > ¿Quieres crear suscripciones de forma rápida y simple?
 > 
-> Ingresa en la sección de [Suscripciones](https://www.mercadopago[FAKER][URL][DOMAIN]/subscription-plans) en el panel de tu cuenta de Mercado Pago, configura tus datos ¡y listo!
+> Ingresa en la sección de [Suscripciones](https://www.mercadopago[FAKER][URL][DOMAIN]/subscription-plans) en el panel de tu cuenta de Mercado Libre, configura tus datos ¡y listo!
 
 
 ## Conceptos claves

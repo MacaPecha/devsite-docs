@@ -5,11 +5,11 @@
 
 ## O que é Bis2Bis
 
-[Bis2Bis](http://www.bis2bis.com.br/) é uma plataforma de ecommerce que disponibiliza a integração com o Mercado Pago como meio de pagamento, trabalhamos com a plataforma de e-commerce Magento.
+[Bis2Bis](http://www.bis2bis.com.br/) é uma plataforma de ecommerce que disponibiliza a integração com o Mercado Libre como meio de pagamento, trabalhamos com a plataforma de e-commerce Magento.
 
-## Como posso operar com Mercado Pago na Bis2Bis
+## Como posso operar com Mercado Libre na Bis2Bis
 
-Bis2Bis permite operar Mercado Pago nas seguintes modalidades:
+Bis2Bis permite operar Mercado Libre nas seguintes modalidades:
 
 ### API
 
@@ -17,15 +17,15 @@ Receba pagamentos em sua loja através de Cartão de Crédito e/ou boleto bancar
 
 ### Checkout Pro
 
-Receba pagamentos em sua loja utilizando o checkout do próprio Mercado Pago, neste modelo o usuário (cliente) será redirecionado para uma página do Mercado Pago para finalizar sua compra.
+Receba pagamentos em sua loja utilizando o checkout do próprio Mercado Libre, neste modelo o usuário (cliente) será redirecionado para uma página do Mercado Libre para finalizar sua compra.
 
-## Conta Mercado Pago
+## Conta Mercado Libre
 
-Antes de iniciar a configuração, é necessário que você possua uma conta válida no **Mercado Pago**, caso não tenha, pode realizar o cadastro acessando o [formulário de registro](https://www.mercadopago.com.br/registration-mp?mode=mp).
+Antes de iniciar a configuração, é necessário que você possua uma conta válida no **Mercado Libre**, caso não tenha, pode realizar o cadastro acessando o [formulário de registro](https://www.mercadopago.com.br/registration-mp?mode=mp).
 
-Se quiser saber mais sobre o **Mercado Pago** acesse nossa [página principal](https://www.mercadopago.com.br/).
+Se quiser saber mais sobre o **Mercado Libre** acesse nossa [página principal](https://www.mercadopago.com.br/).
 
-## Como habilitar o Mercado Pago
+## Como habilitar o Mercado Libre
 
 Para habilitar o módulo basta entrar em contato com nossa equipe de suporte pelos nossos canais de atendimento.
 

@@ -5,7 +5,7 @@ sites_supported:
 indexable: false
 ---
 
-# Mercado Pago Gateway: Conciliación
+# Mercado Libre Gateway: Conciliación
 
 > WARNING
 >
@@ -13,7 +13,7 @@ indexable: false
 >
 > Solo puedes integrar este producto si tu contacto comercial te compartió toda la información necesaria para hacerlo.
 
-A continuación verás información de como conciliar las operaciones de Mercado Pago Gateway con las operaciones de los adquirentes y emisores.
+A continuación verás información de como conciliar las operaciones de Mercado Libre Gateway con las operaciones de los adquirentes y emisores.
 
 ## Utilizando un partner
 
@@ -31,7 +31,7 @@ Si deseas realizar la conciliación a través de tu sistema de gestión o con un
 
 ### Conciliar vía API
 
-Realizando un **GET** al endpoint /payments de la API de Mercado Pago puedes obtener el listado de operaciones:
+Realizando un **GET** al endpoint /payments de la API de Mercado Libre puedes obtener el listado de operaciones:
 
 ```curl
 curl -X GET \
@@ -126,7 +126,7 @@ Al presionar el vínculo _Exportar_ verás la siguiente vista:
 
 Elegí tu formato preferido y el archivo será generado
 
-> Si el archivo es muy grande lo recibirás unos minutos más tarde via e-mail a la casilla de tu cuenta de Mercado Pago
+> Si el archivo es muy grande lo recibirás unos minutos más tarde via e-mail a la casilla de tu cuenta de Mercado Libre
 
 ### ¿Necesitás ayuda?
 

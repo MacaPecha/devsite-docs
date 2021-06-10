@@ -7,27 +7,27 @@
 
 ## O que é Linx Commerce?
 
-É uma **plataforma virtual que te permite receber pagamentos com o Mercado Pago**.
+É uma **plataforma virtual que te permite receber pagamentos com o Mercado Libre**.
 
 Com ela você poderá, oferecer aos seus clientes a possibilidade de pagar com [cartão de crédito](#bookmark_configurando_os_dados_de_cartão_de_crédito) e [boleto bancário](#bookmark_configurando_os_dados_de_boleto) na sua loja.
 
 ## Etapas para configurar
 
-Os passos para **começar a receber com Mercado Pago**, são os seguintes:
+Os passos para **começar a receber com Mercado Libre**, são os seguintes:
 
-1. Crie uma [conta de vendedor](https://www.mercadopago[FAKER][URL][DOMAIN]/activities) no Mercado Pago caso ainda não tenha uma.
-1. Adicione o Mercado Pago como meio de pagamento dentro da sua loja.
-1. Configure a forma de pagamento como Mercado Pago.
+1. Crie uma [conta de vendedor](https://www.mercadopago[FAKER][URL][DOMAIN]/activities) no Mercado Libre caso ainda não tenha uma.
+1. Adicione o Mercado Libre como meio de pagamento dentro da sua loja.
+1. Configure a forma de pagamento como Mercado Libre.
 1. Configure o meio de pagamento do contrato.
 
-## Adicione o Mercado Pago como meio de pagamento
+## Adicione o Mercado Libre como meio de pagamento
 
-Para **adicionar o Mercado Pago em sua loja**, siga os passos abaixo:
+Para **adicionar o Mercado Libre em sua loja**, siga os passos abaixo:
 
 1. No painel administrativo, acesse "Meios de pagamentos" no menu Configs.
 1. Acesse “Adicionar meio de pagamento". 
-1. Na lista Fornecedor de Serviço, busque por Mercado Pago e clique em "Próximo Passo".
-1. Defina um nome para o meio de pagamento Mercado Pago V2 e selecione o status "Ativo".
+1. Na lista Fornecedor de Serviço, busque por Mercado Libre e clique em "Próximo Passo".
+1. Defina um nome para o meio de pagamento Mercado Libre V2 e selecione o status "Ativo".
 <p>&nbsp;</p>
 
 ![LINX Configuracao](/images/linx/linx_adicione_meio_pagamento-1.gif)
@@ -35,18 +35,18 @@ Para **adicionar o Mercado Pago em sua loja**, siga os passos abaixo:
 
 ## Configure a forma de pagamento
 
-Depois de adicionar o Mercado Pago, você terá a opção de oferecer pagamentos com [cartão de crédito](#bookmark_configurando_os_dados_de_cartão_de_crédito) e [boleto bancário](#bookmark_configurando_os_dados_de_boleto).
+Depois de adicionar o Mercado Libre, você terá a opção de oferecer pagamentos com [cartão de crédito](#bookmark_configurando_os_dados_de_cartão_de_crédito) e [boleto bancário](#bookmark_configurando_os_dados_de_boleto).
 
 Além disso, você pode [oferecer parcelas sem juros](#bookmark_configurando_o_parcelamento_na_sua_conta_do_mercado_pago), consultar e configurar as [taxas e prazos](https://www.mercadopago[FAKER][URL][DOMAIN]/settings/release-options/) de suas vendas online quando quiser.
 
 ### Configurando os dados da integração
 
-Após adicionar o meio de pagamento, **configure os dados de sua integração com o Mercado Pago** através dos seguintes passos:
+Após adicionar o meio de pagamento, **configure os dados de sua integração com o Mercado Libre** através dos seguintes passos:
 
-1. Acesse a aba "Integração" e complete os campos Public Key e Access Token com as [credenciais de produção]([FAKER][CREDENTIALS][URL]) de sua conta do Mercado Pago.
+1. Acesse a aba "Integração" e complete os campos Public Key e Access Token com as [credenciais de produção]([FAKER][CREDENTIALS][URL]) de sua conta do Mercado Libre.
 1. Preencha o nome que será informado na fatura do seu cliente para que ele possa reconhecê-lo.
-1. Se deseja habilitar pagamentos de teste, na seção Modo teste selecione a opção "Sim". Depois complete os campos Public Key e Access Token com as [credenciais de teste]([FAKER][CREDENTIALS][URL]) da sua conta do Mercado Pago.
-1. Na seção de Parcelamento, selecione "Externo (API do Mercado Pago)" onde você vai utilizar as condições de parcelamento diretamente da sua conta Mercado Pago.
+1. Se deseja habilitar pagamentos de teste, na seção Modo teste selecione a opção "Sim". Depois complete os campos Public Key e Access Token com as [credenciais de teste]([FAKER][CREDENTIALS][URL]) da sua conta do Mercado Libre.
+1. Na seção de Parcelamento, selecione "Externo (API do Mercado Libre)" onde você vai utilizar as condições de parcelamento diretamente da sua conta Mercado Libre.
 1. Por último, clique em "Salvar".
 <p>&nbsp;</p>
 
@@ -103,9 +103,9 @@ Para **configurar os dados de Boleto Bancário o em sua loja**, siga os passos a
 ![LINX Configuracao](/images/linx/linx_configurando_boleto-4.gif)
 <p>&nbsp;</p>
 
-## Configurando o parcelamento na sua conta do Mercado Pago
+## Configurando o parcelamento na sua conta do Mercado Libre
 
-1. Na seção [Seu negócio](https://www.mercadopago.com.br/business/) na sua conta do Mercado Pago.
+1. Na seção [Seu negócio](https://www.mercadopago.com.br/business/) na sua conta do Mercado Libre.
 1. Procure por Oferecer parcelamento sem juros e clique em "Ativar".
 1. Escolha quantas parcelas você quer oferecer e clique em “Ativar” para confirmar as alterações.
 <p>&nbsp;</p>

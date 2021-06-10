@@ -1,4 +1,4 @@
-# Generation QR by the Mercado Pago panel
+# Generation QR by the Mercado Libre panel
 
 ## How to charge with QR
 
@@ -8,12 +8,12 @@ If you charge with a printed QR, you can enter the final amount in your computer
 
 ## How to enter an amount?
 
-1. Go to QR Code section from your [Mercado Pago account](https://www.mercadopago.com.ar/qr-code/amount).
+1. Go to QR Code section from your [Mercado Libre account](https://www.mercadopago.com.ar/qr-code/amount).
 2. Select store and cash register you want to operate from. 
 3. Type order amount.
-4. Ask your client to scan QR code from Mercado Libre or Mercado Pago apps. Your client will have to choose payment method.
+4. Ask your client to scan QR code from Mercado Libre or Mercado Libre apps. Your client will have to choose payment method.
 
-You’ll be able to see a confirmation of payment instantly, as well as activity details in your Mercado Pago account.
+You’ll be able to see a confirmation of payment instantly, as well as activity details in your Mercado Libre account.
 
 ## How to charge from the app?
 
@@ -25,7 +25,7 @@ First, you must create a [Pay Link](https://www.mercadopago.com.ar/tools/create)
 
 ## Be aware of your received payments
 
-You can check your sales in the activity list in your [Mercado Pago account](https://www.mercadopago.com.ar/activities) or [integrate notifications](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/notifications/ipn) in your system.
+You can check your sales in the activity list in your [Mercado Libre account](https://www.mercadopago.com.ar/activities) or [integrate notifications](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/notifications/ipn) in your system.
 
 ---
 ### Next Steps

@@ -1,8 +1,8 @@
 # Autoriza y vincula cuentas en tus aplicaciones
 
-Si en tu integración necesitas gestionar varias cuentas de Mercado Pago a la vez, solo tienes que realizar una vinculación entre tu aplicación y las cuentas de otras personas.
+Si en tu integración necesitas gestionar varias cuentas de Mercado Libre a la vez, solo tienes que realizar una vinculación entre tu aplicación y las cuentas de otras personas.
 
-Puedes hacerlo a través de OAuth, una funcionalidad de vinculación segura que permite que el vendedor ingrese a su cuenta de Mercado Pago, autorice la vinculación y habilite a tu aplicación para operar en su nombre. 
+Puedes hacerlo a través de OAuth, una funcionalidad de vinculación segura que permite que el vendedor ingrese a su cuenta de Mercado Libre, autorice la vinculación y habilite a tu aplicación para operar en su nombre. 
 
 ## Cómo incorporar OAuth 
 
@@ -10,7 +10,7 @@ Para poder hacer una vinculación entre la cuenta de tu aplicación y las de tus
 
 Para comenzar, sigue estos pasos:
 1. Crea o configura tu aplicación.
-2. Vincula una cuenta de Mercado Pago con tu aplicación.
+2. Vincula una cuenta de Mercado Libre con tu aplicación.
 3. Genera las credenciales para operar.
 
 <br>
@@ -25,9 +25,9 @@ En el campo Redirect URL, agrega la dirección a la que quieres redirigir a los 
 
 Finalmente, debes obtener el ID de tu aplicación en [Tus Integraciones](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/panel).  
 
-### Vincula una cuenta de Mercado Pago con tu aplicación
+### Vincula una cuenta de Mercado Libre con tu aplicación
 
-Para operar en nombre de tus vendedores a través de sus cuentas de Mercado Pago, primero debes solicitarles su autorización.
+Para operar en nombre de tus vendedores a través de sus cuentas de Mercado Libre, primero debes solicitarles su autorización.
 Para esto, debes incluir en tu aplicación una URL que redirija al vendedor al sitio de autorización. 
 
 Te compartimos la URL base que debes utilizar y el detalle de los parámetros con los que tienes que completarla.
@@ -42,11 +42,11 @@ https://auth.mercadopago[FAKER][URL][DOMAIN]/authorization?client_id=APP_ID&resp
 | `state` | Identifica a quién corresponde el código que recibirás. Para eso, reemplaza el valor `RANDOM_ID` por un identificador que sea único por cada intento y que no contenga datos sensibles. |
 | `redirect_uri` | Agrega la URL que ingresaste en el campo Redirect URL al configurar tu aplicación. | 
 
-Al ingresar a esta URL, el vendedor será redirigido a Mercado Pago, donde deberá iniciar sesión con su cuenta y autorizar la vinculación con tu aplicación.
+Al ingresar a esta URL, el vendedor será redirigido a Mercado Libre, donde deberá iniciar sesión con su cuenta y autorizar la vinculación con tu aplicación.
 
 ![FlujoOAuth-es](/images/oauth/oauth-es.png)
 
-Una vez que el vendedor haya autorizado a tu aplicación a vincularse con su cuenta de Mercado Pago, en tu servidor recibirás el código de autorización en la Redirect URL que especificaste. Se verá de esta manera: 
+Una vez que el vendedor haya autorizado a tu aplicación a vincularse con su cuenta de Mercado Libre, en tu servidor recibirás el código de autorización en la Redirect URL que especificaste. Se verá de esta manera: 
 
 ```url
 https://www.redirect-url.com?code=CODE&state=RANDOM_ID

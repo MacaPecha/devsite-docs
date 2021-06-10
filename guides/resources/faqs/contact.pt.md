@@ -9,7 +9,7 @@
 
 <!--
 
-## Como posso falar com um representante comercial do Mercado Pago
+## Como posso falar com um representante comercial do Mercado Libre
 
 Preencha este [formulário](https://goo.gl/emptak) e nossa equipe comercial entrará em contato para ajudá-lo.
 

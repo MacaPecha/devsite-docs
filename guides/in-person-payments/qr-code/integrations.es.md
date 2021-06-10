@@ -2,21 +2,21 @@
 
 Según lo que tu negocio necesite, tienes distintas opciones para generar tu QR. También puedes combinarlas para oferecer a tus clientes la mejor experiencia de compra en tus tiendas físicas.
 
-## Generar QR desde el panel de Mercado Pago
+## Generar QR desde el panel de Mercado Libre
 
-Es la manera más simple para cobrar con QR, ya que **no se necesita de una integración entre tu sistema y Mercado Pago para funcionar**. 
+Es la manera más simple para cobrar con QR, ya que **no se necesita de una integración entre tu sistema y Mercado Libre para funcionar**. 
 
 Tienes distintas formas para hacerlo. Consulta toda la información disponible en [generar QR desde el panel](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/in-person-payments/qr-code/integrations-front).
 
 ## Generar QR integrado con tu sistema
 
-Brinda una experiencia más completa para cobrar con QR al **integrar tu sistema con Mercado Pago**.
+Brinda una experiencia más completa para cobrar con QR al **integrar tu sistema con Mercado Libre**.
 
 Puedes cobrar, devolver pagos y recibir notificaciones en tu sistema.
 
 | Tipo de integración | Características | Funcionamiento | Ejemplos de negocios |
 | --- | --- | --- | --- |
-| Modelo atendido | Requiere intervención del operador del punto de venta. Selecciona Mercado Pago como medio de pago. | El operador toma el pedido de venta. Luego el cliente escanea el QR pagando el valor del pedido. | Tienda de productos, restaurantes de comida rápida. |
+| Modelo atendido | Requiere intervención del operador del punto de venta. Selecciona Mercado Libre como medio de pago. | El operador toma el pedido de venta. Luego el cliente escanea el QR pagando el valor del pedido. | Tienda de productos, restaurantes de comida rápida. |
 
 ---
 ### Próximos pasos

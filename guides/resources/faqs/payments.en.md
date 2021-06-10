@@ -4,39 +4,39 @@
 ## How to receive payments in different currencies
 
 ----[mlb]----
-Currently, Mercado Pago only allows payments in the local currency. That is, the account created in Brazil only accepts payments in reales (BRL) and from clients that have an account in the same country.
+Currently, Mercado Libre only allows payments in the local currency. That is, the account created in Brazil only accepts payments in reales (BRL) and from clients that have an account in the same country.
 ------------
 
 ----[mlm]----
-Currently, Mercado Pago only allows payments in the local currency. That is, the account created in Mexico only accepts payments in Mexican pesos and from clients that have an account in the same country.
+Currently, Mercado Libre only allows payments in the local currency. That is, the account created in Mexico only accepts payments in Mexican pesos and from clients that have an account in the same country.
 ------------
 
 ----[mlc]----
-Currently, Mercado Pago only allows payments in the local currency. That is, the account created in Chile only accepts payments in Chilean pesos and from clients that have an account in the same country.
+Currently, Mercado Libre only allows payments in the local currency. That is, the account created in Chile only accepts payments in Chilean pesos and from clients that have an account in the same country.
 ------------
 
 ----[mpe]----
-Currently, Mercado Pago only allows payments in the local currency. That is, the account created in Peru only accepts payments in soles (PEN) and from clients that have an account in the same country.
+Currently, Mercado Libre only allows payments in the local currency. That is, the account created in Peru only accepts payments in soles (PEN) and from clients that have an account in the same country.
 ------------
 
 ----[mlu]----
-Currently, Mercado Pago only allows payments in the local currency. That is, the account created in Uruguay only accepts payments in Uruguayan pesos (UYU) and from clients that have an account in the same country.
+Currently, Mercado Libre only allows payments in the local currency. That is, the account created in Uruguay only accepts payments in Uruguayan pesos (UYU) and from clients that have an account in the same country.
 ------------
 
 ----[mco]----
-Currently, Mercado Pago only allows payments in the local currency. That is, the account created in Colombia only accepts payments in Colombian pesos (COP) and from clients that have an account in the same country.
+Currently, Mercado Libre only allows payments in the local currency. That is, the account created in Colombia only accepts payments in Colombian pesos (COP) and from clients that have an account in the same country.
 ------------
 
 ----[mla]----
-Currently, Mercado Pago only allows payments in the local currency. That is, the account created in Argentina only accepts payments in Argentine pesos (ARS) and from clients that have an account in the same country.
+Currently, Mercado Libre only allows payments in the local currency. That is, the account created in Argentina only accepts payments in Argentine pesos (ARS) and from clients that have an account in the same country.
 ------------
 
 ----[mla, mco, mlu, mpe, mlc, mlm]----
 ## Payment methods do not appear in my checkout
 
-Mercado Pago has an amount validation when offering the available payment methods.
+Mercado Libre has an amount validation when offering the available payment methods.
 
-If the amount does not comply with the requirements for [minimum and maximum amounts](https://www.mercadopago[FAKER][URL][DOMAIN]/ayuda/_620) for the payment method, our checkout will request the log in into the Mercado Pago account, since the only option available to use will be the money available in the account. For this reason, your clients won’t be able to pay as guests.
+If the amount does not comply with the requirements for [minimum and maximum amounts](https://www.mercadopago[FAKER][URL][DOMAIN]/ayuda/_620) for the payment method, our checkout will request the log in into the Mercado Libre account, since the only option available to use will be the money available in the account. For this reason, your clients won’t be able to pay as guests.
 
 Because of this, according to the amount selected, you can only see some payment methods, the ones which are not shown do not comply with the necessary requirements. In other words, the available payment methods will be shown based on the value of the product and the minimum and maximum allowed.
 ------------
@@ -44,9 +44,9 @@ Because of this, according to the amount selected, you can only see some payment
 ----[mlb]----
 ## Payment methods do not appear in my checkout
 
-Mercado Pago has an amount validation when offering the available payment methods.
+Mercado Libre has an amount validation when offering the available payment methods.
 
-If the amount does not comply with the requirements for [minimum and maximum amounts](https://www.mercadopago[FAKER][URL][DOMAIN]/ajuda/_620) for the payment method, our checkout will request the log in into the Mercado Pago account, since the only option available to use will be the money available in the account. For this reason, your clients won’t be able to pay as guests.
+If the amount does not comply with the requirements for [minimum and maximum amounts](https://www.mercadopago[FAKER][URL][DOMAIN]/ajuda/_620) for the payment method, our checkout will request the log in into the Mercado Libre account, since the only option available to use will be the money available in the account. For this reason, your clients won’t be able to pay as guests.
 
 Because of this, according to the amount selected, you can only see some payment methods, the ones which are not shown do not comply with the necessary requirements. In other words, the available payment methods will be shown based on the value of the product and the minimum and maximum allowed.
 ------------
@@ -92,7 +92,7 @@ Check the information for the integration you are implementing and test all the 
 Don’t forget to create both test users, seller and buyer, to avoid rejected payments, since you can not pay and buy from the same account.
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Validate your account
-Verify if the id of the seller’s account is validated in the Mercado Pago panel. Go to My account > My details > Verify identity.
+Verify if the id of the seller’s account is validated in the Mercado Libre panel. Go to My account > My details > Verify identity.
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add our security code into your website
 It is important to add to your integration all the necessary information to [improve the approval process of your payments](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/manage-account/account/payment-rejections/#bookmark_tips_to_improve_the_approval_process).

@@ -179,7 +179,7 @@ También se puede definir un medio de pago para que aparezca por defecto o la ca
 | `excluded_payment_methods` | Método que excluye por [medios de pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/resources/localization/payment-methods#bookmark_medios_de_pago_por_país) específicos: Visa, Mastercard o American Express, entre otras. |
 | `excluded_payment_types` | Método que excluye por tipo de [medios de pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/resources/localization/payment-methods#bookmark_medios_de_pago_por_país): efectivo, tarjetas de crédito o débito. |
 | `installments` | Método que define la cantidad de cuotas máximas a ofrecer. |
-| `purpose` | Cuando se indique el valor "wallet_purchase", el Checkout aceptará pagos exclusivamente de usuarios registrados en Mercado Pago, con tarjeta y dinero en cuenta. |
+| `purpose` | Cuando se indique el valor "wallet_purchase", el Checkout aceptará pagos exclusivamente de usuarios registrados en Mercado Libre, con tarjeta y dinero en cuenta. |
 
 ------------
 
@@ -190,7 +190,7 @@ También se puede definir un medio de pago para que aparezca por defecto o la ca
 | `excluded_payment_methods` | Método que excluye por [medios de pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/resources/localization/payment-methods#bookmark_medios_de_pago_por_país)  específicos: Visa, Mastercard o American Express, entre otras. |
 | `excluded_payment_types` | Método que excluye por tipo de [medios de pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/resources/localization/payment-methods#bookmark_medios_de_pago_por_país) : efectivo, tarjetas de crédito o débito. |
 | `installments` | Método que define la cantidad de mensualidades máximas a ofrecer. |
-| `purpose` | Cuando se indique el valor "wallet_purchase", el Checkout aceptará pagos exclusivamente de usuarios registrados en Mercado Pago, con tarjeta y dinero en cuenta.|
+| `purpose` | Cuando se indique el valor "wallet_purchase", el Checkout aceptará pagos exclusivamente de usuarios registrados en Mercado Libre, con tarjeta y dinero en cuenta.|
 
 ------------
 
@@ -349,7 +349,7 @@ Ten en cuenta los [tiempos de acreditación por medio de pago](https://www.merca
 >
 > Importante
 >
-> Si el pago se realiza después de la fecha de vencimiento, el monto se devolverá a la cuenta de Mercado Pago del pagador.
+> Si el pago se realiza después de la fecha de vencimiento, el monto se devolverá a la cuenta de Mercado Libre del pagador.
 ------------
 
 ### Modo binario
@@ -562,10 +562,10 @@ curl -X POST \
 ## Aceptar pagos únicamente de usuarios registrados
 
 ----[mla, mlb]----
-Puedes aceptar pagos con la billetera de Mercado Pago exclusivamente de usuarios registrados, con tarjetas, dinero disponible y Mercado Crédito.
+Puedes aceptar pagos con la billetera de Mercado Libre exclusivamente de usuarios registrados, con tarjetas, dinero disponible y Mercado Crédito.
 ------------
 ----[mlm, mlc, mco, mpe, mlu]----
-Puedes aceptar pagos con la billetera de Mercado Pago exclusivamente de usuarios registrados, con tarjetas y dinero disponible.
+Puedes aceptar pagos con la billetera de Mercado Libre exclusivamente de usuarios registrados, con tarjetas y dinero disponible.
 ------------
 
 Esto permite que tus clientes puedan tener disponible la información de su cuenta al instante, como por ejemplo, sus tarjetas y domicilios guardados. 
@@ -574,7 +574,7 @@ Esto permite que tus clientes puedan tener disponible la información de su cuen
 >
 > Importante
 >
-> Ten en cuenta que agregando esta opción no podrás recibir pagos de usuarios que no tengan cuenta en Mercado Pago o Mercado Libre y tampoco podrás cobrar en efectivo ni transferencia.
+> Ten en cuenta que agregando esta opción no podrás recibir pagos de usuarios que no tengan cuenta en Mercado Libre o Mercado Libre y tampoco podrás cobrar en efectivo ni transferencia.
 
 Para aceptar pagos exclusivamente de usuarios registrados, agrega el siguiente atributo en tu preferencia:
 
@@ -620,7 +620,7 @@ Sabemos que es importante maximizar la efectividad de tus anuncios. Por esto, te
 >
 > Nota
 >
-> Solo se verán asociados los pagos aprobados al instante con tarjetas de crédito o débito, dinero en Mercado Pago o con Mercado Créditos.
+> Solo se verán asociados los pagos aprobados al instante con tarjetas de crédito o débito, dinero en Mercado Libre o con Mercado Créditos.
 ------------
 
 ----[mlm, mlc, mco, mpe, mlu]----
@@ -628,7 +628,7 @@ Sabemos que es importante maximizar la efectividad de tus anuncios. Por esto, te
 >
 > Nota
 >
-> Solo se verán asociados los pagos aprobados al instante con tarjetas de crédito o débito, o con dinero en Mercado Pago.
+> Solo se verán asociados los pagos aprobados al instante con tarjetas de crédito o débito, o con dinero en Mercado Libre.
 ------------
 
 ### Asocia un píxel de Facebook
@@ -952,10 +952,10 @@ Si sos un Partner podrás ser identificado y luego obtener métricas de negocio 
 | Header | Tipo de código | Identificadores |
 | --- | --- | --- |
 | `x-integrator-id` | Integrador | Para desarrolladores o agencias que realizaron la integración. |
-| `x-platform-id` | Plataforma | Para las plataformas o módulos que ofrecen Mercado Pago en sus soluciones. |
+| `x-platform-id` | Plataforma | Para las plataformas o módulos que ofrecen Mercado Libre en sus soluciones. |
 | `x-corporation-id` | Corporaciones | Para cuentas asociadas a una cuenta vendedor o grupo económico. |
 
-> Para ser un Partner deberás homologarte o certificarte como tal. Para conocer más sobre las certificaciones para desarrolladores de Mercado Pago y cómo obtener tu ID, [déjanos tu contacto](https://docs.google.com/forms/d/e/1FAIpQLSdbA1Y8_9RD2xTCRDHLxeVYrrSIy5s2ME8Ku6_gEcSu60KUHQ/viewform). 
+> Para ser un Partner deberás homologarte o certificarte como tal. Para conocer más sobre las certificaciones para desarrolladores de Mercado Libre y cómo obtener tu ID, [déjanos tu contacto](https://docs.google.com/forms/d/e/1FAIpQLSdbA1Y8_9RD2xTCRDHLxeVYrrSIy5s2ME8Ku6_gEcSu60KUHQ/viewform). 
 
 [[[
 ```php
@@ -1046,7 +1046,7 @@ curl -X POST \
 
 ![Pago 2 tarjetas](/images/web-payment-checkout/pay_2_tarjetas.png)
 
-Se puede habilitar la opción de ofrecer pagar con dos tarjetas de crédito desde la cuenta de Mercado Pago.
+Se puede habilitar la opción de ofrecer pagar con dos tarjetas de crédito desde la cuenta de Mercado Libre.
 Para activar la opción de pago, ve a tus [opciones de negocio](https://www.mercadopago.com.ar/settings/my-business) y elige la opción _Recibir pagos con 2 tarjetas de crédito_.
 
 ![Config pago 2 tarjetas](/images/web-payment-checkout/config_pago_dos_tarjetas.gif)

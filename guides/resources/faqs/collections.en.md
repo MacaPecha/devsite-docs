@@ -9,11 +9,11 @@
 
 ## How much does it cost to receive payments
 
-To know how much it costs to receive money in Mercado Pago, check the [rates according to each case](https://www.mercadopago.com.ar/ayuda/comision-recibir-pagos_220).
+To know how much it costs to receive money in Mercado Libre, check the [rates according to each case](https://www.mercadopago.com.ar/ayuda/comision-recibir-pagos_220).
 
 ## If I receive payment for a sale, when can I use the money?
 
-When you receive a payment through Mercado Pago, you cannot use the money immediately, you must wait for it to be available.
+When you receive a payment through Mercado Libre, you cannot use the money immediately, you must wait for it to be available.
 
 How long should I wait to use the money?
 

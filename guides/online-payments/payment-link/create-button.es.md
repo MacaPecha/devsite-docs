@@ -4,7 +4,7 @@ Empezar a cobrar a través de las redes sociales, e-mail o tu sitio web es muy f
 
 ## Configuración básica
 
-Al crear un nuevo link de pago desde tu cuenta de Mercado Pago, tendrás que definir:
+Al crear un nuevo link de pago desde tu cuenta de Mercado Libre, tendrás que definir:
 
 1. **Título de tu producto o servicio:** será el nombre que verá tu comprador a la hora de pagar. Recuerda que debe ser lo más detallado posible para que lo identifiquen mejor.
 2. **Precio:** es el monto final a pagar por tus clientes.

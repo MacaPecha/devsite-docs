@@ -1,6 +1,6 @@
-# Receive payments by Mercado Pago wallet
+# Receive payments by Mercado Libre wallet
 
-Add in your integration the Checkout Pro wallet mode, so that **you receive payments only from Mercado Pago registered users with their cards and available balance**.
+Add in your integration the Checkout Pro wallet mode, so that **you receive payments only from Mercado Libre registered users with their cards and available balance**.
 
 This means that your customers have more ways to pay you and can access better benefits, without changing the dynamics of your Checkout API.
 
@@ -11,11 +11,11 @@ This means that your customers have more ways to pay you and can access better b
 ![Checkout-Wallet](/images/web-payment-checkout/cho-wallet-landing-pt.png)
 ------------
 
-## Benefits of Mercado Pago wallet
+## Benefits of Mercado Libre wallet
 
 * Your customers can pay you with more payment methods and faster:
-  * **With saved credit or debit cards** in their Mercado Pago account, saving the effort of entering a card from the beginning. They also have their **addresses saved**, which simplifies the whole information entering process.
-  * **With balance available in Mercado Pago** they have the money ready to be used on the spot, in just 1 click.
+  * **With saved credit or debit cards** in their Mercado Libre account, saving the effort of entering a card from the beginning. They also have their **addresses saved**, which simplifies the whole information entering process.
+  * **With balance available in Mercado Libre** they have the money ready to be used on the spot, in just 1 click.
 ----[mla]----
 * Your clients can pay you in up to 12 installments without using a credit card, being financed by [Mercado Crédito](https://www.mercadolibre.com.ar/mercado-credito/meses-sin-tarjeta/).
 ------------
@@ -27,7 +27,7 @@ This means that your customers have more ways to pay you and can access better b
 
 ## How to add the wallet on your website
 
-You need to integrate [Checkout Pro](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/online-payments/checkout-pro/introduction) setup as [wallet mode](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/online-payments/checkout-pro/configurations#bookmark_accept_payments_from_registered_users_only) to add the Mercado Pago wallet to your website.
+You need to integrate [Checkout Pro](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/online-payments/checkout-pro/introduction) setup as [wallet mode](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/online-payments/checkout-pro/configurations#bookmark_accept_payments_from_registered_users_only) to add the Mercado Libre wallet to your website.
 
 To integrate it, you need to [generate the payment preference](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/online-payments/checkout-pro/integration#bookmark_steps_to_integrate) with the information of the product or service you want to offer and add the payment option on your website. 
 
@@ -39,7 +39,7 @@ To integrate it, you need to [generate the payment preference](https://www.merca
 >
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Generate your preference
 
-To start, you need to generate your payment preference from your backend with the [Mercado Pago SDK](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/online-payments/checkout-api/previous-requirements#bookmark_always_use_our_libraries) you used in your Checkout API. 
+To start, you need to generate your payment preference from your backend with the [Mercado Libre SDK](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/online-payments/checkout-api/previous-requirements#bookmark_always_use_our_libraries) you used in your Checkout API. 
 
 [[[
 ```php
@@ -203,7 +203,7 @@ Then, from your frontend, add the following code to display the Checkout Pro Wal
 
 [[[
 ```php
-// Client-Side Mercado Pago SDK
+// Client-Side Mercado Libre SDK
 <script src="https://sdk.mercadopago.com/js/v2"></script>
 <script>
 // Add the SDK credentials
@@ -219,14 +219,14 @@ mp.checkout({
     },
     render: {
       container: '.cho-container', // Indicates where the button will be displayed
-      label: 'Pay with Mercado Pago', // Changes the payment button text (optional)
-      type: 'wallet', // Applies the Mercado Pago branding to the button
+      label: 'Pay with Mercado Libre', // Changes the payment button text (optional)
+      type: 'wallet', // Applies the Mercado Libre branding to the button
     }
 });
 </script>
 ```
 ```node
-// Client-Side Mercado Pago SDK
+// Client-Side Mercado Libre SDK
 <script src="https://sdk.mercadopago.com/js/v2"></script>
 <script>
 // Add the SDK credentials
@@ -241,14 +241,14 @@ mp.checkout({
     },
     render: {
       container: '.cho-container', // Indicates where the button will be displayed
-      label: 'Pay with Mercado Pago', // Changes the payment button text (optional)
-      type: 'wallet', // Applies the Mercado Pago branding to the button
+      label: 'Pay with Mercado Libre', // Changes the payment button text (optional)
+      type: 'wallet', // Applies the Mercado Libre branding to the button
     }
 });
 </script>
 ```
 ```java
-// Client-Side Mercado Pago SDK
+// Client-Side Mercado Libre SDK
 <script src="https://sdk.mercadopago.com/js/v2"></script>
 <script>
 // Add the SDK credentials
@@ -265,14 +265,14 @@ mp.checkout({
     },
     render: {
       container: '.cho-container', // Indicates where the button will be displayed
-      label: 'Pay with Mercado Pago', // Changes the payment button text (optional)
-      type: 'wallet', // Applies the Mercado Pago branding to the button
+      label: 'Pay with Mercado Libre', // Changes the payment button text (optional)
+      type: 'wallet', // Applies the Mercado Libre branding to the button
     }
 });
 </script>
 ```
 ```ruby
-# Client-Side Mercado Pago SDK
+# Client-Side Mercado Libre SDK
 <script src="https://sdk.mercadopago.com/js/v2"></script>
 <script>
 # Add the SDK credentials
@@ -289,14 +289,14 @@ mp.checkout({
     },
     render: {
       container: '.cho-container', // Indicates where the button will be displayed
-      label: 'Pay with Mercado Pago', // Changes the payment button text (optional)
-      type: 'wallet', // Applies the Mercado Pago branding to the button
+      label: 'Pay with Mercado Libre', // Changes the payment button text (optional)
+      type: 'wallet', // Applies the Mercado Libre branding to the button
     }
 });
 </script>
 ```
 ```csharp
-// Client-Side Mercado Pago SDK
+// Client-Side Mercado Libre SDK
 <script src="https://sdk.mercadopago.com/js/v2"></script>
 <script>
 // Add the SDK credentials
@@ -313,14 +313,14 @@ mp.checkout({
     },
     render: {
       container: '.cho-container', // Indicates where the button will be displayed
-      label: 'Pay with Mercado Pago', // Changes the payment button text (optional)
-      type: 'wallet', // Applies the Mercado Pago branding to the button
+      label: 'Pay with Mercado Libre', // Changes the payment button text (optional)
+      type: 'wallet', // Applies the Mercado Libre branding to the button
     }
 });
 </script>
 ```
 ```python
-# Client-Side Mercado Pago SDK
+# Client-Side Mercado Libre SDK
 <script src="https://sdk.mercadopago.com/js/v2"></script>
 <script>
 # Add the SDK credentials
@@ -337,25 +337,25 @@ mp.checkout({
     },
     render: {
       container: '.cho-container', # Indicates where the button will be displayed
-      label: 'Pay with Mercado Pago', # Changes the payment button text (optional)
-      type: 'wallet', # Applies the Mercado Pago branding to the button
+      label: 'Pay with Mercado Libre', # Changes the payment button text (optional)
+      type: 'wallet', # Applies the Mercado Libre branding to the button
     }
 });
 </script>
 ```
 ]]]
 
-> This documentation uses the new library version. To see the previous version, go to [Receive payments by Mercado Pago wallet section with MercadoPago.js V1](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/online-payments/checkout-api/v1/wallet-integration).
+> This documentation uses the new library version. To see the previous version, go to [Receive payments by Mercado Libre wallet section with MercadoPago.js V1](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/online-payments/checkout-api/v1/wallet-integration).
 
 For more information on each attribute, please check the [API Reference](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/reference/preferences/_checkout_preferences/post).
 
-Done! You already have the Mercado Pago wallet integrated on your website.
+Done! You already have the Mercado Libre wallet integrated on your website.
 
 > WARNING
 >
 > Important
 >
-> To test it, don't forget to log in from another browser or log out from your Mercado Pago account, as you can't pay yourself.<br/>
+> To test it, don't forget to log in from another browser or log out from your Mercado Libre account, as you can't pay yourself.<br/>
 
 ---
 

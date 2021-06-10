@@ -1,4 +1,4 @@
-# Mercado Pago para PrestaShop 1.6 & 1.7
+# Mercado Libre para PrestaShop 1.6 & 1.7
 
 
 <center>
@@ -18,7 +18,7 @@ Como imaginarás, una página web sin un procesador de pagos no es más que un c
 >
 > **¿Eres desarrollador?** Esta guía también está pensada para que hagas más rápido tu trabajo de instalación, integración y configuración de nuestro módulo en las plataformas de e-commerce más reconocidas a nivel mundial. 
 
-## ¿Qué puedo hacer con Mercado Pago para PrestaShop?
+## ¿Qué puedo hacer con Mercado Libre para PrestaShop?
 
 Instala nuestro procesador de pagos y lleva tus ventas a otro nivel con la mejor experiencia de compra:
 
@@ -26,9 +26,9 @@ Instala nuestro procesador de pagos y lleva tus ventas a otro nivel con la mejor
 | --- | --- |
 | Financiación | Vende en cuotas y ofrece las promociones que desees. |
 | Liberación de dinero | Al instante o con las tasas y plazos que mejor se adapten al negocio. |
-| Medios de pago | Acepta pagos con tarjeta de crédito y débito, pagos en efectivo y con dinero en cuenta de Mercado Pago. |
+| Medios de pago | Acepta pagos con tarjeta de crédito y débito, pagos en efectivo y con dinero en cuenta de Mercado Libre. |
 | Tipos de checkout | Checkout Pro, Checkout Personalizado, Ticket Checkout. |
-| Pago como invitado | Los usuarios no necesitan estar registrados en Mercado Pago para poder pagar en Prestashop. |
+| Pago como invitado | Los usuarios no necesitan estar registrados en Mercado Libre para poder pagar en Prestashop. |
 | Modo binario | Aprueba o rechaza pagos al instante y de forma automática. |
 
 > NOTE
@@ -43,9 +43,9 @@ Con estas opciones de pago cubrimos las necesidades de cada negocio. Revisa las 
 
 | Características | Checkout Pro | Checkout Personalizado | Ticket Checkout |
 | --- | --- | --- | --- |
-| Medios de pago | Pagos con tarjetas, en efectivo y con dinero en cuenta de Mercado Pago. | Pagos con tarjetas de débito y crédito.| Pagos en efectivo. |
-| Experiencia de pago | Tus clientes pagan desde la página de Mercado Pago con un formato modal (dentro de tu tienda). | Tus clientes pagan sin salir de tu tienda online. | Tus clientes pagan sin salir de tu tienda online. |
-| Usuarios invitados | Tus clientes pueden pagar con o sin cuenta en Mercado Pago. | Tus clientes pagan como invitados, sin cuenta en Mercado Pago. | Tus clientes pagan como invitados, sin cuenta en Mercado Pago. |
+| Medios de pago | Pagos con tarjetas, en efectivo y con dinero en cuenta de Mercado Libre. | Pagos con tarjetas de débito y crédito.| Pagos en efectivo. |
+| Experiencia de pago | Tus clientes pagan desde la página de Mercado Libre con un formato modal (dentro de tu tienda). | Tus clientes pagan sin salir de tu tienda online. | Tus clientes pagan sin salir de tu tienda online. |
+| Usuarios invitados | Tus clientes pueden pagar con o sin cuenta en Mercado Libre. | Tus clientes pagan como invitados, sin cuenta en Mercado Libre. | Tus clientes pagan como invitados, sin cuenta en Mercado Libre. |
 
 > NOTE
 >
@@ -57,9 +57,9 @@ Con estas opciones de pago cubrimos las necesidades de cada negocio. Revisa las 
 
 > LEFT_BUTTON_REQUIRED_ES
 >
-> Instalar Mercado Pago en PrestaShop
+> Instalar Mercado Libre en PrestaShop
 >
-> Sigue estos pasos para instalar el módulo de Mercado Pago en tu tienda online.
+> Sigue estos pasos para instalar el módulo de Mercado Libre en tu tienda online.
 >
 > 
 > [Instalar](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/plugins/prestashop/instalation)

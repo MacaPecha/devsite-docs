@@ -7,7 +7,7 @@
 >
 > Oferecemos suporte somente para plugins oficiais
 >
-> Esta documentação não conta com o suporte oficial do Mercado Pago. Se você quiser fazer alterações, pode [modificar o código aberto no GitHub](https://github.com/mercadopago/devsite-docs/blob/development/guides/plugins/unofficial/wp-ecommerce.pt.md).
+> Esta documentação não conta com o suporte oficial do Mercado Libre. Se você quiser fazer alterações, pode [modificar o código aberto no GitHub](https://github.com/mercadopago/devsite-docs/blob/development/guides/plugins/unofficial/wp-ecommerce.pt.md).
 
 # Requisitos de Sistema
 ### Versões de Plataforma
@@ -44,10 +44,10 @@
 * Certificação SSL é um pré-requisito para cartões de crédito e boletos (Checkout Transparente).
 
 # Funcionalidades
-O módulo do Mercado Pago para WP eCommerce é integrado com as seguintes funcionalidades e soluções de pagamento:
+O módulo do Mercado Libre para WP eCommerce é integrado com as seguintes funcionalidades e soluções de pagamento:
 
 ### [Checkout Básico (Redirecionamento, Iframe ou Lightbox)](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/solutions/payments/basic-checkout/receive-payments)
-* Interfaces pré-construídas do Mercado Pago
+* Interfaces pré-construídas do Mercado Libre
 <br>
 
 ![Basic Checkout](/images/wp-ecommerce/wp-ecommerce-basic_checkout_payment.png)
@@ -101,25 +101,25 @@ Você tem duas opções para instalar este módulo: da sua loja WordPress, ou fa
 > DICA: Para confirmar que seu módulo está realmente instalado, você pode clicar no item *Plugins* no menu lateral da página administrativa da sua loja, e checar seu módulo recém-instalado. Apenas clique em *ativar* para ativá-lo e você deverá receber a mensagem "Plugin ativado." como uma notificação em seu WordPress.
 
 # Configurando o Cartão de Crédito
-Esta página explicará como configurar o módulo para aceitar pagamentos com o Cartão de Crédito do Checkout transparente. Na administração da sua loja, vá para a guia *Settings > Store > Payments*. Clique em *Mercado Pago - Checkout Transparente*. Você deve obter a seguinte página:
+Esta página explicará como configurar o módulo para aceitar pagamentos com o Cartão de Crédito do Checkout transparente. Na administração da sua loja, vá para a guia *Settings > Store > Payments*. Clique em *Mercado Libre - Checkout Transparente*. Você deve obter a seguinte página:
 
 ![Custom Checkout Configuring](/images/wp-ecommerce/wp-ecommerce-custom_config_screenshot.png)
 
-### Credenciais do Mercado Pago
-  * Aqui você deve colocar suas chaves *Public Key* e *Access Token*, que são as credenciais que o identificam de maneira única no Mercado Pago.
+### Credenciais do Mercado Libre
+  * Aqui você deve colocar suas chaves *Public Key* e *Access Token*, que são as credenciais que o identificam de maneira única no Mercado Libre.
 
 ### Opções de Checkout
 Como o checkout é mostrado.
   * *Descritor da Declaração*: A descrição que será mostrada na fatura do seu cliente;
   * *Modo Binário*: Ao cobrar um cartão de crédito, apenas o status [aprovado] ou [rejeitado] será tomado;
   * *Categoria da Loja*: Define a categoria da loja;
-  * *Identificador da Loja*: Um prefixo para identificar sua loja, quando você possui várias lojas para uma única conta do Mercado Pago;
+  * *Identificador da Loja*: Um prefixo para identificar sua loja, quando você possui várias lojas para uma única conta do Mercado Libre;
   * *URL de Sucesso*: Personalize uma URL para o cliente ser redirecionado quando um pagamento for aprovado. Deixe em branco para redirecionar para a loja;
   * *URL de Pendência*: Personalize uma URL para o cliente ser redirecionado quando um pagamento estiver pendente. Deixe em branco para redirecionar para a loja.
 
 ### Opções de Pagamento
 Como a opção de pagamento se comporta.
-  * *Conversão de moeda*: Habilita o modo de conversão de moeda para as vendas com Checkout Básico. A conversão de moeda é uma funcionalidade que lhe permite configurar uma moeda não suportada no WP eCommerce enquanto mantém o Mercado Pago como método de pagamento. A moeda não suportada será convertida para a moeda usada em seu país. Fique atento pois este serviço converte valores em tempo real durante a compra e pode trazer algum atraso adicional ao seu servidor.
+  * *Conversão de moeda*: Habilita o modo de conversão de moeda para as vendas com Checkout Básico. A conversão de moeda é uma funcionalidade que lhe permite configurar uma moeda não suportada no WP eCommerce enquanto mantém o Mercado Libre como método de pagamento. A moeda não suportada será convertida para a moeda usada em seu país. Fique atento pois este serviço converte valores em tempo real durante a compra e pode trazer algum atraso adicional ao seu servidor.
 
 ### Opções de Debug e Teste
 Oferece ferramentas de registro para que você possa analisar possíveis problemas que possam estar ocorrendo. Mantenha isso desabilitado se estiver trabalhando em produção com um sistema estável.
@@ -127,44 +127,44 @@ Oferece ferramentas de registro para que você possa analisar possíveis problem
   * *Modo debug*: Habilita log de mensagens no console do browser.
 
 # Configurando os Boletos
-Esta página explicará como configurar o módulo para aceitar pagamentos com o Boleto do Checkout transparente. Na administração da sua loja, vá para a guia *Settings > Store > Payments*. Clique em *Mercado Pago - Boleto*. Você deve obter a seguinte página:
+Esta página explicará como configurar o módulo para aceitar pagamentos com o Boleto do Checkout transparente. Na administração da sua loja, vá para a guia *Settings > Store > Payments*. Clique em *Mercado Libre - Boleto*. Você deve obter a seguinte página:
 <br>
 
 ![Ticket Checkout Configuring](/images/wp-ecommerce/wp-ecommerce-ticket_config_screenshot.png)
 
-### Credenciais do Mercado Pago
-  * Aqui você deve colocar sua chave *Access Token*, a credencial que o identifica de maneira única no Mercado Pago.
+### Credenciais do Mercado Libre
+  * Aqui você deve colocar sua chave *Access Token*, a credencial que o identifica de maneira única no Mercado Libre.
 
 ### Opções de Checkout
 Como o checkout é mostrado.
   * *Categoria da Loja*: Define a categoria da loja;
-  * *Identificador da Loja*: Um prefixo para identificar sua loja, quando você possui várias lojas para uma única conta do Mercado Pago;
+  * *Identificador da Loja*: Um prefixo para identificar sua loja, quando você possui várias lojas para uma única conta do Mercado Libre;
   * *URL de Sucesso*: Personalize uma URL para o cliente ser redirecionado quando um pagamento for aprovado. Deixe em branco para redirecionar para a loja;
   * *URL de Pendência*: Personalize uma URL para o cliente ser redirecionado quando um pagamento estiver pendente. Deixe em branco para redirecionar para a loja.
 
 ### Opções de Pagamento
 Como a opção de pagamento se comporta.
-  * *Conversão de moeda*: Habilita o modo de conversão de moeda para as vendas com Checkout Básico. A conversão de moeda é uma funcionalidade que lhe permite configurar uma moeda não suportada no WP eCommerce enquanto mantém o Mercado Pago como método de pagamento. A moeda não suportada será convertida para a moeda usada em seu país. Fique atento pois este serviço converte valores em tempo real durante a compra e pode trazer algum atraso adicional ao seu servidor.
+  * *Conversão de moeda*: Habilita o modo de conversão de moeda para as vendas com Checkout Básico. A conversão de moeda é uma funcionalidade que lhe permite configurar uma moeda não suportada no WP eCommerce enquanto mantém o Mercado Libre como método de pagamento. A moeda não suportada será convertida para a moeda usada em seu país. Fique atento pois este serviço converte valores em tempo real durante a compra e pode trazer algum atraso adicional ao seu servidor.
 
 ### Opções de Debug e Teste
 Oferece ferramentas de registro para que você possa analisar possíveis problemas que possam estar ocorrendo. Mantenha isso desabilitado se estiver trabalhando em produção com um sistema estável.
   * *Modo debug*: Habilita log de mensagens no console do browser.
 
 # Configurando o Checkout por Redirect, Iframe, ou LightBox
-Esta página explicará como configurar o módulo para aceitar os pagamentos com o Checkout Básico em Redirecionamento, Iframe ou Lightbox. Na administração da sua loja, vá para a guia *Settings > Store > Payments*. Clique em *Mercado Pago - Checkout Básico*. Você deve obter a seguinte página:
+Esta página explicará como configurar o módulo para aceitar os pagamentos com o Checkout Básico em Redirecionamento, Iframe ou Lightbox. Na administração da sua loja, vá para a guia *Settings > Store > Payments*. Clique em *Mercado Libre - Checkout Básico*. Você deve obter a seguinte página:
 <br>
 
 ![Basic Checkout](/images/wp-ecommerce/wp-ecommerce-basic_config_screenshot.png)
 
-### Credenciais do Mercado Pago
-  * Aqui você deve colocar suas chaves *Client Id* e *Client Secret*, que são as credenciais que o identificam de maneira única no Mercado Pago.
+### Credenciais do Mercado Libre
+  * Aqui você deve colocar suas chaves *Client Id* e *Client Secret*, que são as credenciais que o identificam de maneira única no Mercado Libre.
 
 ### Opções de Checkout
 Como o checkout é mostrado.
   * *Descrição*: Esta é a descrição da opção de pagamento que será mostrada aos seus clientes;
   * *Categoria da Loja*: Define a categoria da loja;
-  * *Identificador da Loja*: Um prefixo para identificar sua loja, quando você possui várias lojas para uma única conta do Mercado Pago;
-  * *Método de Integração*: Como seus clientes irão interagir com o Mercado Pago para pagar os pedidos;
+  * *Identificador da Loja*: Um prefixo para identificar sua loja, quando você possui várias lojas para uma única conta do Mercado Libre;
+  * *Método de Integração*: Como seus clientes irão interagir com o Mercado Libre para pagar os pedidos;
   * *Largura do iFrame*: A largura, em pixels, do iFrame (usado apenas com o método de integração por iFrame);
   * *Altura do iFrame*: A altura, em pixels, do iFrame (usado apenas com o método de integração por iFrame);
   * *Auto Retorno*: Se definido, a plataforma retornará à sua loja quando o pagamento for aprovado;
@@ -174,8 +174,8 @@ Como o checkout é mostrado.
 ### Opções de Pagamento
 Como a opção de pagamento se comporta.
   * *Parcelamento Máximo*: O número máximo de parcelas permitidas para seus clientes;
-  * *Conversão de moeda*: Habilita o modo de conversão de moeda para as vendas com Checkout Básico. A conversão de moeda é uma funcionalidade que lhe permite configurar uma moeda não suportada no WP eCommerce enquanto mantém o Mercado Pago como método de pagamento. A moeda não suportada será convertida para a moeda usada em seu país. Fique atento pois este serviço converte valores em tempo real durante a compra e pode trazer algum atraso adicional ao seu servidor;
-  * *Excluir Meios de Pagamento*: Selecione os métodos de pagamento que você não deseja oferecer com Mercado Pago.
+  * *Conversão de moeda*: Habilita o modo de conversão de moeda para as vendas com Checkout Básico. A conversão de moeda é uma funcionalidade que lhe permite configurar uma moeda não suportada no WP eCommerce enquanto mantém o Mercado Libre como método de pagamento. A moeda não suportada será convertida para a moeda usada em seu país. Fique atento pois este serviço converte valores em tempo real durante a compra e pode trazer algum atraso adicional ao seu servidor;
+  * *Excluir Meios de Pagamento*: Selecione os métodos de pagamento que você não deseja oferecer com Mercado Libre.
 
 ### Opções de Debug e Teste
 Oferece ferramentas de registro para que você possa analisar possíveis problemas que possam estar ocorrendo. Mantenha isso desabilitado se estiver trabalhando em produção com um sistema estável.
@@ -183,15 +183,15 @@ Oferece ferramentas de registro para que você possa analisar possíveis problem
   * *Modo debug*: Habilita log de mensagens no console do browser.
 
 # Configurações das Notificações Instantâneas de Pagamento
-Notificação Instantânea de Pagamento (IPN) é um mecanismo que permite que sua loja receba mensagens do servidor do Mercado Pago informando o estado de um determinado pagamento. Neste plugin, você não precisa se preocupar com a configuração da IPN pois ela já está implementada e configurada.
+Notificação Instantânea de Pagamento (IPN) é um mecanismo que permite que sua loja receba mensagens do servidor do Mercado Libre informando o estado de um determinado pagamento. Neste plugin, você não precisa se preocupar com a configuração da IPN pois ela já está implementada e configurada.
 
-> DICA 1: Ao configurar ou testar sua IPN/Webhooks e comunicações de servidor, certifique-se de que seu servidor possa acessar o servidor Mercado Pago.
+> DICA 1: Ao configurar ou testar sua IPN/Webhooks e comunicações de servidor, certifique-se de que seu servidor possa acessar o servidor Mercado Libre.
 
-> DICA 2: Tenha certeza de que seu firewall tenha o conjunto dos [IPs do Mercado Pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/api-docs/basics/design-considerations#ip-range) dentro de sua white-list.
+> DICA 2: Tenha certeza de que seu firewall tenha o conjunto dos [IPs do Mercado Libre](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/api-docs/basics/design-considerations#ip-range) dentro de sua white-list.
 
-> DICA 3: Observe que o Mercado Pago usa o protocolo TSL versão 1.0, logo seu servidor precisa suportar/aceitar conexões com esta versão do protocolo.
+> DICA 3: Observe que o Mercado Libre usa o protocolo TSL versão 1.0, logo seu servidor precisa suportar/aceitar conexões com esta versão do protocolo.
 
-> DICA 4: Tenha certeza de que nenhum outro plugin do WordPress esteja bloqueando o Mercado Pago.
+> DICA 4: Tenha certeza de que nenhum outro plugin do WordPress esteja bloqueando o Mercado Libre.
 
 # Atualização
 Se você já instalou uma versão anterior do WP-eCommerce MercadoPago, siga as instruções. Da mesma forma como foi a instalação, novamente você tem duas opções: da sua loja do WordPress ou baixando e copiando manualmente o diretório do módulo.
@@ -215,7 +215,7 @@ Para confirmar que seu módulo está realmente atualizado, você pode ver no ite
 # Suporte Técnico
 Se você tiver dúvidas, problemas ou erros, temos um canal de suporte. Escreva para o nosso [formulário de apoio](https://mercadopago[FAKER][URL][DOMAIN]/developers/pt/support) com as seguintes informações:
 
-* E-mail da sua conta Mercado Pago;
+* E-mail da sua conta Mercado Libre;
 * Detalhes sobre sua pergunta, problema ou erro;
 * Arquivos que podem ajudar na compreensão (Print-Screen, Video, Arquivos de Log, etc.);
 * Versão do WPeCommerce;

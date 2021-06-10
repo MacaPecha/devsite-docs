@@ -6,9 +6,9 @@
 
 Para processar pagamentos na modalidade Wallet Connect, os seguintes passos devem ser cumpridos.
 
-### Criar uma conta Mercado Pago
+### Criar uma conta Mercado Libre
 
-A conta deve ser criada no site do Mercado Pago no país em que você deseja receber pagamentos.
+A conta deve ser criada no site do Mercado Libre no país em que você deseja receber pagamentos.
 
 * Argentina: www.mercadopago.com.ar
 * Brasil: www.mercadopago.com.br

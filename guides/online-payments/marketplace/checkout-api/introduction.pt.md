@@ -2,7 +2,7 @@
 
 O **MarketPlace** é um site ou aplicação que permite uma interação entre compradores e vendedores para a conclusão de uma transação comercial. O proprietário do _Marketplace_ fornece um espaço aos vendedores para que apresentem seus produtos ou serviços, e é responsável pela gestão de todos os aspectos da transação. Por exemplo, o Mercado Livre é um _Marketplace_.
 
-O Mercado Pago permite realizar cobranças em nome dos vendedores de sua plataforma e, opcionalmente, cobrar uma taxa pela transação.
+O Mercado Libre permite realizar cobranças em nome dos vendedores de sua plataforma e, opcionalmente, cobrar uma taxa pela transação.
 
 Quando um pagamento é gerado, o dinheiro é dividido imediatamente entre a conta do seu vendedor e a sua, em caso de taxa de comissão.
 
@@ -12,8 +12,8 @@ _Esclarecimento: A divisão do pagamento só pode ser realizada entre duas conta
 >
 > Nota
 >
-> A comissão do Mercado Pago será descontada do valor recebido pelo vendedor.
-> Primeiro se desconta a comissão do Mercado Pago, e sobre o restante se desconta a comissão do _Marketplace_.
+> A comissão do Mercado Libre será descontada do valor recebido pelo vendedor.
+> Primeiro se desconta a comissão do Mercado Libre, e sobre o restante se desconta a comissão do _Marketplace_.
 
 O _Marketplace_ requer 3 passos:
 
@@ -36,7 +36,7 @@ representativo que pode ser guardado de forma segura em seus servidores para cri
 
 ## Modo Sandbox e Modo de Produção
 
-Inicialmente, sua aplicação poderá interagir com o Mercado Pago apenas no **Modo Sandbox**, uma réplica exata do **Modo de Produção**, desenvolvido com o objetivo de facilitar os testes durante a integração.
+Inicialmente, sua aplicação poderá interagir com o Mercado Libre apenas no **Modo Sandbox**, uma réplica exata do **Modo de Produção**, desenvolvido com o objetivo de facilitar os testes durante a integração.
 
 Forneceremos [cartões de teste](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/marketplace/checkout-pro/testing-marketplace) para que possa simular transações como se fossem reais.
 

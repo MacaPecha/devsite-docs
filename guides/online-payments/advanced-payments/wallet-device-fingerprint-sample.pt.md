@@ -49,7 +49,7 @@
 
 #### Exemplo de impressão digital usando SDK
 
-É possível obter a impressão digital de um dispositivo móvel através do Mercado Pago sdk.
+É possível obter a impressão digital de um dispositivo móvel através do Mercado Libre sdk.
 
 Dispositivos [Android](https://github.com/mercadopago/px-android)
 ```android

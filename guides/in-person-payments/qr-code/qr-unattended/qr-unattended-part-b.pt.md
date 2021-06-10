@@ -25,11 +25,11 @@ Para integrar o modelo desatendido, é necessário:
 
     1.2 As informações do pedido **são disponibilizadas**.
 
-2. Declarar o URL de seu domínio a Mercado Pago.
+2. Declarar o URL de seu domínio a Mercado Libre.
 
 ## 1. Criar o serviço que será invocado para receber uma intenção de pagamento 
 
-É necessário **criar um serviço que será invocado por Mercado Pago cada vez que quiser realizar um pagamento** com um código QR.
+É necessário **criar um serviço que será invocado por Mercado Libre cada vez que quiser realizar um pagamento** com um código QR.
 
 Este serviço deve restituir as informações do pedido a cobrar. Por exemplo:
 
@@ -90,25 +90,25 @@ A resposta deve conter a mensagem seguinte sobre o pedido a ser recebido:
 }
 ```
 
-Deve utilizar o campo `external_reference` para poder identificar o pedido em seu sistema dentro de Mercado Pago.
+Deve utilizar o campo `external_reference` para poder identificar o pedido em seu sistema dentro de Mercado Libre.
 
 ### Atributos
 
 | Atributo            | Tipo (_type_)       |  Descripción               |
 | ------------- | ------------- | ------------------------------------------------------------ |
-| `collector_id` | _Long_     | Identificador da conta Mercado Pago onde os pagamentos serão creditados.  |
-| `sponsor_id` | _Long_           | Identificador da conta Mercado Pago do sistema integrador. |
+| `collector_id` | _Long_     | Identificador da conta Mercado Libre onde os pagamentos serão creditados.  |
+| `sponsor_id` | _Long_           | Identificador da conta Mercado Libre do sistema integrador. |
 | `items.title` | _String_           | Título do produto. |
 | `items.currency_id` | _String (3)_           | Identificador de moeda no formato ISO-4217. |
 | `items.description` | _String_     | Descrição do produto.  |
 | `items.quantity` | _Integer_           | Quantidade do produto envolvido.  |
 | `items.unit_price` | _Decimal_           | Preço unitário do produto. |
-| `external_reference` | _String (256)_           | Referência para poder associar a ordem em Mercado Pago com ordem de compra, comanda ou despacho em seu sistema. Geralmente, é utilizado o número de NF.  |
+| `external_reference` | _String (256)_           | Referência para poder associar a ordem em Mercado Libre com ordem de compra, comanda ou despacho em seu sistema. Geralmente, é utilizado o número de NF.  |
 | `notification_url` | String | URL aonde as notificações serão enviadas.  |
 
-## 2. Declarar o URL de seu domínio a Mercado Pago
+## 2. Declarar o URL de seu domínio a Mercado Libre
 
-Deve informar ao seu assessor técnico atribuído, o URL base de seu domínio ao qual Mercado Pago consultará por cada transação. 
+Deve informar ao seu assessor técnico atribuído, o URL base de seu domínio ao qual Mercado Libre consultará por cada transação. 
 
 > WARNING
 > 

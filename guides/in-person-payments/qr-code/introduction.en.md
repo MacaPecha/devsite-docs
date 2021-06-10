@@ -1,27 +1,27 @@
 # What’s a QR code?
 
-A QR is an **unique code linked to your Mercado Pago account**. It’ll allow you to receive payments in a simple, fast and secure way.
+A QR is an **unique code linked to your Mercado Libre account**. It’ll allow you to receive payments in a simple, fast and secure way.
 
 ----[mlb]----
 
-![Pagos QR Mercado Pago](/images/mobile/qr_mla2.es.png)
+![Pagos QR Mercado Libre](/images/mobile/qr_mla2.es.png)
 ------------
 ----[mla]----
 
-![Pagos QR Mercado Pago](/images/mobile/qr_mla2.es.png)
+![Pagos QR Mercado Libre](/images/mobile/qr_mla2.es.png)
 
 ------------
 ----[mlm]----
-![Pagos QR Mercado Pago](/images/mobile/qr_mla2.es.png)
+![Pagos QR Mercado Libre](/images/mobile/qr_mla2.es.png)
 ------------
 
 ## What are the benefits?
 
 * Generating QRs is free.
-* **Immediate payments**. Mercado Pago remembers buyer’s data and process payments right away.
+* **Immediate payments**. Mercado Libre remembers buyer’s data and process payments right away.
 * Allows to charge with the main [payment methods](https://www.mercadopago.com.ar/ayuda/medios-de-pago-cuotas-promociones_264) in your country. 
 * **Lowest transaction fees** in the market.
-* Offers a **secure buying experience from any mobile device** with Mercado Pago and Mercado Libre apps.
+* Offers a **secure buying experience from any mobile device** with Mercado Libre and Mercado Libre apps.
 ----[mlb]----
 * [Accept payments with Pix](https://www.mercadopago.com.br/pix) to receive money immediately, every day from any bank or wallet.
 ------------
@@ -37,7 +37,7 @@ In order to receive payments with QR, you can **print it and paste it in a visib
 >
 > Note
 >
-> If your model does not require integration with a point of sale system, you can consult all the information available in [generate QR from the Mercado Pago panel](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/in-person-payments/qr-code/integrations-front).
+> If your model does not require integration with a point of sale system, you can consult all the information available in [generate QR from the Mercado Libre panel](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/in-person-payments/qr-code/integrations-front).
 
 ## Integration Types
 

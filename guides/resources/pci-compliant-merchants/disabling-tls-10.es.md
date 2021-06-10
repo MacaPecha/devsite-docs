@@ -1,16 +1,16 @@
-# Apagado del cifrado TLS 1.0 en Mercado Pago
+# Apagado del cifrado TLS 1.0 en Mercado Libre
 
-En Mercado Pago siempre buscamos optimizar nuestra plataforma ofreciendo la mayor capacidad y seguridad en el procesamiento de pagos.
+En Mercado Libre siempre buscamos optimizar nuestra plataforma ofreciendo la mayor capacidad y seguridad en el procesamiento de pagos.
 
 En esta ocasión, estamos trabajando en el apagado de TLS 1.0 para los dominios https://api.mercadopago.com y https://pagamento.mercadopago.com con el objetivo de mantener los más altos estándares de calidad y promover la seguridad de los datos de nuestros clientes.
 
-En consecuencia, Mercado Pago requerirá que sus conexiones a los dominios https://api.mercadopago.com y https://pagamento.mercadopago.com sean a través del protocolo de cifrado TLS 1.2 o superior.
+En consecuencia, Mercado Libre requerirá que sus conexiones a los dominios https://api.mercadopago.com y https://pagamento.mercadopago.com sean a través del protocolo de cifrado TLS 1.2 o superior.
 Una vez que desactivemos TLS 1.0, cualquier conexión que establezcas utilizando TLS 1.0 fallará.
 
 ### Puntos a tener en cuenta:
 
 * Si operás sólo en Mercado Libre este cambio no te afectará.
-* Si operás sólo con botones de pago de Mercado Pago este cambio no te afectará.
+* Si operás sólo con botones de pago de Mercado Libre este cambio no te afectará.
 * Si operás sólo en Mercado Shops este cambio no te afectará.
 * Si operás sólo en VTEX este cambio no te afectará.
 * Si tenés **tu propio e-commerce consulta a tu soporte técnico**.
@@ -24,17 +24,17 @@ TLS es el acrónimo de “Transport Layer Security” (Seguridad de la capa de t
 
 Es el protocolo de seguridad más extendido que se utiliza en la actualidad, y se emplea para navegadores y otras aplicaciones que requieran que los datos se intercambien de forma segura en una red. TLS garantiza que una conexión con un extremo remoto se realiza en el extremo que se espera a través de cifrado y la verificación de la identidad del extremo. Las versiones de TLS hasta la fecha son TLS 1.0, 1.1 y 1.2.
 
-Las conexiones de Internet y de API de Mercado Pago utilizan TLS como componente clave de su seguridad.
+Las conexiones de Internet y de API de Mercado Libre utilizan TLS como componente clave de su seguridad.
 
 HTTPS (web) y STARTTLS SMTP (email) también utilizan TLS como componente de seguridad.
 
 ### ¿Por qué se va a realizar este cambio?
 
-En Mercado Pago nos tomamos muy en serio la seguridad y ayudamos a nuestros clientes a mejorarla empleando los protocolos de seguridad más recientes.
+En Mercado Libre nos tomamos muy en serio la seguridad y ayudamos a nuestros clientes a mejorarla empleando los protocolos de seguridad más recientes.
 
 ## Acción requerida para integraciones de API
 
-Si tus integraciones que utilizan conexiones entrantes con Mercado Pago no tiene el protocolo TLS 1.2 o superior activado tras realizar este cambio, empezarán a fallar
+Si tus integraciones que utilizan conexiones entrantes con Mercado Libre no tiene el protocolo TLS 1.2 o superior activado tras realizar este cambio, empezarán a fallar
 
 Te recomendamos que empieces a planificar la inclusión del protocolo TLS 1.2 tan pronto como sea posible.
 
@@ -61,7 +61,7 @@ Consulte las directrices de compatibilidad a continuación:
 | Android 4.x | Es necesario forzar el uso de TLS 1.2 para ello usar [este snippet de código](https://gist.github.com/zehemz/fdf777a64a173a58beb6f9132eb7655c). |
 | Android 5.x | TLS 1.2 Es soportado de forma predeterminada. |
 
-En caso que requieras hacer adaptaciones, **es importante que recuerdes hacer este cambio en tiempo y forma, ya que de lo contrario es muy probable que tus conexiones con Mercado Pago comiencen a fallar.**
+En caso que requieras hacer adaptaciones, **es importante que recuerdes hacer este cambio en tiempo y forma, ya que de lo contrario es muy probable que tus conexiones con Mercado Libre comiencen a fallar.**
 
 ## ¿Como puedo probar mi integración?
 
@@ -94,4 +94,4 @@ Console.WriteLine("protocol : " + _myStream.SslProtocol);
 
 Si tienes alguna duda o necesitas asistencia para completar exitosamente este cambio, puedes contactarnos a través del siguiente correo electrónico: soportemigraciones@mercadopago.com.
 
-El equipo de Mercado Pago.
+El equipo de Mercado Libre.

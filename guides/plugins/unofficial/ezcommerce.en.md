@@ -5,12 +5,12 @@
 
 ## What is EZ Commerce?
 
-[EZ Commerce](https://www.ezcommerce.com.br/) is a complete ecosystem of solutions for your virtual store that allows you to process payments through Mercado Pago.
+[EZ Commerce](https://www.ezcommerce.com.br/) is a complete ecosystem of solutions for your virtual store that allows you to process payments through Mercado Libre.
 For more information on the possibilities that EZ Commerce offers, access the [feature page](https://www.ezcommerce.com.br/plataforma/recursos-de-ecommerce/).
 
-## Set up EZ Commerce to operate with Mercado Pago
+## Set up EZ Commerce to operate with Mercado Libre
 
-The steps to start trading with the Mercado Pago are as follows:
+The steps to start trading with the Mercado Libre are as follows:
 
 1. Set up ticket.
 2. Set up Credit Card.
@@ -39,7 +39,7 @@ To trade with credit cards, follow this steps:
 4. Find the credit card brands that contains "mercadopago_transparente" in the "Adquirente / Gateway" column.
 5. Fill in the data for the "Específico" group. For Client id, Client secret and Public key see the [Credentials section]([FAKER][CREDENTIALS][URL]).
 6. Choose one of the options for the "Tipo de parcelamento" field:
-- Dinâmico: The plataform will use the interests configured in Mercado Pago account.
+- Dinâmico: The plataform will use the interests configured in Mercado Libre account.
 - Customizado: The interests must be configures in the plataform.
 7. Click "salvar".
 

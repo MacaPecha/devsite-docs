@@ -1,14 +1,14 @@
 ---
   indexable: false
 ---
-# Mercado Pago iOS (Swift 3.1) SDK
-The Mercado Pago iOS SDK make it easy to collect your users' credit card details inside your iOS app. By creating tokens, Mercado Pago handles the bulk of PCI compliance by preventing sensitive card data from hitting your server.
+# Mercado Libre iOS (Swift 3.1) SDK
+The Mercado Libre iOS SDK make it easy to collect your users' credit card details inside your iOS app. By creating tokens, Mercado Libre handles the bulk of PCI compliance by preventing sensitive card data from hitting your server.
 
 ![Screenshot iOS](images/sdk/ios.png)
 
 ## Installation
 
-There are two ways to add Mercado Pago to your project:
+There are two ways to add Mercado Libre to your project:
 
 ### CocoaPods (iOS 8.0 or later)
 

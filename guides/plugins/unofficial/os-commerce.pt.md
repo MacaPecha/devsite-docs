@@ -1,17 +1,17 @@
 ---
   indexable: false
 ---
-# osCommerce - Mercado Pago Module (v2.2 - 2.3)
+# osCommerce - Mercado Libre Module (v2.2 - 2.3)
 
 > WARNING
 >
 > Oferecemos suporte somente para plugins oficiais
 >
-> Esta documentação não conta com o suporte oficial do Mercado Pago. Se você quiser fazer alterações, pode [modificar o código aberto no GitHub](https://github.com/mercadopago/devsite-docs/blob/development/guides/plugins/unofficial/os-commerce.pt.md).
+> Esta documentação não conta com o suporte oficial do Mercado Libre. Se você quiser fazer alterações, pode [modificar o código aberto no GitHub](https://github.com/mercadopago/devsite-docs/blob/development/guides/plugins/unofficial/os-commerce.pt.md).
 
 ## Funcionalidades
 
-O módulo do Mercado Pago para o OsCommerce esta integrado com as seguintes funcionalidades e soluções de pagamento:
+O módulo do Mercado Libre para o OsCommerce esta integrado com as seguintes funcionalidades e soluções de pagamento:
 
 * [Checkout básico (Redirecionado, Iframe ou Lightbox)](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/solutions/payments/basic-checkout/receive-payments)
     * Pagamento com dois cartões
@@ -37,7 +37,7 @@ O módulo do Mercado Pago para o OsCommerce esta integrado com as seguintes func
 
 ## Instalação
 
-1. Faça o download do modulo do Mercado Pago:
+1. Faça o download do modulo do Mercado Libre:
     * osCommerce 2.2
     * osCommerce 2.3
 
@@ -49,7 +49,7 @@ O módulo do Mercado Pago para o OsCommerce esta integrado com as seguintes func
 
 2. Clique em  **Install Module**.
 
-3. Em **Mercado Pago** clique no botão **Install Module**.
+3. Em **Mercado Libre** clique no botão **Install Module**.
 
 4. Escolha o país:
 <br>
@@ -112,7 +112,7 @@ O módulo do Mercado Pago para o OsCommerce esta integrado com as seguintes func
 Caso tenha alguma dúvida, problema ou erro temos um canal de atendimento.
 Escreva para o nosso [formulário de apoio](/support) com as seguintes informações:
 
-* Email da sua conta Mercado Pago.
+* Email da sua conta Mercado Libre.
 * Detalhes sobre a sua duvida, problema ou erro.
 * Arquivos que possa ajudar no entendimento (Print-Screen, Video, Arquivos de Log, etc).
 * Versão do OsCommerce.

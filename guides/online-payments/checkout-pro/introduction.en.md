@@ -34,13 +34,13 @@ Checkout Pro is an integration that allows you to **charge your customers throug
 ------------
 
 * A shopping experience on your site that's accessible across devices.
-* **One-click purchases.** When paying with a Mercado Pago account, user information and cards can be saved, allowing payments that only requires a security code or money in your account.
-* **Guest purchases**. Having a Mercado Pago account is not required to make a payment.
+* **One-click purchases.** When paying with a Mercado Libre account, user information and cards can be saved, allowing payments that only requires a security code or money in your account.
+* **Guest purchases**. Having a Mercado Libre account is not required to make a payment.
 ----[mla, mlb]----
 * **Split Payments.** Customers can pay with two cards. This is a very useful feature in cases like high amount transactions.
 ------------
 
-## Checkout Pro vs. other Mercado Pago tools
+## Checkout Pro vs. other Mercado Libre tools
 
 ----[mla, mlb]----
 |                               | Checkout Pro | Web Tokenize Checkout | API |

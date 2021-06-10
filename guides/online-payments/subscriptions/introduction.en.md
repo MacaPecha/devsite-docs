@@ -1,6 +1,6 @@
 # What are Subscriptions?
 
-Mercado Pago subscriptions allow you to receive recurring payments by credit and debit card. The availability of payment methods varies according to the form of integration.
+Mercado Libre subscriptions allow you to receive recurring payments by credit and debit card. The availability of payment methods varies according to the form of integration.
 
 ## Available Roles
 
@@ -12,7 +12,7 @@ There are two roles involved:
 > 
 > Do you want to create subscriptions quickly and easily?
 > 
-> Enter the [Subscriptions](https://www.mercadopago[FAKER][URL][DOMAIN]/subscription-plans) section on your Mercado Pago account panel, set the data you need and that's it!
+> Enter the [Subscriptions](https://www.mercadopago[FAKER][URL][DOMAIN]/subscription-plans) section on your Mercado Libre account panel, set the data you need and that's it!
 
 
 ## Key concepts

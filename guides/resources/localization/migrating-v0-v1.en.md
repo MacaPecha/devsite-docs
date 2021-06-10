@@ -1,17 +1,17 @@
-# Migración de la versión 0 a versión 1 de la API de Pagos de Mercado Pago
+# Migración de la versión 0 a versión 1 de la API de Pagos de Mercado Libre
 
-En Mercado Pago buscamos siempre optimizar nuestra plataforma ofreciendo la más alta eficiencia y seguridad en el procesamiento de pagos.
+En Mercado Libre buscamos siempre optimizar nuestra plataforma ofreciendo la más alta eficiencia y seguridad en el procesamiento de pagos.
 
 En esta ocasión, estamos trabajando en la migración de nuestra API versión 0 a la versión 1 con el objetivo de mantener los más altos estándares de calidad.
 
-En consecuencia, Mercado Pago requerirá la utilización de la nueva versión de la API a partir del 10 de diciembre de 2018.
+En consecuencia, Mercado Libre requerirá la utilización de la nueva versión de la API a partir del 10 de diciembre de 2018.
 
 Después de ese plazo, la versión 0 dejara de tener soporte.
 
 ### A tener en cuenta:
 
 * La modificación tendrá efecto **a partir del 10 de diciembre de 2018.**
-* Si utiliza sólo los botones de pago de Mercado Pago, este cambio no lo afectará.
+* Si utiliza sólo los botones de pago de Mercado Libre, este cambio no lo afectará.
 * Si utiliza sólo Mercado Shops, este cambio no lo afectará.
 * Si tiene su **propio e-commerce, consulte a su equipo de TI**.
 * Si **se trabaja con alguna plataforma de comercio electrónico**, por ejemplo: Magento, Shopify u otros **Consulte su soporte técnico**.
@@ -33,9 +33,9 @@ La siguiente tabla contiene a los recursos migrados y sus equivalentes.
 | Búsqueda de pagos | `GET` | /payments/search | /v1/payments/search | [visita](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/reference/payments/_payments_search/get)|
 | Búsqueda de pagos | `GET` | /collections/search | /v1/payments/search | [visita](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/reference/payments/_payments_search/get)|
 
-### Versiones migradas de las herramientas de Mercado Pago
+### Versiones migradas de las herramientas de Mercado Libre
 
-A partir de las siguientes versiones de cada una de las herramientas de Mercado Pago se deja de dar soporte a la versión 0 del API:
+A partir de las siguientes versiones de cada una de las herramientas de Mercado Libre se deja de dar soporte a la versión 0 del API:
 
 | Herramienta | Versión |
 | --- | --- |
@@ -105,4 +105,4 @@ Si usted necesita hacer adaptaciones, **es importante que usted recuerde hacer e
 
 Si tiene alguna duda o necesita ayuda para completar con éxito este cambio, por favor, póngase en contacto con nosotros a través del siguiente [formulario](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/support).
 
-Equipo de Mercado Pago.
+Equipo de Mercado Libre.

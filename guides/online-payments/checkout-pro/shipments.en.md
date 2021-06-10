@@ -565,7 +565,7 @@ Once you receive an order, you only need to ----[mla, mlm]---- [prepare and ship
 >
 > Label Management
 >
-> When an order is made, you will receive an e-mail with a button to print the label you must attach to the package. You will also be able to view the [payments to be printed](https://www.mercadopago[FAKER][URL][DOMAIN]/activities?type=facet_type_collection&status=facet_shipping_me_all) from the Mercado Pago account that received the order.
+> When an order is made, you will receive an e-mail with a button to print the label you must attach to the package. You will also be able to view the [payments to be printed](https://www.mercadopago[FAKER][URL][DOMAIN]/activities?type=facet_type_collection&status=facet_shipping_me_all) from the Mercado Libre account that received the order.
 
 
 ## Example of a complete preference

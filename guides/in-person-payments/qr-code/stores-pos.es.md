@@ -16,7 +16,7 @@ Es una **tienda física** en la que tus clientes pueden adquirir tus productos o
 Los beneficios de crear sucursales son:
 
 - **Lograr trazabilidad**. Cada pago quedará asociado a una sucursal y al momento de obtener tus reportes de conciliación será valioso para identificar transacciones por sucursal.
-- **Visibilidad en mapas de sucursales**. Las sucursales creadas aparecen en el mapa de las app de Mercado Pago o Mercado Libre a medida que vayan teniendo pagos. De esta manera, dan visibilidad a todos los clientes sobre la existencia de la tienda. 
+- **Visibilidad en mapas de sucursales**. Las sucursales creadas aparecen en el mapa de las app de Mercado Libre o Mercado Libre a medida que vayan teniendo pagos. De esta manera, dan visibilidad a todos los clientes sobre la existencia de la tienda. 
 - **Aportar una mejor organización de las cajas**.
 
 ### ¿Cómo crear una sucursal?
@@ -86,7 +86,7 @@ Al tener creadas tus sucursales, puedes crear tus cajas. Ten en cuenta lo siguie
 | Término | Descripción |
 | --- | --- |
 | `EXTERNAL_STORE_ID` | Vincula la caja con la sucursal. Es un campo requerido y es el mismo *external_id* de la Sucursal previamente creada. |
-| `EXTERNAL_ID` | Identifica unívocamente cada caja. Es requerido y no se puede modificar, tampoco repetir en una misma cuenta de Mercado Pago. También lo puedes encontrar como `EXTERNAL_POS_ID`. |
+| `EXTERNAL_ID` | Identifica unívocamente cada caja. Es requerido y no se puede modificar, tampoco repetir en una misma cuenta de Mercado Libre. También lo puedes encontrar como `EXTERNAL_POS_ID`. |
 
 
 [[[

@@ -5,7 +5,7 @@ sites_supported:
 indexable: false
 ---
 
-# Mercado Pago Gateway: API
+# Mercado Libre Gateway: API
 
 > WARNING
 >
@@ -116,7 +116,7 @@ Obter o valor do atributo `payment_method_option_id` para o número de comércio
 ]
 ```
 
-> Para que é utilizado o `branch_id`? O `branch_id` configurável do backoffice de Mercado Pago) lhe permite identificar facilmente para que está sendo utilizado um determinado número de comércio (`merchant_account_id`) dentro de um acordo comercial.
+> Para que é utilizado o `branch_id`? O `branch_id` configurável do backoffice de Mercado Libre) lhe permite identificar facilmente para que está sendo utilizado um determinado número de comércio (`merchant_account_id`) dentro de um acordo comercial.
 
 ## Uso de serviços (opcional)
 

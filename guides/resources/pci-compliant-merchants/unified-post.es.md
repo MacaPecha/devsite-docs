@@ -1,17 +1,17 @@
 # Pago Unificado
 
-Mercado Pago permite a vendedores que cumplen con las normativas PCI, procesar los pagos Server to Server sin necesidad de tokenizar la tarjeta previamente. 
+Mercado Libre permite a vendedores que cumplen con las normativas PCI, procesar los pagos Server to Server sin necesidad de tokenizar la tarjeta previamente. 
 
 
 > WARNING
 >
 > Pre-requisitos
 >
-> * El vendedor deberá comunicar en forma clara e inequívoca a su base de usuarios o clientes (i) que la plataforma de pago en su sistio web es provista por Mercado Pago.
+> * El vendedor deberá comunicar en forma clara e inequívoca a su base de usuarios o clientes (i) que la plataforma de pago en su sistio web es provista por Mercado Libre.
 > * El vendedor deberá presentar la documentación correspondiente a la certificación PCI.
-> * Cada vez que se le procese un pago a un cliente, será necesario notificarle: "En tu resumen verás el cargo como Mercado Pago/Mercado libre" (*).
+> * Cada vez que se le procese un pago a un cliente, será necesario notificarle: "En tu resumen verás el cargo como Mercado Libre/Mercado libre" (*).
 
-En el caso de tarjetas de crédito en el resumen del usuario aparecerá como: "MERPAG*<brand_name>". Donde <Brand_name> se configura desde la cuenta de Mercado Pago del vendedor: Menu-> Configuración-> Nombre de mi negocio
+En el caso de tarjetas de crédito en el resumen del usuario aparecerá como: "MERPAG*<brand_name>". Donde <Brand_name> se configura desde la cuenta de Mercado Libre del vendedor: Menu-> Configuración-> Nombre de mi negocio
 
 
 [[[
@@ -161,6 +161,6 @@ En el caso de tarjetas de crédito en el resumen del usuario aparecerá como: "M
 **Información adicional para fraude**: 
 
 Esta información debe ser enviada por el integrador para que la aprobación por el sistema
-de fraude de Mercado Pago responda a valores normales de aprobación.
+de fraude de Mercado Libre responda a valores normales de aprobación.
 La documentación correspondiente puedes encontrarla en la siguiente URL: 
 https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/resources/pci-compliant-merchants/receiving-payment-by-card/

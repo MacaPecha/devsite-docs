@@ -24,7 +24,7 @@ No caso de não desejar utilizar a nova funcionalidade CardForm, você pode mant
 Deixamos um resumo do que você terá que fazer para começar a usar a nova versão beta de MercadoPago.js:
 
 * Primeiro, instale a versão incluindo o script no seu site. 
-* Depois, configure as credenciais da conta que estiver integrando para identificá-la ao conectar com Mercado Pago.
+* Depois, configure as credenciais da conta que estiver integrando para identificá-la ao conectar com Mercado Libre.
 * Por último, atualize seu formulário de pagamento com a funcionalidade CardForm para começar a usá-lo.
 
 <br>
@@ -45,7 +45,7 @@ Adicione o seguinte script no seu site:
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Configure as credenciais
 
-Inicialize a biblioteca com a [Public Key]([FAKER][CREDENTIALS][URL]) da conta que estiver integrando para que possamos identificá-la ao conectar com Mercado Pago.
+Inicialize a biblioteca com a [Public Key]([FAKER][CREDENTIALS][URL]) da conta que estiver integrando para que possamos identificá-la ao conectar com Mercado Libre.
 
 ```javascript
 const mercadopago = new MercadoPago('YOUR_PUBLIC_KEY')
@@ -154,7 +154,7 @@ Agora, **você apenas deve inicializar nosso CardForm relacionando o ID de cada 
 >
 > Construa e configure sua própria experiência de pagamentos.
 >
-> [Integrar Checkout Transparente do Mercado Pago para cartão](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/checkout-api/receiving-payment-by-card)
+> [Integrar Checkout Transparente do Mercado Libre para cartão](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/checkout-api/receiving-payment-by-card)
 ------------
 
 ----[mla, mlm, mpe, mco, mlu, mlc]----
@@ -164,7 +164,7 @@ Agora, **você apenas deve inicializar nosso CardForm relacionando o ID de cada 
 >
 > Construa e configure sua própria experiência de pagamentos.
 >
-> [Integrar Checkout API do Mercado Pago para cartão](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/checkout-api/receiving-payment-by-card)
+> [Integrar Checkout API do Mercado Libre para cartão](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/checkout-api/receiving-payment-by-card)
 ------------
 
 > RIGHT_BUTTON_RECOMMENDED_PT

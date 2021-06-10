@@ -4,7 +4,7 @@ indexable: false
 
 # Gateway
 
-La disponibilidad de **Mercado Pago Gateway** varía según cada país.
+La disponibilidad de **Mercado Libre Gateway** varía según cada país.
 
 ## Disponibilidad por producto
 

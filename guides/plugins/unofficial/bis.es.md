@@ -5,11 +5,11 @@
 
 ## ¿Qué es Bis2Bis?
 
-[Bis2Bis](http://www.bis2bis.com.br/) es una plataforma de ecommerce que disponibiliza una integración con Mercado Pago como medio de pago, trabajando con la plataforma de e-commerce Magento.
+[Bis2Bis](http://www.bis2bis.com.br/) es una plataforma de ecommerce que disponibiliza una integración con Mercado Libre como medio de pago, trabajando con la plataforma de e-commerce Magento.
 
-## ¿Cómo puedo operar con Mercado Pago en Bis2Bis?
+## ¿Cómo puedo operar con Mercado Libre en Bis2Bis?
 
-Bis2Bis permite operar Mercado Pago en las siguientes modalidades:
+Bis2Bis permite operar Mercado Libre en las siguientes modalidades:
 
 ### API
 
@@ -17,15 +17,15 @@ Reciba pagos en su tienda a través de la tarjeta de crédito en modo transparen
 
 ### Checkout Pro
 
-Reciba pagos en su tienda utilizando el checkout del propio Mercado Pago, en este modelo el usuario (cliente) será redirigido a una página de Mercado Pago para finalizar su compra.
+Reciba pagos en su tienda utilizando el checkout del propio Mercado Libre, en este modelo el usuario (cliente) será redirigido a una página de Mercado Libre para finalizar su compra.
 
-## Cuenta de Mercado Pago
+## Cuenta de Mercado Libre
 
-Antes de comenzar la configuración, debe tener una cuenta válida de ** Mercado Pago **, si no la tiene, puede registrarse accediendo al [formulario de registro](https://www.mercadopago.com.ar/registration-mp?mode=mp).
+Antes de comenzar la configuración, debe tener una cuenta válida de ** Mercado Libre **, si no la tiene, puede registrarse accediendo al [formulario de registro](https://www.mercadopago.com.ar/registration-mp?mode=mp).
 
-Si desea obtener más información sobre **Mercado Pago**, visite nuestra [página principal](https://www.mercadopago.com.ar/).
+Si desea obtener más información sobre **Mercado Libre**, visite nuestra [página principal](https://www.mercadopago.com.ar/).
 
-## ¿Cómo habilitar Mercado Pago?
+## ¿Cómo habilitar Mercado Libre?
 
 Con la cuenta de MercadoPago ya creada, debe ingresar los datos a continuación para que el representante de Bis2Bis realice la configuración en su tienda, y así el método de pago esté disponible para que sus clientes realicen compras.
 

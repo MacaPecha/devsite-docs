@@ -1,6 +1,6 @@
 # Payment methods
 
-The payment methods offered by Mercado Pago vary by country.
+The payment methods offered by Mercado Libre vary by country.
 
 ## Get the payment methods
 
@@ -89,7 +89,7 @@ curl -X GET \
 		...
 	]
 
-The results included in this response will coincide with the country associated with your Mercado Pago account. For more information about this feature and its attributes, go to  [API reference](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/reference/payment_methods/_payment_methods/get).
+The results included in this response will coincide with the country associated with your Mercado Libre account. For more information about this feature and its attributes, go to  [API reference](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/reference/payment_methods/_payment_methods/get).
 
 ## Payment methods by country
 
@@ -184,7 +184,7 @@ The payment methods available for each country are shown below.
 | American Express | `credit_card` | `amex` |
 | Visa Debit | `debit_card` | `debvisa` |
 | Mastercard Debit | `debit_card`| `debmaster` |
-| Tarjeta Mercado Pago | `prepaid_card` | `mercadopagocard` |
+| Tarjeta Mercado Libre | `prepaid_card` | `mercadopagocard` |
 | Oxxo | `ticket` | `oxxo` |
 | BBVA Bancomer | `atm` | `bancomer` |
 | Banamex | `atm` | `banamex` |

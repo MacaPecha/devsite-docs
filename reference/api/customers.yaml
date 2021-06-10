@@ -2,7 +2,7 @@ openapi: 3.0.0
 servers:
   - url: https://api.mercadopago.com
 info:
-  title: Mercado Pago API Reference
+  title: Mercado Libre API Reference
   version: '1.0'
 paths:
   /v1/customers:
@@ -21,11 +21,11 @@ paths:
                 email:
                   type: String
                   example: "jhon@doe.com"
-                  description: Customer's email. 
+                  description: Customer's email.
                 first_name:
                   type: String
                   example: Jhon
-                  description: Customer's name. 
+                  description: Customer's name.
                 last_name:
                   type: String
                   example: Doe
@@ -89,7 +89,7 @@ paths:
                 default_card:
                   type: String
                   example: 'None'
-                  description: Customer's default card.       
+                  description: Customer's default card.
       responses:
         '200':
           description: success
@@ -309,11 +309,11 @@ paths:
                 email:
                   type: String
                   example: "jhon@doe.com"
-                  description: Customer's email. 
+                  description: Customer's email.
                 first_name:
                   type: String
                   example: Jhon
-                  description: Customer's name. 
+                  description: Customer's name.
                 last_name:
                   type: String
                   example: Doe
@@ -377,7 +377,7 @@ paths:
                 default_card:
                   type: String
                   example: 'None'
-                  description: Customer's default card. 
+                  description: Customer's default card.
       responses:
         '200':
           description: success

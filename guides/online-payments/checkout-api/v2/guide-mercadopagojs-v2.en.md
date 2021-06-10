@@ -20,7 +20,7 @@ If you don't want to use the new CardForm feature, you can keep the basic charac
 We leave you a overview of what you will have to do to start using the new MercadoPago.js beta version:
 
 * First, add the script to your site and install the version. 
-* Then, set up the credentials of the account you are integrating so we can identify it when connecting to Mercado Pago.
+* Then, set up the credentials of the account you are integrating so we can identify it when connecting to Mercado Libre.
 * Finally, update your payment form with the CardForm feature and start using it.
 
 <br>
@@ -41,7 +41,7 @@ Add the following script to your site:
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Set up credentials
 
-Initialize the library with the [Public Key]([FAKER][CREDENTIALS][URL]) of the account to be integrated for identification when connecting to Mercado Pago.
+Initialize the library with the [Public Key]([FAKER][CREDENTIALS][URL]) of the account to be integrated for identification when connecting to Mercado Libre.
 
 ```javascript
 const mercadopago = new MercadoPago('YOUR_PUBLIC_KEY')

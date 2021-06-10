@@ -6,10 +6,10 @@
 ------------
 
 ----[mlb]----
-La integración del Checkout Transparente de Mercado Pago para tarjetas permite que puedas ofrecer una opción de pagos completa dentro de tu sitio. Toda la experiencia sucede en tu tienda para que los clientes no tengan que salir al momento de realizar la compra.
+La integración del Checkout Transparente de Mercado Libre para tarjetas permite que puedas ofrecer una opción de pagos completa dentro de tu sitio. Toda la experiencia sucede en tu tienda para que los clientes no tengan que salir al momento de realizar la compra.
 ------------
 ----[mla, mlm, mpe, mco, mlu, mlc]----
-La integración del Checkout API de Mercado Pago para tarjetas permite que puedas ofrecer una opción de pagos completa dentro de tu sitio. Toda la experiencia sucede en tu tienda para que los clientes no tengan que salir al momento de realizar la compra.
+La integración del Checkout API de Mercado Libre para tarjetas permite que puedas ofrecer una opción de pagos completa dentro de tu sitio. Toda la experiencia sucede en tu tienda para que los clientes no tengan que salir al momento de realizar la compra.
 ------------
 
 Usa los [ejemplos descargables](#bookmark_ejemplos_descargables) para conocer la integración completa o para adaptarlos según lo que necesites.
@@ -21,10 +21,10 @@ Usa los [ejemplos descargables](#bookmark_ejemplos_descargables) para conocer la
 > Si quieres realizar un flujo personalizado del pago, te compartimos todos los [métodos disponibles para integrar de forma avanzada](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/online-payments/checkout-api/v2/receiving-payment-by-card-core-methods).
 
 ----[mlb]----
-Al usar nuestro Checkout Transparente de Mercado Pago, es importante tener en cuenta dos instancias: la de la captura de datos y la del envío de confirmación del pago.
+Al usar nuestro Checkout Transparente de Mercado Libre, es importante tener en cuenta dos instancias: la de la captura de datos y la del envío de confirmación del pago.
 ------------
 ----[mla, mlm, mpe, mco, mlu, mlc]----
-Al usar nuestro Checkout API de Mercado Pago, es importante tener en cuenta dos instancias: la de la captura de datos y la del envío de confirmación del pago.
+Al usar nuestro Checkout API de Mercado Libre, es importante tener en cuenta dos instancias: la de la captura de datos y la del envío de confirmación del pago.
 ------------
 
 1. Primero, necesitas un frontend para que recolecte los datos de la tarjeta y que genere un token de seguridad con la información para poder crear el pago.
@@ -46,7 +46,7 @@ Para crear un pago es necesario hacer la captura de los datos de la tarjeta a tr
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Incluye y configura la librería MercadoPago.js
 
-**Usa nuestra librería oficial para acceder a la API de Mercado Pago** desde tu frontend para recolectar los datos de forma segura y configura tu [clave pública]([FAKER][CREDENTIALS][URL]) de la siguiente manera:
+**Usa nuestra librería oficial para acceder a la API de Mercado Libre** desde tu frontend para recolectar los datos de forma segura y configura tu [clave pública]([FAKER][CREDENTIALS][URL]) de la siguiente manera:
 
 ```html
 <body>
@@ -230,15 +230,15 @@ Antes de enviar el formulario, generamos un token con la representación segura 
 >
 > h2
 >
-> Envía el pago a Mercado Pago
+> Envía el pago a Mercado Libre
 
-Para continuar el proceso de pago hacia Mercado Pago, es necesario que tu backend sepa recibir la información del formulario con el token generado y los datos completados.
+Para continuar el proceso de pago hacia Mercado Libre, es necesario que tu backend sepa recibir la información del formulario con el token generado y los datos completados.
 
 Según el ejemplo dado, tu backend debería disponibilizar un endpoint `/process_payment`, para recibir allí todos los datos luego de realizar la acción submit.
 
-Ya estando en tu backend con toda la información recolectada, es momento de enviar la solicitud a Mercado Pago a través de nuestras APIs. Los campos mínimos requeridos a enviar son: `token`, `transaction_amount`, `installments`, `payment_method_id` y el `payer.email`.
+Ya estando en tu backend con toda la información recolectada, es momento de enviar la solicitud a Mercado Libre a través de nuestras APIs. Los campos mínimos requeridos a enviar son: `token`, `transaction_amount`, `installments`, `payment_method_id` y el `payer.email`.
 
-Ten en cuenta que para que este paso funcione es necesario que configures tu [clave privada]([FAKER][CREDENTIALS][URL]) y que para interactuar con nuestras APIs recomendamos utilizar la [SDK oficial de Mercado Pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/online-payments/checkout-api/v2/previous-requirements#bookmark__instala_la_sdk_de_mercado_pago).
+Ten en cuenta que para que este paso funcione es necesario que configures tu [clave privada]([FAKER][CREDENTIALS][URL]) y que para interactuar con nuestras APIs recomendamos utilizar la [SDK oficial de Mercado Libre](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/online-payments/checkout-api/v2/previous-requirements#bookmark__instala_la_sdk_de_mercado_pago).
 
 [[[
 ```php

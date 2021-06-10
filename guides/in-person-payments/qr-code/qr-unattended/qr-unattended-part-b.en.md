@@ -25,11 +25,11 @@ To integrate QR unattended model you need to:
     
     1.2 Order information **is available**.
 
-2. Declare your domain URL to Mercado Pago
+2. Declare your domain URL to Mercado Libre
 
 ## 1. Create a service that will be called when a payment request is received.
 
-You need to **create a service that Mercado Pago will call each time a QR payment is requested**. For example:
+You need to **create a service that Mercado Libre will call each time a QR payment is requested**. For example:
 
 > https://www.mybusiness.com/pay-mp?storeid=6232&posid=1 
 
@@ -89,25 +89,25 @@ Answer should contain the following message from the order:
 }
 ```
 
-You should use the field `external_reference` to be able to identify the order from your system inside Mercado Pago. 
+You should use the field `external_reference` to be able to identify the order from your system inside Mercado Libre. 
 
 ### Attributes
 
 | Atributo | Tipo (type) | Descripción |
 | --- | --- | --- |
-| `collector_id` | Long | Mercado Pago account identifier, to which payments will be imputed. |
-| `sponsor_id` | Long | Mercado Pago account identifier from integrative system. |
+| `collector_id` | Long | Mercado Libre account identifier, to which payments will be imputed. |
+| `sponsor_id` | Long | Mercado Libre account identifier from integrative system. |
 | `items.title` | String | Product title. |
 | `items.currency_id` | String(3) | Currency identifier in ISO-4217 format. |
 | `items.description` | String | Product description. |
 | `items.quantity` | Integer | Product quantity. |
 | `items.unit_price` | Decimal | Unitary price. |
-| `external_reference` | String (256) | Reference to link an order in Mercado Pago with a shopping order from your system. Usually, is the receipt number. |
+| `external_reference` | String (256) | Reference to link an order in Mercado Libre with a shopping order from your system. Usually, is the receipt number. |
 | `notification_url` | String | URL to which the notification will be send. |
 
-## 2. Declare your domain URL to Mercado Pago
+## 2. Declare your domain URL to Mercado Libre
 
-You must inform your domain URL to your assigned technical advisor. Mercado Pago will use it for each transaction. 
+You must inform your domain URL to your assigned technical advisor. Mercado Libre will use it for each transaction. 
 
 > WARNING
 > 

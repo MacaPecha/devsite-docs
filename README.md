@@ -1,4 +1,4 @@
-# Contenido del sitio para desarrolladores de Mercado Pago
+# Contenido del sitio para desarrolladores de Mercado Libre
 
 En este repositorio esta alojado el contenido mostrado en nuestro sitio para desarrolladores, las contribuciones son bienvenidas.
 

@@ -1,6 +1,6 @@
 # Medios de pago
 
-Los medios de pago ofrecidos por Mercado Pago varían según cada país.
+Los medios de pago ofrecidos por Mercado Libre varían según cada país.
 
 ## Obteniendo los medios de pago
 
@@ -89,7 +89,7 @@ curl -X GET \
 		...
 	]
 
-Los resultados incluídos en esta respuesta coincidirán con el país asociado a tu cuenta de Mercado Pago. Puedes obtener más información sobre este recurso y sus atributos en la [Referencia de API](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/reference/payment_methods/_payment_methods/get).
+Los resultados incluídos en esta respuesta coincidirán con el país asociado a tu cuenta de Mercado Libre. Puedes obtener más información sobre este recurso y sus atributos en la [Referencia de API](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/reference/payment_methods/_payment_methods/get).
 
 ## Medios de pago por país
 
@@ -184,7 +184,7 @@ A continuación se indican los medios de pago disponibles para cada país.
 | American Express | `credit_card` | `amex` |
 | Visa Débito | `debit_card` | `debvisa` |
 | Mastercard Débito | `debit_card` | `debmaster` |
-| Tarjeta Mercado Pago | `prepaid_card` | `mercadopagocard` |
+| Tarjeta Mercado Libre | `prepaid_card` | `mercadopagocard` |
 | Oxxo | `ticket` | `oxxo` |
 | BBVA Bancomer | `atm` | `bancomer` |
 | Banamex | `atm` | `banamex` |

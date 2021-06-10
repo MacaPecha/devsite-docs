@@ -25,7 +25,7 @@ Redireciona ao 'init_point' da preferência
     <title>Pagar</title>
   </head>
   <body>
-    <a href="<?php echo $preference->init_point; ?>">Pagar com Mercado Pago</a>
+    <a href="<?php echo $preference->init_point; ?>">Pagar com Mercado Libre</a>
   </body>
 </html>
 ```
@@ -53,7 +53,7 @@ Redireciona ao 'init_point' da preferência
     <title>Pagar</title>
   </head>
   <body>
-    <a href="${preference.initPoint}">Pagar com Mercado Pago</a>
+    <a href="${preference.initPoint}">Pagar com Mercado Libre</a>
   </body>
 </html>
 ```
@@ -81,7 +81,7 @@ Redireciona ao 'init_point' da preferência
     <title>Pagar</title>
   </head>
   <body>
-    <a href="@Html.DisplayFor(model => model.InitPoint)">Pagar com Mercado Pago</a>
+    <a href="@Html.DisplayFor(model => model.InitPoint)">Pagar com Mercado Libre</a>
   </body>
 </html>
 ```
@@ -95,7 +95,7 @@ Redireciona ao 'init_point' da preferência
     <title>Pay</title>
   </head>
   <body>
-    <a href="{{ init_point }}" target="_blank">Pay with Mercado Pago</a>
+    <a href="{{ init_point }}" target="_blank">Pay with Mercado Libre</a>
   </body>
 </html>
 ```

@@ -21,7 +21,7 @@ Assim que criar a aplicação, você obterá o `APP_ID` (identificador de aplica
 
 ## 2. Vinculação de contas
 
-Para operar no Mercado Pago em nome do seu vendedor, primeiro você deverá lhe solicitar uma autorização.
+Para operar no Mercado Libre em nome do seu vendedor, primeiro você deverá lhe solicitar uma autorização.
 
 2.1. Para isso, redirecione o vendedor para a seguinte URL substituindo em `client_id`, o valor de `APP_ID` e a `redirect_uri` que configurou no passo anterior:
 
@@ -45,7 +45,7 @@ Agora você receberá o código de autorização e o identificador seguro na URL
 
 `https://www.URL_de_retorno.com?code=AUTHORIZATION_CODE&id=RANDOM_ID`
 
-> Não envie informações confidenciais ou credenciais da conta Mercado Pago.
+> Não envie informações confidenciais ou credenciais da conta Mercado Libre.
 
 ### Crie as credenciais de seus vendedores
 
@@ -300,7 +300,7 @@ preference = preference_response["response"]
 ]]]
 
 
-O vendedor receberá a diferença entre o valor total e as comissões, tanto a do Mercado Pago como a do Marketplace, assim como qualquer outro valor a ser deduzido da venda.
+O vendedor receberá a diferença entre o valor total e as comissões, tanto a do Mercado Libre como a do Marketplace, assim como qualquer outro valor a ser deduzido da venda.
 
 > WARNING
 >
@@ -318,7 +318,7 @@ Para mais informações, consulte a seção de [notificações](https://www.merc
 
 ### Devoluções e cancelamentos
 
-As devoluções e cancelamentos poderão ser efetuados tanto pelo marketplace como pelo vendedor, através da API ou a partir da conta no Mercado Pago.
+As devoluções e cancelamentos poderão ser efetuados tanto pelo marketplace como pelo vendedor, através da API ou a partir da conta no Mercado Libre.
 
 Caso a devolução seja realizada no Marketplace, deve-se utilizar as credenciais obtidas para cobrar em nome do vendedor. 
 

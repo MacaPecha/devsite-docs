@@ -1,6 +1,6 @@
 # Como compartilho meu link de pagamento?
 
-Depois de [criar seu link de pagamento](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/payment-link/create-button) pela sua conta Mercado Pago, é hora de compartilhá-lo com seus clientes.
+Depois de [criar seu link de pagamento](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/payment-link/create-button) pela sua conta Mercado Libre, é hora de compartilhá-lo com seus clientes.
 
 ## Receber pagamentos por redes sociais
 
@@ -30,4 +30,4 @@ Basta copiar o código HTML gerado automaticamente e colar o código fonte da su
 > 
 > Importante
 > 
-> Se quiser, você pode alterar os estilos do botão, cuidando para que o código gerado pelo Mercado Pago não seja modificado.
+> Se quiser, você pode alterar os estilos do botão, cuidando para que o código gerado pelo Mercado Libre não seja modificado.

@@ -7,21 +7,21 @@
 
 # Cross Border
 
-La solución Cross Border de Mercado Pago te permite cobrar de manera local pero retirar los fondos en una cuenta bancaria en otro país diferente a donde estas vendiendo.
+La solución Cross Border de Mercado Libre te permite cobrar de manera local pero retirar los fondos en una cuenta bancaria en otro país diferente a donde estas vendiendo.
 
-Para poder utilizar la solución de Cross Border la cuenta de Mercado Pago debe ser creada por nuestro equipo, ya que se necesitan hacer algunas configuraciones especiales.
-Por lo tanto, debes contactarte con el equipo comercial de Mercado Pago escribiendo a: `crm_regionales@mercadopago.com`
+Para poder utilizar la solución de Cross Border la cuenta de Mercado Libre debe ser creada por nuestro equipo, ya que se necesitan hacer algunas configuraciones especiales.
+Por lo tanto, debes contactarte con el equipo comercial de Mercado Libre escribiendo a: `crm_regionales@mercadopago.com`
 
 Por el momento, las monedas en las que se permite recibir los fondos son:
 
 - USD
 
-Tene en cuenta que el pagador va a realizar el pago en la moneda local, de esta manera, el mismo podrá aprovechar la financiación ofrecida por Mercado Pago.
+Tene en cuenta que el pagador va a realizar el pago en la moneda local, de esta manera, el mismo podrá aprovechar la financiación ofrecida por Mercado Libre.
 
 
 
 ## Creación de la cuenta
-Como se mencionó anteriormente la cuenta de Mercado Pago deberá ser creada por Mercado Pago para poder utilizar la solución de CrossBorder. Para la creación de la cuenta es necesario que nos envien la siguiente información:
+Como se mencionó anteriormente la cuenta de Mercado Libre deberá ser creada por Mercado Libre para poder utilizar la solución de CrossBorder. Para la creación de la cuenta es necesario que nos envien la siguiente información:
 
 - Nombre de la compañia.
 - Nombre a mostrar.
@@ -66,7 +66,7 @@ Tene en cuenta que si no envías esta porción de código, recibirás un mensaje
 }
 ```
 
-A su vez, si tu cuenta de Mercado Pago no fue creada para operar con Cross Border, recibirás un mensaje de error como el siguiente:
+A su vez, si tu cuenta de Mercado Libre no fue creada para operar con Cross Border, recibirás un mensaje de error como el siguiente:
 
 ```json
 {
@@ -119,7 +119,7 @@ La respuesta que vas a obtener es similar a la siguiente:
 
 ## Integración con Checkout Básico
 
-El Checkout Básico es la solución estandar de Mercado Pago. Dicha solución consiste en la generación de una preferencia de pago, la cual retorna un `init_point` que al abrirlo redirecciona al usuario a un checkout donde toda la experiencia es manejada por Mercado Pago.
+El Checkout Básico es la solución estandar de Mercado Libre. Dicha solución consiste en la generación de una preferencia de pago, la cual retorna un `init_point` que al abrirlo redirecciona al usuario a un checkout donde toda la experiencia es manejada por Mercado Libre.
 
 > VENTAJAS
 >
@@ -450,7 +450,7 @@ Este es un ejemplo de la respuesta del pago:
 
 
 ## Integración con el Tokenizador
-El Tokenizador es la solución de Mercado Pago que rápidamente te permite obtener un card token de la tarjeta de tu cliente. Dicha solución consiste en la generación de una orden de pago utilizando Javascript que abre un checkout para que el pagador cargue los datos de la tarjeta. Luego, recibirás en tu backend el card token para que hagas un POST del pago.
+El Tokenizador es la solución de Mercado Libre que rápidamente te permite obtener un card token de la tarjeta de tu cliente. Dicha solución consiste en la generación de una orden de pago utilizando Javascript que abre un checkout para que el pagador cargue los datos de la tarjeta. Luego, recibirás en tu backend el card token para que hagas un POST del pago.
 
 > VENTAJAS
 >
@@ -694,7 +694,7 @@ Este es un ejemplo de la respuesta del pago:
 
 ## Integración con Checkout Personalizado (API)
 
-El Checkout Personalizado es la solución más customizable de Mercado Pago. Dicha solución consiste en la utilización del SDK Javascript y las API's de Mercado Pago para llevar a cabo la tokenización de la tarjeta del pagador y luego el correspondiente posteo del pago. Toda la experiencia es manejada por el integrador.
+El Checkout Personalizado es la solución más customizable de Mercado Libre. Dicha solución consiste en la utilización del SDK Javascript y las API's de Mercado Libre para llevar a cabo la tokenización de la tarjeta del pagador y luego el correspondiente posteo del pago. Toda la experiencia es manejada por el integrador.
 
 > VENTAJAS
 >

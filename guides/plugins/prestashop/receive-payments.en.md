@@ -3,9 +3,9 @@
 
 ## How to test the module
 
-The Mercado Pago module comes with the Sandbox environment active by default. Simulate payments in the store with this testing environment and verify that everything works well before you start receiving real payments from your customers.
+The Mercado Libre module comes with the Sandbox environment active by default. Simulate payments in the store with this testing environment and verify that everything works well before you start receiving real payments from your customers.
  
-This is where the test credentials that you copied into the module come into play when [integrating Mercado Pago to your store](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/plugins/prestashop/integration). You need them to be able to test the module.
+This is where the test credentials that you copied into the module come into play when [integrating Mercado Libre to your store](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/plugins/prestashop/integration). You need them to be able to test the module.
 
 When you test, verify that the payment flow works correctly and that the payment preferences are what you have set. Do you see that everything is going well? Disable Sandbox mode and go to Production mode to receive real payments.
 
@@ -27,5 +27,5 @@ Activate the Production mode only when you are ready to sell and have tested the
 
 ![Production Homologation Flow](/images/prestashop/receive_payments_en.gif)
 
-### Done! The Mercado Pago module is ready to receive online payments.
+### Done! The Mercado Libre module is ready to receive online payments.
 

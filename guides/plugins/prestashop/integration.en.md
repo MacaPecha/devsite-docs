@@ -1,20 +1,20 @@
-# Integrate Mercado Pago
+# Integrate Mercado Libre
 
-Connect a Mercado Pago account to the module to capture your sales charges in PrestaShop. It’s easy! You only need to have a merchant account in Mercado Pago and obtain the test and production credentials.
+Connect a Mercado Libre account to the module to capture your sales charges in PrestaShop. It’s easy! You only need to have a merchant account in Mercado Libre and obtain the test and production credentials.
 
 > NOTE
 >
 > Note
 >
-> You don't need to know how to design or program to activate Mercado Pago in your PrestaShop store.
+> You don't need to know how to design or program to activate Mercado Libre in your PrestaShop store.
 
 Once the module is installed, follow these steps to integrate:
 
-1. Create a [seller account](https://www.mercadopago.com.ar/registration-company?confirmation_url=https%3A%2F%2Fwww.mercadopago.com.ar%2Fcomo-cobrar)  in Mercado Pago if you don’t have one yet.
+1. Create a [seller account](https://www.mercadopago.com.ar/registration-company?confirmation_url=https%3A%2F%2Fwww.mercadopago.com.ar%2Fcomo-cobrar)  in Mercado Libre if you don’t have one yet.
 2. Obtain the Access Token and Public Key [credentials](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/resources/faqs/credentials) and paste them into the Production and Testing fields that you will find in the module configuration.
-3. Approve the account to [go to Production](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/online-payments/checkout-api/goto-production) and receive money from your sales in Mercado Pago.
+3. Approve the account to [go to Production](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/online-payments/checkout-api/goto-production) and receive money from your sales in Mercado Libre.
 
-Done! With this you can capture the payments you receive in PrestaShop with your Mercado Pago account.
+Done! With this you can capture the payments you receive in PrestaShop with your Mercado Libre account.
 
 ![Credentials flow](/images/prestashop/integration_en.gif)
 

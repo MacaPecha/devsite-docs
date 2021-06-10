@@ -1,7 +1,7 @@
 
 # Tipos de documentos
 
-Os tipos de documentos aceitos ao efetuar uma cobrança através do Mercado Pago variam de acordo com o país.<br>
+Os tipos de documentos aceitos ao efetuar uma cobrança através do Mercado Libre variam de acordo com o país.<br>
 
 > WARNING
 >
@@ -54,7 +54,7 @@ curl -X GET \
 ]]]
 
 
-Os resultados incluídos nesta resposta coincidirão com o país associado à sua conta Mercado Pago. Você poderá obter mais informações sobre este recurso e seus atributos em [Referência da API](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/reference/payment_methods/_payment_methods/get).
+Os resultados incluídos nesta resposta coincidirão com o país associado à sua conta Mercado Libre. Você poderá obter mais informações sobre este recurso e seus atributos em [Referência da API](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/reference/payment_methods/_payment_methods/get).
 
 ## Tipos de documentos por país
 

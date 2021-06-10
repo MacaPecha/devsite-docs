@@ -7,7 +7,7 @@
 | User types | Description |
 | --- | --- |
 | Seller | It is the test account you use to **configure the application and credentials for collection**. |
-| Buyer | It is the test account you use to **test the purchase process.**<br/>There are two ways to make the payment:<br/><br/> **As a guest user:** you only need to complete the email address.<br/>**As a registered user:** you access the Mercado Pago account with the username and password. In case money is available in the account or there are saved cards, they will be enabled as payment methods. |
+| Buyer | It is the test account you use to **test the purchase process.**<br/>There are two ways to make the payment:<br/><br/> **As a guest user:** you only need to complete the email address.<br/>**As a registered user:** you access the Mercado Libre account with the username and password. In case money is available in the account or there are saved cards, they will be enabled as payment methods. |
 
 
 ## How to create users
@@ -43,7 +43,7 @@ curl -X POST \
 >Important
 >
 > * You can generate up to 10 test user accounts simultaneously. Therefore, we recommend you _save each email and password._
-> * Test users expire after 60 days without activity in Mercado Pago.
+> * Test users expire after 60 days without activity in Mercado Libre.
 > * To make test payments we recommend using low amounts.
 > * Both buyer and seller must be test users.
 > * Use test cards, since it is not possible to withdraw money.
@@ -67,13 +67,13 @@ When opening the checkout created with the data of your seller user:
 2. Enter the details of a [test card](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/online-payments/checkout-pro/test-integration#bookmark_tarjetas_de_prueba).
 3. Complete the email and done!<br/><br/>
 
-#### Buy as a registered user (with Mercado Pago account)
+#### Buy as a registered user (with Mercado Libre account)
 
 Credit card tests
 
 When opening the checkout created with the data of your seller user:
 
-1. Log in to Mercado Pago with your buyer test user account.
+1. Log in to Mercado Libre with your buyer test user account.
 2. Select _Card_ as the payment method.
 3. Choose a saved card or complete the details with a new one and done!
 

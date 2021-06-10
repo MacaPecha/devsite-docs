@@ -8,9 +8,9 @@
 >
 > The payment statuses in WooCommerce are not updated in test mode, you will be able to see them reflected once you are in productive mode.
 
-The Mercado Pago module comes with the Sandbox environment active by default. Simulate payments in the store with this testing environment and verify that everything works well before you start receiving real payments from your customers.
+The Mercado Libre module comes with the Sandbox environment active by default. Simulate payments in the store with this testing environment and verify that everything works well before you start receiving real payments from your customers.
  
-This is where the test credentials that you have copied into the module come into play when [integrating Mercado Pago to your store](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/plugins/woocommerce/integration). You need them to be able to test the module.
+This is where the test credentials that you have copied into the module come into play when [integrating Mercado Libre to your store](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/plugins/woocommerce/integration). You need them to be able to test the module.
 
 When testing, verify that the payment flow works correctly and that the payment preferences are what you have set. Do you see that everything is going well? Disable Testing and go to Production mode to receive real payments.
 
@@ -107,4 +107,4 @@ Activate Production mode only when you are ready to sell and have tested the mod
 
 ![Homologation Flow](/images/woocomerce/es_woo_homologacion.gif)
 
-### Done! The Mercado Pago module is ready to receive online payments.
+### Done! The Mercado Libre module is ready to receive online payments.

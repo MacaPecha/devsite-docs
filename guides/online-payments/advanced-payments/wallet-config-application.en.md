@@ -6,9 +6,9 @@
 
 In order to process payments in Wallet Connect mode, the following steps must be taken.
 
-### Create a Mercado Pago account
+### Create a Mercado Libre account
 
-The account must be created from the Mercado Pago website in the country where you wish to receive payments.
+The account must be created from the Mercado Libre website in the country where you wish to receive payments.
 
 * Argentina: www.mercadopago.com.ar
 * Brazil: www.mercadopago.com.br

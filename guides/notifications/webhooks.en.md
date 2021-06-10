@@ -2,7 +2,7 @@
 
 A **webhook** is a notification sent from one server to another through an `HTTP POST` request informing your transactions.
 
-In order to receive notifications about the events in your platform, you have to [previously configure an URL to which Mercado Pago has access](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/panel/notifications).
+In order to receive notifications about the events in your platform, you have to [previously configure an URL to which Mercado Libre has access](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/panel/notifications).
 
 
 You can also configure the notification when you do the POST of the payment, indicating the URL in the field notificaction_url:
@@ -38,7 +38,7 @@ We will notify the following events:
 | `subscription` | `application.authorized` | Account authorized |
 | `invoice` | `application.authorized` | Account authorized |
 
-Mercado Pago will send notifications with the following schedule of retries and confirmation awaiting times. You must return an `HTTP STATUS 200 (OK)` or `201 (CREATED)` before the corresponding time expires. If not, it will be assumed that you did not receive it correctly and you will be notified again.
+Mercado Libre will send notifications with the following schedule of retries and confirmation awaiting times. You must return an `HTTP STATUS 200 (OK)` or `201 (CREATED)` before the corresponding time expires. If not, it will be assumed that you did not receive it correctly and you will be notified again.
 
 If you need more information, please review the section [What should I do when I receive a notification?](#bookmark_what_should_i_do_after_receiving_a_notification?).
 
@@ -80,11 +80,11 @@ This indicates that payment **999999999** was created for the user **44444** in 
 ## What should I do when I receive a notification?
 
 
-When you receive a notification on your platform, Mercado Pago waits for a response to validate that you received it correctly. For this, you must return an `HTTP STATUS 200 (OK)` or `201 (CREATED)`.
+When you receive a notification on your platform, Mercado Libre waits for a response to validate that you received it correctly. For this, you must return an `HTTP STATUS 200 (OK)` or `201 (CREATED)`.
 
 It is recommended that you respond to the notification before executing business logic or prior to accessing external resources so as not to exceed [the estimated response times.](#bookmark_events)
 
-This communication is exclusively between the servers of Mercado Pago and your server, so there will not be a physical user seeing any type of result.
+This communication is exclusively between the servers of Mercado Libre and your server, so there will not be a physical user seeing any type of result.
 
 After this, you must obtain the complete information of the notified resource by accessing the corresponding endpoint of the API:
 

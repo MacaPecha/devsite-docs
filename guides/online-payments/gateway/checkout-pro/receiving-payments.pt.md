@@ -5,7 +5,7 @@ sites_supported:
 indexable: false
 ---
 
-# Mercado Pago Gateway: Checkout Pro
+# Mercado Libre Gateway: Checkout Pro
 > NOTE
 >
 > Pré-requisito

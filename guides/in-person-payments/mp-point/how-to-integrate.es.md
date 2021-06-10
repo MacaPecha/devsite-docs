@@ -6,38 +6,38 @@ sites_supported:
 ---
 
 
-# Cómo integrar Mercado Pago Point
+# Cómo integrar Mercado Libre Point
 
-Para poder cobrar de manera integrada con nuestro dispositivo Point es necesario descargar la aplicación de Mercado Pago disponible en los marketplaces de iOS y Android.
+Para poder cobrar de manera integrada con nuestro dispositivo Point es necesario descargar la aplicación de Mercado Libre disponible en los marketplaces de iOS y Android.
 
 Existen dos grandes mundos a la hora de integrar Point:
 
-1) Cuando la aplicación se puede utilizar desde el mismo dispositivo (celular o tablet) donde esta instalada la aplicación de Mercado Pago. Esto se puede lograr con una integración de deep linking o intent-based mediante
+1) Cuando la aplicación se puede utilizar desde el mismo dispositivo (celular o tablet) donde esta instalada la aplicación de Mercado Libre. Esto se puede lograr con una integración de deep linking o intent-based mediante
 
-2) Cuando la aplicación no se puede utilizar desde el mismo dispositivo (celular o tablet) donde esta instalada la aplicación de Mercado Pago. Esto se puede lograr con una integración vía API.
+2) Cuando la aplicación no se puede utilizar desde el mismo dispositivo (celular o tablet) donde esta instalada la aplicación de Mercado Libre. Esto se puede lograr con una integración vía API.
 
 
 > WARNING
 >
 > Pre-requisitos
 >
-> * Contar con la aplicación de Mercado Pago (Desde la versión 2.34 para Android y 2.32 para iOS).
+> * Contar con la aplicación de Mercado Libre (Desde la versión 2.34 para Android y 2.32 para iOS).
 > * Contar con un dispositivo Point.
-> * El usuario debe estar logueado con su cuenta de Mercado Pago en la aplicación de Mercado Pago.
+> * El usuario debe estar logueado con su cuenta de Mercado Libre en la aplicación de Mercado Libre.
 > * Disponible para Android versión 2.8.0 o superior, iOS versión 1.7.0 o superior y solo cuando corren en iOS 9 o superior.
 
 
 ## Integración vía Deep Linking
 
-Una de las formas de integrarse con Mercado Pago Point es mediante un deep linking. Cuando se llama a dicho _link_, el mismo va a ser interceptado como un _Point-handled address_ por parte de la aplicación de Mercado Pago.
+Una de las formas de integrarse con Mercado Libre Point es mediante un deep linking. Cuando se llama a dicho _link_, el mismo va a ser interceptado como un _Point-handled address_ por parte de la aplicación de Mercado Libre.
 
-En la llamada a este _link_ se pueden enviar diferentes parámetros que serán levantados por la aplicación de Mercado Pago e impactados en el pago. Una vez que se hace el llamado a este link, el usuario será redireccionado a la pantalla de la aplicación de Mercado Pago para pasar la tarjeta del cliente y así realizar el cobro.
+En la llamada a este _link_ se pueden enviar diferentes parámetros que serán levantados por la aplicación de Mercado Libre e impactados en el pago. Una vez que se hace el llamado a este link, el usuario será redireccionado a la pantalla de la aplicación de Mercado Libre para pasar la tarjeta del cliente y así realizar el cobro.
 
 Una vez que el pago es procesado, el usuario será redireccionado a la `success_url` o `fail_url`, dependiendo del estado del pago. Esto deberá ser interceptado para retornar al usuario al flujo de la aplicación.
 
 ### Diagrama de Flujo
 
-![Diagrama de flujo de Deep linking Mercado Pago Point](/images/point_diagram.png)
+![Diagrama de flujo de Deep linking Mercado Libre Point](/images/point_diagram.png)
 
 
 ### Creación del Deep Linking
@@ -73,11 +73,11 @@ En el artículo de [GitHub](https://github.com/mercadopago/point-android_integra
 > * Esta integración sólo esta disponible para Android versión 2.8.0 o superior.
 
 
-Otra forma de integrarse con la aplicación de Mercado Pago es mediante código nativo de Android, mediante el concepto de _Intent-Based_.
+Otra forma de integrarse con la aplicación de Mercado Libre es mediante código nativo de Android, mediante el concepto de _Intent-Based_.
 
 Debes utilizar el método “startActivityForResult” para iniciar directamente el proceso de pago. El resultado del pago va a retornar como “activityResult”.
 
-Es muy importante que el código maneje la posibilidad de que el usuario no tenga instalada la aplicación de Mercado Pago en su dispositivo, en este caso, recomendamos redireccionar al usuario al Play Store para descargar la misma.
+Es muy importante que el código maneje la posibilidad de que el usuario no tenga instalada la aplicación de Mercado Libre en su dispositivo, en este caso, recomendamos redireccionar al usuario al Play Store para descargar la misma.
 
 
 Como referencia puedes utilizar el código de ejemplo y documentación que tiene el formato para poder enviar la información del pago y manejar el objeto de retorno.
@@ -94,9 +94,9 @@ En el artículo de [GitHub](https://github.com/mercadopago/point-android_integra
 > * Esta integración sólo esta disponible para Android versión 2.8.0 o superior.<br>
 > * No esta disponible para iOS.
 
-La otra forma de integrarse con la aplicación de Mercado Pago para cobrar con nuestro Point es mediante nuestras API.
+La otra forma de integrarse con la aplicación de Mercado Libre para cobrar con nuestro Point es mediante nuestras API.
 
-Para poder integrarte, tienes que habilitar las opciones de integraciones en la app de Mercado Pago. Ejecuta el siguiente curl para realizarlo:
+Para poder integrarte, tienes que habilitar las opciones de integraciones en la app de Mercado Libre. Ejecuta el siguiente curl para realizarlo:
 
 ```curl
 --location --request POST ‘https://api.mercadopago.com/point/services/user/status/integrators?access_token=<ENV_ACCESTOKEN>’ \
@@ -106,16 +106,16 @@ Para poder integrarte, tienes que habilitar las opciones de integraciones en la 
 }’
 ```
 
-Luego es necesario configurar desde la aplicación de Mercado Pago el `device_name`. El mismo sirve para identificar tu celular o tablet y relacionarlo con tu cuenta de Mercado Pago. De esta manera, sabrás a que dispositivo enviar la orden de pago.
+Luego es necesario configurar desde la aplicación de Mercado Libre el `device_name`. El mismo sirve para identificar tu celular o tablet y relacionarlo con tu cuenta de Mercado Libre. De esta manera, sabrás a que dispositivo enviar la orden de pago.
 
-El siguiente paso, consiste en generar una orden de pago y enviarsela vía API al device desde donde queres cobrarla. El usuario verá que en la pantalla de ese dispositivo se levanta la aplicación de Mercado Pago lista para pasar la tarjeta y avanzar con el flujo de pago utilizando el Point.
+El siguiente paso, consiste en generar una orden de pago y enviarsela vía API al device desde donde queres cobrarla. El usuario verá que en la pantalla de ese dispositivo se levanta la aplicación de Mercado Libre lista para pasar la tarjeta y avanzar con el flujo de pago utilizando el Point.
 
-Una vez que el pago es procesado, el usario verá el resultado del pago en la aplicación de Mercado Pago. Finalmente, la orden generada se cerrará y se creará el pago correspondiente.
+Una vez que el pago es procesado, el usario verá el resultado del pago en la aplicación de Mercado Libre. Finalmente, la orden generada se cerrará y se creará el pago correspondiente.
 
 
 ### Creación de la orden de pago
 
-El POST en esta API genera una orden, que es la que recibe la aplicación de Mercado Pago para cobrar con el Point, con un identificador, que se puede utilizar para saber el estado de la misma.
+El POST en esta API genera una orden, que es la que recibe la aplicación de Mercado Libre para cobrar con el Point, con un identificador, que se puede utilizar para saber el estado de la misma.
 
 ```curl
 curl -X POST \
@@ -216,7 +216,7 @@ curl -X DELETE \
 
 ### Obtener todos los devices de una cuenta
 
-El GET en esta API es la que posibilita obtener todos los devices configurados y sincronizados para tu cuenta de Mercado Pago
+El GET en esta API es la que posibilita obtener todos los devices configurados y sincronizados para tu cuenta de Mercado Libre
 
 ```curl
 curl -X GET \
@@ -246,7 +246,7 @@ Si el status del device es `FREE` quiere decir que el dispositivo puede recibir 
 
 ### Eliminar un device de una cuenta
 
-El DELETE en esta API es la que posibilita borrar alguno de los devices configurados y sincronizados para tu cuenta de Mercado Pago
+El DELETE en esta API es la que posibilita borrar alguno de los devices configurados y sincronizados para tu cuenta de Mercado Libre
 
 
 ```curl

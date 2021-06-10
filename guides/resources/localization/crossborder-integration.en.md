@@ -7,21 +7,21 @@
 
 # Cross Border
 
-The Cross Border solution of Mercado Pago allows you to charge locally but withdraw the funds in a bank account in another country different from where you are selling.
+The Cross Border solution of Mercado Libre allows you to charge locally but withdraw the funds in a bank account in another country different from where you are selling.
 
-In order to use the Cross Border solution, the Mercado Pago account must be created by our team, since some special configurations need to be made.
-Therefore, you must contact the Mercado Pago commercial team by writing to: `crm_regionales@mercadopago.com`
+In order to use the Cross Border solution, the Mercado Libre account must be created by our team, since some special configurations need to be made.
+Therefore, you must contact the Mercado Libre commercial team by writing to: `crm_regionales@mercadopago.com`
 
 At the moment, the currencies in which the funds are allowed to be received are:
 
 - USD
 
-The payer will make the payment in the local currency, in this way, he will be able to take advantage of the financing offered by Mercado Pago.
+The payer will make the payment in the local currency, in this way, he will be able to take advantage of the financing offered by Mercado Libre.
 
 
 ## Account Creation
 
-The Mercado Pago account must be created by Mercado Pago in order to use the Cross Border solution. For the creation of the account it is necessary that you send us the following information:
+The Mercado Libre account must be created by Mercado Libre in order to use the Cross Border solution. For the creation of the account it is necessary that you send us the following information:
 
 - Company Name.
 - Display Name.
@@ -68,7 +68,7 @@ Please note that if you do not send this portion of code, you will receive an er
 }
 ```
 
-In turn, if your Mercado Pago account was not created to operate Cross Border, you will receive an error message like:
+In turn, if your Mercado Libre account was not created to operate Cross Border, you will receive an error message like:
 
 ```json
 {
@@ -120,7 +120,7 @@ The answer you will get is similar to the following:
 
 ## Basic Checkout Integration
 
-The Basic Checkout is the standard solution of Mercado Pago. The solution consists in the generation of a payment preference, which returns an `init_point` that upon opening it redirects the user to a checkout where all the experience is handled by Mercado Pago.
+The Basic Checkout is the standard solution of Mercado Libre. The solution consists in the generation of a payment preference, which returns an `init_point` that upon opening it redirects the user to a checkout where all the experience is handled by Mercado Libre.
 
 > ADVANTAGES
 >
@@ -452,7 +452,7 @@ This is an example of the payment response:
 
 ## CHECKOUT TOKENIZER INTEGRATION
 
-The Tokenizer is the Mercado Pago solution that quickly allows you to obtain a card token from your customer's card. This solution consists in the generation of a payment order using Javascript that opens a checkout for the payer to load the data of the card. Then, you will receive the card token in your backend so that you can make a POST of the payment.
+The Tokenizer is the Mercado Libre solution that quickly allows you to obtain a card token from your customer's card. This solution consists in the generation of a payment order using Javascript that opens a checkout for the payer to load the data of the card. Then, you will receive the card token in your backend so that you can make a POST of the payment.
 
 > ADVANTAGES
 >
@@ -696,7 +696,7 @@ This is an example of the payment response:
 
 ## Custom Checkout Integration (API)
 
-The Custom Checkout is the most customizable solution of Mercado Pago. This solution consists of the use of the Javascript SDK and the Mercado Pago APIs to carry out the tokenization of the payer's card and then the corresponding posting of the payment. All the experience is handled by the integrator.
+The Custom Checkout is the most customizable solution of Mercado Libre. This solution consists of the use of the Javascript SDK and the Mercado Libre APIs to carry out the tokenization of the payer's card and then the corresponding posting of the payment. All the experience is handled by the integrator.
 
 > ADVANTAGES
 >

@@ -20,9 +20,9 @@ Please note that the minimum amount allowed to create a subscription is $ 10 and
 ## First steps
 
 ### Access to an account
-In order to start the integration, it is necessary to **have a Mercado Pago or Mercado Libre account**.
+In order to start the integration, it is necessary to **have a Mercado Libre or Mercado Libre account**.
 
-You can [Sign in](https://www.mercadolibre.com/jms/[FAKER][GLOBALIZE][SITE_ID]/lgz/login?platform_id=mp&go=https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/online-payments/subscriptions/previous-requirements) with an existing Mercado Pago or Mercado Libre account or [Create a new account](https://www.mercadopago[FAKER][URL][DOMAIN]) at Mercado Pago.
+You can [Sign in](https://www.mercadolibre.com/jms/[FAKER][GLOBALIZE][SITE_ID]/lgz/login?platform_id=mp&go=https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/online-payments/subscriptions/previous-requirements) with an existing Mercado Libre or Mercado Libre account or [Create a new account](https://www.mercadopago[FAKER][URL][DOMAIN]) at Mercado Libre.
 
 ### Keep your credentials handy
 
@@ -35,7 +35,7 @@ To find them, go to the [Credentials](https://www.mercadopago[FAKER][URL][DOMAIN
 
 ### Use our official library
 
-Integrate with our [Mercado Pago SDK Javascript](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/sdks) which allows you to create a token with your card details securely and send it to your backend for use in your payments. 
+Integrate with our [Mercado Libre SDK Javascript](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/sdks) which allows you to create a token with your card details securely and send it to your backend for use in your payments. 
 
 
 ------------

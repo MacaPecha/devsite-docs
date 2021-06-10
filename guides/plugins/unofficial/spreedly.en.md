@@ -5,7 +5,7 @@
 
 Accept payments in a simple and secure way through Spreedly.
 
-The available Spreedly methods with Mercado Pago are:
+The available Spreedly methods with Mercado Libre are:
 
 - Purchase
 - Authorize
@@ -14,7 +14,7 @@ The available Spreedly methods with Mercado Pago are:
 - Void
 - Verify
 
-To integrate Spreedly you need to obtain and setup your Mercado Pago [credentials]([FAKER][CREDENTIALS][URL]) Public key and Access token.
+To integrate Spreedly you need to obtain and setup your Mercado Libre [credentials]([FAKER][CREDENTIALS][URL]) Public key and Access token.
 
 > Find all the information about your credentials in our [FAQs](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/resources/faqs/credentials). 
 
@@ -28,7 +28,7 @@ In addition, you have to set up the country code:
 - PE - Peru
 - UY - Uruguay
 
-Lastly, to process payments with Mercado Pago you need to send payer's identification information (Mexico is excluded). You need to send as specific information of the gateway the fields:
+Lastly, to process payments with Mercado Libre you need to send payer's identification information (Mexico is excluded). You need to send as specific information of the gateway the fields:
 
 - cardholder_identification_type.
 - cardholder_identification_number.
@@ -40,22 +40,22 @@ To start transacting you will need to:
 
 1. Create [a free account](https://spreedly.com/trial-qualification) and obtain the [credentials](https://docs.spreedly.com/basics/credentials).
 
-2. [Add Mercado Pago](https://docs.spreedly.com/basics/gateway/) as payment gateway.
+2. [Add Mercado Libre](https://docs.spreedly.com/basics/gateway/) as payment gateway.
 
 3. Obtain [information about the payment methods](https://docs.spreedly.com/basics/payment-method) of your users.
 
-4. [Create an order](https://docs.spreedly.com/basics/purchase) with Spreedly through Mercado Pago with your users payment information.
+4. [Create an order](https://docs.spreedly.com/basics/purchase) with Spreedly through Mercado Libre with your users payment information.
 
-## Add Mercado Pago as gateway
+## Add Mercado Libre as gateway
 
-Before starting to create transactions through Spreedly, you will have to add Mercado Pago as payment gateway. In this step, you have to set up Mercado Pago's keys and another specific properties.
+Before starting to create transactions through Spreedly, you will have to add Mercado Libre as payment gateway. In this step, you have to set up Mercado Libre's keys and another specific properties.
 
 The API involved in this process is:
 ```
 https://core.spreedly.com/v1/gateways.json
 ```
 
-You can set Mercado Pago as gateway following this example:
+You can set Mercado Libre as gateway following this example:
 
 ```curl
 $ curl https://core.spreedly.com/v1/gateways.json \
@@ -207,9 +207,9 @@ The response you will get will be similar to this one:
 
 ## Create a payment
 
-Once you have configured Mercado Pago as paymeny gateway and you have got the information about the payment method of your user in Spreedly, you can start creating payments and transactions.
+Once you have configured Mercado Libre as paymeny gateway and you have got the information about the payment method of your user in Spreedly, you can start creating payments and transactions.
 
-In order to create the payment you have to get the token that represents the payment method of your user ("Spreedly payment method") and the token which represents Mercado Pago as payment gateway. With this information you can create the _POST_ method to Spreedly API:
+In order to create the payment you have to get the token that represents the payment method of your user ("Spreedly payment method") and the token which represents Mercado Libre as payment gateway. With this information you can create the _POST_ method to Spreedly API:
 
 ```
 https://core.spreedly.com/v1/gateways/<gateway_token>/purchase.<format>
@@ -345,7 +345,7 @@ The response you will get will be similar to this one:
 
 The field "succeeded" shows the transaction was successful. Once you get your transaction approved, you may show your congrats screen to your customer.
 
-Also yo can execute another transactions through Mercado Pago, using the payment method obtained:
+Also yo can execute another transactions through Mercado Libre, using the payment method obtained:
 
 - Authorize
 - Capture
@@ -353,13 +353,13 @@ Also yo can execute another transactions through Mercado Pago, using the payment
 - Void
 - Verify
 
-## Mercado Pago propietary fields
+## Mercado Libre propietary fields
 
-To process with Mercado Pago and get higher levels of payment approvals we recommend you to send as much information as possible when you create a payment. This information is sent inside the array: `"gateway_specific_fields"` `"mercado_pago"`.
+To process with Mercado Libre and get higher levels of payment approvals we recommend you to send as much information as possible when you create a payment. This information is sent inside the array: `"gateway_specific_fields"` `"mercado_pago"`.
 
 ### Payer Identification
 
-To process with Mercado Pago you need to send your payer identification in each payment. This information is mandatory for all countries supported by Mercado Pago except from Mexico. For further details,[please read this article]("/reference/identification_types/_identification_types/get/").
+To process with Mercado Libre you need to send your payer identification in each payment. This information is mandatory for all countries supported by Mercado Libre except from Mexico. For further details,[please read this article]("/reference/identification_types/_identification_types/get/").
 
 ### Installments
 
@@ -373,9 +373,9 @@ This field is a string you can send to identify the charge in your customer's cr
 
 In order get the best approval rates as possible you can send additional information of the payment in the field `additional_info` JSON formatted. For further details,[please read this article]("/reference/payments/_payments_id/get/").
 
-### Mercado Pago Device Fingerprint
+### Mercado Libre Device Fingerprint
 
-Mercado Pago has it's own fraud prevention tools, that is why we recommend to send information about the customer's device. This will help to avoid fraudulent transactions and will improve your payment approval rates.
+Mercado Libre has it's own fraud prevention tools, that is why we recommend to send information about the customer's device. This will help to avoid fraudulent transactions and will improve your payment approval rates.
 
 To implement the generation of the device on your website, you must add the following code to your checkout:
 

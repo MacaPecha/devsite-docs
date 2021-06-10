@@ -4,39 +4,39 @@
 ## Como receber pagamentos em diferentes moedas
 
 ----[mlb]----
-No momento, o Mercado Pago permite pagamentos somente em moeda local. Ou seja, uma conta criada no Brasil aceitará somente pagamentos em reais (BRL) e de clientes que tenham uma conta do mesmo país.
+No momento, o Mercado Libre permite pagamentos somente em moeda local. Ou seja, uma conta criada no Brasil aceitará somente pagamentos em reais (BRL) e de clientes que tenham uma conta do mesmo país.
 ------------
 
 ----[mlm]----
-No momento, o Mercado Pago permite pagamentos somente em moeda local. Ou seja, uma conta criada no México aceitará somente pagamentos em pesos mexicanos (MXN) e de clientes que tenham uma conta do mesmo país.
+No momento, o Mercado Libre permite pagamentos somente em moeda local. Ou seja, uma conta criada no México aceitará somente pagamentos em pesos mexicanos (MXN) e de clientes que tenham uma conta do mesmo país.
 ------------
 
 ----[mlc]----
-No momento, o Mercado Pago permite pagamentos somente em moeda local. Ou seja, uma conta criada no Chile aceitará somente pagamentos em pesos chilenos (CLP) e de clientes que tenham uma conta do mesmo país.
+No momento, o Mercado Libre permite pagamentos somente em moeda local. Ou seja, uma conta criada no Chile aceitará somente pagamentos em pesos chilenos (CLP) e de clientes que tenham uma conta do mesmo país.
 ------------
 
 ----[mpe]----
-No momento, o Mercado Pago permite pagamentos somente em moeda local. Ou seja, uma conta criada no Peru aceitará somente pagamentos em soles (PEN) e de clientes que tenham uma conta do mesmo país.
+No momento, o Mercado Libre permite pagamentos somente em moeda local. Ou seja, uma conta criada no Peru aceitará somente pagamentos em soles (PEN) e de clientes que tenham uma conta do mesmo país.
 ------------
 
 ----[mlu]----
-No momento, o Mercado Pago permite pagamentos somente em moeda local. Ou seja, uma conta criada no Uruguai aceitará somente pagamentos em pesos uruguaios (UYU) e de clientes que tenham uma conta do mesmo país.
+No momento, o Mercado Libre permite pagamentos somente em moeda local. Ou seja, uma conta criada no Uruguai aceitará somente pagamentos em pesos uruguaios (UYU) e de clientes que tenham uma conta do mesmo país.
 ------------
 
 ----[mco]----
-No momento, o Mercado Pago permite pagamentos somente em moeda local. Ou seja, uma conta criada no Colômbia aceitará somente pagamentos em pesos colombianos (COP) e de clientes que tenham uma conta do mesmo país.
+No momento, o Mercado Libre permite pagamentos somente em moeda local. Ou seja, uma conta criada no Colômbia aceitará somente pagamentos em pesos colombianos (COP) e de clientes que tenham uma conta do mesmo país.
 ------------
 
 ----[mla]----
-No momento, o Mercado Pago permite pagamentos somente em moeda local. Ou seja, uma conta criada na Argentina aceitará somente pagamentos em pesos argentinos (ARS) e de clientes que tenham uma conta do mesmo país.
+No momento, o Mercado Libre permite pagamentos somente em moeda local. Ou seja, uma conta criada na Argentina aceitará somente pagamentos em pesos argentinos (ARS) e de clientes que tenham uma conta do mesmo país.
 ------------
 
 ----[mla, mco, mlu, mpe, mlc, mlm]----
 ## Os meios de pagamento não aparecem no meu checkout
 
-O Mercado Pago conta com uma validação de valores no momento de oferecer os meios de pagamento disponíveis.
+O Mercado Libre conta com uma validação de valores no momento de oferecer os meios de pagamento disponíveis.
 
-No caso em que o valor não cumpra com as condições de [valores mínimos e máximos](https://www.mercadopago[FAKER][URL][DOMAIN]/ayuda/_620) do meio de pagamento, nosso checkout solicitará iniciar uma seção na conta do Mercado Pago, já que a única opção disponível para usar será dinheiro em conta. Por isso, seus clientes não poderão pagar como convidados.
+No caso em que o valor não cumpra com as condições de [valores mínimos e máximos](https://www.mercadopago[FAKER][URL][DOMAIN]/ayuda/_620) do meio de pagamento, nosso checkout solicitará iniciar uma seção na conta do Mercado Libre, já que a única opção disponível para usar será dinheiro em conta. Por isso, seus clientes não poderão pagar como convidados.
 
 Isso ocorre porque, de acordo com o valor escolhido, você pode visualizar alguns meios de pagamentos e outros não devido a não cumprir com os requisitos necessários. Ou seja, com base no valor do produto e do mínimo ou máximo permitido, serão mostrados os meios de pagamentos disponíveis.
 ------------
@@ -44,9 +44,9 @@ Isso ocorre porque, de acordo com o valor escolhido, você pode visualizar algun
 ----[mlb]----
 ## Os meios de pagamento não aparecem no meu checkout
 
-O Mercado Pago conta com uma validação de valores no momento de oferecer os meios de pagamento disponíveis.
+O Mercado Libre conta com uma validação de valores no momento de oferecer os meios de pagamento disponíveis.
 
-No caso em que o valor não cumpra com as condições de [valores mínimos e máximos](https://www.mercadopago[FAKER][URL][DOMAIN]/ajuda/_324) do meio de pagamento, nosso checkout solicitará iniciar uma seção na conta do Mercado Pago, já que a única opção disponível para usar será dinheiro em conta. Por isso, seus clientes não poderão pagar como convidados.
+No caso em que o valor não cumpra com as condições de [valores mínimos e máximos](https://www.mercadopago[FAKER][URL][DOMAIN]/ajuda/_324) do meio de pagamento, nosso checkout solicitará iniciar uma seção na conta do Mercado Libre, já que a única opção disponível para usar será dinheiro em conta. Por isso, seus clientes não poderão pagar como convidados.
 
 Isso ocorre porque, de acordo com o valor escolhido, você pode visualizar alguns meios de pagamentos e outros não devido a não cumprir com os requisitos necessários. Ou seja, com base no valor do produto e do mínimo ou máximo permitido, serão mostrados os meios de pagamentos disponíveis.
 
@@ -90,7 +90,7 @@ Revise a documentação da integração que está implementando e teste todos os
 Se atente no passo da criação dos usuários de teste vendedor e comprador, para evitar reprovação de pagamentos por identificação de autofinanciamento ao cruzar os dados do pagador e do recebedor.
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Valide sua identidade
-Verifique se a identidade da conta vendedor está validada no painel do Mercado Pago. Acesse: Seu perfil > Validar identidade.
+Verifique se a identidade da conta vendedor está validada no painel do Mercado Libre. Acesse: Seu perfil > Validar identidade.
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Adicione o nosso código de segurança em seu website
 É importante que acrescente em sua integração toda a informação necessária para [melhorar a aprovação de seus pagamentos](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/manage-account/account/payment-rejections/#bookmark_recomendações_para_melhorar_sua_aprovação).

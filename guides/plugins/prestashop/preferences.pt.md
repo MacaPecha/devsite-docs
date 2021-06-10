@@ -20,7 +20,7 @@ Insira o nome do seu negócio para que apareça na fatura dos seus clientes e se
 >
 > Importante
 >
-> Não esqueça de inserir seu `integrator_id` como [Parceiro](https://partners.mercadopago.com/) certificado do Mercado Pago. Se você não o possui, pode [solicitá-lo agora](https://docs.google.com/forms/d/e/1FAIpQLScTwPlLRVW2rB_BnCxekUnfJu9rn-tUMh8ENAnqpxLeB8ULUw/viewform?usp=sf_link).
+> Não esqueça de inserir seu `integrator_id` como [Parceiro](https://partners.mercadopago.com/) certificado do Mercado Libre. Se você não o possui, pode [solicitá-lo agora](https://docs.google.com/forms/d/e/1FAIpQLScTwPlLRVW2rB_BnCxekUnfJu9rn-tUMh8ENAnqpxLeB8ULUw/viewform?usp=sf_link).
 
 <span></span>
 
@@ -75,8 +75,8 @@ Escolha a experiência de compra que seus clientes terão ao pagar:
 
 | Experiência de pagamento | Características |
 | --- | --- |
-| Redirect | Seus clientes serão redirecionados para uma página do Mercado Pago com o formulário de pagamento para concluir a compra. |
-| Modal **(NOVO)** | Seus clientes acessarão o formulário de pagamento do Mercado Pago sem sair de sua loja. Se você desativá-lo, eles serão redirecionados para outra página. |
+| Redirect | Seus clientes serão redirecionados para uma página do Mercado Libre com o formulário de pagamento para concluir a compra. |
+| Modal **(NOVO)** | Seus clientes acessarão o formulário de pagamento do Mercado Libre sem sair de sua loja. Se você desativá-lo, eles serão redirecionados para outra página. |
 
 > NOTE
 >
@@ -96,7 +96,7 @@ Escolha a experiência de compra que seus clientes terão ao pagar:
 >
 > Teste e receba pagamentos
 >
-> Teste o módulo e confira se tudo está funcionando bem para começar a receber o dinheiro das suas vendas no Mercado Pago.
+> Teste o módulo e confira se tudo está funcionando bem para começar a receber o dinheiro das suas vendas no Mercado Libre.
 >
 >
 > [Receber pagamentos](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/plugins/prestashop/receive-payments)

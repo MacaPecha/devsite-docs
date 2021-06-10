@@ -292,10 +292,10 @@ Através das `back_urls` *serão retornados os seguintes parâmetros*:
 
 Parâmetro |	Descrição
 ------------ 	|	--------
-`payment_id` | ID do pagamento do Mercado Pago. |
+`payment_id` | ID do pagamento do Mercado Libre. |
 `status` | Estado do pagamento. Ex.: `approved` para um pagamento aprovado ou `pending` para um pagamento pendente. |
 `external_reference` | Valor que foi enviado no momento da criação da preferência de pagamento. |
-`merchant_order_id` | ID da ordem de pagamento gerada no Mercado Pago. |
+`merchant_order_id` | ID da ordem de pagamento gerada no Mercado Libre. |
 
 > Alguns dos parâmetros conterão informação apenas se o pagador realizou o pagamento no Checkout Pro e não abandonou o fluxo antes de retornar ao seu site através da `back_urls` de **_failure_**.
 
@@ -399,7 +399,7 @@ Você pode encontrar todas as informações na [ seção de Devoluções e cance
 ## Gerencie contestações
 
 Uma contestação ou chargeback acontece quando o comprador entra em contato com a entidade emissora do cartão e desconhece o pagamento.
-Isso significa que o dinheiro do vendedor, por esse pagamento, será retido da sua conta do Mercado Pago até que seja solucionada.
+Isso significa que o dinheiro do vendedor, por esse pagamento, será retido da sua conta do Mercado Libre até que seja solucionada.
 
 [Gerenciar contestações](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/manage-account/account/chargebacks)
 

@@ -1026,11 +1026,11 @@ DATE,SOURCE_ID,EXTERNAL_REFERENCE,RECORD_TYPE,DESCRIPTION,NET_CREDIT_AMOUNT,NET_
 
 > LEFT_BUTTON_RECOMMENDED_PT
 >
-> Geração a partir do Mercado Pago
+> Geração a partir do Mercado Libre
 >
-> Gere seus relatórios de Dinheiro Disponível a partir do painel do Mercado Pago em 3 etapas simples.
+> Gere seus relatórios de Dinheiro Disponível a partir do painel do Mercado Libre em 3 etapas simples.
 >
-> [Geração a partir do Mercado Pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/manage-account/reports/available-money/panel)
+> [Geração a partir do Mercado Libre](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/manage-account/reports/available-money/panel)
 
 > RIGHT_BUTTON_RECOMMENDED_PT
 >

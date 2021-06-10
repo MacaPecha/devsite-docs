@@ -6,12 +6,12 @@ sites_supported:
 ---
 
 # Cobros con Point sin integración
-Desde la aplicación de Mercado Pago, tienes la opción de cobrar en tus tiendas físicas mediante el dispositivo Point.
+Desde la aplicación de Mercado Libre, tienes la opción de cobrar en tus tiendas físicas mediante el dispositivo Point.
 No necesitas saber de programación.
 
 Te guiaremos para que puedas cobrar:
 
-- Ingresa en la aplicación de Mercado Pago, en la sección Cobrar con Point, y conecta tu dispositivo Point.
+- Ingresa en la aplicación de Mercado Libre, en la sección Cobrar con Point, y conecta tu dispositivo Point.
 - Ingresa el monto y una descripción de lo que vendes. La descripción te permitirá identificar la venta en tu backend.
 - Desliza la tarjeta de crédito o débito del pagador por el dispositivo Point.
 - Ingresa el CVV de la tarjeta, el DNI del pagador y hazlo firmar.
@@ -29,6 +29,6 @@ Para cada producto puedes insertar una imagen, el precio y nombre del mismo.
 
 ## Entérate de tus pagos
 
-Puedes consultar tus ventas en el listado de actividades de la cuenta de Mercado Pago, o bien integrar [notificaciones](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/notifications/webhooks) en tu sistema de gestión.
+Puedes consultar tus ventas en el listado de actividades de la cuenta de Mercado Libre, o bien integrar [notificaciones](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/notifications/webhooks) en tu sistema de gestión.
 
 > Si quieres construir algo más avanzado y personalizado, consulta nuestra documentación de [Point integrado](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/in-person-payments/mp-point/how-to-integrate)

@@ -1012,11 +1012,11 @@ Download the file with this command:
 
 > LEFT_BUTTON_REQUIRED_EN
 >
-> Generating from Mercado Pago
+> Generating from Mercado Libre
 >
-> You can generate your Available Balance reports from the Mercado Pago panel in three simple steps.
+> You can generate your Available Balance reports from the Mercado Libre panel in three simple steps.
 >
-> [Generating from Mercado Pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/manage-account/reports/available-money/panel)
+> [Generating from Mercado Libre](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/manage-account/reports/available-money/panel)
 
 > RIGHT_BUTTON_REQUIRED_EN
 >

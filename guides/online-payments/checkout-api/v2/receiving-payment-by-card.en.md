@@ -1,6 +1,6 @@
 # Integrate Checkout API payment for cards
 
-Integrating Mercado Pago's Checkout API for cards allows you to offer a complete payment option within the site. The entire experience takes place in your store, so customers avoid exiting your site while making a purchase.
+Integrating Mercado Libre's Checkout API for cards allows you to offer a complete payment option within the site. The entire experience takes place in your store, so customers avoid exiting your site while making a purchase.
 
 Use our [sample projects](#bookmark_sample_projects) for a complete integration. You can adapt them according to your needs.
 
@@ -13,7 +13,7 @@ Use our [sample projects](#bookmark_sample_projects) for a complete integration.
 <br>
 
 
-With our Mercado Pago Checkout API, you should take into account two aspects: data capture and payment confirmation submission.
+With our Mercado Libre Checkout API, you should take into account two aspects: data capture and payment confirmation submission.
 
 
 1. First, you need a frontend to collect card data and generate a security token with the information required to create a payment.
@@ -35,7 +35,7 @@ To create a payment, you should capture card data through the buyer's browser. F
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Include and configure MercadoPago.js library
 
-**Use our official library to access Mercado Pago API** from your frontend to collect data securely and to configure your [public key]([FAKER][CREDENTIALS][URL]) like this:
+**Use our official library to access Mercado Libre API** from your frontend to collect data securely and to configure your [public key]([FAKER][CREDENTIALS][URL]) like this:
 
 ```html
 <body>
@@ -220,15 +220,15 @@ Before sending the form, a token is generated with the card secure display, whic
 >
 > h2
 >
-> Payment submission to Mercado Pago
+> Payment submission to Mercado Libre
 
-To continue with the Mercado Pago payment process, your backend should know how to receive form information with the generated token and the filled out data.
+To continue with the Mercado Libre payment process, your backend should know how to receive form information with the generated token and the filled out data.
 
 In the above example, after the submit action, your backend should make available a `/process_payment` endpoint, to receive all the data.
 
-Once the request –with all the collected information– is in your backend, it should be submitted to Mercado Pago through our APIs.  The minimum mandatory fields to submit are: `token`, `transaction_amount`, `installments`, `payment_method_id` and `payer.email`.
+Once the request –with all the collected information– is in your backend, it should be submitted to Mercado Libre through our APIs.  The minimum mandatory fields to submit are: `token`, `transaction_amount`, `installments`, `payment_method_id` and `payer.email`.
 
-For this to work, you should configure your [private key]([FAKER][CREDENTIALS][URL]). Also, to interact with our APIs, you should use [Mercado Pago official SDK](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/online-payments/checkout-api/v2/previous-requirements#bookmark__install_mercado_pago_sdk).
+For this to work, you should configure your [private key]([FAKER][CREDENTIALS][URL]). Also, to interact with our APIs, you should use [Mercado Libre official SDK](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/online-payments/checkout-api/v2/previous-requirements#bookmark__install_mercado_pago_sdk).
 
 [[[
 ```php

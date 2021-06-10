@@ -171,7 +171,7 @@ Você também pode definir um meio de pagamento para que apareça por padrão ou
 | `excluded_payment_methods` | Método que exclui por [meios de pagamento](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/resources/localization/payment-methods#bookmark_meios_de_pagamento_por_país) específicos: Visa, Mastercard o American Express, entre outros. |
 | `excluded_payment_types` | Método que exclui por tipo de [meios de pagamento](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/resources/localization/payment-methods#bookmark_meios_de_pagamento_por_país): cartão de crédito ou ticket (boleto ou pagamento em lotérica). |
 | `installments` | Método que define o número máximo de parcelas a oferecer. |
-| `purpose` | Quando for indicado o valor "wallet_purchase", o Checkout aceitará pagamentos exclusivamente de usuários cadastrados no Mercado Pago, com cartão e saldo em conta. |
+| `purpose` | Quando for indicado o valor "wallet_purchase", o Checkout aceitará pagamentos exclusivamente de usuários cadastrados no Mercado Libre, com cartão e saldo em conta. |
 
 [[[
 ```php
@@ -328,7 +328,7 @@ Revise os [tempos de creditação por meio de pagamento](https://www.mercadopago
 >
 > Importante
 >
-> Caso o pagamento seja realizado depois da data de expiração, o valor será estornado na conta do Mercado Pago do pagador.
+> Caso o pagamento seja realizado depois da data de expiração, o valor será estornado na conta do Mercado Libre do pagador.
 ------------
 
 ### Modo binário
@@ -542,10 +542,10 @@ curl -X POST \
 ## Aceitar pagamentos somente de usuários cadastrados
 
 ----[mla, mlb]----
-Você pode aceitar pagamentos com a carteira do Mercado Pago exclusivamente de usuários cadastrados, com cartão, saldo disponível e Mercado Crédito.
+Você pode aceitar pagamentos com a carteira do Mercado Libre exclusivamente de usuários cadastrados, com cartão, saldo disponível e Mercado Crédito.
 ------------
 ----[mlm, mlc, mco, mpe, mlu]----
-Você pode aceitar pagamentos com a carteira do Mercado Pago exclusivamente de usuários cadastrados, com cartão e saldo disponível.
+Você pode aceitar pagamentos com a carteira do Mercado Libre exclusivamente de usuários cadastrados, com cartão e saldo disponível.
 ------------
 
 Isto permite que seus clientes tenham suas informações de conta disponíveis no ato, tais como seus cartões e endereços salvos. 
@@ -554,7 +554,7 @@ Isto permite que seus clientes tenham suas informações de conta disponíveis n
 >
 > Importante
 >
-> Observe que, ao adicionar esta opção, você não poderá receber pagamentos de usuários que não possuem uma conta Mercado Pago ou Mercado Livre e não poderá receber via dinheiro ou transferência.
+> Observe que, ao adicionar esta opção, você não poderá receber pagamentos de usuários que não possuem uma conta Mercado Libre ou Mercado Livre e não poderá receber via dinheiro ou transferência.
 
 Para aceitar pagamentos somente de usuários cadastrados, adicione o seguinte atributo às suas preferências:
 
@@ -601,7 +601,7 @@ Sabemos que é importante maximizar a eficácia dos seus anúncios. Por isto, of
 >
 > Nota
 >
-> Só serão associados os pagamentos aprovados instantaneamente com cartões de crédito ou débito, dinheiro no Mercado Pago ou com Mercado Créditos.
+> Só serão associados os pagamentos aprovados instantaneamente com cartões de crédito ou débito, dinheiro no Mercado Libre ou com Mercado Créditos.
 ------------
 
 ----[mlm, mlc, mco, mpe, mlu]----
@@ -609,7 +609,7 @@ Sabemos que é importante maximizar a eficácia dos seus anúncios. Por isto, of
 >
 > Nota
 >
-> Só serão associados os pagamentos aprovados instantaneamente com cartões de crédito ou débito, ou com dinheiro no Mercado Pago.
+> Só serão associados os pagamentos aprovados instantaneamente com cartões de crédito ou débito, ou com dinheiro no Mercado Libre.
 ------------
 
 ### Associar um pixel do Facebook
@@ -1026,7 +1026,7 @@ curl -X POST \
 
 ![Pago 2 tarjetas](/images/web-payment-checkout/pay_2_tarjetas_br.png)
 
-Você pode ativar a opção de oferecer pagamento com dois cartões de crédito da conta do Mercado Pago. Para ativar a opção de pagamento, acesse as [opcões de negócio](https://www.mercadopago.com.ar/settings/my-business) e selecione a opção _Receber pagamentos com 2 cartões de crédito_.
+Você pode ativar a opção de oferecer pagamento com dois cartões de crédito da conta do Mercado Libre. Para ativar a opção de pagamento, acesse as [opcões de negócio](https://www.mercadopago.com.ar/settings/my-business) e selecione a opção _Receber pagamentos com 2 cartões de crédito_.
 
 
 ![Config pago 2 tarjetas](/images/web-payment-checkout/config_pago_dos_tarjetas_br.gif)

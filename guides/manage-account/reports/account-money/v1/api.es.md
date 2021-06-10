@@ -1029,11 +1029,11 @@ EXTERNAL_REFERENCE;SOURCE_ID;USER_ID;PAYMENT_METHOD_TYPE;PAYMENT_METHOD;SITE;TRA
 
 > LEFT_BUTTON_RECOMMENDED_ES
 >
-> Generación desde Mercado Pago
+> Generación desde Mercado Libre
 >
-> Descarga tus reportes de forma manual o programada desde tu cuenta de Mercado Pago.         
+> Descarga tus reportes de forma manual o programada desde tu cuenta de Mercado Libre.         
 >
-> [Generación desde Mercado Pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/manage-account/reports/account-money/panel)
+> [Generación desde Mercado Libre](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/manage-account/reports/account-money/panel)
 
 > RIGHT_BUTTON_RECOMMENDED_ES
 >

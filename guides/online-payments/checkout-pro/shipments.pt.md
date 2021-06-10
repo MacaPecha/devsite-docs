@@ -582,7 +582,7 @@ Quando receber uma venda, basta ----[mla, mlm]---- [preparar o pacote e enviá-l
 >
 > Gestão de etiquetas
 >
-> Quando uma venda é feita, você receberá um e-mail com um botão para imprimir a etiqueta que será anexada no pacote. Você também pode ver os [pagamentos pendentes de impressão](https://www.mercadopago[FAKER][URL][DOMAIN]/activities?type=facet_type_collection&status=facet_shipping_me_all) pela conta Mercado Pago que recebeu a venda..
+> Quando uma venda é feita, você receberá um e-mail com um botão para imprimir a etiqueta que será anexada no pacote. Você também pode ver os [pagamentos pendentes de impressão](https://www.mercadopago[FAKER][URL][DOMAIN]/activities?type=facet_type_collection&status=facet_shipping_me_all) pela conta Mercado Libre que recebeu a venda..
 
 
 ## Exemplo de uma preferência completa

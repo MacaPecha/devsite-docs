@@ -1,6 +1,6 @@
 # Integrate other payment methods
 
-With Checkout API of Mercado Pago, you can add **alternative payment methods for your customers to make their payments**.
+With Checkout API of Mercado Libre, you can add **alternative payment methods for your customers to make their payments**.
 
 
 ----[mla]----
@@ -146,7 +146,7 @@ Keep in mind that the answer will return all the payments methods. For this reas
 > Use MercadoPago.js V2 library to be updated to the latest version and to improve compatibility with different browsers.<br><br>[Integrate Checkout API with MercadoPago.js V2](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/online-payments/checkout-api/v2/other-payment-ways)
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Use MercadoPago.js library
-**Remember to use our official library to access Mercado Pago API** from your application and collect data securely.
+**Remember to use our official library to access Mercado Libre API** from your application and collect data securely.
 
 ```html
 <script src="https://secure.mlstatic.com/sdk/javascript/v1/mercadopago.js"></script>
@@ -238,11 +238,11 @@ window.Mercadopago.getIdentificationTypes();
 >
 > h2
 >
-> Payment submission to Mercado Pago
+> Payment submission to Mercado Libre
 
 To receive cash payments, just send your customer's e-mail and document, amount and payment method.
 
-Once the request –with all the collected information– is in your backend, it should be submitted to Mercado Pago through our APIs.
+Once the request –with all the collected information– is in your backend, it should be submitted to Mercado Libre through our APIs.
 
 For this to work, you should configure your [private key]([FAKER][CREDENTIALS][URL]).
 
@@ -369,7 +369,7 @@ curl -X POST \
 ]]]
 
 <br>
-The response will show pending status until the buyer makes the payment. The payment voucher ID is the same as the Mercado Pago transaction ID.
+The response will show pending status until the buyer makes the payment. The payment voucher ID is the same as the Mercado Libre transaction ID.
 
 ```json
 [
@@ -464,7 +464,7 @@ Check [credit times by payment method](https://www.mercadopago[FAKER][URL][DOMAI
 >
 > Important
 >
-> If the cash payment is paid after the expiration date, the amount will be refunded to the payer's Mercado Pago account.
+> If the cash payment is paid after the expiration date, the amount will be refunded to the payer's Mercado Libre account.
 
 ## Cancel payments
 
@@ -505,7 +505,7 @@ In addition to cards, you can offer other payment choices on your website.
 | `atm` | Citibanamex |
 | `atm` | Santander |
 | `atm` | BBVA Bancomer |
-| `prepaid_card` | Mercado Pago Card |
+| `prepaid_card` | Mercado Libre Card |
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Obtain the available payment methods
 
@@ -708,7 +708,7 @@ Keep in mind that the answer will return all the payments methods. For this reas
 > Use MercadoPago.js V2 library to be updated to the latest version and to improve compatibility with different browsers.<br><br>[Integrate Checkout API with MercadoPago.js V2](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/online-payments/checkout-api/other-payment-ways)
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Use MercadoPago.js library
-**Remember to use our official library to access Mercado Pago API** from your application and collect data securely.
+**Remember to use our official library to access Mercado Libre API** from your application and collect data securely.
 
 ```html
 <script src="https://secure.mlstatic.com/sdk/javascript/v1/mercadopago.js"></script>
@@ -786,11 +786,11 @@ window.Mercadopago.setPublishableKey("YOUR_PUBLIC_KEY");
 >
 > h2
 >
-> Payment submission to Mercado Pago
+> Payment submission to Mercado Libre
 
 To receive cash payments, just send your customer's e-mail and document, amount and payment method.
 
-Once the request –with all the collected information– is in your backend, it should be submitted to Mercado Pago through our APIs.
+Once the request –with all the collected information– is in your backend, it should be submitted to Mercado Libre through our APIs.
 
 For this to work, you should configure your [private key]([FAKER][CREDENTIALS][URL]).
 
@@ -917,7 +917,7 @@ curl -X POST \
 ]]]
 
 <br>
-The response will show pending status until the buyer makes the payment. The payment voucher ID is the same as the Mercado Pago transaction ID.
+The response will show pending status until the buyer makes the payment. The payment voucher ID is the same as the Mercado Libre transaction ID.
 
 ```json
 [
@@ -1137,7 +1137,7 @@ Keep in mind that the answer will return all the payments methods. For this reas
 > Use MercadoPago.js V2 library to be updated to the latest version and to improve compatibility with different browsers.<br><br>[Integrate Checkout API with MercadoPago.js V2](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/online-payments/checkout-api/other-payment-ways)
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Use MercadoPago.js library
-**Remember to use our official library to access Mercado Pago API** from your application and collect data securely.
+**Remember to use our official library to access Mercado Libre API** from your application and collect data securely.
 
 ```html
 <script src="https://secure.mlstatic.com/sdk/javascript/v1/mercadopago.js"></script>
@@ -1229,11 +1229,11 @@ window.Mercadopago.getIdentificationTypes();
 >
 > h2
 >
-> Payment submission to Mercado Pago
+> Payment submission to Mercado Libre
 
 To receive cash payments, just send your customer's e-mail and document, amount and payment method.
 
-Once the request –with all the collected information– is in your backend, it should be submitted to Mercado Pago through our APIs.
+Once the request –with all the collected information– is in your backend, it should be submitted to Mercado Libre through our APIs.
 
 For this to work, you should configure your [private key]([FAKER][CREDENTIALS][URL]).
 
@@ -1358,7 +1358,7 @@ curl -X POST \
 ]]]
 
 <br>
-The response will show pending status until the buyer makes the payment. The payment voucher ID is the same as the Mercado Pago transaction ID.
+The response will show pending status until the buyer makes the payment. The payment voucher ID is the same as the Mercado Libre transaction ID.
 
 ```json
 [
@@ -1582,7 +1582,7 @@ Keep in mind that the answer will return all the payments methods. For this reas
 > Use MercadoPago.js V2 library to be updated to the latest version and to improve compatibility with different browsers.<br><br>[Integrate Checkout API with MercadoPago.js V2](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/online-payments/checkout-api/other-payment-ways)
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Use MercadoPago.js library
-**Remember to use our official library to access Mercado Pago API** from your application and collect data securely.
+**Remember to use our official library to access Mercado Libre API** from your application and collect data securely.
 
 ```html
 <script src="https://secure.mlstatic.com/sdk/javascript/v1/mercadopago.js"></script>
@@ -1674,11 +1674,11 @@ window.Mercadopago.getIdentificationTypes();
 >
 > h2
 >
-> Payment submission to Mercado Pago
+> Payment submission to Mercado Libre
 
 To receive cash payments, just send your customer's e-mail and document, amount and payment method.
 
-Once the request –with all the collected information– is in your backend, it should be submitted to Mercado Pago through our APIs.
+Once the request –with all the collected information– is in your backend, it should be submitted to Mercado Libre through our APIs.
 
 For this to work, you should configure your [private key]([FAKER][CREDENTIALS][URL]).
 
@@ -1803,7 +1803,7 @@ curl -X POST \
 ]]]
 
 <br>
-The response will show pending status until the buyer makes the payment. The payment voucher ID is the same as the Mercado Pago transaction ID.
+The response will show pending status until the buyer makes the payment. The payment voucher ID is the same as the Mercado Libre transaction ID.
 
 ```json
 [
@@ -1902,7 +1902,7 @@ Check [credit times by payment method](https://www.mercadopago[FAKER][URL][DOMAI
 >
 > Important
 >
-> If the cash payment is paid after the expiration date, the amount will be refunded to the payer's Mercado Pago account.
+> If the cash payment is paid after the expiration date, the amount will be refunded to the payer's Mercado Libre account.
 
 
 ## Receive PSE payments
@@ -2258,7 +2258,7 @@ Keep in mind that the answer will return all the payments methods. For this reas
 > Use MercadoPago.js V2 library to be updated to the latest version and to improve compatibility with different browsers.<br><br>[Integrate Checkout API with MercadoPago.js V2](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/online-payments/checkout-api/other-payment-ways)
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Use MercadoPago.js library
-**Remember to use our official library to access Mercado Pago API** from your application and collect data securely.
+**Remember to use our official library to access Mercado Libre API** from your application and collect data securely.
 
 ```html
 <script src="https://secure.mlstatic.com/sdk/javascript/v1/mercadopago.js"></script>
@@ -2350,11 +2350,11 @@ window.Mercadopago.getIdentificationTypes();
 >
 > h2
 >
-> Payment submission to Mercado Pago
+> Payment submission to Mercado Libre
 
 To receive cash payments, just send your customer's e-mail and document, amount and payment method.
 
-Once the request –with all the collected information– is in your backend, it should be submitted to Mercado Pago through our APIs.
+Once the request –with all the collected information– is in your backend, it should be submitted to Mercado Libre through our APIs.
 
 For this to work, you should configure your [private key]([FAKER][CREDENTIALS][URL]).
 
@@ -2479,7 +2479,7 @@ curl -X POST \
 ]]]
 
 <br>
-The response will show pending status until the buyer makes the payment. The payment voucher ID is the same as the Mercado Pago transaction ID.
+The response will show pending status until the buyer makes the payment. The payment voucher ID is the same as the Mercado Libre transaction ID.
 
 ```json
 [
@@ -2852,7 +2852,7 @@ Keep in mind that the answer will return all the payments methods. For this reas
 > Use MercadoPago.js V2 library to be updated to the latest version and to improve compatibility with different browsers.<br><br>[Integrate Checkout API with MercadoPago.js V2](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/online-payments/checkout-api/other-payment-ways)
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Use MercadoPago.js library
-**Remember to use our official library to access Mercado Pago API** from your application and collect data securely.
+**Remember to use our official library to access Mercado Libre API** from your application and collect data securely.
 
 ```html
 <script src="https://secure.mlstatic.com/sdk/javascript/v1/mercadopago.js"></script>
@@ -2944,11 +2944,11 @@ window.Mercadopago.getIdentificationTypes();
 >
 > h2
 >
-> Payment submission to Mercado Pago
+> Payment submission to Mercado Libre
 
 To receive cash payments, just send your customer's e-mail and document, amount and payment method.
 
-Once the request –with all the collected information– is in your backend, it should be submitted to Mercado Pago through our APIs.
+Once the request –with all the collected information– is in your backend, it should be submitted to Mercado Libre through our APIs.
 
 For this to work, you should configure your [private key]([FAKER][CREDENTIALS][URL]).
 
@@ -3073,7 +3073,7 @@ curl -X POST \
 ]]]
 
 <br>
-The response will show pending status until the buyer makes the payment. The payment voucher ID is the same as the Mercado Pago transaction ID.
+The response will show pending status until the buyer makes the payment. The payment voucher ID is the same as the Mercado Libre transaction ID.
 
 ```json
 [
@@ -3283,7 +3283,7 @@ Keep in mind that the answer will return all the payments methods. For this reas
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Use MercadoPago.js library
 
-**Remember to use our official library to access Mercado Pago API** from your application and collect data securely.
+**Remember to use our official library to access Mercado Libre API** from your application and collect data securely.
 
 ```html
 <script src="https://secure.mlstatic.com/sdk/javascript/v1/mercadopago.js"></script>
@@ -3699,7 +3699,7 @@ To show the payment code for copy and paste, you can add `qr_code` like this:
 
 After [capturing the data for payment](#bookmark_data_capture_for_payment) with the form, to receive payments with boleto or lotérica, just send your customer's e-mail and document, amount and payment method.
 
-Once the request –with all the collected information– is in your backend, it should be submitted to Mercado Pago through our APIs.
+Once the request –with all the collected information– is in your backend, it should be submitted to Mercado Libre through our APIs.
 
 For this to work, you should configure your [private key]([FAKER][CREDENTIALS][URL]).
 
@@ -3912,7 +3912,7 @@ curl -X POST \
 ]]]
 
 <br>
-The response will show pending status until the buyer makes the payment. The payment voucher ID is the same as the Mercado Pago transaction ID.
+The response will show pending status until the buyer makes the payment. The payment voucher ID is the same as the Mercado Libre transaction ID.
 
 ```json
 [
@@ -4057,7 +4057,7 @@ The deadline for approval of the boleto is up to 48 working hours. Therefore, we
 >
 > Important
 >
-> If the boleto is paid after the expiration date, the amount will be refunded to the payer's Mercado Pago account.
+> If the boleto is paid after the expiration date, the amount will be refunded to the payer's Mercado Libre account.
 
 ## Cancel payments
 

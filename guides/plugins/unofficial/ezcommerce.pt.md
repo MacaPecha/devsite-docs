@@ -5,12 +5,12 @@
 
 ## O que é EZ Commerce?
 
-[EZ Commerce](https://www.ezcommerce.com.br/) é um ecossistema completo de soluções para sua loja virtual que permite processar pagamentos através do Mercado Pago.
+[EZ Commerce](https://www.ezcommerce.com.br/) é um ecossistema completo de soluções para sua loja virtual que permite processar pagamentos através do Mercado Libre.
 Para obter maiores informações sobre as possibilidades que a EZ Commerce oferece acesse [sua página de recursos](https://www.ezcommerce.com.br/plataforma/recursos-de-ecommerce/).
 
-## Configurar EZ Commerce para operar com Mercado Pago
+## Configurar EZ Commerce para operar com Mercado Libre
 
-Os passos para começar a operar com Mercado Pago são os seguintes:
+Os passos para começar a operar com Mercado Libre são os seguintes:
 
 1. Configurar boleto.
 2. Configurar cartões de crédito.
@@ -38,7 +38,7 @@ Para operar com cartões de crédito siga estes passos:
 4. Localize as bandeiras que tenham na coluna "Adquirente / Gateway" a informação "mercadopago_transparente".
 5. Preencha os dados do grupo "Específico". Para obter o Client Id, Client secret e a Public Key veja a seção [Credenciais]([FAKER][CREDENTIALS][URL]).
 6. Selecione o Tipo de parcelamento que deseja:
-- Dinâmico: A plataforma utilizará as configurações de juros da conta do Mercado Pago.
+- Dinâmico: A plataforma utilizará as configurações de juros da conta do Mercado Libre.
 - Customizado: Deverá configurar as informações de parcelamento na plataforma (total de parcelas, parcelas sem juros, porcentagem de juros e parcela mínima).
 7. Clique em salvar.
 

@@ -1,17 +1,17 @@
 ---
   indexable: false
 ---
-# osCommerce - Mercado Pago Module (v2.2 - 2.3)
+# osCommerce - Mercado Libre Module (v2.2 - 2.3)
 
 > WARNING
 >
 > We only support official plugins
 >
-> We do not provide technical support of Mercado Pago for this documentation. If you wish to make any changes, you may [make modifications to our open code on GitHub](https://github.com/mercadopago/devsite-docs/blob/development/guides/plugins/unofficial/os-commerce.en.md).
+> We do not provide technical support of Mercado Libre for this documentation. If you wish to make any changes, you may [make modifications to our open code on GitHub](https://github.com/mercadopago/devsite-docs/blob/development/guides/plugins/unofficial/os-commerce.en.md).
 
 ## Features
 
-The module of Mercado Pago to OsCommerce is integrated with the feature and payment solutions:
+The module of Mercado Libre to OsCommerce is integrated with the feature and payment solutions:
 
 * [Basic Checkout (Redirect, Iframe ou Lightbox)](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/solutions/payments/basic-checkout/receive-payments)
 * Split payments (Two cards)
@@ -40,7 +40,7 @@ The module of Mercado Pago to OsCommerce is integrated with the feature and paym
 <a name="installation"></a>
 ## Installation: ##
 
-1. Download Mercado Pago module:
+1. Download Mercado Libre module:
     * osCommerce 2.2
     * osCommerce 2.3
 
@@ -53,7 +53,7 @@ The module of Mercado Pago to OsCommerce is integrated with the feature and paym
 
 2. Click **Install Module**.
 
-3. Click on **Mercado Pago** then in **+Install Module**.
+3. Click on **Mercado Libre** then in **+Install Module**.
 
 4. Choose your country:
 <br>
@@ -70,7 +70,7 @@ The module of Mercado Pago to OsCommerce is integrated with the feature and paym
 
 ![Store category selection](/images/oscommerce/oscommerce-CategorySelection.png)
 
-7. In the next screen, you will see **Mercado Pago** listed as a payment method. Now, click on **Edit** on the right bar.
+7. In the next screen, you will see **Mercado Libre** listed as a payment method. Now, click on **Edit** on the right bar.
 <br>
 
 ![Payment Method List](/images/oscommerce/oscommerce-PaymentMethodList.png)
@@ -115,7 +115,7 @@ The module of Mercado Pago to OsCommerce is integrated with the feature and paym
 
 If you have any questions, problems or errors we have a support channel. Write us at our [support form](/support) with the following information:
 
-* Email of your account Mercado Pago.
+* Email of your account Mercado Libre.
 * Details about your question, problem or error.
 * Files that can help in understanding (Print-Screen, Video, Log Files, etc.).
 * Version of OsCommerce.

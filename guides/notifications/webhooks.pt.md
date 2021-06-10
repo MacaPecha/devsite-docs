@@ -2,7 +2,7 @@
 
 Um **webhook** é uma notificação enviada de um servidor a outro mediante uma chamada `HTTP POST` para informar sobre suas transações.
 
-Para receber as notificações dos eventos na sua plataforma, deve-se configurar previamente uma [URL acessível ao Mercado Pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/panel/notifications).
+Para receber as notificações dos eventos na sua plataforma, deve-se configurar previamente uma [URL acessível ao Mercado Libre](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/panel/notifications).
 
 Você também pode configurar a notificação quando fizer o POST do pagamento, indicando no campo notificaction_url:
 
@@ -38,7 +38,7 @@ Notificaremos os seguintes eventos:
 | `subscription` | `application.authorized` | Vinculação de conta |
 | `invoice` | `application.authorized` | Vinculação de conta |
 
-O Mercado Pago enviará notificações com o seguinte cronograma de novas tentativas e prazos para sua confirmação. Você deve retornar um HTTP STATUS 200 (OK) ou 201 (CREATED) antes do final do prazo correspondente. Caso contrário, será entendido que você não o recebeu corretamente e você será notificado novamente.
+O Mercado Libre enviará notificações com o seguinte cronograma de novas tentativas e prazos para sua confirmação. Você deve retornar um HTTP STATUS 200 (OK) ou 201 (CREATED) antes do final do prazo correspondente. Caso contrário, será entendido que você não o recebeu corretamente e você será notificado novamente.
 
 Se precisar de mais informações, confira a seção [“O que devo fazer quando receber uma notificação?”.](#bookmark_o_que_devo_fazer_ao_receber_uma_notificação?)
 
@@ -80,11 +80,11 @@ Isso indica que foi criado o pagamento **999999999** para o usuário **44444** e
 
 ## O que devo fazer ao receber uma notificação?
 
-Quando você recebe uma notificação na sua plataforma, o Mercado Pago aguarda uma resposta para validar que você a recebeu corretamente. Para isso, você deve retornar um `HTTP STATUS 200 (OK)` ou `201 (CREATED)`.
+Quando você recebe uma notificação na sua plataforma, o Mercado Libre aguarda uma resposta para validar que você a recebeu corretamente. Para isso, você deve retornar um `HTTP STATUS 200 (OK)` ou `201 (CREATED)`.
 
 É recomendável que você responda à notificação antes de executar a lógica de negócios ou antes de acessar recursos externos para não exceder os [prazos de resposta estimados](#bookmark_eventos).
 
-Essa comunicação é exclusiva entre os servidores do Mercado Pago e o seu, portanto, não haverá usuário físico vendo nenhum tipo de resultado.
+Essa comunicação é exclusiva entre os servidores do Mercado Libre e o seu, portanto, não haverá usuário físico vendo nenhum tipo de resultado.
 
 Depois disso, você deve obter as informações completas do recurso notificado acessando o terminal correspondente da API:
 

@@ -12,7 +12,7 @@
 
 ### Default state
 
-![Mercado Pago payment button](/images/paybutton.png)
+![Mercado Libre payment button](/images/paybutton.png)
 
 ### Customization
 
@@ -24,7 +24,7 @@ By default the button contains the text *"Pay"*. You can modify the text of the 
 data-button-label="Pay"
 ```
 
-![Payment button mercado pago - modified label](/images/paybutton-modified-label.png)
+![Payment button mercado libre - modified label](/images/paybutton-modified-label.png)
 
 #### Style
 
@@ -47,7 +47,7 @@ button.mercadopago-button {
 }
 ```
 
-![Payment button Mercado Pago modified CSS](/images/paybutton-modified-css.png)
+![Payment button Mercado Libre modified CSS](/images/paybutton-modified-css.png)
 
 
 ## Colors in the interface
@@ -82,7 +82,7 @@ data-elements-color="#c0392b"
 
 #### Default state
 
-![Standard status header Mercado Pago](/images/cow/cow-ui-header.png)
+![Standard status header Mercado Libre](/images/cow/cow-ui-header.png)
 
 #### Customization
 
@@ -94,7 +94,7 @@ The value of the attribute must be in hexadecimal format. For example:
 data-header-color="#c0392b"
 ```
 
-![Header customization Mercado Pago](/images/cow/cow-ui-header--custom.png)
+![Header customization Mercado Libre](/images/cow/cow-ui-header--custom.png)
 
 
 ### Text color
@@ -107,7 +107,7 @@ For a *light* element color, the text color will be *black* or `# 000`. For exam
 data-elements-color="#81ecec" <!-- Light color -->
 ```
 
-![Font color in light element Mercado Pago](/images/cow/cow-ui-fontcolor__light.png)
+![Font color in light element Mercado Libre](/images/cow/cow-ui-fontcolor__light.png)
 
 For a *dark* element color, the text color will be *white* or `# fff`. For example:
 
@@ -115,7 +115,7 @@ For a *dark* element color, the text color will be *white* or `# fff`. For examp
 data-elements-color="#8e44ad" <!-- Dark color -->
 ```
 
-![Font color in dark element Mercado Pago](/images/cow/cow-ui-fontcolor__dark.png)
+![Font color in dark element Mercado Libre](/images/cow/cow-ui-fontcolor__dark.png)
 
 ## Purchase detail
 

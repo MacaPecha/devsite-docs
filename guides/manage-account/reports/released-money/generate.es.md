@@ -8,11 +8,11 @@
 
 ## Canales de generación
 
-Puedes generar un reporte de ----[mla]---- Liquidaciones ------------ ----[mlm, mlb, mlc, mco, mlu, mpe]---- Liberaciones ------------ desde tu cuenta de Mercado Pago:
+Puedes generar un reporte de ----[mla]---- Liquidaciones ------------ ----[mlm, mlb, mlc, mco, mlu, mpe]---- Liberaciones ------------ desde tu cuenta de Mercado Libre:
 
 | Canales | Descripción |
 | --- | --- |
-| Panel de Mercado Pago | Es muy simple y rápido. Para generarlo desde tu cuenta de Mercado Pago, ve a [Reportes](https://www.mercadopago[FAKER][URL][DOMAIN]/movements) y elige la opción de "Ver reportes creados".<br/><br/>Sigue el paso a paso para [generar reportes desde el panel](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/manage-account/reports/released-money/panel). |
+| Panel de Mercado Libre | Es muy simple y rápido. Para generarlo desde tu cuenta de Mercado Libre, ve a [Reportes](https://www.mercadopago[FAKER][URL][DOMAIN]/movements) y elige la opción de "Ver reportes creados".<br/><br/>Sigue el paso a paso para [generar reportes desde el panel](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/manage-account/reports/released-money/panel). |
 
 ## Características técnicas del reporte
 
@@ -29,7 +29,7 @@ Conoce las características de los elementos que conforman tu reporte.
 | Detalle de tablas | El detalle de las tablas comprende información generada en día 1 como mínimo. |
 | Orden de columnas | Fijo |
 | Período máximo | Reportes con datos de hasta 60 días. |
-| Moneda | Local (basada en el país donde esté registrada la cuenta de Mercado Pago) |
+| Moneda | Local (basada en el país donde esté registrada la cuenta de Mercado Libre) |
 | Zona horaria de las columnas con fechas | GMT-4 <br/> <br/> Toma como referencia el lugar desde el que se descarga el reporte. |
 | Selección de fechas vía web | Debe basarse en el timezone de la cuenta. <br/> Por ejemplo, a la cuenta registrada en Brasil le corresponde el timezone de São Paulo. |
 
@@ -42,7 +42,7 @@ Considera estas opciones a la hora de descargar tu reporte:
 | --- | --- |
 | Formato del nombre del archivo | Cuando el reporte es programado o manual:<br/> "prefijo-configurable-<span style='color:#999999;'>fecha-de-creación.csv</span>" <br/> Ejemplo: mitienda-28-05-2019.csv |
 | Formatos de descarga | .csv, .xlsx <br/><br/>Tip: descarga el reporte en .csv para importar los datos y usarlos en otras aplicaciones. Descárgalo en .xlsx para leer la información en las tablas de la hoja de cálculo. |
-| Archivo | Los reportes generados quedan guardados en tu cuenta de Mercado Pago. |
+| Archivo | Los reportes generados quedan guardados en tu cuenta de Mercado Libre. |
 
 
 > NOTE

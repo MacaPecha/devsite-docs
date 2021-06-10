@@ -1,16 +1,16 @@
-# Recibe pagos con la billetera de Mercado Pago
+# Recibe pagos con la billetera de Mercado Libre
 
-Agrega en tu integración el Checkout Pro modo billetera, para que **recibas pagos únicamente de usuarios registrados en Mercado Pago, con sus tarjetas y dinero disponible**.
+Agrega en tu integración el Checkout Pro modo billetera, para que **recibas pagos únicamente de usuarios registrados en Mercado Libre, con sus tarjetas y dinero disponible**.
 
 Esto significa que tus clientes tienen más formas de pagarte y pueden acceder a mejores beneficios, sin alterar la dinámica de tu Checkout API.
 
 ![Checkout-Wallet](/images/web-payment-checkout/cho-wallet-landing.png)
 
-## Beneficios de la billetera de Mercado Pago
+## Beneficios de la billetera de Mercado Libre
 
 * Tus clientes pueden pagarte con más medios de pago y de forma más rápida:
-  * **Con tarjetas de crédito o débito ya guardadas** en sus cuentas de Mercado Pago, ahorrando el esfuerzo de ingresar una tarjeta desde el comienzo. También tienen sus **direcciones guardadas**, lo que simplifica todo el proceso de carga.
-  * **Con dinero disponible en Mercado Pago** tienen su dinero listo para ser usado en el momento, en tan solo 1 click.
+  * **Con tarjetas de crédito o débito ya guardadas** en sus cuentas de Mercado Libre, ahorrando el esfuerzo de ingresar una tarjeta desde el comienzo. También tienen sus **direcciones guardadas**, lo que simplifica todo el proceso de carga.
+  * **Con dinero disponible en Mercado Libre** tienen su dinero listo para ser usado en el momento, en tan solo 1 click.
 ----[mla]----
 * Tus clientes pueden pagarte en hasta 12 cuotas sin usar tarjeta de crédito, siendo financiados por [Mercado Crédito](https://www.mercadolibre.com.ar/mercado-credito/meses-sin-tarjeta/).
 ------------
@@ -22,7 +22,7 @@ Esto significa que tus clientes tienen más formas de pagarte y pueden acceder a
 
 ## Cómo sumar la billetera en tu sitio
 
-Necesitas integrar [Checkout Pro](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/online-payments/checkout-pro/introduction) configurado como [modo billetera](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/online-payments/checkout-pro/configurations#bookmark_aceptar_pagos_%C3%BAnicamente_de_usuarios_registrados) para agregar la billetera de Mercado Pago en tu sitio.
+Necesitas integrar [Checkout Pro](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/online-payments/checkout-pro/introduction) configurado como [modo billetera](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/online-payments/checkout-pro/configurations#bookmark_aceptar_pagos_%C3%BAnicamente_de_usuarios_registrados) para agregar la billetera de Mercado Libre en tu sitio.
 
 Para integrarlo, tienes que [generar la preferencia de pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/online-payments/checkout-pro/integration#bookmark_pasos_para_integrarte) con la información del producto o servicio que quieras ofrecer y agregar la opción de pago en tu sitio. 
 
@@ -34,7 +34,7 @@ Para integrarlo, tienes que [generar la preferencia de pago](https://www.mercado
 >
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Genera tu preferencia
 
-Para comenzar, tienes que generar tu preferencia de pago desde tu backend con la [SDK de Mercado Pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/online-payments/checkout-api/previous-requirements#bookmark_utiliza_nuestras_librer%C3%ADas_siempre) que utilizaste en tu Checkout API. 
+Para comenzar, tienes que generar tu preferencia de pago desde tu backend con la [SDK de Mercado Libre](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/online-payments/checkout-api/previous-requirements#bookmark_utiliza_nuestras_librer%C3%ADas_siempre) que utilizaste en tu Checkout API. 
 
 [[[
 ```php
@@ -199,7 +199,7 @@ Luego, desde tu frontend, agrega el siguiente código para mostrar el botón de 
 
 [[[
 ```php
-// SDK Client-Side Mercado Pago
+// SDK Client-Side Mercado Libre
 <script src="https://sdk.mercadopago.com/js/v2"></script>
 <script>
 // Agrega credenciales de SDK
@@ -216,14 +216,14 @@ mp.checkout({
     },
     render: {
       container: '.cho-container', // Indica dónde se mostrará el botón de pago
-      label: 'Pagar con Mercado Pago', // Cambia el texto del botón de pago (opcional)
-      type: 'wallet', // Aplica la marca de Mercado Pago al botón
+      label: 'Pagar con Mercado Libre', // Cambia el texto del botón de pago (opcional)
+      type: 'wallet', // Aplica la marca de Mercado Libre al botón
     }
 });
 </script>
 ```
 ```node
-// SDK Client-Side Mercado Pago
+// SDK Client-Side Mercado Libre
 <script src="https://sdk.mercadopago.com/js/v2"></script>
 <script>
 // Agrega credenciales de SDK
@@ -238,15 +238,15 @@ mp.checkout({
     },
     render: {
       container: '.cho-container', // Indica dónde se mostrará el botón de pago
-      label: 'Pagar con Mercado Pago', // Cambia el texto del botón de pago (opcional)
-      type: 'wallet', // Aplica la marca de Mercado Pago al botón
+      label: 'Pagar con Mercado Libre', // Cambia el texto del botón de pago (opcional)
+      type: 'wallet', // Aplica la marca de Mercado Libre al botón
     }
 });
 </script>
 
 ```
 ```java
-// SDK Client-Side Mercado Pago
+// SDK Client-Side Mercado Libre
 <script src="https://sdk.mercadopago.com/js/v2"></script>
 <script>
 // Agrega credenciales de SDK
@@ -263,14 +263,14 @@ mp.checkout({
     },
     render: {
       container: '.cho-container', // Indica dónde se mostrará el botón de pago
-      label: 'Pagar con Mercado Pago', // Cambia el texto del botón de pago (opcional)
-      type: 'wallet', // Aplica la marca de Mercado Pago al botón
+      label: 'Pagar con Mercado Libre', // Cambia el texto del botón de pago (opcional)
+      type: 'wallet', // Aplica la marca de Mercado Libre al botón
     }
 });
 </script>
 ```
 ```ruby
-# SDK Client-Side Mercado Pago
+# SDK Client-Side Mercado Libre
 <script src="https://sdk.mercadopago.com/js/v2"></script>
 <script>
 # Agrega credenciales de SDK
@@ -287,14 +287,14 @@ mp.checkout({
     },
     render: {
       container: '.cho-container', # Indica dónde se mostrará el botón de pago
-      label: 'Pagar con Mercado Pago', # Cambia el texto del botón de pago (opcional)
-      type: 'wallet', # Aplica la marca de Mercado Pago al botón
+      label: 'Pagar con Mercado Libre', # Cambia el texto del botón de pago (opcional)
+      type: 'wallet', # Aplica la marca de Mercado Libre al botón
     }
 });
 </script>
 ```
 ```csharp
-// SDK Client-Side Mercado Pago
+// SDK Client-Side Mercado Libre
 <script src="https://sdk.mercadopago.com/js/v2"></script>
 <script>
 // Agrega credenciales de SDK
@@ -311,14 +311,14 @@ mp.checkout({
     },
     render: {
       container: '.cho-container', // Indica dónde se mostrará el botón de pago
-      label: 'Pagar con Mercado Pago', // Cambia el texto del botón de pago (opcional)
-      type: 'wallet', // Aplica la marca de Mercado Pago al botón
+      label: 'Pagar con Mercado Libre', // Cambia el texto del botón de pago (opcional)
+      type: 'wallet', // Aplica la marca de Mercado Libre al botón
     }
 });
 </script>
 ```
 ```python
-# SDK Client-Side Mercado Pago
+# SDK Client-Side Mercado Libre
 <script src="https://sdk.mercadopago.com/js/v2"></script>
 <script>
 # Agrega credenciales de SDK
@@ -335,25 +335,25 @@ mp.checkout({
     },
     render: {
       container: '.cho-container', # Indica dónde se mostrará el botón de pago
-      label: 'Pagar con Mercado Pago', # Cambia el texto del botón de pago (opcional)
-      type: 'wallet', # Aplica la marca de Mercado Pago al botón
+      label: 'Pagar con Mercado Libre', # Cambia el texto del botón de pago (opcional)
+      type: 'wallet', # Aplica la marca de Mercado Libre al botón
     }
 });
 </script>
 ```
 ]]]
 
-> Esta documentación utiliza la nueva versión de la librería. Para ver la versión anterior, ve a la [sección de Recibe pagos con la billetera de Mercado Pago con MercadoPago.js V1](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/online-payments/checkout-api/v1/wallet-integration).
+> Esta documentación utiliza la nueva versión de la librería. Para ver la versión anterior, ve a la [sección de Recibe pagos con la billetera de Mercado Libre con MercadoPago.js V1](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/online-payments/checkout-api/v1/wallet-integration).
 
 Para más información sobre cada atributo, consulta la [Referencia de API](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/reference/preferences/_checkout_preferences/post).
 
-¡Y listo! Ya tienes integrada la billetera de Mercado Pago en tu sitio.
+¡Y listo! Ya tienes integrada la billetera de Mercado Libre en tu sitio.
 
 > WARNING
 >
 > Importante
 >
-> Para probarlo, no te olvides de acceder desde otro navegador o cerrar la sesión de tu cuenta de Mercado Pago ya que no puedes pagarte a ti mismo.<br/>
+> Para probarlo, no te olvides de acceder desde otro navegador o cerrar la sesión de tu cuenta de Mercado Libre ya que no puedes pagarte a ti mismo.<br/>
 
 ---
 

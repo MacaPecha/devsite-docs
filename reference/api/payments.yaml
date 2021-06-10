@@ -2,7 +2,7 @@ openapi: 3.0.0
 servers:
   - url: https://api.mercadopago.com
 info:
-  title: Mercado Pago API Reference
+  title: Mercado Libre API Reference
   version: '1.0'
 paths:
   /v1/payments:
@@ -157,7 +157,7 @@ paths:
                           description: Height of barcode.
                 application_fee:
                   type: number
-                  description: Fee collected by a marketplace or Mercado Pago Application.
+                  description: Fee collected by a marketplace or Mercado Libre Application.
                 binary_mode:
                   type: boolean
                   description: >-
@@ -212,7 +212,7 @@ paths:
                 notification_url:
                   type: string
                   description: >-
-                    URL where Mercado Pago will send notifications associated to
+                    URL where Mercado Libre will send notifications associated to
                     changes in this payment
                 order:
                   type: object
@@ -1300,7 +1300,7 @@ paths:
                           description: Height of barcode.
                 application_fee:
                   type: number
-                  description: Fee collected by a marketplace or Mercado Pago Application.
+                  description: Fee collected by a marketplace or Mercado Libre Application.
                 binary_mode:
                   type: boolean
                   description: >-
@@ -1355,7 +1355,7 @@ paths:
                 notification_url:
                   type: string
                   description: >-
-                    URL where Mercado Pago will send notifications associated to
+                    URL where Mercado Libre will send notifications associated to
                     changes in this payment
                 order:
                   type: object
@@ -1886,11 +1886,11 @@ components:
       type: string
       description: Payment type.
       enum:
-        - regular_payment -- Typification by default of a purchase being paid using Mercado Pago.
+        - regular_payment -- Typification by default of a purchase being paid using Mercado Libre.
         - money_transfer -- Funds transfer between two users.
         - recurring_payment -- Automatic recurring payment due to an active user subscription.
         - account_fund -- Money income in the user's account.
-        - payment_addition -- Addition of money to an existing payment, made through a Mercado Pago account.
+        - payment_addition -- Addition of money to an existing payment, made through a Mercado Libre account.
         - cellphone_recharge -- Recharge of a user's cellphone account.
         - pos_payment -- Payment done through a Point of Sale.
     entity_type:
@@ -1906,7 +1906,7 @@ components:
       example: customer
       enum:
         - customer -- Payer is a Customer and belongs to the collector.
-        - registered -- The account corresponds to a Mercado Pago registered user.
+        - registered -- The account corresponds to a Mercado Libre registered user.
         - guest -- The payer doesn't have an account.
     order_type:
       type: String
@@ -1914,7 +1914,7 @@ components:
       example: mercadolibre
       enum:
         - mercadolibre -- The order is from Mercado Libre.
-        - mercadopago -- It is a Mercado Pago merchant_order.
+        - mercadopago -- It is a Mercado Libre merchant_order.
     currency_id:
       type: string
       description: ID of the currency used in the payment.
@@ -1932,7 +1932,7 @@ components:
       description: Fee detail.
       example: coupon_fee
       enum:
-        - mercadopago_fee -- Cost for using Mercado Pago.
+        - mercadopago_fee -- Cost for using Mercado Libre.
         - coupon_fee -- Discount given by a coupon.
         - financing_fee -- Cost of financing.
         - shipping_fee -- Shipping cost.
@@ -1964,7 +1964,7 @@ components:
       description: Type of payment method chosen.
       example: credit_card
       enum:
-        - account_money -- Money in the Mercado Pago account.
+        - account_money -- Money in the Mercado Libre account.
         - ticket -- Printed ticket.
         - bank_transfer -- Wire transfer.
         - atm -- Payment by ATM.
@@ -1978,8 +1978,8 @@ components:
       enum:
         - collector -- The collector issued the refund.
         - operator -- The refund was made by an account's operator.
-        - admin -- The refund was made by a Mercado Pago administrator.
-        - bpp -- The refund was made by the Mercado Pago's Buyer Protection Program
+        - admin -- The refund was made by a Mercado Libre administrator.
+        - bpp -- The refund was made by the Mercado Libre's Buyer Protection Program
     barcode_type:
       type: String
       description: Encoding type.

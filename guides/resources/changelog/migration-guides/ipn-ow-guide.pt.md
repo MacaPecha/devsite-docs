@@ -28,7 +28,7 @@ O JSON terá as informações básicas de pagamento. Caso você precise de mais 
 
 ## Como ativar as notificações IPN?
 
-Da sua conta do Mercado Pago, você pode adicionar notificações IPN.
+Da sua conta do Mercado Libre, você pode adicionar notificações IPN.
 
 > Você deve usar a conta em que recebe os pagamentos dos quais deseja ser notificado.
 

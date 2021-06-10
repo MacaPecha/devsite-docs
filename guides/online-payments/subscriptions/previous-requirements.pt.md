@@ -21,9 +21,9 @@ Observe que o valor mínimo permitido para criar uma assinatura é de $ 10 e o m
 
 ### Acesse uma conta
 
-Para poder começar a integração, é necessário **contar com uma conta do Mercado Pago ou do Mercado Livre**.
+Para poder começar a integração, é necessário **contar com uma conta do Mercado Libre ou do Mercado Livre**.
 
-Você pode [Entrar](https://www.mercadolibre.com/jms/[FAKER][GLOBALIZE][SITE_ID]/lgz/login?platform_id=mp&go=https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/subscriptions/previous-requirements) em uma conta existente no Mercado Pago ou no Mercado Livre ou [Criar uma nova conta](https://www.mercadopago[FAKER][URL][DOMAIN]) no Mercado Pago.
+Você pode [Entrar](https://www.mercadolibre.com/jms/[FAKER][GLOBALIZE][SITE_ID]/lgz/login?platform_id=mp&go=https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/subscriptions/previous-requirements) em uma conta existente no Mercado Libre ou no Mercado Livre ou [Criar uma nova conta](https://www.mercadopago[FAKER][URL][DOMAIN]) no Mercado Libre.
 
 ### Tenha suas credenciais à mão
 
@@ -36,7 +36,7 @@ Para poder encontrá-las, confira a seção de [Credenciais](https://www.mercado
 
 ### Utilize nossa biblioteca oficial
 
-Integre com nosso [SDK Javascript do Mercado Pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/sdks) que te permite criar um token com os dados do cartão de forma segura e enviá-lo ao seu backend para usá-lo nos seus pagamentos.
+Integre com nosso [SDK Javascript do Mercado Libre](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/sdks) que te permite criar um token com os dados do cartão de forma segura e enviá-lo ao seu backend para usá-lo nos seus pagamentos.
 
 
 ------------

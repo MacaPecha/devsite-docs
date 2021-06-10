@@ -9,11 +9,11 @@
 > Considerations
 >
 > This information is provided with the aim of providing all the tools to be able to perform the integration of the solution.
-> The Seller must comply with the integration policies of Mercado Pago:
+> The Seller must comply with the integration policies of Mercado Libre:
 >
-> A. The Seller must communicate clearly and unequivocally to its user base or clients that the payment platform on its website is provided by Mercado Pago, and the terms or dates and the amounts of recurring payments.
+> A. The Seller must communicate clearly and unequivocally to its user base or clients that the payment platform on its website is provided by Mercado Libre, and the terms or dates and the amounts of recurring payments.
 >
-> B. In the event that existing users or customers of the Seller are being migrated to the Payments Recurrent Payment Market platform, the Seller must communicate in writing indicating that Mercado Pago will process the payments, informing that in the summary it will see the charge as MercadoPago / MercadoLibre" (*).
+> B. In the event that existing users or customers of the Seller are being migrated to the Payments Recurrent Payment Market platform, the Seller must communicate in writing indicating that Mercado Libre will process the payments, informing that in the summary it will see the charge as MercadoPago / MercadoLibre" (*).
 >
 > C. Pre-Approval is only available through the personalized Checkout Pro or web tokenize checkout, that is, via the use of our API's.
 
@@ -23,11 +23,11 @@
 >
 > In the case of Master and Amex credit cards, the credit card will appear as: "MERPAG * <brand_name>". So for these means that for this payments methods you can communicate: "In your summary you will see the charge as MERPAG * <brand_name>" where <Brand_name> is configured from the Market account Seller payment: Menu -> Settings> Name of my business.
 
- With the payments without cvv, you can make recurring charges with Mercado Pago having the freedom to adapt the solution in the most optimal way for your business
+ With the payments without cvv, you can make recurring charges with Mercado Libre having the freedom to adapt the solution in the most optimal way for your business
  
  ## Create an aplication
  
- To create an application you have to enter with your Mercado Pago account at: [https://applications.mercadopago.com/](https://applications.mercadopago.com/) To be able to operate payments without CVP, the application must be enabled for that purpose. These permits are assigned from Mercado Pago, so you must send us the APP ID obtained to make the corresponding configuration.
+ To create an application you have to enter with your Mercado Libre account at: [https://applications.mercadopago.com/](https://applications.mercadopago.com/) To be able to operate payments without CVP, the application must be enabled for that purpose. These permits are assigned from Mercado Libre, so you must send us the APP ID obtained to make the corresponding configuration.
  
  ## Charge the first payment
  
@@ -110,7 +110,7 @@ $payment = $mp->post("/v1/payments", $payment_data);
 
 ## Listen for notifications of payments
 
- Every time a payment is made and there is a novelty about the payment, Mercado Pago will send you a notification so you can update your systems. You can see the step by step in our section of [notifications](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/notifications/webhooks)
+ Every time a payment is made and there is a novelty about the payment, Mercado Libre will send you a notification so you can update your systems. You can see the step by step in our section of [notifications](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/notifications/webhooks)
  
  ## Retries
 
@@ -152,4 +152,4 @@ For this we will inform you with an HTTP Status 201 OK that the payment has been
   
 ## Verify you have received the Webhook notification
   
-Mercado Pago will send you a notification of the event that occurred. Validate that you have received it correctly and impacted correctly in your management system.
+Mercado Libre will send you a notification of the event that occurred. Validate that you have received it correctly and impacted correctly in your management system.

@@ -7,12 +7,12 @@ sites_supported:
 
 # Receiving payments with Point without integration
 
-From the Mercado Pago application, you have the option to charge in your physical stores through the Point device.
+From the Mercado Libre application, you have the option to charge in your physical stores through the Point device.
 You don't need to know about programming.
 
 We will guide you so that you can charge:
 
-- Log-in the Mercado Pago application, go to the Charge with Point section, and connect your Point device.
+- Log-in the Mercado Libre application, go to the Charge with Point section, and connect your Point device.
 - Enter the amount and a description of what you are selling. The description will allow you to identify the sale in your backend.
 - Swipe the payer's credit or debit card through the Point device.
 - Enter the CVV of the card, the identification of the payer and have it signed.
@@ -30,6 +30,6 @@ For each product you can insert an image, the price and name of it.
 
 ## Find out about your payments
 
-You can check your sales in the list of activities of the Mercado Pago account, or integrate [notifications](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/notifications/webhooks) into your management system.
+You can check your sales in the list of activities of the Mercado Libre account, or integrate [notifications](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/notifications/webhooks) into your management system.
 
 > If you want to build something more advanced and personalized, read our [Integrated Point](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/in-person-payments/mp-point/how-to-integrate) documentation

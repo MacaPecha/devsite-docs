@@ -6,7 +6,7 @@
 >
 > O *emissor* é a instituição financeira que emite um cartão (de débito, crédito ou pré-pago) à uma determinada pessoa ou empresa. Essas instituições são geralmente bancos, mas há exceções.
 
-Os emissores suportados pelo Mercado Pago variam de acordo com cada país. Este recurso permite identificar um emissor com base no [meio de pagamento](#) e um [número BIN](#).
+Os emissores suportados pelo Mercado Libre variam de acordo com cada país. Este recurso permite identificar um emissor com base no [meio de pagamento](#) e um [número BIN](#).
 
 ## Obtenha os emissores
 
@@ -34,4 +34,4 @@ Os emissores podem ser obtidos da seguinte forma:
 	]
 
 
-Os resultados incluídos nesta resposta coincidirão com o país associado à sua conta Mercado Pago e *os parâmetros (querystring) que tiver utilizado*. Você poderá obter mais informações sobre este recurso e seus atributos em [Referência da API](#).
+Os resultados incluídos nesta resposta coincidirão com o país associado à sua conta Mercado Libre e *os parâmetros (querystring) que tiver utilizado*. Você poderá obter mais informações sobre este recurso e seus atributos em [Referência da API](#).

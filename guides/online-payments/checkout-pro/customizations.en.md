@@ -31,7 +31,7 @@ Use the `render` function to display a **payment button that allows the opening 
 | Parameter | Type | Description |
 | --- | --- | --- |
 |`container` |string| CSS Selector (identifier) for the element in which you want the payment button to be displayed. |
-| `type` (optional) | string | Allows you to define the button type. Currently only the 'wallet' value is accepted, which shows a payment button with Mercado Pago branding. **Default value**: basic payment button. |
+| `type` (optional) | string | Allows you to define the button type. Currently only the 'wallet' value is accepted, which shows a payment button with Mercado Libre branding. **Default value**: basic payment button. |
 | `label` (optional) | string | Value for the button's text. **Default value**: “Pay” |
 
 You can use this method in two different ways:
@@ -108,7 +108,7 @@ Redirect to the 'init_point' of the preference.
     <title>Pay</title>
   </head>
   <body>
-    <a href="<?php echo $preference->init_point; ?>">Pay with Mercado Pago</a>
+    <a href="<?php echo $preference->init_point; ?>">Pay with Mercado Libre</a>
   </body>
 </html>
 ```
@@ -122,7 +122,7 @@ Redirect to the 'init_point' of the preference.
     <title>Pay</title>
   </head>
   <body>
-    <a href="$$init_point$$" target="_blank">Pay with Mercado Pago</a>
+    <a href="$$init_point$$" target="_blank">Pay with Mercado Libre</a>
   </body>
 </html>
 ```
@@ -136,7 +136,7 @@ Redirect to the 'init_point' of the preference.
     <title>Pay</title>
   </head>
   <body>
-    <a href="${preference.initPoint}">Pay with Mercado Pago</a>
+    <a href="${preference.initPoint}">Pay with Mercado Libre</a>
   </body>
 </html>
 ```
@@ -150,7 +150,7 @@ Redirect to the 'init_point' of the preference.
     <title>Pay</title>
   </head>
   <body>
-    <a href="<%= @init_point %>" target="_blank">Pay with Mercado Pago</a>
+    <a href="<%= @init_point %>" target="_blank">Pay with Mercado Libre</a>
   </body>
 </html>
 ```
@@ -164,7 +164,7 @@ Redirect to the 'init_point' of the preference.
     <title>Pay</title>
   </head>
   <body>
-    <a href="@Html.DisplayFor(model => model.InitPoint)">Pay with Mercado Pago</a>
+    <a href="@Html.DisplayFor(model => model.InitPoint)">Pay with Mercado Libre</a>
   </body>
 </html>
 ```
@@ -178,7 +178,7 @@ Redirect to the 'init_point' of the preference.
     <title>Pay</title>
   </head>
   <body>
-    <a href="{{ init_point }}" target="_blank">Pay with Mercado Pago</a>
+    <a href="{{ init_point }}" target="_blank">Pay with Mercado Libre</a>
   </body>
 </html>
 ```

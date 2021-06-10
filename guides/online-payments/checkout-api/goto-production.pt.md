@@ -6,14 +6,14 @@ Quando sua integração estiver pronta e quiser começar a receber pagamentos, v
 
 Com esse processo, se garante a segurança dos dados dos seus clientes, o cumprimento das normas e disposições legais de cada país e a melhor experiência de compra para as suas vendas.
 
-[Conheça os termos e condições do Mercado Pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/resources/legal/terms-and-conditions).
+[Conheça os termos e condições do Mercado Libre](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/resources/legal/terms-and-conditions).
 
 ## O que validamos?
-A fim de garantir tanto a melhor qualidade de integração e experiência do usuário para o cliente final, no Mercado Pago precisamos que certos requisitos sejam atendidos antes de entrar em produção.
+A fim de garantir tanto a melhor qualidade de integração e experiência do usuário para o cliente final, no Mercado Libre precisamos que certos requisitos sejam atendidos antes de entrar em produção.
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use as bibliotecas oficiais e cuide da segurança dos dados
 
-É importante que utilize a biblioteca MercadoPago.js como é fornecida pelo Mercado Pago. Não deve-se modificá-la nem armazená-la nos seus servidores. Assegure-se também de não incluir o atributo `name` ao criar um formulário de cartão para cuidar da segurança dos dados.
+É importante que utilize a biblioteca MercadoPago.js como é fornecida pelo Mercado Libre. Não deve-se modificá-la nem armazená-la nos seus servidores. Assegure-se também de não incluir o atributo `name` ao criar um formulário de cartão para cuidar da segurança dos dados.
 
 Essas medidas permitem cuidar dos dados sensíveis, cumprir com os padrões de segurança requeridos e mantê-lo sempre atualizado.
 
@@ -30,7 +30,7 @@ Veja mais informações na [seção Melhore a aprovação](https://www.mercadopa
 
 ## Notificações e pesquisa de pagamento
 
-Para aproveitar ao máximo a integração do Mercado Pago, um dos principais pontos a destacar é o uso de notificações para atualizar pedidos em tempo real no seu sistema.
+Para aproveitar ao máximo a integração do Mercado Libre, um dos principais pontos a destacar é o uso de notificações para atualizar pedidos em tempo real no seu sistema.
 Ambos os tipos de notificações, [IPN](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/notifications/ipn) ou [Webhooks](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/notifications/webhooks), são enviadas de um servidor a outro mediante uma chamada `HTTP POST` para informar sobre suas transações.
 Ao implementar essas notificações, você poderá descobrir todas as atualizações de suas transações no momento.
 
@@ -42,7 +42,7 @@ Conforme mencionado na [seção Mensagens de resposta](https://www.mercadopago[F
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Seja transparente com as promoções e financiamentos
 
-Deve-se comunicar claramento que as promoções são oferecidas pelo Mercado Pago. Pode-se [incluir um banner de meios de pagamento](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/resources/banners/introduction) ou [adicionar um link na seção de promoções](https://www.mercadopago.com.br/promocoes/). Também, deve-se informar os [custos de financiamento que se aplicam aos seus clientes](https://www.mercadopago.com.br/ajuda/Custos-de-parcelamento_322).
+Deve-se comunicar claramento que as promoções são oferecidas pelo Mercado Libre. Pode-se [incluir um banner de meios de pagamento](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/resources/banners/introduction) ou [adicionar um link na seção de promoções](https://www.mercadopago.com.br/promocoes/). Também, deve-se informar os [custos de financiamento que se aplicam aos seus clientes](https://www.mercadopago.com.br/ajuda/Custos-de-parcelamento_322).
 
 ----[mla]----
 > NOTE
@@ -61,9 +61,9 @@ Disponibilize uma política de termos e condições e deixe claro que é respons
 
 > LEFT_BUTTON_RECOMMENDED_PT
 >
-> Aceite a carteira Mercado Pago
+> Aceite a carteira Mercado Libre
 >
-> Permite pagamentos somente de usuários cadastrados no Mercado Pago, com cartão e saldo disponível.
+> Permite pagamentos somente de usuários cadastrados no Mercado Libre, com cartão e saldo disponível.
 >
 > [Usuários cadastrados](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/checkout-api/wallet-integration)
 

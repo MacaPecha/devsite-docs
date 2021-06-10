@@ -1,12 +1,12 @@
 ---
-  description: Crea campañas de descuento para potenciar tus ventas utilizando las herramientas de marketing de tu cuenta de Mercado Pago
+  description: Crea campañas de descuento para potenciar tus ventas utilizando las herramientas de marketing de tu cuenta de Mercado Libre
   indexable: false
 ---
 
 
 # Campañas de descuento
 
-Crea campañas de descuento para potenciar tus ventas utilizando las herramientas de marketing de tu cuenta de Mercado Pago, ingresando en la sección Configuración para tu Negocio: [Crear descuento](https://www.mercadopago[FAKER][URL][DOMAIN]/campaigns/create).
+Crea campañas de descuento para potenciar tus ventas utilizando las herramientas de marketing de tu cuenta de Mercado Libre, ingresando en la sección Configuración para tu Negocio: [Crear descuento](https://www.mercadopago[FAKER][URL][DOMAIN]/campaigns/create).
 
 Puedes crear dos tipos de campañas:
 

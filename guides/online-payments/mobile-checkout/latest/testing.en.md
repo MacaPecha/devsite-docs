@@ -50,7 +50,7 @@ curl -X POST \
 >Important
 >
 > * You can generate up to 10 test user accounts simultaneously. Therefore, we recommend you _save each email and password._
-> * Test users expire after 60 days without activity in Mercado Pago.
+> * Test users expire after 60 days without activity in Mercado Libre.
 > * To make test payments we recommend using low amounts.
 > * Both buyer and seller must be test users.
 > * Use test cards, since it is not possible to withdraw money.

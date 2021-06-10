@@ -11,7 +11,7 @@ We know some terms are new. Before getting started, we'll give you a hand.
 | _Credentials_ | Your credentials are the **keys we provide so you can configure your integrations.**<br/>There are two types:<br/><br/>**Public Key**. Public key of the application to know, for example, the payment methods and encrypt card details. You must use it only for your integrations.<br/>**Access Token**. Private key of the application to generate payments. You must use it only for your integrations.<br/><br/>To find them, go to your [credentials]([FAKER][CREDENTIALS][URL]) and select the productive ones.<br/><br/> |
 | _Initial Point (init_point)_ | **It is the URL obtained at the time of generating the preference** and that starts the payment flow of the Checkout Pro. |
 | _Ítem_ | It refers to the product or service you want to offer. It can be one or a list. |
-| _Application_ | The applications are used to process the seller's payments. **Each application identifies a particular integration**, since each one has its own [credentials]([FAKER][CREDENTIALS][URL]). One Mercado Pago account can have multiple applications.<br/><br/>You can find the information of each one in Credentials. Upon entering, one will be created automatically or you can [create an application](https://applications.mercadopago.com) every time you need one. |
+| _Application_ | The applications are used to process the seller's payments. **Each application identifies a particular integration**, since each one has its own [credentials]([FAKER][CREDENTIALS][URL]). One Mercado Libre account can have multiple applications.<br/><br/>You can find the information of each one in Credentials. Upon entering, one will be created automatically or you can [create an application](https://applications.mercadopago.com) every time you need one. |
 
 ## Previous requirements
 
@@ -19,11 +19,11 @@ Keep these aspects in mind before you start integrating:
 
 ### 1. Access to an account
 
-In order to start the integration, it is necessary to **have a Mercado Pago or Mercado Libre account**.
+In order to start the integration, it is necessary to **have a Mercado Libre or Mercado Libre account**.
 
 You can [Sign in](https://www.mercadolibre.com/jms/[FAKER][GLOBALIZE][SITE_ID]/lgz/login?platform_id=mp&go=https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/online-payments/checkout-pro/previous-requirements) with an existing account or [Create a new account](https://www.mercadopago[FAKER][URL][DOMAIN]).
 
-### 2. Install Mercado Pago SDK
+### 2. Install Mercado Libre SDK
 **Install the official SDK** to simplify your interaction with our APIs.
 
 [[[
@@ -53,17 +53,17 @@ To install the SDK in your [Maven](http://maven.apache.org/install.html) project
 ```
 ```ruby
 ===
-The Mercado Pago SDK is available as a [gema](https://rubygems.org/gems/mercadopago-sdk), to install it you must execute the following code on the command line:
+The Mercado Libre SDK is available as a [gema](https://rubygems.org/gems/mercadopago-sdk), to install it you must execute the following code on the command line:
 ===
 gem install mercadopago-sdk
 ```
 ```csharp
 ===
 ----[mlb]----
-Use [NuGet](https://docs.microsoft.com/pt-br/nuget/reference/nuget-exe-cli-reference) to install the Mercado Pago SDK .NET.
+Use [NuGet](https://docs.microsoft.com/pt-br/nuget/reference/nuget-exe-cli-reference) to install the Mercado Libre SDK .NET.
 ------------
 ----[mla, mco, mlu, mlc, mlm]----
-Use [NuGet](https://docs.microsoft.com/es-es/nuget/reference/nuget-exe-cli-reference) to install the Mercado Pago SDK .NET.
+Use [NuGet](https://docs.microsoft.com/es-es/nuget/reference/nuget-exe-cli-reference) to install the Mercado Libre SDK .NET.
 ------------
 To do this, run the following command on your terminal:
 ===
@@ -71,7 +71,7 @@ nuget install mercadopago-sdk
 ```
 ```python
 ===
-The Mercado Pago SDK is available as a [pip](https://pypi.org/project/mercadopago/), to install it you must execute the following code on the command line:
+The Mercado Libre SDK is available as a [pip](https://pypi.org/project/mercadopago/), to install it you must execute the following code on the command line:
 ===
 pip3 install mercadopago
 ```

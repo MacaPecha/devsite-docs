@@ -1,7 +1,7 @@
 
-# Generation by the Mercado Pago panel
+# Generation by the Mercado Libre panel
 
-Generate your Available Balance reports from your Mercado Pago panel. You can schedule the generation of an Available Balance report for each time you make a withdrawal from your balance to a bank account.
+Generate your Available Balance reports from your Mercado Libre panel. You can schedule the generation of an Available Balance report for each time you make a withdrawal from your balance to a bank account.
 
 > WARNING
 >
@@ -11,7 +11,7 @@ Generate your Available Balance reports from your Mercado Pago panel. You can sc
 
 Follow these steps to generate your reports:
 
-1. From your Mercado Pago account, go to [your reports](https://www.mercadopago.com.ar/balance/reports) and select the *Reports* option.
+1. From your Mercado Libre account, go to [your reports](https://www.mercadopago.com.ar/balance/reports) and select the *Reports* option.
 1. Go to Available Money reports and click on *Create report*.
 1. Search for withdrawals by **time period** and select the withdrawal you want to reconcile.
 
@@ -34,7 +34,7 @@ You can also schedule the generation of these reports [for each money withdrawal
 >
 > Generating through API
 >
-> Create reports in scheduled and manual ways through an integration with Mercado Pago.
+> Create reports in scheduled and manual ways through an integration with Mercado Libre.
 >
 > [Generating through API](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/manage-account/reports/available-money/api)
 

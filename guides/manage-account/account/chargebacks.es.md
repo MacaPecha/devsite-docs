@@ -118,7 +118,7 @@ Vas a obtener la siguiente información:
 
 ### Entendimiento de cobertura
 
-Según el caso puede variar la política de cobertura por parte de Mercado Pago.
+Según el caso puede variar la política de cobertura por parte de Mercado Libre.
 El campo `coverage_elegible` define si el contracargo puede ser cubierto y `documentation_required` indica si requiere documentación.
 Para más información, puedes ver el [Programa de Protección al Vendedor](https://www.mercadopago.com.ar/ayuda/requisitos-programa-proteccion-vendedor_294).
 
@@ -150,7 +150,7 @@ Si se ha subido la documentación exitosamente, la API responderá con estado `2
 
 ### Resolución
 
-Una vez enviada la documentación, un representante de Mercado Pago la revisará.
+Una vez enviada la documentación, un representante de Mercado Libre la revisará.
 Eventualmente el contracargo podrá tener dos tipos de resoluciones posibles en el campo `coverage_applied`:
 
 | Valor           | Descripción

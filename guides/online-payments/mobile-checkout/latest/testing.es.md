@@ -49,7 +49,7 @@ curl -X POST \
 >Importante
 >
 > * Puedes generar hasta 10 cuentas de usuarios de prueba en simultáneo. Por eso, te recomendamos guardar el _email_ y _password_ de cada uno.
-> * Los usuarios de prueba caducan luego de 60 días sin actividad en Mercado Pago.
+> * Los usuarios de prueba caducan luego de 60 días sin actividad en Mercado Libre.
 > * Para hacer pagos de prueba te recomendamos usar montos bajos.
 > * Tanto el comprador como el vendedor deben ser usuarios de prueba.
 > * Usa tarjetas de pruebas, ya que no es posible retirar el dinero.
