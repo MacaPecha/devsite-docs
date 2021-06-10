@@ -31,7 +31,7 @@ Ao usar o método `render` um botão de pagamento é mostrado para abrir o Check
 | Parâmetro | Tipo de dado | Descrição |
 | --- | --- | --- |
 | `container` | string | CSS Selector (identificador) do elemento onde se deseja mostrar o botão de pagamento. Permite definir o tipo de botão. |
-| `type` (opcional) | string | Permite definir o tipo de botão. Atualmente, só aceita o valor ’wallet’ que mostra um botão de pagamento com a marca do Mercado Pago. **Valor por padrão**: botão de pagamento simples. |
+| `type` (opcional) | string | Permite definir o tipo de botão. Atualmente, só aceita o valor ’wallet’ que mostra um botão de pagamento com a marca do Mercado Libre. **Valor por padrão**: botão de pagamento simples. |
 | `label` (opcional) | string | Valor do texto do botão. **Por padrão**: “Pagar” |
 
 Você pode usar este método de duas maneiras diferentes:
@@ -108,7 +108,7 @@ Redireciona ao 'init_point' da preferência
     <title>Pagar</title>
   </head>
   <body>
-    <a href="<?php echo $preference->init_point; ?>">Pagar com Mercado Pago</a>
+    <a href="<?php echo $preference->init_point; ?>">Pagar com Mercado Libre</a>
   </body>
 </html>
 ```
@@ -136,7 +136,7 @@ Redireciona ao 'init_point' da preferência
     <title>Pagar</title>
   </head>
   <body>
-    <a href="${preference.initPoint}">Pagar com Mercado Pago</a>
+    <a href="${preference.initPoint}">Pagar com Mercado Libre</a>
   </body>
 </html>
 ```
@@ -164,7 +164,7 @@ Redireciona ao 'init_point' da preferência
     <title>Pagar</title>
   </head>
   <body>
-    <a href="@Html.DisplayFor(model => model.InitPoint)">Pagar com Mercado Pago</a>
+    <a href="@Html.DisplayFor(model => model.InitPoint)">Pagar com Mercado Libre</a>
   </body>
 </html>
 ```
@@ -178,7 +178,7 @@ Redireciona ao 'init_point' da preferência
     <title>Pagar</title>
   </head>
   <body>
-    <a href="{{ init_point }}" target="_blank">Pagar com Mercado Pago</a>
+    <a href="{{ init_point }}" target="_blank">Pagar com Mercado Libre</a>
   </body>
 </html>
 ```

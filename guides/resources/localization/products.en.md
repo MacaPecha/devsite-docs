@@ -1,6 +1,6 @@
 # Products
 
-The products offered by Mercado Pago may vary by country.
+The products offered by Mercado Libre may vary by country.
 
 ## Availability by country
 

@@ -19,7 +19,7 @@ sites_supported:
 
 ## O que é QR por modelo desatendido?
 
-Este modelo lhe **permite que não seja necessário criar explicitamente a ordem de pagamento em Mercado Pago**. A ordem é gerada com a seleção de um produto ou serviço e o escaneio do QR do caixa. 
+Este modelo lhe **permite que não seja necessário criar explicitamente a ordem de pagamento em Mercado Libre**. A ordem é gerada com a seleção de um produto ou serviço e o escaneio do QR do caixa. 
 
 Recomenda-se para postos de gasolina, máquinas de venda automática ou para sistemas integrados com múltiplas carteiras. 
 
@@ -27,8 +27,8 @@ Recomenda-se para postos de gasolina, máquinas de venda automática ou para sis
 
 As características principais são: 
 
-- Cada caixa possui um URL associado ao qual Mercado Pago consultará se existe um pedido pronto para pagar. 
-- Quando o cliente escaneia o QR do caixa, Mercado Pago realiza um request de forma recorrente ao URL associado ao caixa e quando o pedido estiver pronto exibirá ao cliente no app o valor a pagar. 
+- Cada caixa possui um URL associado ao qual Mercado Libre consultará se existe um pedido pronto para pagar. 
+- Quando o cliente escaneia o QR do caixa, Mercado Libre realiza um request de forma recorrente ao URL associado ao caixa e quando o pedido estiver pronto exibirá ao cliente no app o valor a pagar. 
 - O cliente poderá pagar somente se existe um pedido criado para o QR que escaneou. 
 
 > NOTE
@@ -44,10 +44,10 @@ Explicamos a você o funcionamento do modelo desatendido:
 ![Fluxo do modelo](/images/mobile/qr-gas-station-flow.pt.png)
 
 1. O cliente escaneia o código QR desde seu aplicativo.
-2. Em função do URL associado ao caixa, Mercado Pago busca o pedido no server do  vendedor.
+2. Em função do URL associado ao caixa, Mercado Libre busca o pedido no server do  vendedor.
 3. (A) O ponto de venda informa seu estado ao server do vendedor. <br/>
    (B) Se as informações não estiverem disponíveis, o server do vendedor responderá  `HTTP 400`.<br/>
-   (C) Mercado Pago exibe uma tela de espera no aplicativo. <br/> 
+   (C) Mercado Libre exibe uma tela de espera no aplicativo. <br/> 
    (D) E volta à procura do pedido no server do vendedor.
 4. (A) O ponto de venda envia os dados do pedido para o server do vendedor. <br/>
    (B) Se o pedido for disponibilizado, o server do vendedor responde `HTTP 200` com as informações do pedido a cobrar.
@@ -59,7 +59,7 @@ Explicamos a você o funcionamento do modelo desatendido:
    (B) O server do vendedor recebe uma notificação com o pedido. <br/>
    (C) E confirma seu recebimento. 
 8. (A) O server do vendedor consulta o estado do pedido com o ID recebido na última notificação, para saber se está encerrado ou se continua aberto, pendente de pagamento. <br/>
-   (B) Mercado Pago restitui os dados correspondentes, como seu estado, informação de pagamentos, entre outros. 
+   (B) Mercado Libre restitui os dados correspondentes, como seu estado, informação de pagamentos, entre outros. 
 9. Se o pedido estiver encerrado (**closed**), o comprovante pode ser impresso para finalizar a transação. 
 
 > NOTE
@@ -71,7 +71,7 @@ Explicamos a você o funcionamento do modelo desatendido:
 
 ## Caixa para el modelo desatendido
 
-Para criar caixas de modelo desatendido, você precisa declarar a URL de um serviço do seu domínio ao qual o Mercado Pago consultará se há uma ordem disponível.
+Para criar caixas de modelo desatendido, você precisa declarar a URL de um serviço do seu domínio ao qual o Mercado Libre consultará se há uma ordem disponível.
 
 [[[
  ```curl

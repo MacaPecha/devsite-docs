@@ -4,7 +4,7 @@
 
 **IPN** (_Instant Payment Notification_) es una notificación que se envía de un servidor a otro mediante una llamada `HTTP POST` en relación a tus transacciones.
 
-Para recibir las notificaciones de los eventos en tu plataforma, puedes [configurar previamente una notification_url a la cual Mercado Pago tenga acceso](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/panel/notifications/ipn).
+Para recibir las notificaciones de los eventos en tu plataforma, puedes [configurar previamente una notification_url a la cual Mercado Libre tenga acceso](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/panel/notifications/ipn).
 
 
 ## Eventos
@@ -21,7 +21,7 @@ La `merchant_orders` es una entidad que agrupa tanto pagos como envíos. Tendrá
 
 Siempre que suceda un evento relacionado a alguno de los recursos mencionados, te enviaremos una notificación usando `HTTP POST` a la `notification_url` que especificaste.
 
-Si la aplicación no está disponible o demora en responder más de 22 segundos, Mercado Pago reintentará la notificación mediante el siguiente esquema:
+Si la aplicación no está disponible o demora en responder más de 22 segundos, Mercado Libre reintentará la notificación mediante el siguiente esquema:
 
 1. Reintento a los 5 minutos.
 2. Reintento a los 45 minutos.
@@ -29,7 +29,7 @@ Si la aplicación no está disponible o demora en responder más de 22 segundos,
 4. Reintento a los 2 días.
 5. Reintento a los 4 días.
 
-Mercado Pago informará a esta `notification_url` tanto en la creación como actualización de los estados de pagos u ordenes con dos parámetros:
+Mercado Libre informará a esta `notification_url` tanto en la creación como actualización de los estados de pagos u ordenes con dos parámetros:
 
 | Campo | Descripción |
 | --- | --- |
@@ -47,9 +47,9 @@ Ejemplo: Si configuraste la notification_url: `https://www.yoursite.com/notifica
 
 ## ¿Qué debo hacer al recibir una notificación?
 
-Cuando recibas una notificación en tu plataforma, Mercado Pago espera una respuesta para validar que la recibiste correctamente. Para esto, debes devolver un `HTTP STATUS 200 (OK)` ó `201 (CREATED)`.
+Cuando recibas una notificación en tu plataforma, Mercado Libre espera una respuesta para validar que la recibiste correctamente. Para esto, debes devolver un `HTTP STATUS 200 (OK)` ó `201 (CREATED)`.
 
-Recuerda que esta comunicación es exclusivamente entre los servidores de Mercado Pago y tu servidor, por lo cual no habrá un usuario físico viendo ningún tipo de resultado.
+Recuerda que esta comunicación es exclusivamente entre los servidores de Mercado Libre y tu servidor, por lo cual no habrá un usuario físico viendo ningún tipo de resultado.
 
 Luego de esto, puedes obtener la información completa del recurso notificado accediendo a la API correspondiente en `https://api.mercadopago.com/`:
 
@@ -182,7 +182,7 @@ En caso contrario, la respuesta que se recibe si todavía **no se escaneó el QR
 >
 > Importante
 >
-> Desde Mercado Pago requerimos para homologar la integración de pagos presenciales que tengan implementada la notificación (IPN) como método principal. La búsqueda de orden por `external_reference` deberá usarse sólo como contingencia ante el eventual caso que no se reciban notificaciones.
+> Desde Mercado Libre requerimos para homologar la integración de pagos presenciales que tengan implementada la notificación (IPN) como método principal. La búsqueda de orden por `external_reference` deberá usarse sólo como contingencia ante el eventual caso que no se reciban notificaciones.
 
 ## Recibir un solo tipo de notificación
 

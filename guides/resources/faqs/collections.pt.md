@@ -9,11 +9,11 @@
 
 ## Quanto custa receber pagamentos
 
-Para saber o custo por receber pagamentos no Mercado Pago, confira as [tarifas conforme cada caso](https://www.mercadopago.com.br/ajuda/custo-receber-pagamentos_453).
+Para saber o custo por receber pagamentos no Mercado Libre, confira as [tarifas conforme cada caso](https://www.mercadopago.com.br/ajuda/custo-receber-pagamentos_453).
 
 ## Ao receber um pagamento, quando poderei usar o dinheiro?
 
-Quando receber um pagamento pelo Mercado Pago, será necessário aguardar o dinheiro ficar disponível para usá-lo em compras ou transferi-lo para uma conta bancária.
+Quando receber um pagamento pelo Mercado Libre, será necessário aguardar o dinheiro ficar disponível para usá-lo em compras ou transferi-lo para uma conta bancária.
 
 Fazemos assim para que vendedores e compradores contem sempre com a segurança de que o dinheiro estará protegido enquanto a operação estiver em andamento.
 

@@ -1,7 +1,7 @@
 ---
   indexable: false
 ---
-# SDK Mercado Pago para Python
+# SDK Mercado Libre para Python
 
 
 * [Instalação](#bookmark_instalação)

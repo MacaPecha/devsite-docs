@@ -5,7 +5,7 @@ sites_supported:
 
 # Pagamentos no fluxo no relatório de Dinheiro disponível
 
-Vamos lhe mostrar como ver as cobranças mês a mês da sua conta do Mercado Pago no relatório de Dinheiro disponível.
+Vamos lhe mostrar como ver as cobranças mês a mês da sua conta do Mercado Libre no relatório de Dinheiro disponível.
 
 ## Movimentação de seus pagamentos no fluxo
 

@@ -2,7 +2,7 @@
 
 ## Introduction
 
-**Stores** and **Points of Sale** are the concepts you’ll use on Mercado Pago to manage your business and keep track of your accounts. You can have several POS in one Store.
+**Stores** and **Points of Sale** are the concepts you’ll use on Mercado Libre to manage your business and keep track of your accounts. You can have several POS in one Store.
 
 ![Cajas y Sucursales](/images/mobile/stores_pos.en.png) 
 
@@ -14,7 +14,7 @@ A **physical shop** in which your clients can get products and services. You can
 ### What are the benefits of creating stores?
 
 - **Tracking**. Each pay will be linked with a store. This will be useful to obtain reconciliation reports and identify transactions per store.
-- **Map Visibility**. Stores will appear on Mercado Pago and Mercado Libre maps, so user will be able to find you.
+- **Map Visibility**. Stores will appear on Mercado Libre and Mercado Libre maps, so user will be able to find you.
 - **Better organization for your POS**.
 
 
@@ -86,7 +86,7 @@ Once you created your stores, the next step is to generate your POS. Some consid
 | Term |  Description |
 | --- | --- |
 | `EXTERNAL_STORE_ID` | Links a Point of Sale (POS) to a store. This is a required field and same as the Store *external_id* previously created. |
-| `EXTERNAL_ID` | Identifies each Point of Sale (POS). This is required and can’t be modified nor repeated on the same Mercado Pago account. |
+| `EXTERNAL_ID` | Identifies each Point of Sale (POS). This is required and can’t be modified nor repeated on the same Mercado Libre account. |
 
 
 [[[

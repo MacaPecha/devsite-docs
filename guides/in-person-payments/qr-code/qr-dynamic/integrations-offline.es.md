@@ -10,12 +10,12 @@ El QR debe contener una serie de datos ordenados y avalados por el standard EMVC
 La siguiente tabla muestra todos los datos que contiene:
 
 
-| ID | Significado en Mercado Pago | Tamaño | Presencia/Restricción |
+| ID | Significado en Mercado Libre | Tamaño | Presencia/Restricción |
 | --- | --- | --- | --- |
 | ID 00: Payload Format Indicator | Versión del template del Código QR. | 02 | Obligatorio |
 | ID 01: Point of Initiation Method | Identifica si la información del QR es dinámica o estática. | 02 | Obligatorio |
 | ID 43.00 Merchant Account Information | Identificador de Mercado Libre.| 16 | Obligatorio |
-| ID 43.02 | Versión del template de Mercado Pago. | Hasta 2 | Obligatorio |
+| ID 43.02 | Versión del template de Mercado Libre. | Hasta 2 | Obligatorio |
 | ID 43.03 | Collector ID. | Hasta 10 | Obligatorio |
 | ID 43.04 | Sponsor ID. | Hasta 10 | Opcional |
 | ID 52: Merchant Category Code | Código para clasificar el negocio. | 04 | Obligatorio |
@@ -24,7 +24,7 @@ La siguiente tabla muestra todos los datos que contiene:
 |ID 58: Country Code | País del vendedor. ----[mlb]---- Brasil: `BR` ------------ ----[mla]---- Argentina: `AR` ------------ ----[mlc]---- Chile: `CL` ------------ ----[mlu]---- Uruguay: `UY` ------------ ----[mco]---- Colombia: `CO` ------------ ----[mpe]---- Perú: `PE` ------------ ----[mlm]---- México: `MX` ------------. | 02 | Obligatorio |
 | ID 59: Merchant Name | Nombre de tu negocio. | Hasta 25 | Obligatorio |
 | ID 60: Merchant City | Ciudad del vendedor.  | Hasta 15 | Obligatorio |
-| ID 62.05: Reference Label | ID definido por el integrador para asociar la transacción a un pago de Mercado Pago.  | Hasta 25 | Obligatorio |
+| ID 62.05: Reference Label | ID definido por el integrador para asociar la transacción a un pago de Mercado Libre.  | Hasta 25 | Obligatorio |
 | ID 62.07: Terminal Label | *External_id* de la caja.  | Hasta 10 | Opcional |
 | ID 62.08: Purpose of Transaction | Título descriptivo que hace referencia al propósito de la compra.  | Hasta 25 | Opcional |
 | ID 63: CRC |  Checksum - Validación del contenido.  | 04 | Obligatorio |
@@ -91,7 +91,7 @@ Con los datos obtenidos, ¡ya puedes generar tu QR!
 
 ## Pruebas
 
-Para validar el QR, solo necesitas [crear un usuario de prueba](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/in-person-payments/qr-code/integration-test) para diseñar el QR y otro para escanear y pagar desde la App de Mercado Pago o Mercado Libre.
+Para validar el QR, solo necesitas [crear un usuario de prueba](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/in-person-payments/qr-code/integration-test) para diseñar el QR y otro para escanear y pagar desde la App de Mercado Libre o Mercado Libre.
 
 > NOTE
 >
@@ -101,7 +101,7 @@ Para validar el QR, solo necesitas [crear un usuario de prueba](https://www.merc
 
 ## Notificaciones
 
-Para obtener los datos del pago, es necesario configurar la URL de notificación en el [panel de Mercado Pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/panel/notifications/ipn). 
+Para obtener los datos del pago, es necesario configurar la URL de notificación en el [panel de Mercado Libre](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/panel/notifications/ipn). 
 
 Al tener la URL configurada, ya se pueden validar las órdenes como lo indica la [sección de Notificaciones](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/notifications/ipn).
 

@@ -1,7 +1,7 @@
-# Install Mercado Pago for PrestaShop 1.6 & 1.7
+# Install Mercado Libre for PrestaShop 1.6 & 1.7
 
 
-Install the Mercado Pago module automatically, through the marketplace or from your PrestaShop panel.
+Install the Mercado Libre module automatically, through the marketplace or from your PrestaShop panel.
 
 > NOTE
 >
@@ -33,9 +33,9 @@ It is important that you review the requirements to install our module. Then fol
 
 ## Automatic Installation
 
-Install Mercado Pago for PrestaShop automatically by following these steps from the "Customize" section in your administrator:
+Install Mercado Libre for PrestaShop automatically by following these steps from the "Customize" section in your administrator:
 
-1. Go to the Modules Catalog and look for "Mercado Pago" among the modules offer.
+1. Go to the Modules Catalog and look for "Mercado Libre" among the modules offer.
 2. Click Install and then look for it in the "Module Manager" section.
 3. Activate it to start configuring the module in your store.
 
@@ -49,7 +49,7 @@ Install the module by following these steps:
 2. Go to the "Module Manager" section in the "Customize" section of your administrator.
 3. Click the "Upload a Module" button in the upper right corner.
 4. Select or drag the previously downloaded mercadopago.zip file.
-5. Done! The Mercado Pago module will be installed in your online store.
+5. Done! The Mercado Libre module will be installed in your online store.
 
 **Check that everything went well from your PrestaShop desktop. You will see the module among your installed Plugins. Activate it to proceed to the integration of your account and the configuration steps.**
 
@@ -57,7 +57,7 @@ Install the module by following these steps:
 
 We advise you to make a backup copy of your page before making any changes. Once the copy is ready, delete all the files related to the previous version of the module.
 
-Then execute the steps of a new installation to update your page with the latest version of the Mercado Pago module available.
+Then execute the steps of a new installation to update your page with the latest version of the Mercado Libre module available.
 
 > Keep the module always updated in the latest version.
 
@@ -73,9 +73,9 @@ Then execute the steps of a new installation to update your page with the latest
 
 > LEFT_BUTTON_REQUIRED_EN
 >
-> Integrate Mercado Pago in PrestaShop
+> Integrate Mercado Libre in PrestaShop
 >
-> Connect your Mercado Pago account to the module and capture the payments you receive for your online sales.
+> Connect your Mercado Libre account to the module and capture the payments you receive for your online sales.
 >
 > 
 > [Integrate](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/plugins/prestashop/integration)

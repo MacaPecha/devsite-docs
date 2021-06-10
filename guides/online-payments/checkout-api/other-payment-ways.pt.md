@@ -1,10 +1,10 @@
 # Integre outros meios de pagamento
 
 ----[mlb]----
-Com o Checkout Transparente do Mercado Pago você pode oferecer **outras alternativas de meios de pagamento para seus clientes**.
+Com o Checkout Transparente do Mercado Libre você pode oferecer **outras alternativas de meios de pagamento para seus clientes**.
 ------------
 ----[mla, mlm, mpe, mco, mlu, mlc]----
-Com o Checkout API do Mercado Pago você pode oferecer **outras alternativas de meios de pagamento para seus clientes**.
+Com o Checkout API do Mercado Libre você pode oferecer **outras alternativas de meios de pagamento para seus clientes**.
 ------------
 
 ----[mla]----
@@ -163,7 +163,7 @@ Tenha em conta que essa resposta devolverá todos os meios de pagamento. Por iss
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Usa a biblioteca MercadoPago.js
 
-**Lembre-se usar nossa biblioteca oficial para acessar a API de Mercado Pago** no seu frontend e coletar os dados de forma segura.
+**Lembre-se usar nossa biblioteca oficial para acessar a API de Mercado Libre** no seu frontend e coletar os dados de forma segura.
 
 ```html
 <script src="https://secure.mlstatic.com/sdk/javascript/v1/mercadopago.js"></script>
@@ -254,11 +254,11 @@ window.Mercadopago.getIdentificationTypes();
 >
 > h2
 >
-> Envie o pagamento ao Mercado Pago
+> Envie o pagamento ao Mercado Libre
 
 Para receber pagamentos em dinheiro envie o e-mail e documento do seu cliente e a método de pagamento e detalhe do valor.
 
-Já estando no seu backend com toda a informação coletada, é o momento de enviar a solicitação ao Mercado Pago através das nossas APIs.
+Já estando no seu backend com toda a informação coletada, é o momento de enviar a solicitação ao Mercado Libre através das nossas APIs.
 
 Tenha em conta que para que esse passo funcione é necessário que configure sua [chave privada]([FAKER][CREDENTIALS][URL]).
 
@@ -385,7 +385,7 @@ curl -X POST \
 ]]]
 
 <br>
-A resposta mostrará o estado pendente até que o comprador realize o pagamento. O ID do cupom de pagamento é igual ao ID da transação no Mercado Pago.
+A resposta mostrará o estado pendente até que o comprador realize o pagamento. O ID do cupom de pagamento é igual ao ID da transação no Mercado Libre.
 
 ```json
 [
@@ -480,7 +480,7 @@ Revise os [tempos de creditação por meio de pagamento](https://www.mercadopago
 >
 > Importante
 >
-> Caso o pagamento seja realizado depois da data de expiração, o valor será estornado na conta do Mercado Pago do pagador.
+> Caso o pagamento seja realizado depois da data de expiração, o valor será estornado na conta do Mercado Libre do pagador.
 
 ## Cancelar um pagamento
 
@@ -519,7 +519,7 @@ Além de cartões, também existem outras opções de pagamento que podem ser of
 | `atm` | Citibanamex |
 | `atm` | Santander |
 | `atm` | BBVA Bancomer |
-| `prepaid_card` | Tarjeta Mercado Pago |
+| `prepaid_card` | Tarjeta Mercado Libre |
 
 ## Obtenha os meios de pagamento disponíveis
 
@@ -723,7 +723,7 @@ Tenha em conta que essa resposta devolverá todos os meios de pagamento. Por iss
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Usa a biblioteca MercadoPago.js
 
-**Lembre-se usar nossa biblioteca oficial para acessar a API de Mercado Pago** no seu frontend e coletar os dados de forma segura.
+**Lembre-se usar nossa biblioteca oficial para acessar a API de Mercado Libre** no seu frontend e coletar os dados de forma segura.
 
 ```html
 <script src="https://secure.mlstatic.com/sdk/javascript/v1/mercadopago.js"></script>
@@ -801,11 +801,11 @@ window.Mercadopago.setPublishableKey("YOUR_PUBLIC_KEY");
 >
 > h2
 >
-> Envie o pagamento ao Mercado Pago
+> Envie o pagamento ao Mercado Libre
 
 Para receber pagamentos em dinheiro envie o e-mail e documento do seu cliente e a método de pagamento e detalhe do valor.
 
-Já estando no seu backend com toda a informação coletada, é o momento de enviar a solicitação ao Mercado Pago através das nossas APIs.
+Já estando no seu backend com toda a informação coletada, é o momento de enviar a solicitação ao Mercado Libre através das nossas APIs.
 
 Tenha em conta que para que esse passo funcione é necessário que configure sua [chave privada]([FAKER][CREDENTIALS][URL]).
 
@@ -933,7 +933,7 @@ curl -X POST \
 ]]]
 
 <br>
-A resposta mostrará o estado pendente até que o comprador realize o pagamento. O ID do cupom de pagamento é igual ao ID da transação no Mercado Pago.
+A resposta mostrará o estado pendente até que o comprador realize o pagamento. O ID do cupom de pagamento é igual ao ID da transação no Mercado Libre.
 
 ```json
 [
@@ -1154,7 +1154,7 @@ Tenha em conta que essa resposta devolverá todos os meios de pagamento. Por iss
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Usa a biblioteca MercadoPago.js
 
-**Lembre-se usar nossa biblioteca oficial para acessar a API de Mercado Pago** no seu frontend e coletar os dados de forma segura.
+**Lembre-se usar nossa biblioteca oficial para acessar a API de Mercado Libre** no seu frontend e coletar os dados de forma segura.
 
 ```html
 <script src="https://secure.mlstatic.com/sdk/javascript/v1/mercadopago.js"></script>
@@ -1244,11 +1244,11 @@ window.Mercadopago.getIdentificationTypes();
 >
 > h2
 >
-> Envie o pagamento ao Mercado Pago
+> Envie o pagamento ao Mercado Libre
 
 Para receber pagamentos em dinheiro envie o e-mail e documento do seu cliente e a método de pagamento e detalhe do valor.
 
-Já estando no seu backend com toda a informação coletada, é o momento de enviar a solicitação ao Mercado Pago através das nossas APIs.
+Já estando no seu backend com toda a informação coletada, é o momento de enviar a solicitação ao Mercado Libre através das nossas APIs.
 
 Tenha em conta que para que esse passo funcione é necessário que configure sua [chave privada]([FAKER][CREDENTIALS][URL]).
 
@@ -1373,7 +1373,7 @@ curl -X POST \
 ]]]
 
 <br>
-A resposta mostrará o estado pendente até que o comprador realize o pagamento. O ID do cupom de pagamento é igual ao ID da transação no Mercado Pago.
+A resposta mostrará o estado pendente até que o comprador realize o pagamento. O ID do cupom de pagamento é igual ao ID da transação no Mercado Libre.
 
 ```json
 [
@@ -1598,7 +1598,7 @@ Tenha em conta que essa resposta devolverá todos os meios de pagamento. Por iss
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Usa a biblioteca MercadoPago.js
 
-**Lembre-se usar nossa biblioteca oficial para acessar a API de Mercado Pago** no seu frontend e coletar os dados de forma segura.
+**Lembre-se usar nossa biblioteca oficial para acessar a API de Mercado Libre** no seu frontend e coletar os dados de forma segura.
 
 ```html
 <script src="https://secure.mlstatic.com/sdk/javascript/v1/mercadopago.js"></script>
@@ -1689,11 +1689,11 @@ window.Mercadopago.getIdentificationTypes();
 >
 > h2
 >
-> Envie o pagamento ao Mercado Pago
+> Envie o pagamento ao Mercado Libre
 
 Para receber pagamentos em dinheiro envie o e-mail e documento do seu cliente e a método de pagamento e detalhe do valor.
 
-Já estando no seu backend com toda a informação coletada, é o momento de enviar a solicitação ao Mercado Pago através das nossas APIs.
+Já estando no seu backend com toda a informação coletada, é o momento de enviar a solicitação ao Mercado Libre através das nossas APIs.
 
 Tenha em conta que para que esse passo funcione é necessário que configure sua [chave privada]([FAKER][CREDENTIALS][URL]).
 
@@ -1819,7 +1819,7 @@ curl -X POST \
 ]]]
 
 <br>
-A resposta mostrará o estado pendente até que o comprador realize o pagamento. O ID do cupom de pagamento é igual ao ID da transação no Mercado Pago.
+A resposta mostrará o estado pendente até que o comprador realize o pagamento. O ID do cupom de pagamento é igual ao ID da transação no Mercado Libre.
 
 ```json
 [
@@ -1917,7 +1917,7 @@ Revise os [tempos de creditação por meio de pagamento](https://www.mercadopago
 >
 > Importante
 >
-> Caso o pagamento seja realizado depois da data de expiração, o valor será estornado na conta do Mercado Pago do pagador.
+> Caso o pagamento seja realizado depois da data de expiração, o valor será estornado na conta do Mercado Libre do pagador.
 
 
 ## Receba com PSE
@@ -2275,7 +2275,7 @@ Tenha em conta que essa resposta devolverá todos os meios de pagamento. Por iss
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Usa a biblioteca MercadoPago.js
 
-**Lembre-se usar nossa biblioteca oficial para acessar a API de Mercado Pago** no seu frontend e coletar os dados de forma segura.
+**Lembre-se usar nossa biblioteca oficial para acessar a API de Mercado Libre** no seu frontend e coletar os dados de forma segura.
 
 ```html
 <script src="https://secure.mlstatic.com/sdk/javascript/v1/mercadopago.js"></script>
@@ -2367,11 +2367,11 @@ window.Mercadopago.getIdentificationTypes();
 >
 > h2
 >
-> Envie o pagamento ao Mercado Pago
+> Envie o pagamento ao Mercado Libre
 
 Para receber pagamentos em dinheiro envie o e-mail e documento do seu cliente e a método de pagamento e detalhe do valor.
 
-Já estando no seu backend com toda a informação coletada, é o momento de enviar a solicitação ao Mercado Pago através das nossas APIs.
+Já estando no seu backend com toda a informação coletada, é o momento de enviar a solicitação ao Mercado Libre através das nossas APIs.
 
 Tenha em conta que para que esse passo funcione é necessário que configure sua [chave privada]([FAKER][CREDENTIALS][URL]).
 
@@ -2496,7 +2496,7 @@ curl -X POST \
 ]]]
 
 <br>
-A resposta mostrará o estado pendente até que o comprador realize o pagamento. O ID do cupom de pagamento é igual ao ID da transação no Mercado Pago.
+A resposta mostrará o estado pendente até que o comprador realize o pagamento. O ID do cupom de pagamento é igual ao ID da transação no Mercado Libre.
 
 ```json
 [
@@ -2870,7 +2870,7 @@ Tenha em conta que essa resposta devolverá todos os meios de pagamento. Por iss
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Usa a biblioteca MercadoPago.js
 
-**Lembre-se usar nossa biblioteca oficial para acessar a API de Mercado Pago** no seu frontend e coletar os dados de forma segura.
+**Lembre-se usar nossa biblioteca oficial para acessar a API de Mercado Libre** no seu frontend e coletar os dados de forma segura.
 
 ```html
 <script src="https://secure.mlstatic.com/sdk/javascript/v1/mercadopago.js"></script>
@@ -2961,11 +2961,11 @@ window.Mercadopago.getIdentificationTypes();
 >
 > h2
 >
-> Envie o pagamento ao Mercado Pago
+> Envie o pagamento ao Mercado Libre
 
 Para receber pagamentos em dinheiro envie o e-mail e documento do seu cliente e a método de pagamento e detalhe do valor.
 
-Já estando no seu backend com toda a informação coletada, é o momento de enviar a solicitação ao Mercado Pago através das nossas APIs.
+Já estando no seu backend com toda a informação coletada, é o momento de enviar a solicitação ao Mercado Libre através das nossas APIs.
 
 Tenha em conta que para que esse passo funcione é necessário que configure sua [chave privada]([FAKER][CREDENTIALS][URL]).
 
@@ -3090,7 +3090,7 @@ curl -X POST \
 ]]]
 
 <br>
-A resposta mostrará o estado pendente até que o comprador realize o pagamento. O ID do cupom de pagamento é igual ao ID da transação no Mercado Pago.
+A resposta mostrará o estado pendente até que o comprador realize o pagamento. O ID do cupom de pagamento é igual ao ID da transação no Mercado Libre.
 
 ```json
 [
@@ -3301,7 +3301,7 @@ Tenha em conta que essa resposta devolverá todos os meios de pagamento. Por iss
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Usa a biblioteca MercadoPago.js
 
-**Lembre-se usar nossa biblioteca oficial para acessar a API de Mercado Pago** no seu frontend e coletar os dados de forma segura.
+**Lembre-se usar nossa biblioteca oficial para acessar a API de Mercado Libre** no seu frontend e coletar os dados de forma segura.
 
 ```html
 <script src="https://secure.mlstatic.com/sdk/javascript/v1/mercadopago.js"></script>
@@ -3715,7 +3715,7 @@ Para mostrar a opção que permitirá copiar e colar o código de pagamento, voc
 
 Após [capturar os dados](#bookmark_capture_os_dados_para_pagamento) com o formulário, con el formulario, para receber pagamentos em boleto ou pagamento em lotérica envie o e-mail e documento do seu cliente e a método de pagamento e detalhe do valor.
 
-Já estando no seu backend com toda a informação coletada, é o momento de enviar a solicitação ao Mercado Pago através das nossas APIs.
+Já estando no seu backend com toda a informação coletada, é o momento de enviar a solicitação ao Mercado Libre através das nossas APIs.
 
 Tenha em conta que para que esse passo funcione é necessário que configure sua [chave privada]([FAKER][CREDENTIALS][URL]).
 
@@ -3928,7 +3928,7 @@ curl -X POST \
 ]]]
 
 <br>
-A resposta mostrará o estado pendente até que o comprador realize o pagamento. O ID do cupom de pagamento é igual ao ID da transação no Mercado Pago.
+A resposta mostrará o estado pendente até que o comprador realize o pagamento. O ID do cupom de pagamento é igual ao ID da transação no Mercado Libre.
 
 ```json
 [
@@ -4075,7 +4075,7 @@ O prazo de aprovação do boleto é de até 48h úteis. Por isso recomenda-se co
 >
 > Importante
 >
-> Caso o boleto seja pago depois da data de expiração, o valor será estornado na conta do Mercado Pago do pagador.
+> Caso o boleto seja pago depois da data de expiração, o valor será estornado na conta do Mercado Libre do pagador.
 
 ## Cancelar um pagamento
 

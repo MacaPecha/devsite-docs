@@ -2,7 +2,7 @@ openapi: 3.0.0
 servers:
   - url: https://api.mercadopago.com
 info:
-  title: Mercado Pago API Reference
+  title: Mercado Libre API Reference
   version: '1.0'
 paths:
   /pos:
@@ -20,7 +20,7 @@ paths:
                 name:
                   type: string
                   description: Name of the POS.
-                  example: First POS 
+                  example: First POS
                 fixed_amount:
                   type: boolean
                   description: Define if the customer can insert the amount to be paid.
@@ -461,7 +461,7 @@ paths:
                 name:
                   type: string
                   description: Name of the POS.
-                  example: First POS 
+                  example: First POS
                 fixed_amount:
                   type: boolean
                   description: Define if the customer can insert the amount to be paid.
@@ -567,7 +567,7 @@ paths:
                     example: >-
                       00020101021226940014BR.GOV.BCB.PIX2572pix-qr-h.mercadopago.com/instore/h/p/v2/db12b6e2ec4844839825c6dce7cd2f2243530016com.mercadolibre0129https://mpago.la/pos/212798995204000053039865802BR5924VICTOR
                       CORREA DE ALMEIDA6008CAMPINAS62070503***63040B44
-        
+
         '400':
           description: Error
           content:
@@ -685,15 +685,15 @@ components:
       example: 621102
       description: MCC code that indicates the category of the Point of Sale. If not specified, it remains as a generic category.
       enum:
-        - Gastronomy -- 
+        - Gastronomy --
         - 621102 -- Argentina
-        - 5611203 -- Brazil 
+        - 5611203 -- Brazil
         - 5812 -- Mexico
         - 5611 -- Colombia
-        - 5520 -- Peru 
+        - 5520 -- Peru
         - 56101 -- Uruguay
         - 561000 -- Chile
-        - Gas station -- 
+        - Gas station --
         - 473000 -- Argentina
         - 4731300 -- Brazil
         - 468419 -- Mexico

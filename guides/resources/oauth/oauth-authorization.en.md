@@ -1,8 +1,8 @@
 # Authorize and link accounts to your applications
 
-If your integration needs to manage several Mercado Pago accounts at the same time, you only need to link your application to other people's accounts.
+If your integration needs to manage several Mercado Libre accounts at the same time, you only need to link your application to other people's accounts.
 
-You can use OAuth, a feature for secure linking that allows sellers to access their Mercado Pago account to authorize and enable your application to work under their name. 
+You can use OAuth, a feature for secure linking that allows sellers to access their Mercado Libre account to authorize and enable your application to work under their name. 
 
 ## How to add OAuth 
 
@@ -10,7 +10,7 @@ To link your application account to your sellers' accounts, you need to make an 
 
 To start, follow these steps:
 1. Create or set up your application.
-2. Link a Mercado Pago account to your application.
+2. Link a Mercado Libre account to your application.
 3. Generate credentials to operate.
 
 <br>
@@ -25,9 +25,9 @@ In Redirect URL field add the URL to where you would like to redirect your selle
 
 Lastly, you need to get your application ID in [Your Integrations](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/panel).   
 
-### Link a Mercado Pago account to your application
+### Link a Mercado Libre account to your application
 
-To operate on your seller's name via their Mercado Pago accounts you need to request their authorization first. 
+To operate on your seller's name via their Mercado Libre accounts you need to request their authorization first. 
 To do this, you need to include a URL in your application to redirect sellers to the authorization site. 
 
 This is the example URL you can use. You will also find the details of parameters to fill it out.
@@ -42,7 +42,7 @@ https://auth.mercadopago[FAKER][URL][DOMAIN]/authorization?client_id=APP_ID&resp
 | `state` | Identify who the code to be received belongs to; so replace `RANDOM_ID` value with a unique ID for each attempt without sensitive data. |
 | `redirect_uri` | Add the URL you entered in the Redirect URL field when you set up your application. | 
 
-When entering this URL, the seller will be redirected to Mercado Pago to log in their account and authorize the link to your application.
+When entering this URL, the seller will be redirected to Mercado Libre to log in their account and authorize the link to your application.
 
 ----[mla, mlm, mlc, mco, mpe, mlu]----
 ![FlujoOAuth-es](/images/oauth/oauth-es.png)
@@ -51,7 +51,7 @@ When entering this URL, the seller will be redirected to Mercado Pago to log in 
 ![FlujoOAuth-pt](/images/oauth/oauth-pt.png)
 ------------
 
-Once the seller has authorized your application to link with their Mercado Pago account, you will receive an authorization code in the specified Redirect URL. It will appear like this: 
+Once the seller has authorized your application to link with their Mercado Libre account, you will receive an authorization code in the specified Redirect URL. It will appear like this: 
 
 ```url
 https://www.redirect-url.com?code=CODE&state=RANDOM_ID

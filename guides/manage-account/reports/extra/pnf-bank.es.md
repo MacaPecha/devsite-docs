@@ -5,7 +5,7 @@ sites_supported:
 
 # Los cobros mes a mes en el reporte de Dinero disponible
 
-Te mostramos cómo ver los cobros mes a mes de tu cuenta de Mercado Pago en el reporte de Dinero disponible.
+Te mostramos cómo ver los cobros mes a mes de tu cuenta de Mercado Libre en el reporte de Dinero disponible.
 
 ## Movimientos de tus cobros mes a mes
 

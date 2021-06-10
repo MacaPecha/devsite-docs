@@ -26,7 +26,7 @@ Sólo puedes cancelar pagos que estén en estado `pending` o `in_process`. Cuand
 
 Las cancelaciones se utilizan principalmente con **medios en efectivo**.
 
-Si bien los tickets de los medios de pago en efectivo tienen vencimiento, el usuario puede volver a generarlos ingresando a la transacción de su cuenta de Mercado Pago. Para cancelarlos definitivamente, sin posibilidad de volver a generarlos, evitando problemas de retención de stock por ejemplo, es necesario que ejecutes su cancelación.
+Si bien los tickets de los medios de pago en efectivo tienen vencimiento, el usuario puede volver a generarlos ingresando a la transacción de su cuenta de Mercado Libre. Para cancelarlos definitivamente, sin posibilidad de volver a generarlos, evitando problemas de retención de stock por ejemplo, es necesario que ejecutes su cancelación.
 
 
 Para realizar la cancelación, realiza el siguiente request enviando el `status` en `cancelled`:
@@ -107,7 +107,7 @@ Debes poseer suficiente dinero disponible en tu cuenta para devolver el monto de
 
 Si tu comprador realizó el pago con tarjeta, la devolución será reintegrada en la misma.
 
-Si el pago fue realizado con otro medio, se reintegrará en la cuenta de Mercado Pago del comprador. En caso que no tenga una cuenta, crearemos una utilizando el e-mail que utilizó para realizar la compra.
+Si el pago fue realizado con otro medio, se reintegrará en la cuenta de Mercado Libre del comprador. En caso que no tenga una cuenta, crearemos una utilizando el e-mail que utilizó para realizar la compra.
 
 
 ### Realiza la devolución total del pago

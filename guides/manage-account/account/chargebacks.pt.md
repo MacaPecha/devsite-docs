@@ -118,7 +118,7 @@ Você vai obter as seguintes informações:
 
 ### Compreensão de cobertura
 
-Dependendo do caso, a política de cobertura pelo Mercado Pago pode variar.
+Dependendo do caso, a política de cobertura pelo Mercado Libre pode variar.
 O campo `coverage_elegible` define se a contestação pode ser coberta e `documentation_required` indica se é necessário apresentar documentação.
 Para mais detalhes, você pode ver o [Programa de Proteção ao Vendedor](https://www.mercadopago.com.ar/ayuda/requisitos-programa-proteccion-vendedor_294).
 
@@ -150,7 +150,7 @@ Se a documentação for carregada no site com sucesso, a API responderá com sta
 
 ### Resolução
 
-Enviada a documentação, um representante do Mercado Pago fará a revisão.
+Enviada a documentação, um representante do Mercado Libre fará a revisão.
 Eventualmente, a contestação poderá ter dois tipos de resoluções possíveis no campo `coverage_applied`:
 
 

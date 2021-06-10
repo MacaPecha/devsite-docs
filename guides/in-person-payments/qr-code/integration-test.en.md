@@ -2,7 +2,7 @@
 
 ## How to test your integration?
 
-Test users allow you to try the integration of your system with Mercado Pago without using real money.
+Test users allow you to try the integration of your system with Mercado Libre without using real money.
 
 To carry out the tests, you need to have at least two users: a buyer and a seller.
 
@@ -11,8 +11,8 @@ To carry out the tests, you need to have at least two users: a buyer and a selle
 
 | Test user types | Description |
 | --- | --- |
-| Seller | **Test account that you use to obtain credentials to set up in your system and interact with Mercado Pago APIs**. You can also access [Mercado Pago account](https://www.mercadopago.com.ar/activities) and check approved transactions. |
-| Buyer | **Test account you use to test the buying process**. You must access Mercado Pago app with this user data. In case of having money in the account or saved cards, they wil be available as payment methods. |
+| Seller | **Test account that you use to obtain credentials to set up in your system and interact with Mercado Libre APIs**. You can also access [Mercado Libre account](https://www.mercadopago.com.ar/activities) and check approved transactions. |
+| Buyer | **Test account you use to test the buying process**. You must access Mercado Libre app with this user data. In case of having money in the account or saved cards, they wil be available as payment methods. |
 
 ## Test cards
 
@@ -41,7 +41,7 @@ To test attended model, generate an order with the test user [credentials]([FAKE
 
 ### 2. Make a payment with your buyer user.
 
-- A. Log in the Mercado Pago app with your buyer test user. 
+- A. Log in the Mercado Libre app with your buyer test user. 
 - B. Click on Pay with QR and scan the QR code from the Point of Sale. 
 - C. Choose a saved card or complete the data with a new one and pay. 
 
@@ -65,7 +65,7 @@ Lastly, make sure you’ve received an status notification in your system. And y
 
 When your app is **ready and working in test mode**, and you want to start processing real payments, you must [activate your credentials]([FAKER][CREDENTIALS][URL]). 
 
-Afterwards, Mercado Pago will be able to audit your website, app or Point of Sale software, checking if all rules are being followed. If necessary, an advisor will contact you to discuss how to fix your integration. 
+Afterwards, Mercado Libre will be able to audit your website, app or Point of Sale software, checking if all rules are being followed. If necessary, an advisor will contact you to discuss how to fix your integration. 
 
 > WARNING
 > 

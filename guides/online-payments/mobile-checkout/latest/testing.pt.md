@@ -50,7 +50,7 @@ curl -X POST \
 >Importante
 >
 > * Você pode gerar até 10 contas de usuários de teste ao mesmo tempo. Por isso, recomendamos salvar o _e-mail_ e _senha_ de cada um.
-> * Os usuários de teste caducam após 60 dias sem atividade no Mercado Pago.
+> * Os usuários de teste caducam após 60 dias sem atividade no Mercado Libre.
 > * Para fazer pagamentos de teste, recomendamos usar valore baixos.
 > * Tanto o comprador como o vendedor devem ser usuários de teste.
 > * Use cartões de teste, já que não é possível retirar o dinheiro.

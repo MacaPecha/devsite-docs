@@ -1,21 +1,21 @@
-# Integre o Mercado Pago
+# Integre o Mercado Libre
 
 
-Conecte uma conta do Mercado Pago ao módulo para capturar os recebimentos das suas vendas no PrestaShop.  É fácil! Você só precisa ter uma conta de vendedor no Mercado Pago e ter as credenciais de teste e produção.
+Conecte uma conta do Mercado Libre ao módulo para capturar os recebimentos das suas vendas no PrestaShop.  É fácil! Você só precisa ter uma conta de vendedor no Mercado Libre e ter as credenciais de teste e produção.
 
 > NOTE
 >
 > Nota
 >
-> Não precisa saber design nem programar para ativar o Mercado Pago na sua loja com PrestaShop. 
+> Não precisa saber design nem programar para ativar o Mercado Libre na sua loja com PrestaShop. 
 
 Quando o módulo estiver instalado, siga estas etapas para integrá-lo:
 
-1. Crie uma [conta de vendedor](https://www.mercadopago.com.br/registration-company?confirmation_url=https%3A%2F%2Fwww.mercadopago.com.br%2Fcomo-cobrar) no Mercado Pago caso ainda não tenha uma.
+1. Crie uma [conta de vendedor](https://www.mercadopago.com.br/registration-company?confirmation_url=https%3A%2F%2Fwww.mercadopago.com.br%2Fcomo-cobrar) no Mercado Libre caso ainda não tenha uma.
 2. Crie algumas [credenciais](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/resources/faqs/credentials) Access Token e Public Key e cole-as nos campos de Produção e Testes que estarão na configuração do módulo.
-3. Homologue a conta para [entrar em produção](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/checkout-api/goto-production) e receber o dinheiro das suas vendas no Mercado Pago.
+3. Homologue a conta para [entrar em produção](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/checkout-api/goto-production) e receber o dinheiro das suas vendas no Mercado Libre.
 
-Pronto! Assim você poderá capturar os pagamentos que receber no PrestaShop com a sua conta do Mercado Pago.
+Pronto! Assim você poderá capturar os pagamentos que receber no PrestaShop com a sua conta do Mercado Libre.
 
 ![Fluxo de credenciais](/images/prestashop/integration_pt.gif)
 

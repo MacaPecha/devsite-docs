@@ -7,22 +7,22 @@
 >
 > Oferecemos suporte somente para plugins oficiais
 >
-> Esta documentação não conta com o suporte oficial do Mercado Pago. Se você quiser fazer alterações, pode [modificar o código aberto no GitHub](https://github.com/mercadopago/devsite-docs/blob/development/guides/plugins/unofficial/opencart.pt.md).
+> Esta documentação não conta com o suporte oficial do Mercado Libre. Se você quiser fazer alterações, pode [modificar o código aberto no GitHub](https://github.com/mercadopago/devsite-docs/blob/development/guides/plugins/unofficial/opencart.pt.md).
 
-#### Mercado Pago Module (Opencart v1.4.9, 1.5.x, 2.x - 2.2, 2.3, 3.x)
+#### Mercado Libre Module (Opencart v1.4.9, 1.5.x, 2.x - 2.2, 2.3, 3.x)
 
 ## Funcionalidades
 
-O módulo do Mercado Pago para Opencart esta integrado com as funcionalidades a seguir:
+O módulo do Mercado Libre para Opencart esta integrado com as funcionalidades a seguir:
 
 | Funcionalidade | Checkout Pro | API |
 | --- | --- | --- |
 | Pagamento com Cartão de Crédito | ✔ | ✔  |
 | Outros Meios de Pagamento, como os Boletos  | ✔ | ✔  |
-| Interfaces pré-construídas do Mercado Pago  | ✔ | |
+| Interfaces pré-construídas do Mercado Libre  | ✔ | |
 | Calculadora de Parcelas | ✔ | ✔ |
 | Notificação instantânea de pagamentos e webhooks | ✔ | ✔ |
-| Descontos por meio de pagamento ou cupom do Mercado Pago | ✔ | |
+| Descontos por meio de pagamento ou cupom do Mercado Libre | ✔ | |
 | Log e ferramentas de debug | ✔ | ✔ |
 | Conversão de moedas | | ✔ |
 | Checagens de credenciais e status de plataforma | ✔ | ✔ |
@@ -84,7 +84,7 @@ Ofereça um checkout totalmente customizado à sua experiência de marca com nos
 
 ## Instalação
 
-1. Baixe do módulo do Mercado Pago
+1. Baixe do módulo do Mercado Libre
 
   * [OpenCart 1.4.9](https://github.com/mercadopago/cart-opencart/tree/master/v1.4.9)
   * [OpenCart 1.5.x](https://github.com/mercadopago/cart-opencart/tree/master/v1.5.x)
@@ -101,7 +101,7 @@ Ofereça um checkout totalmente customizado à sua experiência de marca com nos
 
 ## Configuração
 
-1. Novamente em **Extensions > Payments > MercadoPago**, clique em **Edit** para configurar sua conta do Mercado Pago:
+1. Novamente em **Extensions > Payments > MercadoPago**, clique em **Edit** para configurar sua conta do Mercado Libre:
 <br>
 
 ![Open cart configuration page](/images/opencart_mpaccount.png)
@@ -125,7 +125,7 @@ Ofereça um checkout totalmente customizado à sua experiência de marca com nos
   * **Enabled**: Habilita/desabilita essa solução de pagamento.
   * **Type Checkout (you're using Standard Checkout)**: Define os tipos de checkout, as opções são:
   *  *Iframe*: Abre uma URL OpenCart com a iframe como conteúdo.
-  *  *Redirect*: Redireciona a URL do Mercado Pago.
+  *  *Redirect*: Redireciona a URL do Mercado Libre.
   *  *Lightbox*: Similar a opção de Iframe mas abre uma lightbox em vez de um iframe.
 
 

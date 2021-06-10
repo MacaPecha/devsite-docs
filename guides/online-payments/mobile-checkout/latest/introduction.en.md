@@ -1,6 +1,6 @@
 # Mobile Checkout
 
-Mercado Pago SDK makes it easy to create a payment experience in your application. You will instantly offer your users:
+Mercado Libre SDK makes it easy to create a payment experience in your application. You will instantly offer your users:
 
 ----[mla, mpe, mlb, mlm]----
 - Card payments, payments in cash or bank transfer.
@@ -22,7 +22,7 @@ All our payments are assessed by our fraud prevention tool to minimize the risks
 
 Offer the best payment experience to your users, on Android or iOS.
 
-![Mercado Pago sdk android](/images/mobile-sdk-flow.png)
+![Mercado Libre sdk android](/images/mobile-sdk-flow.png)
 
 ### It is very easy to integrate the checkout:
 

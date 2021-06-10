@@ -1,7 +1,7 @@
 
 # Tipos de documento
 
-Los tipos de documento aceptados a la hora de hacer un cobro a través de Mercado Pago varían según cada país.<br>
+Los tipos de documento aceptados a la hora de hacer un cobro a través de Mercado Libre varían según cada país.<br>
 
 > WARNING
 >
@@ -50,7 +50,7 @@ curl -X GET \
 ```
 ]]]
 
-Los resultados incluídos en esta respuesta coincidirán con el país asociado a tu cuenta de Mercado Pago. Puedes obtener más información sobre este recurso y sus atributos en la [Referencia de API](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/reference/identification_types/_identification_types/get).
+Los resultados incluídos en esta respuesta coincidirán con el país asociado a tu cuenta de Mercado Libre. Puedes obtener más información sobre este recurso y sus atributos en la [Referencia de API](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/reference/identification_types/_identification_types/get).
 
 ## Tipos de documento por país
 

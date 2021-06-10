@@ -4,23 +4,23 @@
 
 # Credenciais
 
-O Mercado Pago possui dois tipos de pares de credenciais, **CLIENT_ID** | **CLIENT_SECRET** e **PUBLIC_KEY** | **ACCESS_TOKEN**. Essas credenciais servem como um tipo de chave pessoal para que você crie seu método de pagamento e integre o Mercado Pago com sua loja virtual. Segue abaixo procedimento para obtenção das Credenciais.
+O Mercado Libre possui dois tipos de pares de credenciais, **CLIENT_ID** | **CLIENT_SECRET** e **PUBLIC_KEY** | **ACCESS_TOKEN**. Essas credenciais servem como um tipo de chave pessoal para que você crie seu método de pagamento e integre o Mercado Libre com sua loja virtual. Segue abaixo procedimento para obtenção das Credenciais.
 
-##Acessar conta Mercado Pago
+##Acessar conta Mercado Libre
 
-Para obter suas credenciais, primeiramente acesse sua conta do Mercado Pago no link [https://www.mercadopago.com.br/](https://www.mercadopago.com.br/).
+Para obter suas credenciais, primeiramente acesse sua conta do Mercado Libre no link [https://www.mercadopago.com.br/](https://www.mercadopago.com.br/).
 Caso não possua uma conta crie uma clicando em **"Cadastre-se"**. Preencha o formulário de acordo com o tipo de conta que desejar. Lembre-se que está conta ficará vinculada à sua loja virtual.
 
 ![painelMercadoPago](/images/painelMercadoPago.gif)
 
 ## Acessar Credenciais
 
-Uma vez Autenticado em sua conta Mercado Pago, acesse o seguinte link: [https://www.mercadolibre.com/jms/[FAKER][GLOBALIZE][SITE_ID]/lgz/login?platform_id=mp&go=https://www.mercadopago.com/mlb/account/credentials/]([FAKER][CREDENTIALS][URL]).
+Uma vez Autenticado em sua conta Mercado Libre, acesse o seguinte link: [https://www.mercadolibre.com/jms/[FAKER][GLOBALIZE][SITE_ID]/lgz/login?platform_id=mp&go=https://www.mercadopago.com/mlb/account/credentials/]([FAKER][CREDENTIALS][URL]).
 Você acessará a página de credenciais da sua conta.
 
 ![paginaCredenciais](/images/paginaCredenciais.gif)
 
-Nesta página você terá acesso as chaves de configuração da sua conta Mercado Pago para instalar a integração por API ou Checkout Pro (Redirect, LightBox ou Iframe) na sua Loja Virtual.
+Nesta página você terá acesso as chaves de configuração da sua conta Mercado Libre para instalar a integração por API ou Checkout Pro (Redirect, LightBox ou Iframe) na sua Loja Virtual.
 
 > NOTE
 >

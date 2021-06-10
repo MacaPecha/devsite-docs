@@ -4,25 +4,25 @@
 
 # Credentials
 
-The Mercado Pago has two types of credential pairs, **_CLIENT_ID_** | **_CLIENT_SECRET_** and **_PUBLIC_KEY_** | **_ACCESS_TOKEN_**. These credentials serve as a kind of personal key to create your payment method and integrate the Mercado Pago with your online store.
+The Mercado Libre has two types of credential pairs, **_CLIENT_ID_** | **_CLIENT_SECRET_** and **_PUBLIC_KEY_** | **_ACCESS_TOKEN_**. These credentials serve as a kind of personal key to create your payment method and integrate the Mercado Libre with your online store.
 
 ## Getting your Credentials
 
-## Access Mercado Pago account
+## Access Mercado Libre account
 
-To obtain your credentials, first access your Mercado Pago account at the link [https://www.mercadopago.com/](https://www.mercadopago.com.br/).
+To obtain your credentials, first access your Mercado Libre account at the link [https://www.mercadopago.com/](https://www.mercadopago.com.br/).
 If you do not have an account, create one by clicking **"Register"**. Fill out the form according to the type of account you want. Remember that this account will be linked to your virtual store.
 
 ![painelMercadoPago](/images/painelMercadoPago.gif)
 
 ## Access Credentials
 
-Once Authenticated in your Mercado Pago account, access the following link [https://www.mercadolibre.com/jms/[FAKER][GLOBALIZE][SITE_ID]/lgz/login?platform_id=mp&go=https://www.mercadopago.com/mlb/account/credentials/]([FAKER][CREDENTIALS][URL]).
+Once Authenticated in your Mercado Libre account, access the following link [https://www.mercadolibre.com/jms/[FAKER][GLOBALIZE][SITE_ID]/lgz/login?platform_id=mp&go=https://www.mercadopago.com/mlb/account/credentials/]([FAKER][CREDENTIALS][URL]).
 You'll be taken to the credentials page of your account.
 
 ![paginaCredenciais](/images/paginaCredenciais.gif)
 
-On this page you will have access to the configuration keys of your Mercado Pago account to install the API integration or Checkout Pro (Redirect, LightBox or Iframe) in your Virtual Store.
+On this page you will have access to the configuration keys of your Mercado Libre account to install the API integration or Checkout Pro (Redirect, LightBox or Iframe) in your Virtual Store.
 
 > NOTE
 >

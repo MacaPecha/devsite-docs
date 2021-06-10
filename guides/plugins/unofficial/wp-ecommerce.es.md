@@ -7,7 +7,7 @@
 >
 > Solo damos soporte a plugins oficiales
 >
-> Esta documentación no cuenta con soporte oficial de Mercado Pago. Si quieres realizar algún cambio, puedes [modificar el código abierto en GitHub](https://github.com/mercadopago/devsite-docs/blob/development/guides/plugins/unofficial/wp-ecommerce.es.md).
+> Esta documentación no cuenta con soporte oficial de Mercado Libre. Si quieres realizar algún cambio, puedes [modificar el código abierto en GitHub](https://github.com/mercadopago/devsite-docs/blob/development/guides/plugins/unofficial/wp-ecommerce.es.md).
 
 # Requisitos del Sistema
 ### Versiones de la plataforma
@@ -44,10 +44,10 @@
 * Para tarjetas de crédito y tickets, es un requerimiento que se cuente con certificado SSL.
 
 # Funcionalidad
-El módulo de Mercado Pago para WP eCommerce está integrado con las siguientes funcionalidades y soluciones de pago:
+El módulo de Mercado Libre para WP eCommerce está integrado con las siguientes funcionalidades y soluciones de pago:
 
 ### Checkout básico (Redirect, Iframe or Lightbox)
-* Interfaces "pre-armadas" de Mercado Pago
+* Interfaces "pre-armadas" de Mercado Libre
 <br>
 
 ![Basic Checkout](/images/wp-ecommerce/wp-ecommerce-basic_checkout_payment.png)
@@ -86,7 +86,7 @@ Se tienen dos opciones para instalar el módulo: Desde el Wordpress Store, o des
 
 1. En el administrador de su tienda, ir a la opción *Plugins* en la lista;
 
-2. Click en el botón *Add New* y escribir "WPeComm Mercado Pago Module" en el campo de *Search Plugins*.
+2. Click en el botón *Add New* y escribir "WPeComm Mercado Libre Module" en el campo de *Search Plugins*.
 
 3. Deberías encontrar el modulo listo para ser instalado. Click en instalar y listo!
 
@@ -101,26 +101,26 @@ Se tienen dos opciones para instalar el módulo: Desde el Wordpress Store, o des
 > Pista: Para confirmar si el módulo está realmente instalado, puedes hacer click en *Plugins* en el menú de administración de la tienda, y chequear que se ha instalado el mismo. Hacer click en *enable*/*habilitar* para activarlo y deberías recibir el mensaje de respuesta "Plugin enabled."/"Plugin habilitado ." en Wordpress.
 
 # Configurando la Tarjeta de Crédito
-Esta página explica como configurar el módulo para aceptar pagos con tarjeta de crédito en el Checkout personalizado. En el administrador de tu tienda, ir a *Configuración > Tienda > Pagos*. Hacer click en *Mercado Pago - Checkout personalizado*. Deberías obtener la siguiente página:
+Esta página explica como configurar el módulo para aceptar pagos con tarjeta de crédito en el Checkout personalizado. En el administrador de tu tienda, ir a *Configuración > Tienda > Pagos*. Hacer click en *Mercado Libre - Checkout personalizado*. Deberías obtener la siguiente página:
 <br>
 
 ![Custom Checkout Config](/images/wp-ecommerce/wp-ecommerce-custom_config_screenshot.png)
 
-### Credenciales de Mercado Pago
-  * Aquí se deberían ingresar la *Public Key* y *Access Token* correspondientes. Las credenciales son las que identifican al usuario en Mercado Pago.
+### Credenciales de Mercado Libre
+  * Aquí se deberían ingresar la *Public Key* y *Access Token* correspondientes. Las credenciales son las que identifican al usuario en Mercado Libre.
 
 ### Opciones de checkout
 Cómo se muestra el checkout.
   * *Statement Descriptor*: La descripción se mostrará en el invoice de su cliente;
   * *Modo binario*: Cuando se cobra con tarjeta de crédito, sólo estado [aprobado] o [rechazado] será tomado;
   * *Categoría de tienda*: Define la categoría de la tienda;
-  * Identificador de tienda*: Un prefijo para identificar la tienda, cuando se tiene multiples tiendas para una sola cuenta de Mercado Pago;
+  * Identificador de tienda*: Un prefijo para identificar la tienda, cuando se tiene multiples tiendas para una sola cuenta de Mercado Libre;
   * *URL Pagos aprobados*: Customizar una URL para redireccionar cuando un pago es aprobado. Dejar en blanco para redireccionar a la tienda;
   * *URL Pagos pendientes*: Customizar una URL para redireccionar cuando un pago es rechazado. Dejar en blanco para redireccionar a la tienda;
 
 ### Opciones de pago
 Como se comporta la opción de pago.
-  * *Conversión de moneda*: Habilitar la conversión de la moneda para las ventas con checkout básico. La conversión de la moneda es una funcionalidad que permite setear una moneda no soportada en WP eCommerce mientras se mantiene a Mercado Pago como un método de pago. Se convertirá la moneda no soportada por la moneda establecida en el país local. Este servicio convierte valores en el momento y puede traer demoras en el servidor.
+  * *Conversión de moneda*: Habilitar la conversión de la moneda para las ventas con checkout básico. La conversión de la moneda es una funcionalidad que permite setear una moneda no soportada en WP eCommerce mientras se mantiene a Mercado Libre como un método de pago. Se convertirá la moneda no soportada por la moneda establecida en el país local. Este servicio convierte valores en el momento y puede traer demoras en el servidor.
 
 ### Testeo y debug
 Se ofrecen herramientas de logging para que se puedan analizar los problemas que puedan estar ocurriendo. Mantener deshabilitado si se está trabajando en producción con un sistema estable.
@@ -128,12 +128,12 @@ Se ofrecen herramientas de logging para que se puedan analizar los problemas que
   * *Modo Debug*: Habilitar esta opción para ver mensajes de log en tu consola.
 
 # Configurando los Tickets
-Esta página explicará como configurar el módulo para poder aceptar pagos con Tickets en el Checkout personalizado. En el administrador de su tienda, ir a *Settings > Store > Payments*. Hacer click en *Mercado Pago - Ticket*. Se debería obtener la siguiente página:
+Esta página explicará como configurar el módulo para poder aceptar pagos con Tickets en el Checkout personalizado. En el administrador de su tienda, ir a *Settings > Store > Payments*. Hacer click en *Mercado Libre - Ticket*. Se debería obtener la siguiente página:
 <br>
 
 ![Ticket Checkout Config](/images/wp-ecommerce/wp-ecommerce-ticket_config_screenshot.png)
 
-### Credenciales de Mercado Pago
+### Credenciales de Mercado Libre
   * Aquí se debería ingresar el *Access Token*, la credenciales que identifica a los usuarios en MaercadoPago.
 
 ### Opciones de checkout
@@ -152,12 +152,12 @@ Se ofrecen herramientas de logging que permiten analizar el problema que pueda l
   * *Debug mode*: Habilitar para ver los mensajes de log en tu consola.
 
 # Configurando el Checkout por Redirect, Iframe o LightBox
-Esta página explicará como configurar el módulo para poder aceptar pagos con el Checkout básico en Redirect, Iframe or Lightbox. En el administrador de su tienda, ir a *Settings > Store > Payments*. Hacer click en *Mercado Pago - Basic Checkout*. Se debería obtener la siguiente página:
+Esta página explicará como configurar el módulo para poder aceptar pagos con el Checkout básico en Redirect, Iframe or Lightbox. En el administrador de su tienda, ir a *Settings > Store > Payments*. Hacer click en *Mercado Libre - Basic Checkout*. Se debería obtener la siguiente página:
 <br>
 
 ![Basic Checkout](/images/wp-ecommerce/wp-ecommerce-basic_config_screenshot.png)
 
-### Credenciales de Mercado Pago
+### Credenciales de Mercado Libre
   * Aquí se deberían ingresar el *Client ID* y *Client ID*, las credenciales que identifican a los usuarios en MaercadoPago.
 
 ### Opciones de checkout
@@ -190,7 +190,7 @@ Instant Payment Notifications (IPN) - Notificaciones instantáneas de pago- es u
 
 > HINT 2: Asegúrate que tu firewall tenga acceso al [IPs de MercadoPago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/api-docs/basics/design-considerations#ip-range) dentro del white-list.
 
-> HINT 3: Prestar atención a que Mercado Pago usa TSL protocol **version 1.0**, así que tu servidor necesita soportar/aceptar conexiones con esta versión del protocolo.
+> HINT 3: Prestar atención a que Mercado Libre usa TSL protocol **version 1.0**, así que tu servidor necesita soportar/aceptar conexiones con esta versión del protocolo.
 
 > HINT 4: Asegúrate que ningún otro plugin instalado esté bloqueando el de MercadoPago.
 
@@ -216,7 +216,7 @@ Para confirmar que tu modulo está realmente actualizado, puedes ver en el item 
 # Soporte Técnico
 Si tienes alguna pregunta, problema o error tenemos un canal de soporte. Contáctanos a nuestro canal de [soporte](https://mercadopago[FAKER][URL][DOMAIN]/developers/es/support) con la siguiente información:
 
-* Email de tu cuenta de Mercado Pago;
+* Email de tu cuenta de Mercado Libre;
 * Detalles sobre tu consulta, problema o error;
 * Archivos que ayuden al entendimiento del problema (Print-Screen, Video, Log Files, etc.);
 * Version de WPeCommerce;

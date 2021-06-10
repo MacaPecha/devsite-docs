@@ -13,7 +13,7 @@ Find below how this model works:
 
 ## Create an order
 
-First, generate the order publication. Once data is sent to Mercado Pago, a data string with [EMVCo](https://www.emvco.com/emv-technologies/qrcodes) standard will be made available.
+First, generate the order publication. Once data is sent to Mercado Libre, a data string with [EMVCo](https://www.emvco.com/emv-technologies/qrcodes) standard will be made available.
 
 Execute the next API call to create an order. The response will include the data required to create the QR code.
 
@@ -64,7 +64,7 @@ The response will be a string with the EMVCo standard. Use the `qr_data` to make
 
 ----[mlb]----
 
-If you have a **Pix key configured in your Mercado Pago account**, the data string structure will have Pix-related data. 
+If you have a **Pix key configured in your Mercado Libre account**, the data string structure will have Pix-related data. 
 For example:
 
 ```json

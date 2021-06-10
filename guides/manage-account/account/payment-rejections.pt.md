@@ -23,7 +23,7 @@ Você pode ver o estado do pagamento na resposta do API como `rejected` e o moti
 }
 ```
 
-E também poderá achar mais informações sobre o detalhe do pagamento na [atividade da conta de Mercado Pago](https://www.mercadopago.com.br/activities) em que os pagamentos são recebidos.
+E também poderá achar mais informações sobre o detalhe do pagamento na [atividade da conta de Mercado Libre](https://www.mercadopago.com.br/activities) em que os pagamentos são recebidos.
 
 > WARNING
 >

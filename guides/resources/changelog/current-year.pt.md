@@ -1,6 +1,6 @@
 # Changelog
 
-Descubra tudo sobre as novas versões e atualizações das integrações do Mercado Pago.
+Descubra tudo sobre as novas versões e atualizações das integrações do Mercado Libre.
 
 ---
 
@@ -44,7 +44,7 @@ Escolha os campos ou características que precisar e crie um relatório personal
 >
 > PRODUCT: ASSINATURAS
 
-As assinaturas do Mercado Pago permitem que você receba pagamentos recorrentes com cartão de crédito e débito. Você pode definir a frequência de pagamento desejada e o período de tempo que quer manter a assinatura ativa.
+As assinaturas do Mercado Libre permitem que você receba pagamentos recorrentes com cartão de crédito e débito. Você pode definir a frequência de pagamento desejada e o período de tempo que quer manter a assinatura ativa.
 
 [Criar assinaturas](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/subscriptions/introduction)
 

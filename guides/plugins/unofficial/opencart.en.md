@@ -7,9 +7,9 @@
 >
 > We only support official plugins
 >
-> We do not provide technical support of Mercado Pago for this documentation. If you wish to make any changes, you may [make modifications to our open code on GitHub](https://github.com/mercadopago/devsite-docs/blob/development/guides/plugins/unofficial/opencart.en.md).
+> We do not provide technical support of Mercado Libre for this documentation. If you wish to make any changes, you may [make modifications to our open code on GitHub](https://github.com/mercadopago/devsite-docs/blob/development/guides/plugins/unofficial/opencart.en.md).
 
-#### Mercado Pago Module (Opencart v1.4.9, 1.5.x, 2.x - 2.2, 2.3, 3.x)
+#### Mercado Libre Module (Opencart v1.4.9, 1.5.x, 2.x - 2.2, 2.3, 3.x)
 
 ## Features:
 
@@ -20,10 +20,10 @@ We offer two checkout methods that make it easy to securely accept payments from
 | --- | --- | --- |
 | Credit card Payments | ✔ | ✔ |
 | Other payment methods | ✔ | ✔ |
-| Mercado Pago's interface | ✔ |  |
+| Mercado Libre's interface | ✔ |  |
 | Installments calculator | ✔ | ✔ |
 | IPN and webhooks | ✔ | ✔ |
-| Mercado Pago coupon discounts | ✔ |  |
+| Mercado Libre coupon discounts | ✔ |  |
 | Log and debugging tools | ✔ | ✔ |
 | Currency conversion | | ✔ |
 | Platform and credential Status | ✔ | ✔ |
@@ -81,7 +81,7 @@ During the sandbox mode tests, you can operate over HTTP, but for homologation y
 
 ## Installation:
 
-1. Download Mercado Pago module:
+1. Download Mercado Libre module:
 
   * [OpenCart 2.3](https://github.com/mercadopago/cart-opencart/tree/master/v2.3)
   * [OpenCart 3.x](https://github.com/mercadopago/cart-opencart/tree/master/v3.x)
@@ -94,17 +94,17 @@ During the sandbox mode tests, you can operate over HTTP, but for homologation y
 
 1. On your store administration, go to **extensions > payments > MercadoPago** and click **Install**.
 
-2. Again in **extensions > payments > MercadoPago**, click **Edit** to Setup your Mercado Pago account:
+2. Again in **extensions > payments > MercadoPago**, click **Edit** to Setup your Mercado Libre account:
 <br>
 
 ![Open cart configuration page](images/opencart/MPAccount.png)
 
 ## Configuration
 
-1. Again in **Extensions > Payments > MercadoPago**, click **Edit** to Setup your Mercado Pago account:
+1. Again in **Extensions > Payments > MercadoPago**, click **Edit** to Setup your Mercado Libre account:
 <br>
 
-![Mercado Pago Account](images/opencart/MPAccount.png)
+![Mercado Libre Account](images/opencart/MPAccount.png)
 
 2.  Set your **CLIENT_ID** and **CLIENT_SECRET**, or **PUBLIC_KEY** and **ACCESS_TOKEN** (depending on which module you're using).Find your credentials in [Credentials section]([FAKER][CREDENTIALS][URL]).
 
@@ -125,13 +125,13 @@ During the sandbox mode tests, you can operate over HTTP, but for homologation y
   *  **Enabled**: Enables/disables this payment solution.
   * **Type Checkout (you're using Standard Checkout)**: Sets the type of checkout, the options are:
     *  *Iframe*: Opens an OpenCart URL with a iframe as the content.
-    *  *Redirect*: Redirects to Mercado Pago URL.
+    *  *Redirect*: Redirects to Mercado Libre URL.
     *  *Lightbox*: Similar to Iframe option but opens a lightbox instead of an iframe.
 
 ## Notifications
 
 Your store will automatically sync with MercadoPago. The notification URL will be sent in each payment.
 
-### Upgrade Mercado Pago Plugin
+### Upgrade Mercado Libre Plugin
 
 Follow the same steps that you did to [install the module](#bookmark_installation).

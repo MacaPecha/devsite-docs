@@ -10,7 +10,7 @@
 # Tiendanube
 ## ¿Qué es Tiendanube?
 
-Tiendanube es una **plataforma de e-commerce que permite recibir pagos con Mercado Pago**. ----[mlb]---- Puedes ofrecer a tus clientes la posibilidad de pagar con tarjeta de crédito o boleto y [vender directo en tu sitio](#bookmark_checkout_transparente) o [cobrar por el sitio de Mercado Pago](#bookmark_checkout_pro). ------------ ----[mla, mlm, mlc, mlu, mpe]---- Ofrece a tus clientes pagar con tarjeta de crédito, débito o el medio de pago que prefieran y [vender directo en tu sitio](#bookmark_checkout_transparente) o [cobrar por el sitio de Mercado Pago](#bookmark_checkout_pro). ------------ ----[mco]---- Ofrece a tus clientes pagar con tarjeta de crédito, banca en línea o efectivo y [vender directo en tu sitio](#bookmark_checkout_transparente) o [cobrar por el sitio de Mercado Pago](#bookmark_checkout_pro). ------------
+Tiendanube es una **plataforma de e-commerce que permite recibir pagos con Mercado Libre**. ----[mlb]---- Puedes ofrecer a tus clientes la posibilidad de pagar con tarjeta de crédito o boleto y [vender directo en tu sitio](#bookmark_checkout_transparente) o [cobrar por el sitio de Mercado Libre](#bookmark_checkout_pro). ------------ ----[mla, mlm, mlc, mlu, mpe]---- Ofrece a tus clientes pagar con tarjeta de crédito, débito o el medio de pago que prefieran y [vender directo en tu sitio](#bookmark_checkout_transparente) o [cobrar por el sitio de Mercado Libre](#bookmark_checkout_pro). ------------ ----[mco]---- Ofrece a tus clientes pagar con tarjeta de crédito, banca en línea o efectivo y [vender directo en tu sitio](#bookmark_checkout_transparente) o [cobrar por el sitio de Mercado Libre](#bookmark_checkout_pro). ------------
 
 <!-- -->
 ----[mlu, mpe]----
@@ -23,21 +23,21 @@ Tiendanube es una **plataforma de e-commerce que permite recibir pagos con Merca
 
 ## Pasos para configurar
 
-Los **pasos para comenzar a cobrar con Mercado Pago** son los siguientes:
+Los **pasos para comenzar a cobrar con Mercado Libre** son los siguientes:
 
 
-1. Crea una ----[mlb]---- [cuenta vendedor](https://www.mercadopago.com.br/activities) ------------ ----[mla]---- [cuenta vendedor](https://www.mercadopago.com.ar/activities) ------------ ----[mlm]---- [cuenta vendedor](https://www.mercadopago.com.mx/activities) ------------ ----[mlc]---- [cuenta vendedor](https://www.mercadopago.cl/activities) ------------ ----[mlu]---- [cuenta vendedor](https://www.mercadopago.com.uy/activities) ------------ ----[mpe]---- [cuenta vendedor](https://www.mercadopago.com.pe/activities) ------------ ----[mco]---- [cuenta vendedor](https://www.mercadopago.com.co/activities) ------------ en Mercado Pago si todavía no tienes una.
+1. Crea una ----[mlb]---- [cuenta vendedor](https://www.mercadopago.com.br/activities) ------------ ----[mla]---- [cuenta vendedor](https://www.mercadopago.com.ar/activities) ------------ ----[mlm]---- [cuenta vendedor](https://www.mercadopago.com.mx/activities) ------------ ----[mlc]---- [cuenta vendedor](https://www.mercadopago.cl/activities) ------------ ----[mlu]---- [cuenta vendedor](https://www.mercadopago.com.uy/activities) ------------ ----[mpe]---- [cuenta vendedor](https://www.mercadopago.com.pe/activities) ------------ ----[mco]---- [cuenta vendedor](https://www.mercadopago.com.co/activities) ------------ en Mercado Libre si todavía no tienes una.
 2. Instala la aplicación dentro de la tienda.
-3. Configura las formas de pago con Mercado Pago
+3. Configura las formas de pago con Mercado Libre
 
-## Activa Mercado Pago en tu tienda
+## Activa Mercado Libre en tu tienda
 
-Para **vincular tu cuenta de Mercado Pago a Tiendanube**, sigue estos pasos:
+Para **vincular tu cuenta de Mercado Libre a Tiendanube**, sigue estos pasos:
 
 1. Accede a las ----[mlb]---- [configuraciones de medios de pago](https://lojavirtualnuvem.com.br/admin/payments/) ------------ ----[mla, mlm, mlc, mlu, mpe, mco]---- [configuraciones de medios de pago](https://mitiendanube.com/admin/payments/) ------------ en el menú de tu tienda.
-2. Busca en la lista de medios de pago a Mercado Pago.
+2. Busca en la lista de medios de pago a Mercado Libre.
 3. Haz clic en "Configurar" y luego en "Activar"
-4. Vas a ser redirigido a Mercado Pago para que ingreses con los datos de tu cuenta. Para autorizar la conexión, haz clic en "Permitir".
+4. Vas a ser redirigido a Mercado Libre para que ingreses con los datos de tu cuenta. Para autorizar la conexión, haz clic en "Permitir".
 <p>&nbsp;</p>
 ----[mlb]----
 ![Payments Connect - Nuvem Shop](/images/nuvemshop/nuvemshop_connect_1.gif)
@@ -49,30 +49,30 @@ Para **vincular tu cuenta de Mercado Pago a Tiendanube**, sigue estos pasos:
 ![Payments Connect - Nuvem Shop](/images/nuvemshop/mx_tientanube_connect.gif)
 ------------
 <p>&nbsp;</p>
-¡Y listo! Mercado Pago ya se encuentra instalado en tu tienda.
+¡Y listo! Mercado Libre ya se encuentra instalado en tu tienda.
 
 > WARNING
 >
 > Importante
 >
-> Por defecto, Tiendanube va a tomar información de la cuenta que está recibiendo el pago como la configuración de correo electrónico, país y la moneda correspondiente a su cuenta de Mercado Pago.
+> Por defecto, Tiendanube va a tomar información de la cuenta que está recibiendo el pago como la configuración de correo electrónico, país y la moneda correspondiente a su cuenta de Mercado Libre.
 
 <!-- -->
 > NOTE
 >
-> Cambiar cuenta de Mercado Pago
+> Cambiar cuenta de Mercado Libre
 >
-> Si quieres cambiar la cuenta de Mercado Pago asociada a tu tienda, es necesarios cerrar y reinstalar el aplicativo.
+> Si quieres cambiar la cuenta de Mercado Libre asociada a tu tienda, es necesarios cerrar y reinstalar el aplicativo.
 >
-> 1. Cierra tu cuenta de Mercado Pago si la tienes abierta en tu navegador.
+> 1. Cierra tu cuenta de Mercado Libre si la tienes abierta en tu navegador.
 > 2. Selecciona "Salir" en el menú de opciones.
-> 3. Accede a las ----[mlb]---- [configuraciones de medios de pago](https://lojavirtualnuvem.com.br/admin/payments/) ------------ ----[mla, mlm, mlc, mlu, mpe, mco]---- [configuraciones de medios de pago](https://mitiendanube.com/admin/payments/) ------------ en el menú de tu tienda, busca "Mercado Pago" y selecciona "Editar".
+> 3. Accede a las ----[mlb]---- [configuraciones de medios de pago](https://lojavirtualnuvem.com.br/admin/payments/) ------------ ----[mla, mlm, mlc, mlu, mpe, mco]---- [configuraciones de medios de pago](https://mitiendanube.com/admin/payments/) ------------ en el menú de tu tienda, busca "Mercado Libre" y selecciona "Editar".
 > 4. Finalmente, haz clic en "Cambiar usuario" para desvincular tu cuenta actual.
 > 5. ¡Y listo! La desvinculación fue exitosa y ahora puedes [agregar una nueva cuenta](#bookmark_activa_mercado_pago_en_tu_tienda).
 
 ## Configura las formas de pago
 
-**Elige cómo integrar Mercado Pago en tu tienda.** Puedes recibir los pagos directamente en tu tienda o cobrar a través del sitio de Mercado Pago. Solo es posible activar una de las dos opciones.
+**Elige cómo integrar Mercado Libre en tu tienda.** Puedes recibir los pagos directamente en tu tienda o cobrar a través del sitio de Mercado Libre. Solo es posible activar una de las dos opciones.
 
 También tienes la opción de [ofrecer cuotas sin interés](#bookmark_configura_las_cuotas_sin_interés_en_tu_cuenta_de_mercado_pago) y configurar las ----[mlb]---- [tasas y plazos](https://www.mercadopago.com.br/settings/release-options) ------------ ----[mla]---- [tasas y plazos](https://www.mercadopago.com.ar/settings/release-options) ------------ ----[mlm]---- [tasas y plazos](https://www.mercadopago.com.mx/settings/release-options) ------------ ----[mlc]---- [tasas y plazos](https://www.mercadopago.cl/settings/release-options) ------------ ----[mlu]---- [tasas y plazos](https://www.mercadopago.com.uy/settings/release-options) ------------ ----[mpe]---- [tasas y plazos](https://www.mercadopago.com.pe/settings/release-options) ------------ ----[mco]---- [tasas y plazos](https://www.mercadopago.com.co/settings/release-options) ------------ de tus ventas online cuando quieras.
 
@@ -82,7 +82,7 @@ También tienes la opción de [ofrecer cuotas sin interés](#bookmark_configura_
 Permite que el **cliente finalice la compra en tu tienda**, sin ser redireccionado para otro sitio.
 
 
-1. Accede a las ----[mlb]---- [configuraciones de medios de pago](https://lojavirtualnuvem.com.br/admin/payments/) ------------ ----[mla, mlm, mlc, mlu, mpe, mco]---- [configuraciones de medios de pago](https://mitiendanube.com/admin/payments/) ------------ en el menú de tu tienda, busca "Mercado Pago" y selecciona "Editar".
+1. Accede a las ----[mlb]---- [configuraciones de medios de pago](https://lojavirtualnuvem.com.br/admin/payments/) ------------ ----[mla, mlm, mlc, mlu, mpe, mco]---- [configuraciones de medios de pago](https://mitiendanube.com/admin/payments/) ------------ en el menú de tu tienda, busca "Mercado Libre" y selecciona "Editar".
 2. En el ítem "Tipo de integración" cambia a la opción "Proceso de compra sin dejar la tienda".
 3. Finalmente, haz clic en "Guardar cambios".
 <p>&nbsp;</p>
@@ -99,10 +99,10 @@ Permite que el **cliente finalice la compra en tu tienda**, sin ser redirecciona
 
 ### Checkout Pro
 
-**El comprador será redireccionado a Mercado Pago** para realizar el pago y terminar la compra.
+**El comprador será redireccionado a Mercado Libre** para realizar el pago y terminar la compra.
 
-1. Accede a las ----[mlb]----[configuraciones de medios de pago](https://lojavirtualnuvem.com.br/admin/payments/) ------------ ----[mla, mlm, mlc, mlu, mpe, mco]---- [configuraciones de medios de pago](https://mitiendanube.com/admin/payments/) ------------ en el menú de tu tienda, busca "Mercado Pago" y selecciona "Editar".
-2. En el ítem "Tipo de integración" cambia a la opción "Proceso de compra en el sitio de Mercado Pago".
+1. Accede a las ----[mlb]----[configuraciones de medios de pago](https://lojavirtualnuvem.com.br/admin/payments/) ------------ ----[mla, mlm, mlc, mlu, mpe, mco]---- [configuraciones de medios de pago](https://mitiendanube.com/admin/payments/) ------------ en el menú de tu tienda, busca "Mercado Libre" y selecciona "Editar".
+2. En el ítem "Tipo de integración" cambia a la opción "Proceso de compra en el sitio de Mercado Libre".
 3. Finalmente, haz clic en "Guardar cambios".
 <p>&nbsp;</p>
 ----[mlb]----
@@ -119,15 +119,15 @@ Permite que el **cliente finalice la compra en tu tienda**, sin ser redirecciona
 >
 > Nota
 >
-> Luego de instalar Mercado Pago, todos los medios de pago estarán activos por defecto.
+> Luego de instalar Mercado Libre, todos los medios de pago estarán activos por defecto.
 
 ## Configuración de cuotas
 
-Tiendanube utiliza la configuración de financiación de tu cuenta de Mercado Pago. Si hiciste cambios, ten en cuenta que se van a ver reflejados en tu tienda en las próximas 24 hs.
+Tiendanube utiliza la configuración de financiación de tu cuenta de Mercado Libre. Si hiciste cambios, ten en cuenta que se van a ver reflejados en tu tienda en las próximas 24 hs.
 
 También puedes sincronizar los últimos cambios manualmente de la siguiente manera:
 
-1. Accede a las ----[mlb]----[configuraciones de medios de pago](https://lojavirtualnuvem.com.br/admin/payments/) ------------ ----[mla, mlm, mlc, mlu, mpe, mco]---- [configuraciones de medios de pago](https://mitiendanube.com/admin/payments/) ------------ en el menú de tu tienda, busca "Mercado Pago" y selecciona "Editar".
+1. Accede a las ----[mlb]----[configuraciones de medios de pago](https://lojavirtualnuvem.com.br/admin/payments/) ------------ ----[mla, mlm, mlc, mlu, mpe, mco]---- [configuraciones de medios de pago](https://mitiendanube.com/admin/payments/) ------------ en el menú de tu tienda, busca "Mercado Libre" y selecciona "Editar".
 2. En la sección de cuotas, haz clic en "Reflejar ahora".
 3. Finalmente, haz clic en "Guardar cambios".
 <p>&nbsp;</p>
@@ -142,9 +142,9 @@ También puedes sincronizar los últimos cambios manualmente de la siguiente man
 ------------
 
 
-## Configura las cuotas sin interés en tu cuenta de Mercado Pago
+## Configura las cuotas sin interés en tu cuenta de Mercado Libre
 
-1. Ingresa a tu [cuenta de Mercado Pago](https://www.mercadopago[FAKER][URL][DOMAIN]/business#from-section=menu) y ve a "Tu negocio".
+1. Ingresa a tu [cuenta de Mercado Libre](https://www.mercadopago[FAKER][URL][DOMAIN]/business#from-section=menu) y ve a "Tu negocio".
 2. Accede en la opción "Configuraciones", navega hasta "Ofrecer cuotas sin interés" y haz clic en "Activar".
 3. Elige "¿Cuántas quieres ofrecer?" y confirma los cambios con el botón "Activar".
 <p>&nbsp;</p>

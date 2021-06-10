@@ -4,7 +4,7 @@
 
 # Requesting Permissions
 
-### Request permission to your users to access their Mercado Pago Wallet
+### Request permission to your users to access their Mercado Libre Wallet
 
 Implement the authorization flow, to request your users permission to access their Wallet. This is done using a flow of OAuth.
 

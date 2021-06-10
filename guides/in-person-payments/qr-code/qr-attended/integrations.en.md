@@ -6,7 +6,7 @@ To charge with a QR attended model, you’ll have to create and order and then a
 
 We explain how the attended model works:
 
-![Payment flow at QR Mercado Pago point of sale](/images/mobile/qr-user-flow.en.png)
+![Payment flow at QR Mercado Libre point of sale](/images/mobile/qr-user-flow.en.png)
 
 <span></span>
 
@@ -25,7 +25,7 @@ https://api.mercadopago.com/instore/qr/seller/collectors/USER_ID/stores/EXTERNAL
 {
     "external_reference": "order-id-1234",
     "title": "Title",
-    "description": "Mercado Pago",
+    "description": "Mercado Libre",
     "notification_url": "www.yourserver.com",
     "expiration_date": "2023-08-22T16:34:56.559-04:00",
     "total_amount": 100.0,
@@ -34,7 +34,7 @@ https://api.mercadopago.com/instore/qr/seller/collectors/USER_ID/stores/EXTERNAL
             "sku_number": "KS955RUR",
             "category": "FOOD",
             "title": "Item1",
-            "description": "Item1 Mercado Pago",
+            "description": "Item1 Mercado Libre",
             "unit_price": 20,
             "quantity": 5,
             "unit_measure": "unit",
@@ -97,7 +97,7 @@ Once the order is created, it is available to be **scanned and paid**.
 > 
 > Note
 > 
-> Remember that if you haven’t previously provided your business name or logo in your [Mercado Pago account](https://www.mercadopago.com.ar/settings/account), the order title and image showcased to your client in the app will be taken from the first item uploaded.
+> Remember that if you haven’t previously provided your business name or logo in your [Mercado Libre account](https://www.mercadopago.com.ar/settings/account), the order title and image showcased to your client in the app will be taken from the first item uploaded.
 
 
 ## Eliminate an order

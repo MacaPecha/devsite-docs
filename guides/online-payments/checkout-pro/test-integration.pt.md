@@ -9,7 +9,7 @@
 | Tipos de usuarios | Descrição |
 | --- | --- |
 | Vendedor | É a conta de testes que você usa para **configurar a aplicação e credenciais para a cobrança**. |
-| Comprador | É a conta de testes que você usa para **testar o processo de compra.**<br/>Existem duas formas de fazer o pagamento:<br/><br/> **Como usuário convidado:** basta preencher o endereço de e-mail.<br/>**Como usuário cadastrado:** acessa a conta do Mercado Pago com o usuário e senha. Caso tenha saldo disponível na conta ou cartões salvos, estarão habilitados como meios de pagamento. |
+| Comprador | É a conta de testes que você usa para **testar o processo de compra.**<br/>Existem duas formas de fazer o pagamento:<br/><br/> **Como usuário convidado:** basta preencher o endereço de e-mail.<br/>**Como usuário cadastrado:** acessa a conta do Mercado Libre com o usuário e senha. Caso tenha saldo disponível na conta ou cartões salvos, estarão habilitados como meios de pagamento. |
 
 
 
@@ -45,7 +45,7 @@ curl -X POST \
 >Importante
 >
 > * Você pode gerar até 10 contas de usuários de teste ao mesmo tempo. Por isso, recomendamos salvar o _e-mail_ e _senha_ de cada um.
-> * Os usuários de teste caducam após 60 dias sem atividade no Mercado Pago.
+> * Os usuários de teste caducam após 60 dias sem atividade no Mercado Libre.
 > * Para fazer pagamentos de teste, recomendamos usar valore baixos.
 > * Tanto o comprador como o vendedor devem ser usuários de teste.
 > * Use cartões de teste, já que não é possível retirar o dinheiro.
@@ -69,13 +69,13 @@ Ao abrir o checkout criado com os dados do seu usuário vendedor:
 2. Insira os dados de um [cartão de teste.](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/checkout-pro/test-integration#bookmark_cartões_de_teste)
 3. Informe o e-mail e pronto!<br/><br/>
 
-#### Comprar como usuário cadastrado (com conta do Mercado Pago)
+#### Comprar como usuário cadastrado (com conta do Mercado Libre)
 
 Testes com cartão de crédito
 
 Ao abrir o checkout criado com os dados do seu usuário vendedor:
 
-1. Inicie sessão no Mercado Pago com a conta do seu usuário de teste comprador.
+1. Inicie sessão no Mercado Libre com a conta do seu usuário de teste comprador.
 2. Selecione _Cartão_ como meio de pagamento.
 3. Selecione um  cartão salvo ou preencha os dados um novo e pronto!
 

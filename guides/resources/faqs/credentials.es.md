@@ -11,7 +11,7 @@ Tus credenciales son:
 | Public key | Clave pública de la aplicación que usarás normalmente en el frontend y te permitirá, por ejemplo, conocer los medios de pago y cifrar datos de tarjeta. |
 | Access token | Clave privada de la aplicación que usarás normalmente en el backend para generar pagos. Es muy importante que este dato quede protegido en tus servidores y no sea accesible por ningún usuario del sistema o atacante. |
 
-Están disponibles en el panel de [Credenciales]([FAKER][CREDENTIALS][URL]) o desde tu cuenta de Mercado Pago en [Tu Negocio > Configuraciones > Credenciales](https://www.mercadopago[FAKER][URL][DOMAIN]/settings/account/credentials).
+Están disponibles en el panel de [Credenciales]([FAKER][CREDENTIALS][URL]) o desde tu cuenta de Mercado Libre en [Tu Negocio > Configuraciones > Credenciales](https://www.mercadopago[FAKER][URL][DOMAIN]/settings/account/credentials).
 
 Te recomendamos usar primero tus credenciales de prueba, o las de un usuario de prueba, para comprobar que todo funcione correctamente en Sandbox y luego podrás utilizar las productivas para comenzar a recibir pagos.
 
@@ -19,15 +19,15 @@ Te recomendamos usar primero tus credenciales de prueba, o las de un usuario de 
 
 Comparte tus credenciales de forma segura con quienes te ayuden a integrar o configurar tus canales de cobro.
 
-En [Credenciales](https://www.mercadopago[FAKER][URL][DOMAIN]/settings/account/credentials), elige la opción “Compartir mis credenciales” e ingresa el e-mail de la persona a la que quieres darle acceso. Ten en cuenta que su dirección de correo debe estar registrada en Mercado Pago o Mercado Libre.
+En [Credenciales](https://www.mercadopago[FAKER][URL][DOMAIN]/settings/account/credentials), elige la opción “Compartir mis credenciales” e ingresa el e-mail de la persona a la que quieres darle acceso. Ten en cuenta que su dirección de correo debe estar registrada en Mercado Libre o Mercado Libre.
 
 > Desde tus credenciales compartidas, puedes [eliminar los permisos](https://www.mercadopago[FAKER][URL][DOMAIN]/settings/account/credentials) cuando tu integración ya esté terminada.
 
 ## Solicitar acceso a claves de otras cuentas
 
-Puedes pedir acceso a los datos de otra cuenta para hacer una integración con Mercado Pago cuando lo necesites y tener a mano toda la información desde tu panel.
+Puedes pedir acceso a los datos de otra cuenta para hacer una integración con Mercado Libre cuando lo necesites y tener a mano toda la información desde tu panel.
 
-En [Credenciales > Otras credenciales](https://mercadopago[FAKER][URL][DOMAIN]/developers/panel/credentials/share), haz clic en “Solicitar credenciales” y completa el e-mail de la cuenta de la que necesitas los datos. Ten en cuenta que la dirección de correo debe estar registrada en Mercado Pago o Mercado Libre.
+En [Credenciales > Otras credenciales](https://mercadopago[FAKER][URL][DOMAIN]/developers/panel/credentials/share), haz clic en “Solicitar credenciales” y completa el e-mail de la cuenta de la que necesitas los datos. Ten en cuenta que la dirección de correo debe estar registrada en Mercado Libre o Mercado Libre.
 
 Al finalizar las integraciones, elimina los permisos de acceso a las credenciales que te compartieron para cuidar la seguridad de los datos.
 

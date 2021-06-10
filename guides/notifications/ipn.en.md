@@ -2,7 +2,7 @@
 
 **IPN** (Instant Payment Notification) is a notification sent from one server to another through an `HTTP POST` request informing your transactions.
 
-To receive event notifications on your platform, you can [previously configure a notification_url accessible for Mercado Pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/panel/notifications/ipn).
+To receive event notifications on your platform, you can [previously configure a notification_url accessible for Mercado Libre](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/panel/notifications/ipn).
 
 
 ## Events
@@ -19,7 +19,7 @@ A `merchant_order` is an entity that groups payments as well as shipments. You w
 
 Whenever an event related to any of the mentioned resources takes place, we will send you a notification using `HTTP POST` to the URL that you specified.
 
-If your application is not available or takes too long to respond, Mercado Pago will retry sending the notification according to the following interval:
+If your application is not available or takes too long to respond, Mercado Libre will retry sending the notification according to the following interval:
 
 1. Retry after 5 minutes.
 2. Retry after 45 minutes.
@@ -27,7 +27,7 @@ If your application is not available or takes too long to respond, Mercado Pago 
 4. Retry after 2 days.
 5. Retry after 4 days.
 
-Mercado Pago will notify to this URL whenever a resource is created or when orders or payment status are updated, with two parameters:
+Mercado Libre will notify to this URL whenever a resource is created or when orders or payment status are updated, with two parameters:
 
 | Field | Description |
 | --- | --- |
@@ -45,7 +45,7 @@ Example: If you have configured the URL:  `https://www.yoursite.com/notification
 
 ## What should I do after receiving a notification?
 
-When you receive a notification in your platform, Mercado Pago awaits a response to validate that you received it correctly. To do this, you have to send a response with a `HTTP STATUS 200 (OK)` or `201 (CREATED)`.
+When you receive a notification in your platform, Mercado Libre awaits a response to validate that you received it correctly. To do this, you have to send a response with a `HTTP STATUS 200 (OK)` or `201 (CREATED)`.
 
 Note that this communication is made exclusively between MercadoPago’s servers and your server, so there will be no physical user viewing any kind of result.
 
@@ -183,7 +183,7 @@ Otherwise, if the order posted QR has **not been scanned yet**, the answer will 
 >
 > Important
 >
-> To approve the integration of in-person payments, Mercado Pago requires the implementation of notifications (IPN) as main method. Order search by `external_reference` should be used only as a contingency measure in the event of no notifications.
+> To approve the integration of in-person payments, Mercado Libre requires the implementation of notifications (IPN) as main method. Order search by `external_reference` should be used only as a contingency measure in the event of no notifications.
 
 ## Receive only one type of notification
 

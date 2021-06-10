@@ -336,7 +336,7 @@ curl -X POST \
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use saved cards for payments
 
-For customers to make payments with their saved data, you need to capture the security code again. For security reasons, Mercado Pago can't save that information.
+For customers to make payments with their saved data, you need to capture the security code again. For security reasons, Mercado Libre can't save that information.
 
 <br>
 
@@ -842,7 +842,7 @@ For more information, check the [Refunds and Cancellations section](https://www.
 >
 > Other features
 >
-> Set up your payment and adapt the integration of Mercado Pago to your business.
+> Set up your payment and adapt the integration of Mercado Libre to your business.
 >
 > [Other features](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/online-payments/checkout-api/v2/other-features)
 

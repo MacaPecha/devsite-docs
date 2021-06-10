@@ -1099,11 +1099,11 @@ DATE,SOURCE_ID,EXTERNAL_REFERENCE,RECORD_TYPE,DESCRIPTION,NET_CREDIT_AMOUNT,NET_
 
 > LEFT_BUTTON_RECOMMENDED_ES
 >
-> Generación desde Mercado Pago
+> Generación desde Mercado Libre
 >
-> Puedes generar tus reportes de Dinero retirado desde el panel de Mercado Pago en tres simples pasos.
+> Puedes generar tus reportes de Dinero retirado desde el panel de Mercado Libre en tres simples pasos.
 >
-> [Generación desde Mercado Pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/manage-account/reports/available-money/panel)
+> [Generación desde Mercado Libre](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/manage-account/reports/available-money/panel)
 
 > RIGHT_BUTTON_RECOMMENDED_ES
 >

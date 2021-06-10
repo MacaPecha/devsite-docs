@@ -7,15 +7,15 @@
 >
 > Oferecemos suporte somente para plugins oficiais
 >
-> Esta documentação não conta com o suporte oficial do Mercado Pago. Se você quiser fazer alterações, pode [modificar o código aberto no GitHub](https://github.com/mercadopago/devsite-docs/blob/development/guides/plugins/unofficial/xtech.pt.md).
+> Esta documentação não conta com o suporte oficial do Mercado Libre. Se você quiser fazer alterações, pode [modificar o código aberto no GitHub](https://github.com/mercadopago/devsite-docs/blob/development/guides/plugins/unofficial/xtech.pt.md).
 
 ## O que é XTECH
 
-[XTECH](https://www.xtechcommerce.com/) é uma plataforma de ecommerce que disponibiliza a integração com Mercado Pago como meio de pagamento.
+[XTECH](https://www.xtechcommerce.com/) é uma plataforma de ecommerce que disponibiliza a integração com Mercado Libre como meio de pagamento.
 
-## Como posso operar com Mercado Pago na XTECH
+## Como posso operar com Mercado Libre na XTECH
 
-XTECH permite operar Mercado Pago nas seguintes modalidades:
+XTECH permite operar Mercado Libre nas seguintes modalidades:
 
 ### Checkout Transparente
 
@@ -23,38 +23,38 @@ Receba pagamentos em sua loja através de Cartão de Crédito e/ou Boleto Bancá
 
 ### Checkout Redirect
 
-Receba pagamentos em sua loja utilizando o checkout do próprio Mercado Pago, neste modelo o usuário (cliente) será redirecionado para uma página do Mercado Pago para finalizar sua compra.
+Receba pagamentos em sua loja utilizando o checkout do próprio Mercado Libre, neste modelo o usuário (cliente) será redirecionado para uma página do Mercado Libre para finalizar sua compra.
 
-## Conta Mercado Pago
+## Conta Mercado Libre
 
-Antes de iniciar a configuração, é necessário que você possua uma conta válida no **Mercado Pago**, caso não tenha, pode realizar o cadastro acessando o [formulário de registro](https://www.mercadopago.com.br/registration-mp?mode=mp).
+Antes de iniciar a configuração, é necessário que você possua uma conta válida no **Mercado Libre**, caso não tenha, pode realizar o cadastro acessando o [formulário de registro](https://www.mercadopago.com.br/registration-mp?mode=mp).
 
-Se quiser saber mais sobre o **Mercado Pago** acesse nossa [página principal](https://www.mercadopago.com.br/).
+Se quiser saber mais sobre o **Mercado Libre** acesse nossa [página principal](https://www.mercadopago.com.br/).
 
-## Como habilitar o Mercado Pago
+## Como habilitar o Mercado Libre
 
 1. Acessar o administrador se sua loja na plataforma.
 2. No menu Ferramentas, selecionar a opção **MÓDULOS DE PAGAMENTO**
 
-![Enabling Mercado Pago in Xtech](/images/xtech/xtech_config01.png)
+![Enabling Mercado Libre in Xtech](/images/xtech/xtech_config01.png)
 
-3. Clique no botão **INSTALAR** no quadro do Mercado Pago
+3. Clique no botão **INSTALAR** no quadro do Mercado Libre
 
-![Mercado Pago installation page at Xtech](/images/xtech/xtech_config02.png)
+![Mercado Libre installation page at Xtech](/images/xtech/xtech_config02.png)
 
-4. Será redirecionado para uma página do Mercado Pago para poder realizar permitir a conexão entre a XTECH Plataforma e sua conta Mercado Pago, realizando todas as configurações necessárias.
+4. Será redirecionado para uma página do Mercado Libre para poder realizar permitir a conexão entre a XTECH Plataforma e sua conta Mercado Libre, realizando todas as configurações necessárias.
 
 ![Xtech authorization message](/images/xtech/xtech_config03.png)
 
-5. Após clicar em **PERMITIR** você será redirecionado de volta para a seção administrativa da plataforma, na tela de configurações do módulo Mercado Pago.
+5. Após clicar em **PERMITIR** você será redirecionado de volta para a seção administrativa da plataforma, na tela de configurações do módulo Mercado Libre.
 
 ![Xtech Configuration Page](/images/xtech/xtech_config04.png)
 
-O Mercado Pago está instalado porém **desativado**, siga os passos abaixo para realizar as configurações do módulo.
+O Mercado Libre está instalado porém **desativado**, siga os passos abaixo para realizar as configurações do módulo.
 
-### Configurando o Mercado Pago
+### Configurando o Mercado Libre
 
-Após seguir os passos anteriores, o módulo do Mercado Pago na plataforma já estará habilitado, agora é necessário configurá-lo de acordo com o tipo de checkout que deseja utilizar.
+Após seguir os passos anteriores, o módulo do Mercado Libre na plataforma já estará habilitado, agora é necessário configurá-lo de acordo com o tipo de checkout que deseja utilizar.
 
 #### Ativando o meio de pagamento
 
@@ -83,7 +83,7 @@ Segue abaixo a descrição de cada campo do formulário de configuração no pai
 | Status | Ativado / Desativado | Indica se o meio de pagamento está ativado/desativado na págian do checkout |
 | Nome da Aba no Checkout | | Indica o nome da aba para o meio de pagamento |
 | Desconto no boleto (%) | | Valor a ser descontado quando a forma de pagamento selecionada for boleto |
-| Cupom Mercado Pago | Ativado / Desativado | Habilitar o cupom de desconto exclusivo do Mercado Pago |
+| Cupom Mercado Libre | Ativado / Desativado | Habilitar o cupom de desconto exclusivo do Mercado Libre |
 | Checkout Transparente | Ativado / Desativado | Indica o tipo de checkout. Ativado habilita o checkout transparente enquanto que desativado habilita o checkout redirect. |
 | Nome da Fatura do cartão de crédito | | Indica o nome que irá aparecer na fatura do cliente, sugerismo utilizar o nome da loja. Limite máximo de 11 caracteres. |
 | Formas de pagamento | Cartão de crédito / Boleto Bancário | Habilita as formas de pagamento que serão exibidas na página do checkout. |
@@ -108,6 +108,6 @@ Utilizamos uma loja virtual de demonstração da XTECH para mostrar o resultado 
 
 ![Checkout redirect visual](/images/xtech/xtech_config10.png)
 
-Após clicar em **FINALIZAR COMPRA** o cliente será redirecionado para uma página do Mercado Pago para finalizar sua compra:
+Após clicar em **FINALIZAR COMPRA** o cliente será redirecionado para uma página do Mercado Libre para finalizar sua compra:
 
 ![Checkout page - Checkout redirect](/images/xtech/xtech_gif01.png)

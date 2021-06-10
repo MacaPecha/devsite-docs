@@ -18,16 +18,16 @@ indexable: false
 
 La modalidad de `Gateway` en Advanced Payments permite realizar múltiples pagos con distintos números de comercio propios y un mismo card token. Esto implica que el comprador debe ingresar los datos de su tarjeta una única vez.
 
-Para poder realizar pagos en esta modalidad, debes cargar tus números de comercios, acuerdos y medios de pago asociados desde la configuración de tu cuenta de Mercado Pago. Los mismos serán utilizados en la integración con la API.
+Para poder realizar pagos en esta modalidad, debes cargar tus números de comercios, acuerdos y medios de pago asociados desde la configuración de tu cuenta de Mercado Libre. Los mismos serán utilizados en la integración con la API.
 ----[mco]----
-En el caso de que tu cuenta de Mercado Pago sea de Colombia, contáctate con tu ejecutivo de cuentas para poder cargar tus números de comercios, acuerdos y medios de pago asociados.
+En el caso de que tu cuenta de Mercado Libre sea de Colombia, contáctate con tu ejecutivo de cuentas para poder cargar tus números de comercios, acuerdos y medios de pago asociados.
 ------------
 
 ## Configurar Aplicación para procesar pagos en modo Gateway
 
-### Crear una cuenta de Mercado Pago
+### Crear una cuenta de Mercado Libre
 
-Debes crear una cuenta desde el sitio de Mercado Pago del país a donde desees recibir pagos. La modalidad Gateway está disponible actualmente sólo para Argentina y Colombia:
+Debes crear una cuenta desde el sitio de Mercado Libre del país a donde desees recibir pagos. La modalidad Gateway está disponible actualmente sólo para Argentina y Colombia:
 
 * [Argentina](https://www.mercadopago.com.ar)
 * [Colombia](https://www.mercadopago.com.co)
@@ -35,7 +35,7 @@ Debes crear una cuenta desde el sitio de Mercado Pago del país a donde desees r
 ### Crear una aplicación
 
 La aplicación será utilizada para poder cargar los números de comercio, acuerdos y medios de pago y, posteriormente, realizar la integración con la API.
-Debes crear una aplicación accediendo a la página de aplicaciones de Mercado Pago del país correspondiente a tu cuenta y completando la información solicitada:
+Debes crear una aplicación accediendo a la página de aplicaciones de Mercado Libre del país correspondiente a tu cuenta y completando la información solicitada:
 
 * [Argentina](https://applications.mercadopago.com.ar)
 * [Colombia](https://applications.mercadopago.com.co)
@@ -49,9 +49,9 @@ Debes contactar a tu ejecutivo de cuentas informando el APP_ID de tu aplicación
 
 ### Cargar información correspondiente a números de comercios, acuerdos y medios de pago asociados
 
-Para poder realizar pagos en esta modalidad, debes cargar tus números de comercios, acuerdos y medios de pago asociados desde la configuración de tu cuenta de Mercado Pago. Los mismos serán utilizados en la integración con la API.
+Para poder realizar pagos en esta modalidad, debes cargar tus números de comercios, acuerdos y medios de pago asociados desde la configuración de tu cuenta de Mercado Libre. Los mismos serán utilizados en la integración con la API.
 
-En el caso de que tu cuenta de Mercado Pago sea de Colombia, contáctate con tu ejecutivo de cuentas para poder cargar tus números de comercios, acuerdos y medios de pago asociados.
+En el caso de que tu cuenta de Mercado Libre sea de Colombia, contáctate con tu ejecutivo de cuentas para poder cargar tus números de comercios, acuerdos y medios de pago asociados.
 
 ### Generar un token de tarjeta
 

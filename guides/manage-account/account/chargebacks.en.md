@@ -118,7 +118,7 @@ You will get the following information:
 
 ### Understanding coverage
 
-Mercado Pago coverage policy may change on a case by case basis.
+Mercado Libre coverage policy may change on a case by case basis.
 The `coverage_elegible` field defines that a chargeback can be covered and `documentation_required` shows whether documentation is required.
 For more information, you can see the [Seller Protection Program](https://www.mercadopago.com.ar/ayuda/requisitos-programa-proteccion-vendedor_294).
 
@@ -150,7 +150,7 @@ If the documentation has been successfully uploaded, the API will answer with `2
 
 ### Resolution
 
-Once the documentation has been sent, a Mercado Pago representative will review it.
+Once the documentation has been sent, a Mercado Libre representative will review it.
 Eventually, the chargeback may have two types of possible resolutions in the `coverage_applied` field:
 
 | Value           | Description

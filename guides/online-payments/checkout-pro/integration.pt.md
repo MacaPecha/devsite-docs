@@ -1,6 +1,6 @@
 # Integre o Checkout Pro
 
-Integrar Checkout Pro do Mercado Pago te permite cobrar através do nosso formulário web de qualquer dispositivo de forma simples, rápida e segura.
+Integrar Checkout Pro do Mercado Libre te permite cobrar através do nosso formulário web de qualquer dispositivo de forma simples, rápida e segura.
 
 Use os [exemplos para download](#bookmark_exemplos_para_download) para conhecer a integração completa ou para adaptá-los de acordo com o que precisa.
 
@@ -10,7 +10,7 @@ Use os [exemplos para download](#bookmark_exemplos_para_download) para conhecer 
 
 1. Crie sua preferência
 
-	1.1 Adicione o SDK do Mercado Pago no seu backend e adicione as credenciais para permitir seu uso.
+	1.1 Adicione o SDK do Mercado Libre no seu backend e adicione as credenciais para permitir seu uso.
 
 	1.2 Configure a preferência conforme seu produto ou serviço.<br><br>
 
@@ -32,19 +32,19 @@ Instalar o Checkout Pro requer duas etapas:
 
 No seu backend, escreva o seguinte código que consiste em duas partes:
 
-1.1 Adicione o [SDK do Mercado Pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/checkout-pro/previous-requirements#bookmark_pré-requisitos) ao seu projeto e configure as [credenciais]([FAKER][CREDENTIALS][URL]) para habilitar seu uso:
+1.1 Adicione o [SDK do Mercado Libre](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/checkout-pro/previous-requirements#bookmark_pré-requisitos) ao seu projeto e configure as [credenciais]([FAKER][CREDENTIALS][URL]) para habilitar seu uso:
 
 [[[
 ```php
 <?php
-// SDK do Mercado Pago
+// SDK do Mercado Libre
 require __DIR__ .  '/vendor/autoload.php';
 // Adicione as credenciais
 MercadoPago\SDK::setAccessToken('PROD_ACCESS_TOKEN');
 ?>
 ```
 ```node
-// SDK do Mercado Pago
+// SDK do Mercado Libre
 const mercadopago = require ('mercadopago');
 // Adicione as credenciais
 mercadopago.configure({
@@ -52,25 +52,25 @@ mercadopago.configure({
 });
 ```
 ```java
-// SDK do Mercado Pago
+// SDK do Mercado Libre
 import com.mercadopago.MercadoPago;
 // Adicione as credenciais
 MercadoPago.SDK.setAccessToken("PROD_ACCESS_TOKEN");
 ```
 ```ruby
-# SDK do Mercado Pago
+# SDK do Mercado Libre
 require 'mercadopago'
 # Adicione as credenciais
 sdk = Mercadopago::SDK.new('PROD_ACCESS_TOKEN')
 ```
 ```csharp
-// SDK do Mercado Pago
+// SDK do Mercado Libre
  using MercadoPago.Config;
  // Adicione as credenciais
 MercadoPagoConfig.AccessToken = "PROD_ACCESS_TOKEN";
 ```
 ```python
-# SDK do Mercado Pago
+# SDK do Mercado Libre
 import mercadopago
 # Adicione as credenciais
 sdk = mercadopago.SDK("PROD_ACCESS_TOKEN")
@@ -335,7 +335,7 @@ curl -X POST \
 >
 > Aceite pagamentos apenas de usuários cadastrados
 >
-> Se quiser aceitar pagamentos apenas de usuários cadastrados, com cartão e saldo no Mercado Pago, entre [nesta seção](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/checkout-pro/configurations/#bookmark_aceitar_pagamentos_somente_de_usuários_cadastrados) para mais informações.
+> Se quiser aceitar pagamentos apenas de usuários cadastrados, com cartão e saldo no Mercado Libre, entre [nesta seção](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/checkout-pro/configurations/#bookmark_aceitar_pagamentos_somente_de_usuários_cadastrados) para mais informações.
 
 <span></span>
 
@@ -388,7 +388,7 @@ Você pode consultar outras maneiras de abrir o checkout na [seção de Personal
 >
 > Importante
 >
-> Não esqueça de acessar de outro navegador ou de encerrar a sessão da sua conta do Mercado Pago antes de fazer os testes. Você não pode pagar com a mesma conta que criou o formulário de pagamento.<br/>
+> Não esqueça de acessar de outro navegador ou de encerrar a sessão da sua conta do Mercado Libre antes de fazer os testes. Você não pode pagar com a mesma conta que criou o formulário de pagamento.<br/>
 
 #### Excelente! Você concluiu sua integração.
 
@@ -416,8 +416,8 @@ _Clique no link dentro do seu site e [teste a integração do seu Checkout Pro](
 
 > RIGHT_BUTTON_RECOMMENDED_PT
 >
-> Aceite a carteira Mercado Pago
+> Aceite a carteira Mercado Libre
 >
-> Permite pagamentos somente de usuários cadastrados no Mercado Pago, com cartão e saldo disponível.
+> Permite pagamentos somente de usuários cadastrados no Mercado Libre, com cartão e saldo disponível.
 >
 > [Usuários cadastrados](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/checkout-pro/configurations/#bookmark_aceitar_pagamentos_somente_de_usuários_cadastrados)

@@ -6,7 +6,7 @@ sites_supported:
 
 # Los rendimientos en el reporte de Dinero retirado
 
-Te mostramos cómo ver los rendimientos generados desde tu cuenta de Mercado Pago en el reporte de Dinero retirado.
+Te mostramos cómo ver los rendimientos generados desde tu cuenta de Mercado Libre en el reporte de Dinero retirado.
 
 ----[mla]----
 > NOTE

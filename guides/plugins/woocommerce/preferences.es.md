@@ -19,9 +19,9 @@ Ingresa el **nombre del negocio** para que aparezca en la factura de tus cliente
 >
 > Nota
 >
-> El campo de `integrator_id` no es obligatorio a la hora de realizar una integración. Deberán completarlo los Partners de Mercado Pago.
+> El campo de `integrator_id` no es obligatorio a la hora de realizar una integración. Deberán completarlo los Partners de Mercado Libre.
 >
-> Para ser un Partner deberás homologarte o certificarte como tal. Para conocer más sobre las certificaciones para desarrolladores de Mercado Pago y cómo obtener tu ID, [déjanos tu contacto](https://docs.google.com/forms/d/e/1FAIpQLSdbA1Y8_9RD2xTCRDHLxeVYrrSIy5s2ME8Ku6_gEcSu60KUHQ/viewform). 
+> Para ser un Partner deberás homologarte o certificarte como tal. Para conocer más sobre las certificaciones para desarrolladores de Mercado Libre y cómo obtener tu ID, [déjanos tu contacto](https://docs.google.com/forms/d/e/1FAIpQLSdbA1Y8_9RD2xTCRDHLxeVYrrSIy5s2ME8Ku6_gEcSu60KUHQ/viewform). 
 
 <span></span>
 
@@ -36,14 +36,14 @@ Ingresa el **nombre del negocio** para que aparezca en la factura de tus cliente
 Activa el checkout que quieras ofrecer a tus clientes según tus preferencias y elige los medios de pago con los que podrán hacer la compra.
 
 * Activa un tipo de checkout.
- * Usa Checkout Pro para soportar pagos con tarjetas, ----[mlb]---- Pix,------------ en efectivo y dinero en cuenta de Mercado Pago.
+ * Usa Checkout Pro para soportar pagos con tarjetas, ----[mlb]---- Pix,------------ en efectivo y dinero en cuenta de Mercado Libre.
  * Usa el Checkout Personalizado para tener control sobre otras configuraciones y acepta pagos con tarjeta de crédito, ----[mlb]---- Pix,------------ boleta de pago y en persona.
 
 * Elige los [medios de pago disponibles](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/resources/localization/payment-methods) para tus clientes según el país en el que operes y el tipo de checkout que estés configurando. 
 
 * Establece el máximo de cuotas en el que podrán pagarte.
 
-* Activa la conversión de moneda con la que tienes en Mercado Pago.
+* Activa la conversión de moneda con la que tienes en Mercado Libre.
 
 ----[mlb]----
 > WARNING
@@ -52,8 +52,8 @@ Activa el checkout que quieras ofrecer a tus clientes según tus preferencias y 
 >
 > Antes de configurar Pix como medio de pago, recuerda hacer esto:
 >
-> - [Descarga la última versión](https://br.wordpress.org/plugins/woocommerce-mercadopago/#description) para actualizar tu plugin de Mercado Pago.
-> - Registra tu clave en Mercado Pago. Si no lo haces, tus clientes no podrán finalizar la compra. [Conoce cómo hacerlo](https://www.mercadopago.com.br/stop/pix?url=https%3A%2F%2Fwww.mercadopago.com.br%2Fadmin-pix-keys%2Fmy-keys&authentication_mode=required).
+> - [Descarga la última versión](https://br.wordpress.org/plugins/woocommerce-mercadopago/#description) para actualizar tu plugin de Mercado Libre.
+> - Registra tu clave en Mercado Libre. Si no lo haces, tus clientes no podrán finalizar la compra. [Conoce cómo hacerlo](https://www.mercadopago.com.br/stop/pix?url=https%3A%2F%2Fwww.mercadopago.com.br%2Fadmin-pix-keys%2Fmy-keys&authentication_mode=required).
 
 <span></span>
 ------------
@@ -82,8 +82,8 @@ Elige qué experiencia de compra tendrán tus clientes a la hora de pagar:
 
 | Experiencia de pago | Características |
 | --- | --- |
-| Redirect | Tus clientes serán redirigidos a una página de Mercado Pago con el formulario de pagos para terminar la compra. |
-| Modal | Tus clientes accederán al formulario de pagos de Mercado Pago sin salir de tu tienda. |
+| Redirect | Tus clientes serán redirigidos a una página de Mercado Libre con el formulario de pagos para terminar la compra. |
+| Modal | Tus clientes accederán al formulario de pagos de Mercado Libre sin salir de tu tienda. |
 
 > NOTE
 >
@@ -109,7 +109,7 @@ Elige qué experiencia de compra tendrán tus clientes a la hora de pagar:
 | Configuración | Descripción |
 | --- | --- |
 | Cupon de descuento | Activa esta opción cuando quieras ofrecer descuentos a tus clientes. Aparecerá un campo en el formulario donde podrán ingresar su cupón. |
-| Reducir inventario | Activa esta opción cuando quieras automatizar la reducción del inventario por cada orden de compra que se aprueba tras un pago con Mercado Pago. |
+| Reducir inventario | Activa esta opción cuando quieras automatizar la reducción del inventario por cada orden de compra que se aprueba tras un pago con Mercado Libre. |
 
 ----[mlb]----
 #### Pagos con Pix
@@ -117,8 +117,8 @@ Elige qué experiencia de compra tendrán tus clientes a la hora de pagar:
 | Configuración | Descripción |
 | --- | --- |
 | Vencimiento Pix | Establece el tiempo de expiración del código que se envía al cliente después de realizar el pedido. Este es el periodo en el que el cliente tendrá que pagar la compra. |
-| Descuentos en Mercado Pago | Habilita esta opción cuando quieras seleccionar un monto porcentual a descontar de tus clientes que pagan con Mercado Pago. |
-| Comisión por compras con Mercado Pago | Habilita esta opción cuando quieras seleccionar un monto adicional para cobrar de tus clientes que pagan con Mercado Pago, como una tasa. |
+| Descuentos en Mercado Libre | Habilita esta opción cuando quieras seleccionar un monto porcentual a descontar de tus clientes que pagan con Mercado Libre. |
+| Comisión por compras con Mercado Libre | Habilita esta opción cuando quieras seleccionar un monto adicional para cobrar de tus clientes que pagan con Mercado Libre, como una tasa. |
 ------------
 
 ---
@@ -129,7 +129,7 @@ Elige qué experiencia de compra tendrán tus clientes a la hora de pagar:
 >
 > Prueba y recibe pagos
 >
-> Pon a prueba el módulo y verifica que todo funcione bien para empezar a recibir el dinero de tus ventas en Mercado Pago.
+> Pon a prueba el módulo y verifica que todo funcione bien para empezar a recibir el dinero de tus ventas en Mercado Libre.
 >
 >
 > [Recibir pagos](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/plugins/woocommerce/receive-payments)

@@ -1,11 +1,11 @@
 
-# Generación por panel de Mercado Pago
+# Generación por panel de Mercado Libre
 
-Genera tus reportes de ----[mla]---- Liquidaciones ------------ ----[mlm, mlb, mlc, mco, mlu, mpe]---- Liberaciones ------------ desde tu panel de Mercado Pago. Podrás programar que se genere el reporte por cada vez que hagas un retiro de tu saldo a una cuenta bancaria.
+Genera tus reportes de ----[mla]---- Liquidaciones ------------ ----[mlm, mlb, mlc, mco, mlu, mpe]---- Liberaciones ------------ desde tu panel de Mercado Libre. Podrás programar que se genere el reporte por cada vez que hagas un retiro de tu saldo a una cuenta bancaria.
 
 Sigue estos pasos para generar tus reportes:
 
-1. Desde tu cuenta de Mercado Pago, ve a [tus Informes](https://www.mercadopago.com.ar/balance/reports) y elige la opción de *Reportes*.
+1. Desde tu cuenta de Mercado Libre, ve a [tus Informes](https://www.mercadopago.com.ar/balance/reports) y elige la opción de *Reportes*.
 1. Ve a [reporte de ----[mla]---- Liquidaciones ------------ ----[mlm, mlb, mlc, mco, mlu, mpe]---- Liberaciones ------------](https://www.mercadopago.com.ar/balance/reports/release) y haz click en *Crear Reporte*.
 1. Busca las operaciones por período de tiempo y selecciona las que quieras conciliar.
 

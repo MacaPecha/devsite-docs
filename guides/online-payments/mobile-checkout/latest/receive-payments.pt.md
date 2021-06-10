@@ -6,13 +6,13 @@
 >
 > * Esta guia presume que você já tenha seguido os passos da seção ‘introdução da documentação para instalação do SDK’.
 
-Esta guia irá ajudá-lo a integrar o componente visual de pagamento do Mercado Pago em sua aplicação. Este componente gerencia a seleção do meio de pagamento, a coleta de dados do meio de pagamento do usuário e a comunicação do resultado do pagamento.
+Esta guia irá ajudá-lo a integrar o componente visual de pagamento do Mercado Libre em sua aplicação. Este componente gerencia a seleção do meio de pagamento, a coleta de dados do meio de pagamento do usuário e a comunicação do resultado do pagamento.
 
 #### A integração consiste em duas etapas:
 - Integração em seu servidor: nesta etapa, você receberá a informação sobre o pagamento.
 - Integração em sua aplicação: nesta etapa, você irá configurar o componente visual.
 
-![Schema payment mobile Mercado Pago](/images/mobile-sdk-schema.png)
+![Schema payment mobile Mercado Libre](/images/mobile-sdk-schema.png)
 
 1. Crie a preferência de pagamento a partir de seu servidor nos servidores do MercadoPago.
 2. Inicie o Checkout em sua aplicação utilizando a ID da preferência.
@@ -218,12 +218,12 @@ Quanto mais informações você nos enviar, melhor será a aprovação dos pagam
 }
 ```
 
-## Integre o fluxo de pagamentos do Mercado Pago em sua aplicação
+## Integre o fluxo de pagamentos do Mercado Libre em sua aplicação
 
 
 ### 1. Crie um botão de pagamento
 
-Como exemplo, sugerimos que inicie o fluxo do Mercado Pago a partir de um botão.
+Como exemplo, sugerimos que inicie o fluxo do Mercado Libre a partir de um botão.
 
 [[[
 

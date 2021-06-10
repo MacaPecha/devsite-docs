@@ -1,17 +1,17 @@
 ---
   indexable: false
 ---
-# ZenCart - Mercado Pago Module (v1.5.x)
+# ZenCart - Mercado Libre Module (v1.5.x)
 
 > WARNING
 >
 > We only support official plugins
 >
-> We do not provide technical support of Mercado Pago for this documentation. If you wish to make any changes, you may [make modifications to our open code on GitHub](https://github.com/mercadopago/devsite-docs/blob/development/guides/plugins/unofficial/zencart.en.md).
+> We do not provide technical support of Mercado Libre for this documentation. If you wish to make any changes, you may [make modifications to our open code on GitHub](https://github.com/mercadopago/devsite-docs/blob/development/guides/plugins/unofficial/zencart.en.md).
 
 ## Features
 
-The module of Mercado Pago to Zencart is integrated with the feature and payment solutions:
+The module of Mercado Libre to Zencart is integrated with the feature and payment solutions:
 
 * [Basic Checkout (Redirect, Iframe ou Lightbox)](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/solutions/payments/basic-checkout/receive-payments)
     * Split payments (Two cards)
@@ -36,7 +36,7 @@ The module of Mercado Pago to Zencart is integrated with the feature and payment
 
 ## Installation
 
-1. Download Mercado Pago module.
+1. Download Mercado Libre module.
 
 2. Copy the module folder to your ZenCart ROOT installation.
 
@@ -78,17 +78,17 @@ The module of Mercado Pago to Zencart is integrated with the feature and payment
   * **Store Category**: Sets up the category of the store;
   * **Redirect URL**: The Redirect url were also generated automatically, but if you're testing in a localhost, it will not work. You can change the address to any of your choice, but can't be localhost.
   * **Enable Auto Return?**: If set, the platform will return to your store when the payment is approved.
-  * **Type Checkout**: How your customers will interact with Mercado Pago to pay their orders;
+  * **Type Checkout**: How your customers will interact with Mercado Libre to pay their orders;
   * **Limit installments**: The maximum installments allowed for your customers;
   * **Exclude Methods**: Complete the payment methods that you do not accept with MercadoPago.
-  * **Live or Sandbox**: Test your payments in Mercado Pago sandbox environment;
+  * **Live or Sandbox**: Test your payments in Mercado Libre sandbox environment;
   * **Sort order of display**: Complete the display order of MercadoPago
 
 ## Support:
 
 If you have any questions, problems or errors we have a support channel. Write us at our [support form](/support) with the following information:
 
-* Email of your account Mercado Pago.
+* Email of your account Mercado Libre.
 * Details about your question, problem or error.
 * Files that can help in understanding (Print-Screen, Video, Log Files, etc.).
 * Version of Zencart.

@@ -5,7 +5,7 @@ sites_supported:
 indexable: false
 ---
 
-# Mercado Pago Gateway: Configuración
+# Mercado Libre Gateway: Configuración
 
 > WARNING
 >
@@ -15,7 +15,7 @@ indexable: false
 
 ## Introducción
 
-Desde el backoffice de Mercado Pago podrás configurar tanto tus números de comercio como tus acuerdos comerciales con adquirentes y/o emisores en caso de tener promociones.
+Desde el backoffice de Mercado Libre podrás configurar tanto tus números de comercio como tus acuerdos comerciales con adquirentes y/o emisores en caso de tener promociones.
 
 Para hacerlo, ingresá en la sección _Configuración:_
 
@@ -95,9 +95,9 @@ Al presionar sobre un item del listado de medios de pago, se puede ir a la vista
 
 No es posible eliminar un medio de pago. Sólo desactivarlo.
 
-### De Mercado Pago (Modelo Agregador)
+### De Mercado Libre (Modelo Agregador)
 
-Desde aquí podrás gestionar los medios de pago de Mercado Pago
+Desde aquí podrás gestionar los medios de pago de Mercado Libre
 
 ![Medios de pago agregador](/images/gateway/payment_methods_aggregator.png)
 

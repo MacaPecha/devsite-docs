@@ -12,7 +12,7 @@ Encontre informações específicas sobre os movimentos e operações que consta
 
 ## Pagamentos no fluxo
 
-O Mercado Pago permite a você realizar a liberação das suas cobranças de forma mensal em função do número de parcelas com que o pagamento foi realizado. Isto é, o número de parcelas com que o comprador pagar determinará o número de pagamentos que o vendedor vai receber.
+O Mercado Libre permite a você realizar a liberação das suas cobranças de forma mensal em função do número de parcelas com que o pagamento foi realizado. Isto é, o número de parcelas com que o comprador pagar determinará o número de pagamentos que o vendedor vai receber.
 
 ## Como visualizar as cobranças de pagamentos no fluxo em seus relatórios
 

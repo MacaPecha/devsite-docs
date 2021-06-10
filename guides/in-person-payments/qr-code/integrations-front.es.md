@@ -1,20 +1,20 @@
-# Generar QR desde el panel de Mercado Pago
+# Generar QR desde el panel de Mercado Libre
 
 ## ¿Cómo hago un cobro con QR?
 
-Para recibir pagos con QR en tu negocio **puedes imprimirlo y pegarlo en un lugar visible o mostrarlo en tu dispositivo móvil** y cobrar desde la app de Mercado Pago.
+Para recibir pagos con QR en tu negocio **puedes imprimirlo y pegarlo en un lugar visible o mostrarlo en tu dispositivo móvil** y cobrar desde la app de Mercado Libre.
 
 Si cobras con tu QR impreso puedes colocar el monto a pagar desde tu computadora o simplemente pedirle a tu cliente que lo ingrese luego de escanear el código.
 
 
 ## ¿Cómo colocas el monto?
 
-1. Ingresas a la sección Código QR en [tu cuenta de Mercado Pago](https://www.mercadopago.com.ar/qr-code/amount).
+1. Ingresas a la sección Código QR en [tu cuenta de Mercado Libre](https://www.mercadopago.com.ar/qr-code/amount).
 2. Eliges el local y la caja en la que estás cobrando.
 3. Colocas el monto a pagar.
-4. Tu cliente escanea el QR desde la app de Mercado Libre o Mercado Pago y elige cómo pagarte.
+4. Tu cliente escanea el QR desde la app de Mercado Libre o Mercado Libre y elige cómo pagarte.
 
-Podrás ver la confirmación del cobro en el momento y el detalle en la actividad de tu cuenta de Mercado Pago.
+Podrás ver la confirmación del cobro en el momento y el detalle en la actividad de tu cuenta de Mercado Libre.
 
 ## ¿Cómo cobrar desde la app?
 
@@ -26,7 +26,7 @@ Primero, debes [crear un link de pago](https://www.mercadopago.com.ar/tools/crea
 
 ## Entérate de tus cobros recibidos
 
-Puedes consultar tus ventas en el listado de actividades de [tu cuenta de Mercado Pago](https://www.mercadopago.com.ar/activities) o [integrar notificaciones](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/notifications/ipn) en tu sistema.
+Puedes consultar tus ventas en el listado de actividades de [tu cuenta de Mercado Libre](https://www.mercadopago.com.ar/activities) o [integrar notificaciones](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/notifications/ipn) en tu sistema.
 
 ---
 ### Próximos pasos

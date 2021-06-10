@@ -1,6 +1,6 @@
 # Changelog
 
-Entérate todo sobre las nuevas versiones y actualizaciones de las integraciones de Mercado Pago.
+Entérate todo sobre las nuevas versiones y actualizaciones de las integraciones de Mercado Libre.
 
 ---
 
@@ -98,7 +98,7 @@ Lanzamos una nueva versión del SDK NodeJS 1.5.1.
 >
 > PRODUCT: MAGENTO 1
 
-El módulo de Mercado Pago para Magento 1 dejó de procesar pagos.
+El módulo de Mercado Libre para Magento 1 dejó de procesar pagos.
 
 [Ir al anuncio](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/plugins/official/magento)
 
@@ -152,7 +152,7 @@ Lanzamos la nueva versión 4.3.0 para PrestaShop.
 >
 > PRODUCT: SUSCRIPCIONES
 
-Las suscripciones de Mercado Pago te permiten recibir pagos de forma recurrente, con tarjeta de crédito y débito. Puedes establecer la periodicidad de cobro que deseas y el tiempo en el que quieres mantener activa la suscripción.
+Las suscripciones de Mercado Libre te permiten recibir pagos de forma recurrente, con tarjeta de crédito y débito. Puedes establecer la periodicidad de cobro que deseas y el tiempo en el que quieres mantener activa la suscripción.
 
 [Crear suscripciones](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/online-payments/subscriptions/introduction)
 ------------
@@ -165,7 +165,7 @@ Las suscripciones de Mercado Pago te permiten recibir pagos de forma recurrente,
 
 > CHANGELOG
 >
-> Recibe pagos solamente con la billetera de Mercado Pago
+> Recibe pagos solamente con la billetera de Mercado Libre
 >
 > FEATURE: FEATURE
 >
@@ -173,7 +173,7 @@ Las suscripciones de Mercado Pago te permiten recibir pagos de forma recurrente,
 
 Ahora, puedes sumar la opción de recibir pagos solamente de usuarios registrados con el Checkout Pro modo billetera. Esto significa que tus compradores te pagarán exclusivamente con sus tarjetas guardadas o con su dinero disponible.
 
-[Recibir pagos con la billetera de Mercado Pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/online-payments/checkout-pro/configurations/#bookmark_aceptar_pagos_únicamente_de_usuarios_registrados)
+[Recibir pagos con la billetera de Mercado Libre](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/online-payments/checkout-pro/configurations/#bookmark_aceptar_pagos_únicamente_de_usuarios_registrados)
 
 ### 26 de octubre
 
@@ -411,7 +411,7 @@ Lanzamos la nueva versión 4.3.0 para WooCommerce.
 >
 > PRODUCT: MERCADO PAGO
 
-Los IDs de pagos pasarán de tener 10 dígitos a 11 dígitos. Nuestras APIs y SDKs operan con un tipo de dato `long` por lo que no habrá ningún impacto en la operatoria con Mercado Pago. 
+Los IDs de pagos pasarán de tener 10 dígitos a 11 dígitos. Nuestras APIs y SDKs operan con un tipo de dato `long` por lo que no habrá ningún impacto en la operatoria con Mercado Libre. 
 Si tienes dudas, te recomendamos revisar la administración y almacenamiento de nuestro Payment ID en tu integración para evitar cualquier inconveniente. 
 
 Puedes ver toda la información en la [Referencia de API](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/reference/payments/_payments/post).
@@ -462,7 +462,7 @@ Lanzamos una nueva versión del SDK .NET 1.8.1.
 >
 > PRODUCT: CREDENCIALES
 
-¿Vas a integrar Mercado Pago para otra cuenta? Ahora puedes solicitar el acceso a sus credenciales de forma rápida y segura.
+¿Vas a integrar Mercado Libre para otra cuenta? Ahora puedes solicitar el acceso a sus credenciales de forma rápida y segura.
 
 [Conocer más sobre cómo solicitar credenciales](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/resources/faqs/credentials)
 

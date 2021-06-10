@@ -22,7 +22,7 @@ Por exemplo, se o cartão não possui saldo suficiente para a compra, pode-se re
 | rejected | `cc_rejected_bad_filled_other` | Revise os dados. |
 | rejected | `cc_rejected_bad_filled_security_code` | Revise o código de segurança do cartão. |
 | rejected | `cc_rejected_blacklist` | Não pudemos processar seu pagamento. |
-| rejected | `cc_rejected_call_for_authorize` | Você deve autorizar ao `payment_method_id` o pagamento do valor ao Mercado Pago. |
+| rejected | `cc_rejected_call_for_authorize` | Você deve autorizar ao `payment_method_id` o pagamento do valor ao Mercado Libre. |
 | rejected | `cc_rejected_card_disabled` | Ligue para o `payment_method_id` para ativar seu cartão. O telefone está no verso do seu cartão. |
 | rejected | `cc_rejected_card_error` | Não conseguimos processar seu pagamento. |
 | rejected | `cc_rejected_duplicated_payment` | Você já efetuou um pagamento com esse valor. Caso precise pagar novamente, utilize outro cartão ou outra forma de pagamento. |

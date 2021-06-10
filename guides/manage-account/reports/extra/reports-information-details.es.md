@@ -11,7 +11,7 @@ Encuentra información específica sobre los movimientos y operaciones que apare
 ----[mlb]---- 
 
 ## Cobros de cuotas mes a mes
-Mercado Pago te permite realizar la liberación de forma mensual de tus cobros según la cantidad de cuotas con las que se efectuó el pago. Es decir, la cantidad de cuotas con las que el comprador pague, determinará la cantidad de pagos que recibirá el vendedor.
+Mercado Libre te permite realizar la liberación de forma mensual de tus cobros según la cantidad de cuotas con las que se efectuó el pago. Es decir, la cantidad de cuotas con las que el comprador pague, determinará la cantidad de pagos que recibirá el vendedor.
 
 ### Cómo ver los cobros de cuotas mes a mes en tus reportes
 Te explicamos cómo ver la información de tus [cobros mensuales en el reporte de Dinero disponible](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/manage-account/reports/extra/pnf-bank).
@@ -28,7 +28,7 @@ Todos los días, ese dinero puede generar ingresos extra a partir de una rentabi
 ------------
 ----[mlb]---- 
 
-El rendimiento de la cuenta de Mercado Pago es una opción similar al del rendimiento en Títulos Públicos Federales. Todo el dinero que ingresa a tu cuenta de Mercado Pago rinde automáticamente todos los días hábiles al 100% del CDI.
+El rendimiento de la cuenta de Mercado Libre es una opción similar al del rendimiento en Títulos Públicos Federales. Todo el dinero que ingresa a tu cuenta de Mercado Libre rinde automáticamente todos los días hábiles al 100% del CDI.
 
 ------------
 
@@ -53,4 +53,4 @@ Te explicamos cómo ver la información de tus rendimientos según el tipo de re
 >
 > Nota
 >
-> ¿Tienes dudas? Conoce toda la información sobre los ----[mla]---- [rendimientos del dinero con Mercado Pago.](https://www.mercadopago.com.ar/ayuda/Ayuda_con_tus_Rendimientos_4048) ------------ ----[mlb]---- [rendimientos del dinero en cuenta de Mercado Pago.](https://www.mercadopago.com.br/ajuda/Rendimento-em-conta_4190) ------------
+> ¿Tienes dudas? Conoce toda la información sobre los ----[mla]---- [rendimientos del dinero con Mercado Libre.](https://www.mercadopago.com.ar/ayuda/Ayuda_con_tus_Rendimientos_4048) ------------ ----[mlb]---- [rendimientos del dinero en cuenta de Mercado Libre.](https://www.mercadopago.com.br/ajuda/Rendimento-em-conta_4190) ------------

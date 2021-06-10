@@ -7,7 +7,7 @@
 >
 > We only support official plugins
 >
-> We do not provide technical support of Mercado Pago for this documentation. If you wish to make any changes, you may [make modifications to our open code on GitHub](https://github.com/mercadopago/devsite-docs/blob/development/guides/plugins/unofficial/wp-ecommerce.en.md).
+> We do not provide technical support of Mercado Libre for this documentation. If you wish to make any changes, you may [make modifications to our open code on GitHub](https://github.com/mercadopago/devsite-docs/blob/development/guides/plugins/unofficial/wp-ecommerce.en.md).
 
 # System Requirements
 ### Platform Version
@@ -44,11 +44,11 @@
 * For Credit Cards and Tickets, it is a requirement that you have a SSL certificate.
 
 # Features
-The module of Mercado Pago for WP eCommerce is integrated with the following features and payment solutions:
+The module of Mercado Libre for WP eCommerce is integrated with the following features and payment solutions:
 
 ### Basic Checkout (Redirect, Iframe or Lightbox)
 
-* Mercado Pago Pre-Builded Interfaces
+* Mercado Libre Pre-Builded Interfaces
 <br>
 
 ![Basic Checkout Pro in Wp Ecommerce](/images/wp-ecommerce/wp-ecommerce-basic_checkout_payment.png)
@@ -87,7 +87,7 @@ You have two options to install this module: from your WordPress Store, or by do
 
 1. On your store administration, go to *Plugins* option in sidebar;
 
-2. Click in *Add New* button and type "WPeComm Mercado Pago Module" in the *Search Plugins* text field. Press Enter;
+2. Click in *Add New* button and type "WPeComm Mercado Libre Module" in the *Search Plugins* text field. Press Enter;
 
 3. You should find the module ready to be installed. Click install. Its done!
 
@@ -102,26 +102,26 @@ You have two options to install this module: from your WordPress Store, or by do
 > HINT: To confirm that your module is really installed, you can click in *Plugins* item in the store administration menu, and check your just installed module. Just click *enable* to activate it and you should receive the message "Plugin enabled." as a notice in your WordPress.
 
 # Configuring Credit Card
-This page will explain how to configure the module to accept payments with Credit Card of Custom Checkout. On your store administration, go to *Settings > Store > Payments* tab. Click in *Mercado Pago - Custom Checkout*. You should get the following page:
+This page will explain how to configure the module to accept payments with Credit Card of Custom Checkout. On your store administration, go to *Settings > Store > Payments* tab. Click in *Mercado Libre - Custom Checkout*. You should get the following page:
 <br>
 
 ![Custom Checkout Config](/images/wp-ecommerce/wp-ecommerce-custom_config_screenshot.png)
 
-### Mercado Pago Credentials
-  * Here you should place your *Public Key* and *Access Token* keys, the credentials that uniquely identifies you in Mercado Pago.
+### Mercado Libre Credentials
+  * Here you should place your *Public Key* and *Access Token* keys, the credentials that uniquely identifies you in Mercado Libre.
 
 ### Checkout Options
 How checkout is shown.
   * *Statement Descriptor*: The description that will be shown in your customer's invoice;
   * *Binary Mode*: When charging a credit card, only [approved] or [reject] status will be taken;
   * *Store Category*: Sets up the category of the store;
-  * *Store Identificator*: A prefix to identify your store, when you have multiple stores for only one Mercado Pago account;
+  * *Store Identificator*: A prefix to identify your store, when you have multiple stores for only one Mercado Libre account;
   * *URL Approved Payment*: Customize a URL to be redirected when a payment is approved. Let blank to redirect to the store;
   * *URL Pending Payment*: Customize a URL to be redirected when a payment has failed. Let blank to redirect to the store.
 
 ### Payment Options
 How the payment option behaves.
-  * *Currency conversion*: Enable currency conversion mode for sells with Basic Checkout. Currency conversion is a feature that enables you to set an unsupported currency in WP eCommerce while maintaining Mercado Pago as payment method. It will convert the unsupported currency for the currency used in your country. Pay attention that this service converts values on-the-fly in real-time and can bring some additional delay to your server.
+  * *Currency conversion*: Enable currency conversion mode for sells with Basic Checkout. Currency conversion is a feature that enables you to set an unsupported currency in WP eCommerce while maintaining Mercado Libre as payment method. It will convert the unsupported currency for the currency used in your country. Pay attention that this service converts values on-the-fly in real-time and can bring some additional delay to your server.
 
 ### Test and Debug Options
 Offers logging tools so you can analyze problems that may be occurring. Maintain this disabled if working in production with a stable system.
@@ -129,44 +129,44 @@ Offers logging tools so you can analyze problems that may be occurring. Maintain
   * *Debug mode*: Enable this to log messages in browser console.
 
 # Configuring Tickets
-This page will explain how to configure the module to accept payments with Tickets of Custom Checkout. On your store administration, go to *Settings > Store > Payments* tab. Click in *Mercado Pago - Ticket*. You should get the following page:
+This page will explain how to configure the module to accept payments with Tickets of Custom Checkout. On your store administration, go to *Settings > Store > Payments* tab. Click in *Mercado Libre - Ticket*. You should get the following page:
 <br>
 
 ![Ticket Checkout Config](/images/wp-ecommerce/wp-ecommerce-ticket_config_screenshot.png)
 
-### Mercado Pago Credentials
-  * Here you should place your *Access Token* key, the credential that uniquely identifies you in Mercado Pago.
+### Mercado Libre Credentials
+  * Here you should place your *Access Token* key, the credential that uniquely identifies you in Mercado Libre.
 
 ### Checkout Options
 How checkout is shown.
   * *Store Category*: Sets up the category of the store;
-  * *Store Identificator*: A prefix to identify your store, when you have multiple stores for only one Mercado Pago account;
+  * *Store Identificator*: A prefix to identify your store, when you have multiple stores for only one Mercado Libre account;
   * *URL Approved Payment*: Customize a URL to be redirected when a payment is approved. Let blank to redirect to the store;
   * *URL Pending Payment*: Customize a URL to be redirected when a payment has failed. Let blank to redirect to the store.
 
 ### Payment Options
 How the payment option behaves.
-  * *Currency conversion*: Enable currency conversion mode for sells with Basic Checkout. Currency conversion is a feature that enables you to set an unsupported currency in WP eCommerce while maintaining Mercado Pago as payment method. It will convert the unsupported currency for the currency used in your country. Pay attention that this service converts values on-the-fly in real-time and can bring some additional delay to your server.
+  * *Currency conversion*: Enable currency conversion mode for sells with Basic Checkout. Currency conversion is a feature that enables you to set an unsupported currency in WP eCommerce while maintaining Mercado Libre as payment method. It will convert the unsupported currency for the currency used in your country. Pay attention that this service converts values on-the-fly in real-time and can bring some additional delay to your server.
 
 ### Test and Debug Options
 Offers logging tools so you can analyze problems that may be occurring. Maintain this disabled if working in production with a stable system.
   * *Debug mode*: Enable this to log messages in browser console.
 
 # Configuring Checkout by Redirect, Iframe, or LightBox
-This page will explain how to configure the module to accept payments with Basic Checkout in Redirect, Iframe or Lightbox. On your store administration, go to *Settings > Store > Payments* tab. Click in *Mercado Pago - Basic Checkout*. You should get the following page:
+This page will explain how to configure the module to accept payments with Basic Checkout in Redirect, Iframe or Lightbox. On your store administration, go to *Settings > Store > Payments* tab. Click in *Mercado Libre - Basic Checkout*. You should get the following page:
 <br>
 
 ![Basic Checkout](/images/wp-ecommerce/wp-ecommerce-basic_config_screenshot.png)
 
-### Mercado Pago Credentials
-  * Here you should place your *Client Id* and *Client Secret* keys, the credentials that uniquely identifies you in Mercado Pago.
+### Mercado Libre Credentials
+  * Here you should place your *Client Id* and *Client Secret* keys, the credentials that uniquely identifies you in Mercado Libre.
 
 ### Checkout Options
 How checkout is shown.
   * *Description*: This is the description of the payment option that will be shown to your customers;
   * *Store Category*: Sets up the category of the store;
-  * *Store Identificator*: A prefix to identify your store, when you have multiple stores for only one Mercado Pago account;
-  * *Integration Method*: How your customers will interact with Mercado Pago to pay their orders;
+  * *Store Identificator*: A prefix to identify your store, when you have multiple stores for only one Mercado Libre account;
+  * *Integration Method*: How your customers will interact with Mercado Libre to pay their orders;
   * *iFrame Width*: The width, in pixels, of the iFrame (used only with iFrame Integration Method);
   * *iFrame Height*: The height, in pixels, of the iFrame (used only with iFrame Integration Method);
   * *Auto Return*: If set, the platform will return to your store when the payment is approved;
@@ -176,8 +176,8 @@ How checkout is shown.
 ### Payment Options
 How the payment option behaves.
   * *Max Installments*: The maximum installments allowed for your customers;
-  * *Currency conversion*: Enable currency conversion mode for sells with Basic Checkout. Currency conversion is a feature that enables you to set an unsupported currency in WP eCommerce while maintaining Mercado Pago as payment method. It will convert the unsupported currency for the currency used in your country. Pay attention that this service converts values on-the-fly in real-time and can bring some additional delay to your server;
-  * *Exclude Payment Methods*: Select the payment methods that you want to not work with Mercado Pago.
+  * *Currency conversion*: Enable currency conversion mode for sells with Basic Checkout. Currency conversion is a feature that enables you to set an unsupported currency in WP eCommerce while maintaining Mercado Libre as payment method. It will convert the unsupported currency for the currency used in your country. Pay attention that this service converts values on-the-fly in real-time and can bring some additional delay to your server;
+  * *Exclude Payment Methods*: Select the payment methods that you want to not work with Mercado Libre.
 
 ### Test and Debug Options
 Offers logging tools so you can analyze problems that may be occurring. Maintain this disabled if working in production with a stable system.
@@ -185,18 +185,18 @@ Offers logging tools so you can analyze problems that may be occurring. Maintain
   * *Debug mode*: Enable this to log messages in browser console.
 
 # Instant Payment Notification Settings
-Instant Payment Notifications (IPN) is a mechanism that enables your store to receive messages from Mercado Pago server about the status of a given payment. In this plugin, you don't need to worry about IPN configuration as it is already implemented and configured for you.
+Instant Payment Notifications (IPN) is a mechanism that enables your store to receive messages from Mercado Libre server about the status of a given payment. In this plugin, you don't need to worry about IPN configuration as it is already implemented and configured for you.
 
-> HINT 1: When configuring or testing your IPN/Webhooks and server communications be sure that your server can access Mercado Pago server.
+> HINT 1: When configuring or testing your IPN/Webhooks and server communications be sure that your server can access Mercado Libre server.
 
-> HINT 2: Make sure that your firewall haves [Mercado Pago IP Ranges](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/api-docs/basics/design-considerations#ip-range) within its white-list.
+> HINT 2: Make sure that your firewall haves [Mercado Libre IP Ranges](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/api-docs/basics/design-considerations#ip-range) within its white-list.
 
-> HINT 3: Pay attention that Mercado Pago uses TSL protocol version 1.0, so your server needs to support/accept connections with this protocol version.
+> HINT 3: Pay attention that Mercado Libre uses TSL protocol version 1.0, so your server needs to support/accept connections with this protocol version.
 
-> HINT 4: Make sure that any other WordPress plugin can block Mercado Pago.
+> HINT 4: Make sure that any other WordPress plugin can block Mercado Libre.
 
 # Upgrade
-If you already had installed a previous version of WPeComm Mercado Pago Module, please follow the instructions. In same way of the installation, again you have two options: from your WordPress Store, or by downloading and manually copying the module directory.
+If you already had installed a previous version of WPeComm Mercado Libre Module, please follow the instructions. In same way of the installation, again you have two options: from your WordPress Store, or by downloading and manually copying the module directory.
 
 ### Upgrade from WordPress
 1. On your store administration, go to *Plugins* option in sidebar;
@@ -217,14 +217,14 @@ To confirm that your module is really updated, you can see in *Plugins* item in 
 # Technical Support
 If you have any questions, problems or errors we have a support channel. Write us at our [support form](https://mercadopago[FAKER][URL][DOMAIN]/developers/en/support) with the following information:
 
-* Email of your account Mercado Pago;
+* Email of your account Mercado Libre;
 * Details about your question, problem or error;
 * Files that can help in understanding (Print-Screen, Video, Log Files, etc.);
 * Version of WPeCommerce;
 * Module version, if you are using.
 
 > HINT: You can get the module version in the plugin list of your WordPress administration page:
-![Ips from Mercado Pago](/images/wp-ecommerce/wp-ecommerce-plugin_adm.png)
+![Ips from Mercado Libre](/images/wp-ecommerce/wp-ecommerce-plugin_adm.png)
 
 
 # How to Contribute

@@ -5,7 +5,7 @@ sites_supported:
 indexable: false
 ---
 
-# Mercado Pago Gateway: Introdução
+# Mercado Libre Gateway: Introdução
 
 > WARNING
 >
@@ -15,13 +15,13 @@ indexable: false
 
 ## O que é? 
 
-**Mercado Pago Gateway** é um modelo de operação que lhe permite processar pagamentos com cartão de débito e crédito com seus próprios números de comércio. Neste modelo, o Mercado Pago lhe oferece toda sua tecnologia e robustez para poder operar com seus próprios acordos com os adquirentes e emissoras.
+**Mercado Libre Gateway** é um modelo de operação que lhe permite processar pagamentos com cartão de débito e crédito com seus próprios números de comércio. Neste modelo, o Mercado Libre lhe oferece toda sua tecnologia e robustez para poder operar com seus próprios acordos com os adquirentes e emissoras.
 
-## Quais são as diferenças com Mercado Pago tradicional?
+## Quais são as diferenças com Mercado Libre tradicional?
 
-O Mercado Pago tradicional, ao que provavelmente você esteja mais acostumado, na indústria denomina-se **Modelo Agregador.** Os acordos com os adquirentes e emissores são, neste caso do Agregador: Mercado Pago. Os vendedores registrados na plataforma são adicionados ou assinantes da utilização desses acordos.
+O Mercado Libre tradicional, ao que provavelmente você esteja mais acostumado, na indústria denomina-se **Modelo Agregador.** Os acordos com os adquirentes e emissores são, neste caso do Agregador: Mercado Libre. Os vendedores registrados na plataforma são adicionados ou assinantes da utilização desses acordos.
 
-O **Modelo Agregador** é aquele utilizado por default no Mercado Pago, a menos que o vendedor qualifique (ver requisitos abaixo) para operar no **Modelo Gateway**.
+O **Modelo Agregador** é aquele utilizado por default no Mercado Libre, a menos que o vendedor qualifique (ver requisitos abaixo) para operar no **Modelo Gateway**.
 
 _Segue uma comparação das características principais de cada modelo:_
 
@@ -30,7 +30,7 @@ _Segue uma comparação das características principais de cada modelo:_
 | Processamento | ✔ | ✔ |
 | Prevenção de fraude (Scoring) | ✔ | ✔ (*) |
 | Prevenção de fraude (Revisão Manual) | ✔ | ✔ (*) |
-| Conciliação (com Mercado Pago) | ✔ | ✔ |
+| Conciliação (com Mercado Libre) | ✔ | ✔ |
 | Conciliação (com Adquirentes e Emissores) | Incluído | Não oferecido(a) |
 | Financiamento (parcelamento e promoções) | Incluída | Não aplicável |
 | Transações não autorizadas (Gestão) | Incluído | Não oferecido(a) |
@@ -46,11 +46,11 @@ Geralmente, se você estiver começando um novo empreendimento ou negócio, reco
 
 ## Modelo híbrido (Agregador + Gateway)
 
-Adicionalmente, a integração com Mercado Pago lhe permite utilizar o modelo híbrido, único na América Latina. Com a mesma integração, você poderá oferecer todos os meios de pagamento e/ou promoções de Mercado Pago do **Modelo Agregador** além dos no **Modelo Gateway**,  oferecendo ao pagador a oferta de meios de pagamento e financiamento mais completa de todas.
+Adicionalmente, a integração com Mercado Libre lhe permite utilizar o modelo híbrido, único na América Latina. Com a mesma integração, você poderá oferecer todos os meios de pagamento e/ou promoções de Mercado Libre do **Modelo Agregador** além dos no **Modelo Gateway**,  oferecendo ao pagador a oferta de meios de pagamento e financiamento mais completa de todas.
 
 ## Requisitos para operar no Modelo Gateway
 
-### Se você já estiver operando com Mercado Pago
+### Se você já estiver operando com Mercado Libre
 
 * Entre em contato com seu executivo de contas.
 
@@ -61,7 +61,7 @@ O custo dependerá do volume mensal operado pelo vendedor.
 
 ### Próximos passos
 
-* [Configure seus números de comercio e meios de pagamento](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/gateway/general-considerations/configuration) no backoffice de Mercado Pago
+* [Configure seus números de comercio e meios de pagamento](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/gateway/general-considerations/configuration) no backoffice de Mercado Libre
 * [Integre o Checkout Pro](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/gateway/checkout-pro/receiving-payments) no Modelo Gateway
 * [Integre a API](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/gateway/checkout-api/receiving-payments) no Modelo Gateway
 * [Integre pagamentos avançados](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/gateway/advanced/introduction) no Modelo Gateway

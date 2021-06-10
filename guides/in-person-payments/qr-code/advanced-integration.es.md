@@ -37,11 +37,11 @@ Puedes obtener más información en la [Referencias de API](https://www.mercadop
 
 ## Genera reportes de tus ventas
 
-Integra los [reportes de conciliación de Mercado Pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/manage-account/reports/general-considerations/reconciliation-reports) con tu sistema para conciliar tus ventas y conocer los movimientos de tu cuenta.
+Integra los [reportes de conciliación de Mercado Libre](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/manage-account/reports/general-considerations/reconciliation-reports) con tu sistema para conciliar tus ventas y conocer los movimientos de tu cuenta.
 
 ## Prueba y valida tu integración
 
-Detallamos todos los casos necesarios que debes probar para validar que tu sistema esté integrado correctamente con Mercado Pago. 
+Detallamos todos los casos necesarios que debes probar para validar que tu sistema esté integrado correctamente con Mercado Libre. 
 Puedes encontrar todos los casos en la [sección de Pruebas](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/in-person-payments/qr-code/integration-test).
 
 ---

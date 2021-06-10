@@ -119,4 +119,4 @@ Se precisar fazer adaptações, lembre-se que é importante fazer essa mudança 
 
 Se você tiver alguma dúvida ou precisar de ajuda para fazer essas alterações, [entre em contato](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/support) conosco.
 
-Equipe Mercado Pago
+Equipe Mercado Libre

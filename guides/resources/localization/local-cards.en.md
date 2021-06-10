@@ -31,7 +31,7 @@ To do this, use any of the cards we provide below, according to your country:
 | --- | --- |
 | Visa Débito | 4189 1412 2126 7633 |
 | Mastercard Débito | 5579 0785 2102 5680 |
-| Tarjeta Mercado Pago | 5399 7823 2218 1356 |
+| Tarjeta Mercado Libre | 5399 7823 2218 1356 |
 
 | Chile | |
 | --- | --- |

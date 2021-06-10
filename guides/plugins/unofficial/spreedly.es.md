@@ -2,9 +2,9 @@
   indexable: false
 ---
 # Integrate con Spreedly
-Recibe pagos de manera simple y segura de Mercado Pago a través de Spreedly.
+Recibe pagos de manera simple y segura de Mercado Libre a través de Spreedly.
 
-Los metodos disponibles de Spreedly con Mercado Pago son:
+Los metodos disponibles de Spreedly con Mercado Libre son:
 
 - Purchase
 - Authorize
@@ -13,7 +13,7 @@ Los metodos disponibles de Spreedly con Mercado Pago son:
 - Void
 - Verify
 
-Para la integración con Spreedly es necesario obtener y configurar las [credenciales]([FAKER][CREDENTIALS][URL]) Public key y Access token de Mercado Pago.
+Para la integración con Spreedly es necesario obtener y configurar las [credenciales]([FAKER][CREDENTIALS][URL]) Public key y Access token de Mercado Libre.
 
 > Encuentra toda la información sobre tus credenciales en nuestras [preguntas frecuentes](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/resources/faqs/credentials). 
 
@@ -27,7 +27,7 @@ A su vez, también es necesario ingresar el código de país:
 - PE - Peru
 - UY - Uruguay
 
-Finalmente, para operar con Mercado Pago es necesario que nos envies los datos de identificación del dueño de la tarjeta (a excepción de México). Debes enviar como datos específicos del gateway:
+Finalmente, para operar con Mercado Libre es necesario que nos envies los datos de identificación del dueño de la tarjeta (a excepción de México). Debes enviar como datos específicos del gateway:
 
 - cardholder_identification_type.
 - cardholder_identification_number.
@@ -38,14 +38,14 @@ Para empezar a ejecutar transacciones y obtener pagos de tus usuarios vas a nece
 
 1. Crear una [cuenta gratutita](https://spreedly.com/trial-qualification) y obtener las [credenciales](https://docs.spreedly.com/basics/credentials).
 
-2. [Agregar Mercado Pago](https://docs.spreedly.com/basics/gateway/) como gateway de pago.
+2. [Agregar Mercado Libre](https://docs.spreedly.com/basics/gateway/) como gateway de pago.
 
 3. Empezar a [obtener información del medio de pago](https://docs.spreedly.com/basics/payment-method) de tus usuarios.
 
-4. [Generar una compra](https://docs.spreedly.com/basics/purchase) con Spreedly a través de Mercado Pago con la información de pago de tus usuarios.
+4. [Generar una compra](https://docs.spreedly.com/basics/purchase) con Spreedly a través de Mercado Libre con la información de pago de tus usuarios.
 
-## Agregar Mercado Pago como gateway
-Antes de empezar a generar transacciones a través de Spreedly, tenes que agregar a Mercado Pago como gateway. En este paso, es donde asignas las credenciales de Mercado Pago y otras propiedades específicas.
+## Agregar Mercado Libre como gateway
+Antes de empezar a generar transacciones a través de Spreedly, tenes que agregar a Mercado Libre como gateway. En este paso, es donde asignas las credenciales de Mercado Libre y otras propiedades específicas.
 
 La API involucrada en este proceso es:
 
@@ -53,7 +53,7 @@ La API involucrada en este proceso es:
 https://core.spreedly.com/v1/gateways.json
 ```
 
-Un ejemplo de la vinculación de Mercado Pago como gateway sería:
+Un ejemplo de la vinculación de Mercado Libre como gateway sería:
 
 ```curl
 $ curl https://core.spreedly.com/v1/gateways.json \
@@ -117,7 +117,7 @@ La respuesta que vas a obtener es similar a la siguiente:
 ```
 
 ## Generar un medio de pago
-Para que Spreedly puede transaccionar a través de Mercado Pago es necesario obtener la información de la tarjeta de tu usuario ("Spreedly payment method"). Debido a que se trata de información sensible la misma no debe ir a tu servidor. Para esto es necesario implementar el [checkout de Spreedly](https://docs.spreedly.com/basics/payment-method/).
+Para que Spreedly puede transaccionar a través de Mercado Libre es necesario obtener la información de la tarjeta de tu usuario ("Spreedly payment method"). Debido a que se trata de información sensible la misma no debe ir a tu servidor. Para esto es necesario implementar el [checkout de Spreedly](https://docs.spreedly.com/basics/payment-method/).
 
 La API involucrada en este proceso es:
 
@@ -203,9 +203,9 @@ La respuesta que vas a obtener es similar a la siguiente:
 ```
 
 ## Generar un pago
-Una vez que ya hayas configurado Mercado Pago como gateway y tengas información del medio de pago de tu usuario en Spreedly, podes empezar a generar pagos y otro tipo de transacciones.
+Una vez que ya hayas configurado Mercado Libre como gateway y tengas información del medio de pago de tu usuario en Spreedly, podes empezar a generar pagos y otro tipo de transacciones.
 
-Para generar el pago es necesario que tengas el token que representa al medio de pago de tu usuario ("Spreedly payment method") y el token que representa a Mercado Pago como gateway. Con esto podrás generar el POSTing al endpoint API de Spreedly:
+Para generar el pago es necesario que tengas el token que representa al medio de pago de tu usuario ("Spreedly payment method") y el token que representa a Mercado Libre como gateway. Con esto podrás generar el POSTing al endpoint API de Spreedly:
 
 ```
 https://core.spreedly.com/v1/gateways/<gateway_token>/purchase.<format>
@@ -341,7 +341,7 @@ La respuesta que vas a obtener es similar a la siguiente:
 
 El campo "succeeded" indica que la transacción fue exitosa. Una vez que obtengas que la transacción fue aprobada, podras mostrarle la pantalla de felicitaciones a tu cliente.
 
-También puedes ejecutar otro tipo de transacciones a través de Mercado Pago utilizando el medio de pago obtenido:
+También puedes ejecutar otro tipo de transacciones a través de Mercado Libre utilizando el medio de pago obtenido:
 
 - Authorize
 - Capture
@@ -349,11 +349,11 @@ También puedes ejecutar otro tipo de transacciones a través de Mercado Pago ut
 - Void
 - Verify
 
-## Campos propios de Mercado Pago
-Para procesar con Mercado Pago y para obtener mayores niveles de aprobación en tus pagos recomendamos que en la integración con Spreedly envies la mayor cantidad de información posible al generar un pago. Esta información se envía dentro del array: `"gateway_specific_fields"` `"mercado_pago"`.
+## Campos propios de Mercado Libre
+Para procesar con Mercado Libre y para obtener mayores niveles de aprobación en tus pagos recomendamos que en la integración con Spreedly envies la mayor cantidad de información posible al generar un pago. Esta información se envía dentro del array: `"gateway_specific_fields"` `"mercado_pago"`.
 
 ### Payer Identification
-Para procesar con Mercado Pago es necesario enviar la identificación del pagador en cada pago. Esta información es OBLIGATORIA para todos los sitios de Mercado Pago a excepción de México. Para mayor detalles, ingresa en el siguiente [link]("/reference/identification_types/_identification_types/get/")
+Para procesar con Mercado Libre es necesario enviar la identificación del pagador en cada pago. Esta información es OBLIGATORIA para todos los sitios de Mercado Libre a excepción de México. Para mayor detalles, ingresa en el siguiente [link]("/reference/identification_types/_identification_types/get/")
 
 ### Cuotas
 Podes especificar el número de cuotas para una transacción enviando el campo `installments`. Si este campo no es enviado, Spreedly va a enviarlo con valor igual a 1.
@@ -364,8 +364,8 @@ Este es un string que podes enviar para que tu cliente pueda identificar el carg
 ### Información Adicional
 Para obtener una mejora en la aprobación de los pagos podes enviar información adicional del pago en formato JSON en el campo `additional_info`. Para mayor información ingresa en el siguiente [link]("/reference/payments/_payments_id/get/").
 
-### Mercado Pago Device Fingerprint
-Mercado Pago tiene sus propias herramientas de prevención de fraude. Siempre que sea posible recomendamos enviar información sobre el device del comprador, esto ayudará a evitar transacciones fraudulentas y mejorará la aprobación de tus pagos.
+### Mercado Libre Device Fingerprint
+Mercado Libre tiene sus propias herramientas de prevención de fraude. Siempre que sea posible recomendamos enviar información sobre el device del comprador, esto ayudará a evitar transacciones fraudulentas y mejorará la aprobación de tus pagos.
 
 Para implementar en tu sitio la generación del device debes agregar el siguiente código a tu _checkout_:
 

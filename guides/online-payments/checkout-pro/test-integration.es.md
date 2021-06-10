@@ -9,7 +9,7 @@
 | Tipos de usuarios | Descripción |
 | --- | --- |
 | Vendedor | Es la cuenta de prueba que usas para **configurar la aplicación y credenciales para el cobro**. |
-| Comprador | Es la cuenta de prueba que usas para **probar el proceso de compra.**<br/>Existen dos formas de hacer el pago:<br/><br/> **Como usuario invitado:** solo necesitas completar la dirección de correo electrónico.<br/>**Como usuario registrado:** accedes a la cuenta de Mercado Pago con el usuario y clave. En caso de tener disponible dinero en cuenta o tarjetas guardadas, estarán habilitadas como medios de pago. |
+| Comprador | Es la cuenta de prueba que usas para **probar el proceso de compra.**<br/>Existen dos formas de hacer el pago:<br/><br/> **Como usuario invitado:** solo necesitas completar la dirección de correo electrónico.<br/>**Como usuario registrado:** accedes a la cuenta de Mercado Libre con el usuario y clave. En caso de tener disponible dinero en cuenta o tarjetas guardadas, estarán habilitadas como medios de pago. |
 
 
 ## Cómo crear usuarios
@@ -44,7 +44,7 @@ curl -X POST \
 >Importante
 >
 > * Puedes generar hasta 10 cuentas de usuarios de prueba en simultáneo. Por eso, te recomendamos guardar el _email_ y _password_ de cada uno.
-> * Los usuarios de prueba caducan luego de 60 días sin actividad en Mercado Pago.
+> * Los usuarios de prueba caducan luego de 60 días sin actividad en Mercado Libre.
 > * Para hacer pagos de prueba te recomendamos usar montos bajos.
 > * Tanto el comprador como el vendedor deben ser usuarios de prueba.
 > * Usa tarjetas de pruebas, ya que no es posible retirar el dinero.
@@ -68,13 +68,13 @@ Al abrir el checkout creado con los datos de tu usuario vendedor:
 2. Ingresa los datos de una [tarjeta de prueba](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/online-payments/checkout-pro/test-integration#bookmark_tarjetas_de_prueba).
 3. Completa el e-mail ¡y listo!<br/><br/>
 
-#### Comprar como usuario registrado (con cuenta de Mercado Pago)
+#### Comprar como usuario registrado (con cuenta de Mercado Libre)
 
 Pruebas con tarjeta de crédito
 
 Al abrir el checkout creado con los datos de tu usuario vendedor:
 
-1. Inicia sesión en Mercado Pago con la cuenta de tu usuario de prueba comprador.
+1. Inicia sesión en Mercado Libre con la cuenta de tu usuario de prueba comprador.
 2. Selecciona _Tarjeta_ como medio de pago.
 3. Elige una tarjeta guardada o completa los datos con una nueva ¡y listo!
 

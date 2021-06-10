@@ -6,11 +6,11 @@
 
 # Money transfer
 
-From Mercado Pago, we provide the necessary services to be able to send money immediately and without cost from your Mercado Pago account to another Mercado Pago account.
+From Mercado Libre, we provide the necessary services to be able to send money immediately and without cost from your Mercado Libre account to another Mercado Libre account.
 
 ## Create an application
 
-To create an application you must enter with your Mercado Pago account at: [https://applications.mercadopago.com/](https://applications.mercadopago.com/). To operate with the money transfer API, the application must be enabled for this purpose. These permits are assigned from Mercado Pago, therefore you should send the obtained APP ID to your commercial advisor in order to make the corresponding configuration.
+To create an application you must enter with your Mercado Libre account at: [https://applications.mercadopago.com/](https://applications.mercadopago.com/). To operate with the money transfer API, the application must be enabled for this purpose. These permits are assigned from Mercado Libre, therefore you should send the obtained APP ID to your commercial advisor in order to make the corresponding configuration.
 
 > WARNING
 >
@@ -64,12 +64,12 @@ In case "concept_id" = "payroll" or "supply" is sent without the APP ID, having 
 
 ## Integration per API
 
-This solution consists of using the Mercado Pago APIs to carry out the corresponding payment creation. The entire experience is handled by the integrator.
+This solution consists of using the Mercado Libre APIs to carry out the corresponding payment creation. The entire experience is handled by the integrator.
 
 For sending money you can specify the payment recipient in two ways:
 
-- Using the email address associated with the Mercado Pago account.
-- Using the Mercado Pago account ID.
+- Using the email address associated with the Mercado Libre account.
+- Using the Mercado Libre account ID.
 
 Below you can see an example of the payment creation using the email address:
 

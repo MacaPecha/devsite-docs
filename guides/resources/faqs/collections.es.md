@@ -7,11 +7,11 @@
 
 ## Cuánto cuesta recibir pagos
 
-Para saber cuánto cuesta recibir dinero en Mercado Pago, consulta las [tasas según cada caso](https://www.mercadopago.com.ar/ayuda/comision-recibir-pagos_220).
+Para saber cuánto cuesta recibir dinero en Mercado Libre, consulta las [tasas según cada caso](https://www.mercadopago.com.ar/ayuda/comision-recibir-pagos_220).
 
 ## Si recibo el pago de una venta, ¿cuándo podré usar el dinero?
 
-Cuando recibes un pago a través de Mercado Pago, no podés usar el dinero inmediatamente, sino que tienes que esperar a que esté disponible.
+Cuando recibes un pago a través de Mercado Libre, no podés usar el dinero inmediatamente, sino que tienes que esperar a que esté disponible.
 
 ¿Cuánto tiempo debo esperar para usar el dinero?
 
@@ -29,11 +29,11 @@ Cuando recibes dinero de una venta o cobras en tu negocio online tendrás el din
 
 ## Cuánto cuesta recibir pagos
 
-Para saber cuánto cuesta recibir dinero en Mercado Pago, consulta las [tasas según cada caso](https://www.mercadopago.com.mx/ayuda/costo-recibir-pagos_683).
+Para saber cuánto cuesta recibir dinero en Mercado Libre, consulta las [tasas según cada caso](https://www.mercadopago.com.mx/ayuda/costo-recibir-pagos_683).
 
 ## Si recibo el pago de una venta, ¿cuándo podré usar el dinero?
 
-Cuando recibes un pago a través de Mercado Pago, no puedes usar el dinero inmediatamente, sino que tienes que esperar a que esté disponible.
+Cuando recibes un pago a través de Mercado Libre, no puedes usar el dinero inmediatamente, sino que tienes que esperar a que esté disponible.
 
 Lo hicimos así, para que vendedores y compradores cuenten siempre con la seguridad de que su dinero estará protegido mientras dure la operación.
 
@@ -51,11 +51,11 @@ Cuando recibes dinero de una venta o cobras en tu tienda online tendrás el dine
 
 ## Cuánto cuesta recibir pagos
 
-Para saber cuánto cuesta recibir dinero en Mercado Pago, consulta las [tasas según cada caso.](https://www.mercadopago.com.pe/ayuda/cuanto-cuesta-recibir-pagos_2430)
+Para saber cuánto cuesta recibir dinero en Mercado Libre, consulta las [tasas según cada caso.](https://www.mercadopago.com.pe/ayuda/cuanto-cuesta-recibir-pagos_2430)
 
 ## Si recibo el pago de una venta, ¿cuándo podré usar el dinero?
 
-Cuando recibes un pago a través de Mercado Pago, no puedes usar el dinero inmediatamente, sino que tienes que esperar a que esté disponible.
+Cuando recibes un pago a través de Mercado Libre, no puedes usar el dinero inmediatamente, sino que tienes que esperar a que esté disponible.
 
 Lo hicimos así, para que vendedores y compradores cuenten siempre con la seguridad de que su dinero estará protegido mientras dure la operación.
 
@@ -74,11 +74,11 @@ Cuando recibes dinero de una venta o cobras en tu tienda online tendrás el dine
 
 ## Cuánto cuesta recibir pagos
 
-Para saber cuánto cuesta recibir dinero en Mercado Pago, consulta las [tasas según cada caso.](https://www.mercadopago.com.co/ayuda/costo-recibir-pagos_1774)
+Para saber cuánto cuesta recibir dinero en Mercado Libre, consulta las [tasas según cada caso.](https://www.mercadopago.com.co/ayuda/costo-recibir-pagos_1774)
 
 ## Si recibo el pago de una venta, ¿cuándo podré usar el dinero?
 
-Cuando recibes un pago a través de Mercado Pago, no puedes usar el dinero inmediatamente, sino que tienes que esperar a que esté disponible.
+Cuando recibes un pago a través de Mercado Libre, no puedes usar el dinero inmediatamente, sino que tienes que esperar a que esté disponible.
 
 Lo hicimos así, para que vendedores y compradores cuenten siempre con la seguridad de que su dinero estará protegido mientras dure la operación.
 
@@ -96,11 +96,11 @@ Cuando recibes dinero de una venta o cobras en tu tienda online tendrás el dine
 
 ## Cuánto cuesta recibir pagos
 
-Para saber cuánto cuesta recibir dinero en Mercado Pago, consulta las [tasas según cada caso.](https://www.mercadopago.com.uy/ayuda/recibir-pagos-costos_3010)
+Para saber cuánto cuesta recibir dinero en Mercado Libre, consulta las [tasas según cada caso.](https://www.mercadopago.com.uy/ayuda/recibir-pagos-costos_3010)
 
 ## Si recibo el pago de una venta, ¿cuándo podré usar el dinero?
 
-Cuando recibes un pago a través de Mercado Pago, no puedes usar el dinero inmediatamente, sino que tienes que esperar a que esté disponible.
+Cuando recibes un pago a través de Mercado Libre, no puedes usar el dinero inmediatamente, sino que tienes que esperar a que esté disponible.
 
 Cuando recibes dinero de una venta o cobras en tu tienda online tendrás el dinero disponible 21 días después de que se acredita el pago.
 
@@ -117,11 +117,11 @@ Cuando recibes dinero de una venta o cobras en tu tienda online tendrás el dine
 
 ## Cuánto cuesta recibir pagos
 
-Para saber cuánto cuesta recibir dinero en Mercado Pago, consulta las [tasas según cada caso.](https://www.mercadopago.cl/ayuda/costo-recibir-pagos-dinero_1829)
+Para saber cuánto cuesta recibir dinero en Mercado Libre, consulta las [tasas según cada caso.](https://www.mercadopago.cl/ayuda/costo-recibir-pagos-dinero_1829)
 
 ## Si recibo el pago de una venta, ¿cuándo podré usar el dinero?
 
-Cuando recibes un pago a través de Mercado Pago, no puedes usar el dinero inmediatamente, sino que tienes que esperar a que esté disponible.
+Cuando recibes un pago a través de Mercado Libre, no puedes usar el dinero inmediatamente, sino que tienes que esperar a que esté disponible.
 
 Lo hicimos así, para que vendedores y compradores cuenten siempre con la seguridad de que su dinero estará protegido mientras dure la operación.
 

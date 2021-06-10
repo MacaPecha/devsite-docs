@@ -294,10 +294,10 @@ A través de las `back_urls`, *retornarán los siguientes parámetros*:
 
 Parámetro |	Descripción
 ------------ 	|	--------
-`payment_id` | ID del pago de Mercado Pago. |
+`payment_id` | ID del pago de Mercado Libre. |
 `status` | Estado del pago. Por ejemplo: `approved` para un pago aprobado o `pending` para un pago pendiente. |
 `external_reference` | Valor que hayas enviado a la hora de crear la preferencia de pago. |
-`merchant_order_id` | ID de la orden de pago generada en Mercado Pago. |
+`merchant_order_id` | ID de la orden de pago generada en Mercado Libre. |
 
 >  La información de los parámetros dependerá de la finalización del pago en el Checkout Pro y de que no haya abandonado el flujo antes de retornar a tu sitio a través de la `back_urls` de **_failure_**.
 
@@ -403,7 +403,7 @@ Puedes encontrar toda la información en la [sección Devoluciones y cancelacion
 ## Gestiona contracargos
 
 Se produce un contracargo o _chargeback_ cuando el comprador se comunica con la entidad que emitió su tarjeta y desconoce el pago.
-Esto quiere decir que el dinero del vendedor por ese pago será retenido de su cuenta de Mercado Pago hasta que se solucione.
+Esto quiere decir que el dinero del vendedor por ese pago será retenido de su cuenta de Mercado Libre hasta que se solucione.
 
 [Gestionar contracargos](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/manage-account/account/chargebacks)
 

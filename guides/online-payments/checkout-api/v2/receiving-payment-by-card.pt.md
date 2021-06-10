@@ -6,10 +6,10 @@
 ------------
 
 ----[mlb]----
-A integração por Checkout Transparente do Mercado Pago para pagamentos com cartões permite que você possa oferecer uma opção de pagamento totalmente no seu site. Toda a experiência acontece na sua loja para que os clientes não tenham que sair no momento de realizar a compra.
+A integração por Checkout Transparente do Mercado Libre para pagamentos com cartões permite que você possa oferecer uma opção de pagamento totalmente no seu site. Toda a experiência acontece na sua loja para que os clientes não tenham que sair no momento de realizar a compra.
 ------------
 ----[mla, mlm, mpe, mco, mlu, mlc]----
-A integração por Checkout API do Mercado Pago para pagamentos com cartões permite que você possa oferecer uma opção de pagamento totalmente no seu site. Toda a experiência acontece na sua loja para que os clientes não tenham que sair no momento de realizar a compra.
+A integração por Checkout API do Mercado Libre para pagamentos com cartões permite que você possa oferecer uma opção de pagamento totalmente no seu site. Toda a experiência acontece na sua loja para que os clientes não tenham que sair no momento de realizar a compra.
 ------------
 
 Use os [exemplos para download](#bookmark_exemplos_para_download) para conhecer a integração completa ou para adaptá-los de acordo com o que precisa.
@@ -23,10 +23,10 @@ Use os [exemplos para download](#bookmark_exemplos_para_download) para conhecer 
 <br>
 
 ----[mlb]----
-Ao usar nosso Checkout Transparente do Mercado Pago, é importante ter em conta duas instâncias: a de captura de dados e envio de confirmação de pagamento.
+Ao usar nosso Checkout Transparente do Mercado Libre, é importante ter em conta duas instâncias: a de captura de dados e envio de confirmação de pagamento.
 ------------
 ----[mla, mlm, mpe, mco, mlu, mlc]----
-Ao usar nosso Checkout API do Mercado Pago, é importante ter em conta duas instâncias: a de captura de dados e envio de confirmação de pagamento.
+Ao usar nosso Checkout API do Mercado Libre, é importante ter em conta duas instâncias: a de captura de dados e envio de confirmação de pagamento.
 ------------
 
 1. Primeiro, é preciso um frontend para coletar os dados do cartão e gerar um token de segurança com a informação para poder criar o pagamento.
@@ -48,7 +48,7 @@ Para criar um pagamento é necessário fazer a captura dos dados do cartão atra
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Inclua e configure a biblioteca MercadoPago.js
 
-**Utilize nossa biblioteca oficial para acessar a API de Mercado Pago** desde seu frontend para coletar os dados de forma segura e configure sua [chave pública]([FAKER][CREDENTIALS][URL]) da forma a seguir:
+**Utilize nossa biblioteca oficial para acessar a API de Mercado Libre** desde seu frontend para coletar os dados de forma segura e configure sua [chave pública]([FAKER][CREDENTIALS][URL]) da forma a seguir:
 
 ```html
 <body>
@@ -236,15 +236,15 @@ Antes de enviar o formulário, geramos um token com a representação segura do 
 >
 > h2
 >
-> Envie o pagamento ao Mercado Pago
+> Envie o pagamento ao Mercado Libre
 
-Para continuar o processo de pagamento ao Mercado Pago, é necessário que seu backend possa receber a informação do formulário com o token gerado e os dados completos.
+Para continuar o processo de pagamento ao Mercado Libre, é necessário que seu backend possa receber a informação do formulário com o token gerado e os dados completos.
 
 Segundo o exemplo, seu backend deveria disponibilizar um endpoint `/process_payment`, para receber ali todos os dados depois de realizar a ação submit.
 
-Já estando no seu backend com toda a informação coletada, é o momento de enviar a solicitação ao Mercado Pago através das nossas APIs. Os campos mínimos requeridos para enviar são: `token`, `transaction_amount`, `installments`, `payment_method_id` e o `payer.email`.
+Já estando no seu backend com toda a informação coletada, é o momento de enviar a solicitação ao Mercado Libre através das nossas APIs. Os campos mínimos requeridos para enviar são: `token`, `transaction_amount`, `installments`, `payment_method_id` e o `payer.email`.
 
-Tenha em conta que para que esse passo funcione é necessário que configure sua [chave privada]([FAKER][CREDENTIALS][URL]) e que para interagir com nossas APIs recomendamos utilizar o [SDK oficial do Mercado Pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/checkout-api/v2/previous-requirements#bookmark__instale_o_sdk_do_mercado_pago).
+Tenha em conta que para que esse passo funcione é necessário que configure sua [chave privada]([FAKER][CREDENTIALS][URL]) e que para interagir com nossas APIs recomendamos utilizar o [SDK oficial do Mercado Libre](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/checkout-api/v2/previous-requirements#bookmark__instale_o_sdk_do_mercado_pago).
 
 [[[
 ```php

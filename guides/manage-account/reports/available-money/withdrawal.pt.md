@@ -2,7 +2,7 @@
 # Geração por retirada
 
 
-Você pode criar um relatório de Dinheiro disponível de forma automática cada vez que fizer uma retirada de dinheiro da sua conta do Mercado Pago para uma conta bancária. Programe esta opção a partir do seu painel do Mercado Pago ou via API. 
+Você pode criar um relatório de Dinheiro disponível de forma automática cada vez que fizer uma retirada de dinheiro da sua conta do Mercado Libre para uma conta bancária. Programe esta opção a partir do seu painel do Mercado Libre ou via API. 
 
 > WARNING
 >
@@ -10,17 +10,17 @@ Você pode criar um relatório de Dinheiro disponível de forma automática cada
 >
 > Você pode usar o [relatório de ----[mla]----Liquidações------------ ----[mlm, mlb, mlc, mco, mlu, mpe]----Liberações------------](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/manage-account/reports/released-money/introduction) para fazer a reconciliação das transações que afetem o saldo disponível na sua conta, incluindo seus saques bancários.
 
-## Gerar a partir do painel do Mercado Pago
+## Gerar a partir do painel do Mercado Libre
 
-A partir da seção "Relatórios" do Mercado Pago, programe a geração de relatórios por retirada seguindo estas etapas: 
+A partir da seção "Relatórios" do Mercado Libre, programe a geração de relatórios por retirada seguindo estas etapas: 
 
-1. Na sua conta do Mercado Pago, vá até [Relatórios](https://www.mercadopago.com.br/balance/reports) e depois, *Relatórios*.
+1. Na sua conta do Mercado Libre, vá até [Relatórios](https://www.mercadopago.com.br/balance/reports) e depois, *Relatórios*.
 1. Clique em *Programar relatório* e depois em *Agendar*.
 1. Pronto! Cada vez que retirar dinheiro, você terá seu relatório disponível.
 
 Gere seus relatórios cada vez que quiser consultar uma retirada de dinheiro
 
-1. Na sua conta do Mercado Pago, vá até [Relatórios](https://www.mercadopago.com.br/balance/reports) e depois, *Relatórios*.
+1. Na sua conta do Mercado Libre, vá até [Relatórios](https://www.mercadopago.com.br/balance/reports) e depois, *Relatórios*.
 1. Vá em [Dinheiro Disponível](https://www.mercadopago.com.br/balance/reports?page=1#!/bank-report) e clique em *Gerar relatório*.
 1. Organize suas retiradas por **período de tempo** e selecione a retirada que quer consultar.
 
@@ -203,7 +203,7 @@ Como resposta, você receberá um `HTTP STATUS 200 (Ok)`
 >
 > Importante
 >
-> A geração por retirada é uma opção a mais de geração de relatório de Dinheiro disponível. Não altera a geração configurada no seu painel do Mercado Pago ou via API. Confira o resto da documentação para saber de quais outras formas é possível gerar seus relatórios: pelo painel do Mercado Pago e via API. 
+> A geração por retirada é uma opção a mais de geração de relatório de Dinheiro disponível. Não altera a geração configurada no seu painel do Mercado Libre ou via API. Confira o resto da documentação para saber de quais outras formas é possível gerar seus relatórios: pelo painel do Mercado Libre e via API. 
 
 <hr/>
 
@@ -211,16 +211,16 @@ Como resposta, você receberá um `HTTP STATUS 200 (Ok)`
 
 > LEFT_BUTTON_RECOMMENDED_PT
 >
-> Geração a partir do Mercado Pago
+> Geração a partir do Mercado Libre
 >
-> Gere seus relatórios de Dinheiro Disponível a partir do painel do Mercado Pago em 3 etapas simples. 
+> Gere seus relatórios de Dinheiro Disponível a partir do painel do Mercado Libre em 3 etapas simples. 
 >
-> [Geração a partir do Mercado Pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/manage-account/reports/available-money/panel)
+> [Geração a partir do Mercado Libre](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/manage-account/reports/available-money/panel)
 
 > RIGHT_BUTTON_RECOMMENDED_PT
 >
 > Geração via API
 >
-> Crie relatórios de forma programada e manual por meio de uma integração com o Mercado Pago.
+> Crie relatórios de forma programada e manual por meio de uma integração com o Mercado Libre.
 >
 > [Geração via API](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/manage-account/reports/available-money/api)

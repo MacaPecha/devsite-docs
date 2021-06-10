@@ -4,7 +4,7 @@
 
 # Device web
 
-Mercado Pago tem suas próprias ferramentas de prevenção de fraude. Para pagamentos de `Wallet` é **requerido** enviar informações sobre o device do comprador, isso contribuirá para evitar transações fraudulentas.
+Mercado Libre tem suas próprias ferramentas de prevenção de fraude. Para pagamentos de `Wallet` é **requerido** enviar informações sobre o device do comprador, isso contribuirá para evitar transações fraudulentas.
 
 > WARNING
 >

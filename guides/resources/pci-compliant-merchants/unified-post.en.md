@@ -1,16 +1,16 @@
 # Unified Post
 
-Mercado Pago allows vendors who comply with PCI standards to process payments Server to Server without the need to tokenize the credit card.
+Mercado Libre allows vendors who comply with PCI standards to process payments Server to Server without the need to tokenize the credit card.
 
 > WARNING
 >
 > Pre-requisites
 >
-> * The vendor will have to communicate in a clear manner to his clients that the payment platform is being provided by Mercado Pago.
+> * The vendor will have to communicate in a clear manner to his clients that the payment platform is being provided by Mercado Libre.
 > * The vendor will have to present the corresponding PCI compliance documentation.
-> * Everytime a payment is processed, it will be necessary to notify the buyer: "In your cards summary you´ll see Mercado Pago/Mercado libre" (*).
+> * Everytime a payment is processed, it will be necessary to notify the buyer: "In your cards summary you´ll see Mercado Libre/Mercado libre" (*).
 
-In the buyers credit card bill will appear: "MERPAG*<brand_name>". You can set the Brand name in your Mercado Pago account: Menu-> Configuration-> Brand Name
+In the buyers credit card bill will appear: "MERPAG*<brand_name>". You can set the Brand name in your Mercado Libre account: Menu-> Configuration-> Brand Name
 
 
 [[[

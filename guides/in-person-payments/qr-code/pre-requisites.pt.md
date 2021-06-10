@@ -8,8 +8,8 @@ Sabemos que alguns termos são novos. Antes de começar, os deixamos perto de su
 | --- | --- |
 | Credenciais (Credentials) | Suas credenciais são as senhas que lhe fornecemos para que você possa configurar suas integrações. Para poder achá-las, vá para suas [credenciais]([FAKER][CREDENTIALS][URL]) e selecione as produtivas. |
 | `ACCESS_TOKEN` | É a senha privada do aplicativo para gerar pagamentos, dentro da secção [credenciais]([FAKER][CREDENTIALS][URL]). Deve utilizá-la para se identificar em suas integrações. Utiliza sempre as do **Modo Produção**. |
-| `USER_ID` | É o ID do usuário vendedor em Mercado Pago, são os últimos dígitos do access_token, posterior do último hífen. Também conhecido como `COLLECTOR_ID`. |
-| `SPONSOR_ID` | É o ID do usuário fornecedor do sistema integrado com Mercado Pago, são os últimos dígitos do `access_token`, posterior do último hífen. O `sponsor_ID` não pode ser igual que o `USER_ID`. |
+| `USER_ID` | É o ID do usuário vendedor em Mercado Libre, são os últimos dígitos do access_token, posterior do último hífen. Também conhecido como `COLLECTOR_ID`. |
+| `SPONSOR_ID` | É o ID do usuário fornecedor do sistema integrado com Mercado Libre, são os últimos dígitos do `access_token`, posterior do último hífen. O `sponsor_ID` não pode ser igual que o `USER_ID`. |
 | Loja (Store) | É uma **loja física** onde seus clientes podem adquirir seus produtos ou serviços. Você pode ter várias lojas numa mesma conta. |
 | Caixa (POS) | É um **ponto de venda** que existe numa sucursal ou loja física. Cada caixa terá um código QR unívoco vinculado. |
 | Ordem | É o pedido realizado pelo seu cliente. Contém uma relação de produtos com seu valor associado. |
@@ -22,7 +22,7 @@ Observe estes pontos antes de começar:
 
 ### 1. Acesse uma conta
 
-Para poder começar a integração, é necessário **contar com uma conta de Mercado Pago ou Mercado Livre**. 
+Para poder começar a integração, é necessário **contar com uma conta de Mercado Libre ou Mercado Livre**. 
 
 Você pode [Entrar](https://www.mercadolibre.com/jms/[FAKER][GLOBALIZE][SITE_ID]/lgz/login?platform_id=mp&go=https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/in-person-payments/qr-code/pre-requisites) em uma conta existente ou [Criar uma nova conta](https://www.mercadopago[FAKER][URL][DOMAIN]).
 
@@ -80,7 +80,7 @@ Resposta:
 > IMPORTANTE
 >
 > * Você pode gerar até 10 contas de usuários de teste em simultâneo. Por isso, recomendamos você salvar o e-mail e senha de cada um. 
-> * Os usuários de teste caducam após 60 dias sem atividade em Mercado Pago.
+> * Os usuários de teste caducam após 60 dias sem atividade em Mercado Libre.
 > * Para realizar pagamentos de teste, recomendamos que você utilize valores baixos.
 > * Tanto o comprador como o vendedor devem ser usuários de teste.
 > * Utiliza cartões de teste, já que não é possível sacar o dinheiro.

@@ -1,7 +1,7 @@
-# Instale o Mercado Pago para PrestaShop 1.6 & 1.7
+# Instale o Mercado Libre para PrestaShop 1.6 & 1.7
 
 
-Instale o módulo do Mercado Pago automaticamente, através do marketplace ou em seu painel do PrestaShop.
+Instale o módulo do Mercado Libre automaticamente, através do marketplace ou em seu painel do PrestaShop.
 
 > NOTE
 >
@@ -33,9 +33,9 @@ Revise os requisitos de instalação e siga as etapas que indicamos. A instalaç
 
 ## Instalação automática
 
-Instale o Mercado Pago para PrestaShop automaticamente seguindo estas etapas na seção "Personalizar" do seu administrador:
+Instale o Mercado Libre para PrestaShop automaticamente seguindo estas etapas na seção "Personalizar" do seu administrador:
 
-1. Vá ao Catálogo de Módulos e procure por "Mercado Pago" entre as ofertas dos módulos.
+1. Vá ao Catálogo de Módulos e procure por "Mercado Libre" entre as ofertas dos módulos.
 2. Clique em Instalar e procure-o na seção "Gerenciador de módulos".
 3. Ative-o para começar a configurar o módulo na sua loja.
 
@@ -49,7 +49,7 @@ Instale o módulo seguindo estas etapas:
 2. Vá à seção "Module Manager", na seção "Personalizar" do seu administrador.
 3. Clique no botão Enviar um módulo no canto superior direito.
 4. Selecione ou arraste o arquivo Mercadopago.zip baixado anteriormente.
-5. Pronto! O módulo do Mercado Pago será instalado na sua loja online.
+5. Pronto! O módulo do Mercado Libre será instalado na sua loja online.
 
 **Verifique se tudo correu bem no seu painel do PrestaShop. Você verá o módulo entre os plugins instalados. Ative-o para prosseguir para a integração da sua conta e as etapas de configuração.**
 
@@ -73,9 +73,9 @@ A seguir, execute as etapas de uma nova instalação para atualizar sua loja com
 
 > LEFT_BUTTON_REQUIRED_PT
 >
-> Integrar Mercado Pago no PrestaShop
+> Integrar Mercado Libre no PrestaShop
 >
-> Conecte sua conta do Mercado Pago ao módulo e capture os pagamentos que você receber pelas suas vendas on-line.
+> Conecte sua conta do Mercado Libre ao módulo e capture os pagamentos que você receber pelas suas vendas on-line.
 >
 > 
 > [Integrar](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/plugins/prestashop/integration)

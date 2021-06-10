@@ -43,7 +43,7 @@ MercadoPago.js allows you to manage the card data to comply with the necessary s
 >
 > h3
 >
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Install Mercado Pago SDK
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Install Mercado Libre SDK
 
 Install an [official SDK](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/sdks) to simplify your interaction with our APIs.
 
@@ -74,17 +74,17 @@ To install the SDK in your [Maven](http://maven.apache.org/install.html) project
 ```
 ```ruby
 ===
-The Mercado Pago SDK is available as a [gem](https://rubygems.org/gems/mercadopago-sdk), to install it you must execute the following code on the command line:
+The Mercado Libre SDK is available as a [gem](https://rubygems.org/gems/mercadopago-sdk), to install it you must execute the following code on the command line:
 ===
 gem install mercadopago-sdk
 ```
 ```csharp
 ===
 ----[mlb]----
-Use [NuGet](https://docs.microsoft.com/pt-br/nuget/reference/nuget-exe-cli-reference) to install the Mercado Pago SDK .NET.
+Use [NuGet](https://docs.microsoft.com/pt-br/nuget/reference/nuget-exe-cli-reference) to install the Mercado Libre SDK .NET.
 ------------
 ----[mla, mco, mlu, mlc, mlm]----
-Use [NuGet](https://docs.microsoft.com/es-es/nuget/reference/nuget-exe-cli-reference) to install the Mercado Pago SDK .NET.
+Use [NuGet](https://docs.microsoft.com/es-es/nuget/reference/nuget-exe-cli-reference) to install the Mercado Libre SDK .NET.
 ------------
 To do this, run the following command on your terminal:
 ===
@@ -92,7 +92,7 @@ nuget install mercadopago-sdk
 ```
 ```python
 ===
-The Mercado Pago SDK is available as a [pip](https://pypi.org/project/mercadopago/), to install it you must execute the following code on the command line:
+The Mercado Libre SDK is available as a [pip](https://pypi.org/project/mercadopago/), to install it you must execute the following code on the command line:
 ===
 pip3 install mercadopago
 ```

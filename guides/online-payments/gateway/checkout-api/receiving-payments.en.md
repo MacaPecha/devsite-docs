@@ -5,7 +5,7 @@ sites_supported:
 indexable: false
 ---
 
-# Mercado Pago Gateway: API
+# Mercado Libre Gateway: API
 
 > WARNING
 >
@@ -116,7 +116,7 @@ You need to retrieve the value of the `payment_method_option_id` attribute for t
 ]
 ```
 
-> What is the purpose of `branch_id`? The `branch_id` (configured in Mercado Pago's backoffice) allows you to quickly identify the use case of that merchant ID (`merchant_account_id`) inside a commercial agreement.
+> What is the purpose of `branch_id`? The `branch_id` (configured in Mercado Libre's backoffice) allows you to quickly identify the use case of that merchant ID (`merchant_account_id`) inside a commercial agreement.
 
 ## Using services (optional)
 
@@ -125,7 +125,7 @@ In every payment you can customize which services (`merchant_services`) you want
 | Services | Type | Description |
 | --- | --- | --- |
 | `fraud_scoring` | Boolean | If you want to use automatic fraud prevention scoring or not. |
-| `fraud_manual_review` | Boolean | If you want to use Mercado Pago's manual review (representatives). |
+| `fraud_manual_review` | Boolean | If you want to use Mercado Libre's manual review (representatives). |
 
 ```curl
 curl -X POST \

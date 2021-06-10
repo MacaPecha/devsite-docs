@@ -2,7 +2,7 @@ openapi: 3.0.0
 servers:
   - url: https://api.mercadopago.com
 info:
-  title: Mercado Pago API Reference
+  title: Mercado Libre API Reference
   version: '1.0'
 paths:
   /merchant_orders:
@@ -36,7 +36,7 @@ paths:
                   description: URL where you'd like to receive a payment notification.
                 sponsor_id:
                   type: number
-                  description: Sponsor ID in Mercado Pago.
+                  description: Sponsor ID in Mercado Libre.
                 payer:
                   type: object
                   description: Buyer Information.
@@ -311,7 +311,7 @@ paths:
             example: 12123adfasdf123u4u
         - name: sponsor_id
           in: query
-          description: Sponsor ID in Mercado Pago.
+          description: Sponsor ID in Mercado Libre.
           required: false
           schema:
             type: string
@@ -1316,7 +1316,7 @@ paths:
                   description: URL where you'd like to receive a payment notification.
                 sponsor_id:
                   type: number
-                  description: Sponsor ID in Mercado Pago.
+                  description: Sponsor ID in Mercado Libre.
                 payer:
                   type: object
                   description: Buyer Information.
@@ -1606,8 +1606,8 @@ components:
       type: string
       description: Operation data_type.
       enum:
-        - regular_payment -- Typification by default of a purchase being paid using Mercado Pago.
-        - payment_addition -- Addition of money to an existing payment, made through a Mercado Pago account.
+        - regular_payment -- Typification by default of a purchase being paid using Mercado Libre.
+        - payment_addition -- Addition of money to an existing payment, made through a Mercado Libre account.
         - money_transfer -- Funds transfer between two users.
         - recurring_payment -- Automatic recurring payment due to an active user subscription.
         - account_fund -- Money income in the user's account.

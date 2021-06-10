@@ -1,12 +1,12 @@
 
-# Geração pelo painel do Mercado Pago
+# Geração pelo painel do Mercado Libre
 
-Gere seus relatórios de Dinheiro em conta a partir do seu painel do Mercado Pago.
+Gere seus relatórios de Dinheiro em conta a partir do seu painel do Mercado Libre.
 
 
 Siga estas etapas para gerar seus relatórios:
 
-1. Na sua conta do Mercado Pago, vá [em Relatórios](https://www.mercadopago.com.ar/balance/reports) e escolha a opção *Relatórios*.
+1. Na sua conta do Mercado Libre, vá [em Relatórios](https://www.mercadopago.com.ar/balance/reports) e escolha a opção *Relatórios*.
 1. Vá em [relatório de Dinheiro em conta](https://www.mercadopago.com.ar/settings/release-options) e clique em *Gerar relatório*.
 1. Busque as transações por período de tempo e selecione as que quer conciliar.
 
@@ -27,7 +27,7 @@ Pronto! Você verá seu relatório *Em preparação*.
 >
 > Geração via API
 >
-> Crie relatórios de forma programada e manual através de uma integração com o Mercado Pago.
+> Crie relatórios de forma programada e manual através de uma integração com o Mercado Libre.
 >
 > [Geração via API](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/manage-account/reports/account-money/api)
 

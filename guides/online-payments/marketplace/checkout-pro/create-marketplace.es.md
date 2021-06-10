@@ -22,7 +22,7 @@ Una vez creada, obtendrás el `APP_ID` (identificador de aplicación) necesario 
 
 ## 2. Vinculación de cuentas
 
-Para operar en Mercado Pago en nombre de tu vendedor, debes primero solicitarle autorización.
+Para operar en Mercado Libre en nombre de tu vendedor, debes primero solicitarle autorización.
 
 2.1. Para esto, redirige al vendedor a la siguiente URL reemplazando en `client_id`, el valor de `APP_ID` y la misma `redirect_uri` que configuraste en el paso anterior:
 
@@ -46,7 +46,7 @@ Ahora recibirás en la URL de retorno especificada el código de autorización y
 
 `https://www.URL_de_retorno.com?code=AUTHORIZATION_CODE&state=id=RANDOM_ID`
 
-> No envíes información confidencial o credenciales de la cuenta de Mercado Pago.
+> No envíes información confidencial o credenciales de la cuenta de Mercado Libre.
 
 ### Crea las credenciales de tus vendedores
 
@@ -303,7 +303,7 @@ preference = preference_response["response"]
 ]]]
 
 
-El vendedor va a recibir la diferencia entre el monto total y las comisiones, tanto la de Mercado Pago como la del _Marketplace_, así como cualquier otro importe que se deba descontar de la venta.
+El vendedor va a recibir la diferencia entre el monto total y las comisiones, tanto la de Mercado Libre como la del _Marketplace_, así como cualquier otro importe que se deba descontar de la venta.
 
 > WARNING
 >
@@ -320,7 +320,7 @@ En el artículo de [notificaciones](https://www.mercadopago[FAKER][URL][DOMAIN]/
 
 ### Devoluciones y cancelaciones
 
-Las devoluciones y cancelaciones podrán ser realizadas tanto por el _Marketplace_ como por el vendedor, vía API o desde la cuenta de Mercado Pago.
+Las devoluciones y cancelaciones podrán ser realizadas tanto por el _Marketplace_ como por el vendedor, vía API o desde la cuenta de Mercado Libre.
 En caso de que la devolución la realice el Marketplace, se deberán utilizar las credenciales obtenidas para cobrar en nombre del vendedor.
 
 En el caso de las cancelaciones, solo podrán ser realizadas  utilizando la API de cancelaciones.

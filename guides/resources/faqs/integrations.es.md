@@ -6,7 +6,7 @@
 
 # Integraciones
 
-## Cómo integrarme a Mercado Pago
+## Cómo integrarme a Mercado Libre
 
 Te ofrecemos distintas opciones para que puedas construir la solución de pagos que más se adapte a tu negocio.
 
@@ -14,7 +14,7 @@ Tenemos herramientas listas para usar como SDKs, botones de pago, módulos o plu
 
 ### Checkout Pro
 
-Esta opción te permite cobrar a través de nuestro formulario web dentro del ambiente seguro de Mercado Pago de manera simple y rápida.
+Esta opción te permite cobrar a través de nuestro formulario web dentro del ambiente seguro de Mercado Libre de manera simple y rápida.
 
 - **La mejor experiencia garantizada.** Te ofrecemos la mejor experiencia de compra desde cualquier celular o computadora con un solo clic y  con la posibilidad de pagar con 2 tarjetas.
 
@@ -37,9 +37,9 @@ Es la versión simplificada del Checkout Pro con una experiencia de usuario reno
 
 - **Despreocupate del diseño.** Te damos un formulario con diseño y front-end listo para que puedas usar.
 
-- **Nos ocupamos de tu seguridad.** Capturamos los datos sensibles de las tarjetas dentro del ambiente seguro de Mercado Pago, para que seas PCI Compliance y que puedas personalizar todo el proceso libre de las complejidades de los protocolos de seguridad.
+- **Nos ocupamos de tu seguridad.** Capturamos los datos sensibles de las tarjetas dentro del ambiente seguro de Mercado Libre, para que seas PCI Compliance y que puedas personalizar todo el proceso libre de las complejidades de los protocolos de seguridad.
 
-- **Siempre vas a estar actualizado.** Podés brindarles a tus compradores una experiencia que Mercado Pago mantiene en constante mejora.
+- **Siempre vas a estar actualizado.** Podés brindarles a tus compradores una experiencia que Mercado Libre mantiene en constante mejora.
 
 [Integrar Web Tokenize](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/online-payments/web-tokenize-checkout/introduction)
 
@@ -69,7 +69,7 @@ Esta forma de integrarse permite conectarse directamente con nuestras APIs.
 
 Creamos una herramienta para que puedas ofrecer cuotas sin interés y hacer que tu negocio sea más atractivo.
 
-Desde tu cuenta de Mercado Pago, en la sección ofrecer cuotas sin interés podés configurar la cantidad de cuotas que quieras para tu cliente y el [costo de financiación](https://www.mercadopago.com.ar/ayuda/cuotas-sin-interes_3299) que absorberás.
+Desde tu cuenta de Mercado Libre, en la sección ofrecer cuotas sin interés podés configurar la cantidad de cuotas que quieras para tu cliente y el [costo de financiación](https://www.mercadopago.com.ar/ayuda/cuotas-sin-interes_3299) que absorberás.
 
 [Ofrecer cuotas sin interés](https://www.mercadopago.com/mla/front/cost-absorption)
 
@@ -83,13 +83,13 @@ Un Marketplace es un sitio o aplicación que te permite hacer cobros a nombre de
 >
 > Nota
 >
-> La comisión de Mercado Pago será descontada de los fondos que reciba el vendedor. Primero se descuenta la comisión de Mercado Pago, y del resto se descuenta la comisión del Marketplace.
+> La comisión de Mercado Libre será descontada de los fondos que reciba el vendedor. Primero se descuenta la comisión de Mercado Libre, y del resto se descuenta la comisión del Marketplace.
 ------------
 ----[mlm]----
 
 # Integraciones
 
-## Cómo integrarme a Mercado Pago
+## Cómo integrarme a Mercado Libre
 
 Te ofrecemos distintas opciones para que puedas construir la solución de pagos que más se adapte a tu negocio.
 
@@ -97,7 +97,7 @@ Tenemos herramientas listas para usar como SDKs, botones de pago, módulos o plu
 
 ###  Checkout Pro
 
-Esta opción te permite cobrar a través de nuestro formulario web dentro del ambiente seguro de Mercado Pago de manera simple y rápida.
+Esta opción te permite cobrar a través de nuestro formulario web dentro del ambiente seguro de Mercado Libre de manera simple y rápida.
 
 - **La mejor experiencia garantizada.** Te ofrecemos la mejor experiencia de compra desde cualquier celular o computadora con un solo clic y con la posibilidad de pagar con 2 tarjetas.
 
@@ -119,9 +119,9 @@ Es la versión simplificada del Checkout Pro con una experiencia de usuario reno
 
 - **Despreocúpate del diseño.** Te proporcionamos un formulario con diseño y front-end listo para que puedas usar.
 
-- **Nos ocupamos de tu seguridad.** Capturamos los datos sensibles de las tarjetas dentro del ambiente seguro de Mercado Pago, para que seas PCI Compliance y que puedas personalizar todo el proceso libre de las complejidades de los protocolos de seguridad.
+- **Nos ocupamos de tu seguridad.** Capturamos los datos sensibles de las tarjetas dentro del ambiente seguro de Mercado Libre, para que seas PCI Compliance y que puedas personalizar todo el proceso libre de las complejidades de los protocolos de seguridad.
 
-- **Siempre vas a estar actualizado.** Puedes brindarles a tus compradores una experiencia que Mercado Pago mantiene en constante mejora.
+- **Siempre vas a estar actualizado.** Puedes brindarles a tus compradores una experiencia que Mercado Libre mantiene en constante mejora.
 
 [Integrar Web Tokenize](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/online-payments/web-tokenize-checkout/introduction)
 
@@ -151,7 +151,7 @@ Esta forma de integrarse permite conectarse directamente con nuestras APIs.
 
 Creamos una herramienta para que puedas ofrecer mensualidades sin intereses y hacer que tu negocio sea más atractivo.
 
-Desde tu cuenta de Mercado Pago, en la sección Ofrecer mensualidades sin intereses puedes configurar la cantidad de mensualidades que quieras y sus [costos de financiación](https://www.mercadopago.com.mx/ayuda/mensualidades-sin-intereses_2255) con un descuento.
+Desde tu cuenta de Mercado Libre, en la sección Ofrecer mensualidades sin intereses puedes configurar la cantidad de mensualidades que quieras y sus [costos de financiación](https://www.mercadopago.com.mx/ayuda/mensualidades-sin-intereses_2255) con un descuento.
 
 [Ofrecer mensualidades sin interes](https://www.mercadopago.com/mlm/front/cost-absorption)
 
@@ -165,7 +165,7 @@ Un Marketplace es un sitio o aplicación que te permite hacer cobros a nombre de
 >
 > Nota
 >
-> La comisión de Mercado Pago será descontada de los fondos que reciba el vendedor. Primero se descuenta la comisión de Mercado Pago, y del resto se descuenta la comisión del Marketplace.
+> La comisión de Mercado Libre será descontada de los fondos que reciba el vendedor. Primero se descuenta la comisión de Mercado Libre, y del resto se descuenta la comisión del Marketplace.
 
 ## Cómo ofrecer Mercado Envíos
 
@@ -177,7 +177,7 @@ Lo lamentamos, pero recorda que puedes utilizar nuestras [herramientas exclusiva
 
 #Integraciones
 
-## Cómo integrarme a Mercado Pago
+## Cómo integrarme a Mercado Libre
 
 Te ofrecemos distintas opciones para que puedas construir la solución de pagos que más se adapte a tu negocio.
 
@@ -185,7 +185,7 @@ Tenemos herramientas listas para usar como SDKs, botones de pago, módulos o plu
 
 ### Checkout Pro
 
-Esta opción te permite cobrar a través de nuestro formulario web dentro del ambiente seguro de Mercado Pago de manera simple y rápida.
+Esta opción te permite cobrar a través de nuestro formulario web dentro del ambiente seguro de Mercado Libre de manera simple y rápida.
 
 - La mejor experiencia garantizada. Te ofrecemos la mejor experiencia de compra desde cualquier celular o computadora con un solo clic y con la posibilidad de pagar con 2 tarjetas.
 
@@ -207,9 +207,9 @@ Es la versión simplificada del Checkout Pro con una experiencia de usuario reno
 
 - Despreocúpate del diseño. Te damos un formulario con diseño y front-end listo para que puedas usar.
 
-- Nos ocupamos de tu seguridad. Capturamos los datos sensibles de las tarjetas dentro del ambiente seguro de Mercado Pago, para que seas PCI Compliance y que puedas personalizar todo el proceso libre de las complejidades de los protocolos de seguridad.
+- Nos ocupamos de tu seguridad. Capturamos los datos sensibles de las tarjetas dentro del ambiente seguro de Mercado Libre, para que seas PCI Compliance y que puedas personalizar todo el proceso libre de las complejidades de los protocolos de seguridad.
 
-- Siempre vas a estar actualizado. Puedes brindarles a tus compradores una experiencia que Mercado Pago mantiene en constante mejora.
+- Siempre vas a estar actualizado. Puedes brindarles a tus compradores una experiencia que Mercado Libre mantiene en constante mejora.
 
 [Integrar Web Tokenize](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/online-payments/web-tokenize-checkout/introduction)
 
@@ -245,12 +245,12 @@ Un Marketplace es un sitio o aplicación que te permite hacer cobros a nombre de
 >
 > Nota
 >
-> La comisión de Mercado Pago será descontada de los fondos que reciba el vendedor. Primero se descuenta la comisión de Mercado Pago, y del resto se descuenta la comisión del Marketplace.
+> La comisión de Mercado Libre será descontada de los fondos que reciba el vendedor. Primero se descuenta la comisión de Mercado Libre, y del resto se descuenta la comisión del Marketplace.
 ------------
 ----[mco]----
 # Integraciones
 
-## Cómo integrarme a Mercado Pago
+## Cómo integrarme a Mercado Libre
 
 Te ofrecemos distintas opciones para que puedas construir la solución de pagos que más se adapte a tu negocio.
 
@@ -258,7 +258,7 @@ Tenemos herramientas listas para usar como SDKs, botones de pago, módulos o plu
 
 ### Checkout Pro
 
-Esta opción te permite cobrar a través de nuestro formulario web dentro del ambiente seguro de Mercado Pago de manera simple y rápida.
+Esta opción te permite cobrar a través de nuestro formulario web dentro del ambiente seguro de Mercado Libre de manera simple y rápida.
 
 - **La mejor experiencia garantizada.** Te ofrecemos la mejor experiencia de compra desde cualquier celular o computadora con un solo clic y con la posibilidad de pagar con 2 tarjetas.
 
@@ -280,9 +280,9 @@ Es la versión simplificada del Checkout Pro con una experiencia de usuario reno
 
 - **Despreocúpate del diseño.** Te damos un formulario con diseño y front-end listo para que puedas usar.
 
-- **Nos ocupamos de tu seguridad.** Capturamos los datos sensibles de las tarjetas dentro del ambiente seguro de Mercado Pago, para que seas PCI Compliance y que puedas personalizar todo el proceso libre de las complejidades de los protocolos de seguridad.
+- **Nos ocupamos de tu seguridad.** Capturamos los datos sensibles de las tarjetas dentro del ambiente seguro de Mercado Libre, para que seas PCI Compliance y que puedas personalizar todo el proceso libre de las complejidades de los protocolos de seguridad.
 
-- **Siempre vas a estar actualizado.** Puedes brindarles a tus compradores una experiencia que Mercado Pago mantiene en constante mejora.
+- **Siempre vas a estar actualizado.** Puedes brindarles a tus compradores una experiencia que Mercado Libre mantiene en constante mejora.
 
 [Integrar Web Tokenize](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/online-payments/web-tokenize-checkout/introduction)
 
@@ -318,10 +318,10 @@ Un Marketplace es un sitio o aplicación que te permite hacer cobros a nombre de
 >
 > Nota
 >
-> La comisión de Mercado Pago será descontada de los fondos que reciba el vendedor. Primero se descuenta la comisión de Mercado Pago, y del resto se descuenta la comisión del Marketplace.
+> La comisión de Mercado Libre será descontada de los fondos que reciba el vendedor. Primero se descuenta la comisión de Mercado Libre, y del resto se descuenta la comisión del Marketplace.
 ------------
 ----[mlu]----
-## Cómo integrarme a Mercado Pago
+## Cómo integrarme a Mercado Libre
 
 Te ofrecemos distintas opciones para que puedas construir la solución de pagos que más se adapte a tu negocio.
 
@@ -329,7 +329,7 @@ Tenemos herramientas listas para usar como SDKs, botones de pago, módulos o plu
 
 ### Checkout Pro
 
-Esta opción te permite cobrar a través de nuestro formulario web dentro del ambiente seguro de Mercado Pago de manera simple y rápida.
+Esta opción te permite cobrar a través de nuestro formulario web dentro del ambiente seguro de Mercado Libre de manera simple y rápida.
 
 - **La mejor experiencia garantizada.** Te ofrecemos la mejor experiencia de compra desde cualquier celular o computadora con un solo clic y con la posibilidad de pagar con 2 tarjetas.
 
@@ -345,9 +345,9 @@ Es la versión simplificada del Checkout Pro con una experiencia de usuario reno
 
 - **Despreocúpate del diseño.** Te damos un formulario con diseño y front-end listo para que puedas usar.
 
-- **Nos ocupamos de tu seguridad.** Capturamos los datos sensibles de las tarjetas dentro del ambiente seguro de Mercado Pago, para que seas PCI Compliance y que puedas personalizar todo el proceso libre de las complejidades de los protocolos de seguridad.
+- **Nos ocupamos de tu seguridad.** Capturamos los datos sensibles de las tarjetas dentro del ambiente seguro de Mercado Libre, para que seas PCI Compliance y que puedas personalizar todo el proceso libre de las complejidades de los protocolos de seguridad.
 
-- **Siempre vas a estar actualizado.** Puedes brindarles a tus compradores una experiencia que Mercado Pago mantiene en constante mejora.
+- **Siempre vas a estar actualizado.** Puedes brindarles a tus compradores una experiencia que Mercado Libre mantiene en constante mejora.
 
 [Integrar Web Tokenize](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/online-payments/web-tokenize-checkout/introduction)
 
@@ -371,7 +371,7 @@ Esta forma de integrarse permite conectarse directamente con nuestras APIs.
 
 Creamos una herramienta para que puedas ofrecer cuotas sin intereses y hacer que tu negocio sea más atractivo.
 
-Desde tu cuenta de Mercado Pago, en la sección Ofrecer hasta 12 cuotas sin interés puedes activar las cuotas para que puedan pagarte desde cualquier solución de cobro que crees.
+Desde tu cuenta de Mercado Libre, en la sección Ofrecer hasta 12 cuotas sin interés puedes activar las cuotas para que puedan pagarte desde cualquier solución de cobro que crees.
 
 Te cobraremos una comisión de 8,49% + IVA por cada pago que recibas, con cualquier medio de pago.
 
@@ -387,13 +387,13 @@ Un Marketplace es un sitio o aplicación que te permite hacer cobros a nombre de
 >
 > Nota
 >
-> La comisión de Mercado Pago será descontada de los fondos que reciba el vendedor. Primero se descuenta la comisión de Mercado Pago, y del resto se descuenta la comisión del Marketplace.
+> La comisión de Mercado Libre será descontada de los fondos que reciba el vendedor. Primero se descuenta la comisión de Mercado Libre, y del resto se descuenta la comisión del Marketplace.
 ------------
 ----[mlc]----
 
 # Integraciones
 
-## Cómo integrarme a Mercado Pago
+## Cómo integrarme a Mercado Libre
 
 Te ofrecemos distintas opciones para que puedas construir la solución de pagos que más se adapte a tu negocio.
 
@@ -401,7 +401,7 @@ Tenemos herramientas listas para usar como SDKs, botones de pago, módulos o plu
 
 ### Checkout Pro
 
-Esta opción te permite cobrar a través de nuestro formulario web dentro del ambiente seguro de Mercado Pago de manera simple y rápida.
+Esta opción te permite cobrar a través de nuestro formulario web dentro del ambiente seguro de Mercado Libre de manera simple y rápida.
 
 - **La mejor experiencia garantizada.** Te ofrecemos la mejor experiencia de compra desde cualquier celular o computadora con un solo clic y con la posibilidad de pagar con 2 tarjetas.
 
@@ -423,9 +423,9 @@ Es la versión simplificada del Checkout Pro con una experiencia de usuario reno
 
 - **Despreocúpate del diseño.** Te damos un formulario con diseño y front-end listo para que puedas usar.
 
-- **Nos ocupamos de tu seguridad.** Capturamos los datos sensibles de las tarjetas dentro del ambiente seguro de Mercado Pago, para que seas PCI Compliance y que puedas personalizar todo el proceso libre de las complejidades de los protocolos de seguridad.
+- **Nos ocupamos de tu seguridad.** Capturamos los datos sensibles de las tarjetas dentro del ambiente seguro de Mercado Libre, para que seas PCI Compliance y que puedas personalizar todo el proceso libre de las complejidades de los protocolos de seguridad.
 
-- **Siempre vas a estar actualizado.** Puedes brindarles a tus compradores una experiencia que Mercado Pago mantiene en constante mejora.
+- **Siempre vas a estar actualizado.** Puedes brindarles a tus compradores una experiencia que Mercado Libre mantiene en constante mejora.
 
 [Integrar Web Tokenize](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/online-payments/web-tokenize-checkout/introduction)
 
@@ -461,6 +461,6 @@ Un Marketplace es un sitio o aplicación que te permite hacer cobros a nombre de
 >
 > Nota
 >
-> La comisión de Mercado Pago será descontada de los fondos que reciba el vendedor. Primero se descuenta la comisión de Mercado Pago, y del resto se descuenta la comisión del Marketplace.
+> La comisión de Mercado Libre será descontada de los fondos que reciba el vendedor. Primero se descuenta la comisión de Mercado Libre, y del resto se descuenta la comisión del Marketplace.
 
 ------------

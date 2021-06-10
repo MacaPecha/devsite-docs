@@ -19,7 +19,7 @@ Enter the **name of the business** to appear on your customers' invoice and make
 >
 > Important
 >
-> Do not forget to enter your `integrator_id` as a certified Mercado Pago [Partner](https://partners.mercadopago.com/). If you don't have it, you can [request it now](https://docs.google.com/forms/d/1EeO__nZuqHf4cb81NpwtDSybPT7COluSZVrXR4A8F7Q/viewform?edit_requested=true).
+> Do not forget to enter your `integrator_id` as a certified Mercado Libre [Partner](https://partners.mercadopago.com/). If you don't have it, you can [request it now](https://docs.google.com/forms/d/1EeO__nZuqHf4cb81NpwtDSybPT7COluSZVrXR4A8F7Q/viewform?edit_requested=true).
 
 <span></span>
 
@@ -34,14 +34,14 @@ Enter the **name of the business** to appear on your customers' invoice and make
 Activate the checkout you want to offer your customers according to your preferences and choose the payment methods with which they can make the purchase.
 
 * Activate a checkout type.
-  * Use Checkout Pro to support payments with cards, ----[mlb]---- Pix,------------ cash and money in the Mercado Pago account.
+  * Use Checkout Pro to support payments with cards, ----[mlb]---- Pix,------------ cash and money in the Mercado Libre account.
   * Use the Custom Checkout to have control over other settings and accept payments with credit card, ----[mlb]---- Pix,------------ boleto and in-person.
 
 * Choose the [payment methods available](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/resources/localization/payment-methods/) to your customers according to the marketplace in which you operate and the type of checkout you are configuring.
 
 * Set the maximum number of installments in which they can pay you.
 
-* Activate the currency conversion with the one you have in Mercado Pago.
+* Activate the currency conversion with the one you have in Mercado Libre.
 
 ----[mlb]----
 > WARNING
@@ -50,8 +50,8 @@ Activate the checkout you want to offer your customers according to your prefere
 >
 > Before setting up Pix as a payment method, remember to:
 >
-> - [Download the latest version](https://br.wordpress.org/plugins/woocommerce-mercadopago/#description) to update your Mercado Pago plugin.
-> - Register your key in Mercado Pago. If this is not done, your customers will not be able to finalize the purchase. [See how to do it](https://www.mercadopago.com.br/stop/pix?url=https%3A%2F%2Fwww.mercadopago.com.br%2Fadmin-pix-keys%2Fmy-keys&authentication_mode=required).
+> - [Download the latest version](https://br.wordpress.org/plugins/woocommerce-mercadopago/#description) to update your Mercado Libre plugin.
+> - Register your key in Mercado Libre. If this is not done, your customers will not be able to finalize the purchase. [See how to do it](https://www.mercadopago.com.br/stop/pix?url=https%3A%2F%2Fwww.mercadopago.com.br%2Fadmin-pix-keys%2Fmy-keys&authentication_mode=required).
 
 <span></span>
 ------------
@@ -80,8 +80,8 @@ Choose what shopping experience your customers will have when paying:
 
 | Payment experience | Characteristics |
 | --- | --- |
-| Redirect | Your customers will be redirected to a Mercado Pago page with the payment form to complete the purchase. |
-| Modal | Your customers will access the Mercado Pago payment form without leaving your store. |
+| Redirect | Your customers will be redirected to a Mercado Libre page with the payment form to complete the purchase. |
+| Modal | Your customers will access the Mercado Libre payment form without leaving your store. |
 
 > NOTE
 >
@@ -107,7 +107,7 @@ Choose what shopping experience your customers will have when paying:
 | Configuration | Description |
 | --- | --- |
 | Discount coupon | Activate this option when you want to offer discounts to your customers. A field will appear on the form where they can enter their coupon. |
-| Reduce inventory | Activate this option when you want to automate the inventory reduction for each purchase order that is approved after a payment with Mercado Pago. |
+| Reduce inventory | Activate this option when you want to automate the inventory reduction for each purchase order that is approved after a payment with Mercado Libre. |
 
 ----[mlb]----
 #### Payments with Pix
@@ -115,8 +115,8 @@ Choose what shopping experience your customers will have when paying:
 | Configuration | Description |
 | --- | --- |
 | Pix expiration | Set the expiration time for the code sent to the customer after the order is placed. This is the period in which the customer will have to pay for the purchase. |
-| Discounts in Mercado Pago | Enable this option when you want to select a percentage amount to discount from your customers who pay with Mercado Pago. |
-| Commission for purchases with Mercado Pago | Enable this option when you want to select an additional amount to charge your customers who pay with Mercado Pago, as a fee. |
+| Discounts in Mercado Libre | Enable this option when you want to select a percentage amount to discount from your customers who pay with Mercado Libre. |
+| Commission for purchases with Mercado Libre | Enable this option when you want to select an additional amount to charge your customers who pay with Mercado Libre, as a fee. |
 ------------
 
 ---
@@ -127,7 +127,7 @@ Choose what shopping experience your customers will have when paying:
 >
 > Test and receive payments
 >
-> Test the module and verify that everything works well to start receiving money from your sales in Mercado Pago.
+> Test the module and verify that everything works well to start receiving money from your sales in Mercado Libre.
 >
 >
 > [Receive payments](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/plugins/woocommerce/receive-payments)

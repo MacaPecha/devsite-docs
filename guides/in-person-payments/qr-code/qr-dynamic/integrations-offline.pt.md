@@ -10,12 +10,12 @@ O QR deve conter uma série de informações organizadas e avalizadas pelo padr�
 A tabela abaixo mostra todas as informações que ele contém:
 
 
-| ID | Significado no Mercado Pago | Tamanho | Presença - Restrição |
+| ID | Significado no Mercado Libre | Tamanho | Presença - Restrição |
 | --- | --- | --- | --- |
 | ID 00: Payload Format Indicator | Versão do template do Código QR. | 02 | Obrigatório |
 | ID 01: Point of Initiation Method | Identifica se as informações do QR são dinâmicas ou estáticas. | 02 | Obrigatório |
 | ID 43.00 Merchant Account Information | Identificador do Mercado Livre.| 16 | Obrigatório |
-| ID 43.02 | Versão do template do Mercado Pago. | até 2 | Obrigatório |
+| ID 43.02 | Versão do template do Mercado Libre. | até 2 | Obrigatório |
 | ID 43.03 | User ID. | até 10 | Obrigatório |
 | ID 43.04 | Sponsor ID. | até 10 | Opcional |
 | ID 52: Merchant Category Code | Código para classificação da loja. | 04 | Obrigatório |
@@ -24,7 +24,7 @@ A tabela abaixo mostra todas as informações que ele contém:
 | ID 58: Country Code | País do vendedor. ----[mlb]---- Brasil: `BR` ------------ ----[mla]---- Argentina: `AR` ------------ ----[mlc]---- Chile: `CL` ------------ ----[mlu]---- Uruguay: `UY` ------------ ----[mco]---- Colombia: `CO` ------------ ----[mpe]---- Perú: `PE` ------------ ----[mlm]---- México: `MX` ------------. | 02 | Obrigatório |
 | ID 59: Merchant Name | Nome da sua loja. | até 25 | Obrigatório |
 | ID 60: Merchant City | Cidade do vendedor. | até 15 | Obrigatório |
-| ID 62.05: Reference Label | ID definido pelo integrador para associar a transação à um pagamento do Mercado Pago. | até 25 | Obrigatório |
+| ID 62.05: Reference Label | ID definido pelo integrador para associar a transação à um pagamento do Mercado Libre. | até 25 | Obrigatório |
 | ID 62.07: Terminal Label | *External_id* da caixa. | até 10 | Opcional |
 | ID 62.08: Purpose of Transaction | Título descritivo referido ao propósito da compra. | até 25 | Opcional |
 | ID 63: CRC | Checksum - Validação do conteúdo. | 04 | Obrigatório |
@@ -92,7 +92,7 @@ Com as informações obtidas, você já pode gerar o seu QR!
 
 ## Testes
 
-Para criar o QR, você precisa [criar um usuário para teste](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/in-person-payments/qr-code/integration-test) para vender e um outro usuário para escanear e pagar no App de Mercado Pago ou Mercado Livre.
+Para criar o QR, você precisa [criar um usuário para teste](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/in-person-payments/qr-code/integration-test) para vender e um outro usuário para escanear e pagar no App de Mercado Libre ou Mercado Livre.
 
 > NOTE
 >
@@ -102,7 +102,7 @@ Para criar o QR, você precisa [criar um usuário para teste](https://www.mercad
 
 ## Notificações
 
-Para obter as informações do pagamento, é necessário configurar a URL de notificação no [painel do Mercado Pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/panel/notifications/ipn). 
+Para obter as informações do pagamento, é necessário configurar a URL de notificação no [painel do Mercado Libre](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/panel/notifications/ipn). 
 
 Com a URL já configurada, será possível validar as ordens, como indicado na [seção de Notificações](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/notifications/ipn).
 

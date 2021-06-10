@@ -5,11 +5,11 @@ sites_supported:
 indexable: false
 ---
 
-# Mercado Pago Gateway: Configuration
+# Mercado Libre Gateway: Configuration
 
 > NOTE
 >
-> Unfortunately Mercado Pago's Gateway Configuration Section is not currently translated to english. Nonetheless this guide will be helpful to you to understand the configuration flow.
+> Unfortunately Mercado Libre's Gateway Configuration Section is not currently translated to english. Nonetheless this guide will be helpful to you to understand the configuration flow.
 
 <br>
 
@@ -21,7 +21,7 @@ indexable: false
 
 ## Introduction
 
-From Mercado Pago's backoffice you are able to configure both your merchant IDs and commercial agreements with acquirers or issuers in case of promotions.
+From Mercado Libre's backoffice you are able to configure both your merchant IDs and commercial agreements with acquirers or issuers in case of promotions.
 
 To do this, please visit the _Configuración_ section:
 
@@ -101,9 +101,9 @@ By pressing on a list item of the payment methods you can go into the edit view.
 
 Is not possible to delete a payment method. Only deactivate it.
 
-### Mercado Pago's agreements (Aggregator Model)
+### Mercado Libre's agreements (Aggregator Model)
 
-In this section you will be able to manage Mercado Pago's payment methods
+In this section you will be able to manage Mercado Libre's payment methods
 
 ![Aggregator payment methods](/images/gateway/payment_methods_aggregator.png)
 

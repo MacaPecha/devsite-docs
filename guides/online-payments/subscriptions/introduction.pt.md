@@ -1,6 +1,6 @@
 # O que são Assinaturas?
 
-As assinaturas do Mercado Pago permitem que você receba pagamentos recorrentes com cartão. A disponibilidade dos meios de pagamento varia de acordo com a forma de integração.
+As assinaturas do Mercado Libre permitem que você receba pagamentos recorrentes com cartão. A disponibilidade dos meios de pagamento varia de acordo com a forma de integração.
 
 ## Funções disponíveis
 
@@ -12,7 +12,7 @@ Há duas funções envolvidas:
 > 
 > Você quer criar assinaturas de forma rápida e fácil?
 > 
-> Entre na seção de [Assinaturas](https://www.mercadopago[FAKER][URL][DOMAIN]/subscription-plans) no painel da sua conta Mercado Pago, configure os dados que precisar e pronto!
+> Entre na seção de [Assinaturas](https://www.mercadopago[FAKER][URL][DOMAIN]/subscription-plans) no painel da sua conta Mercado Libre, configure os dados que precisar e pronto!
 
 
 ## Conceitos-chave

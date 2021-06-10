@@ -26,11 +26,11 @@ Para integrar el modelo desatendido es necesario:
 
     1.2 La información de la orden **está disponible**.
 
-2. Declarar la URL de tu dominio a Mercado Pago.
+2. Declarar la URL de tu dominio a Mercado Libre.
 
 ## 1. Crear el servicio que será invocado para recibir una intención de  pago
 
-Tienes que **crear un servicio que será invocado por Mercado Pago cada vez que se quiera realizar un pago** con un código QR. 
+Tienes que **crear un servicio que será invocado por Mercado Libre cada vez que se quiera realizar un pago** con un código QR. 
 
 Este servicio debe devolver la información de la orden a cobrar. Por ejemplo: 
 
@@ -91,25 +91,25 @@ La respuesta debe contener el siguiente mensaje de la orden a ser cobrada:
 }
 ```
 
-Debes usar el campo `external_reference` para poder identificar la orden de tu sistema dentro de Mercado Pago.
+Debes usar el campo `external_reference` para poder identificar la orden de tu sistema dentro de Mercado Libre.
 
 ### Atributos
 
 | Atributo | Tipo (_type_) | Descripción |
 | --- | --- | --- |
-| `collector_id` | _Long_ | Identificador de la cuenta Mercado Pago a la que se le acreditarán los pagos.  |
-| `sponsor_id` | _Long_ | Identificador de la cuenta Mercado Pago del sistema integrador. |
+| `collector_id` | _Long_ | Identificador de la cuenta Mercado Libre a la que se le acreditarán los pagos.  |
+| `sponsor_id` | _Long_ | Identificador de la cuenta Mercado Libre del sistema integrador. |
 | `items.title` | _String_ | Título del producto. |
 | `items.currency_id` | _String (3)_ | Identificador de moneda en formato ISO-4217. |
 | `items.description` | _String_ | Descripción del producto.  |
 | `items.quantity` | _Integer_ | Cantidad del producto en cuestión. |
 | `items.unit_price` | _Decimal_ | Precio unitario del producto. |
-| `external_reference` | _String (256)_ | Referencia para poder asociar la orden en Mercado Pago con la orden de compra, comanda o despacho en tu sistema. Generalmente se usa el número de factura. |
+| `external_reference` | _String (256)_ | Referencia para poder asociar la orden en Mercado Libre con la orden de compra, comanda o despacho en tu sistema. Generalmente se usa el número de factura. |
 | `notification_url` | _String_ | URL a la cual se enviarán las notificaciones. |
 
-## 2. Declarar la URL de tu dominio a Mercado Pago
+## 2. Declarar la URL de tu dominio a Mercado Libre
 
-Debes informar a tu asesor técnico asignado, la URL base de tu dominio a la que Mercado Pago consultará por cada transacción.
+Debes informar a tu asesor técnico asignado, la URL base de tu dominio a la que Mercado Libre consultará por cada transacción.
 
 > WARNING
 > 

@@ -51,7 +51,7 @@ curl -X POST \
 >Importante
 >
 > * Puedes generar hasta 10 cuentas de usuarios de prueba en simultáneo. Por eso, te recomendamos guardar el _email_ y _password_ de cada uno.
-> * Los usuarios de prueba caducan luego de 60 días sin actividad en Mercado Pago.
+> * Los usuarios de prueba caducan luego de 60 días sin actividad en Mercado Libre.
 > * Para hacer pagos de prueba te recomendamos usar montos bajos.
 > * Tanto el comprador como el vendedor deben ser usuarios de prueba.
 > * Usa tarjetas de pruebas, ya que no es posible retirar el dinero.
@@ -145,7 +145,7 @@ Para ello te informaremos con un `HTTP Status 201 OK` que el pago ha sido creado
 
 ## Verifica haber recibido la notificación Webhook
 
-Mercado Pago te enviará una notificación del evento ocurrido. Valida que la hayas recibido correctamente e impactado en forma correcta en tu sistema de gestión.
+Mercado Libre te enviará una notificación del evento ocurrido. Valida que la hayas recibido correctamente e impactado en forma correcta en tu sistema de gestión.
 
 ### Efectúa la anulación del pago
 

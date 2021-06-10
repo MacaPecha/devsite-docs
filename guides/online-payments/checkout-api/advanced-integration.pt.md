@@ -368,7 +368,7 @@ curl -X POST \
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use cartões guardados para receber um pagamento
 
-Para que um cliente possa fazer um pagamento com seus dados guardados, é necessário capturar novamente o código de segurança. Mercado Pago não pode armazenar essa informação por questões de segurança.
+Para que um cliente possa fazer um pagamento com seus dados guardados, é necessário capturar novamente o código de segurança. Mercado Libre não pode armazenar essa informação por questões de segurança.
 
 <br>
 
@@ -866,7 +866,7 @@ Encontre mais informações na [seção de Devoluções e cancelamentos](https:/
 >
 > Outras funcionalidades
 >
-> Configure seus pagamentos e adapte a integração do Mercado Pago ao seu negócio.
+> Configure seus pagamentos e adapte a integração do Mercado Libre ao seu negócio.
 >
 > [Outras funcionalidades](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/checkout-api/other-features)
 

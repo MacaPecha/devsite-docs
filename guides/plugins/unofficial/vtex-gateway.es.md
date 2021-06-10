@@ -11,7 +11,7 @@ indexable: false
 
 ## ¿Qué es VTEX?
 
-[VTEX](https://www.vtex.com/es/) es una **plataforma de e-commerce que permite recibir pagos con Mercado Pago.**
+[VTEX](https://www.vtex.com/es/) es una **plataforma de e-commerce que permite recibir pagos con Mercado Libre.**
 
 Puedes ofrecer a tus clientes la posibilidad de pagar con [tarjetas de crédito](#bookmark_condición_de_pagos_para_tarjeta_de_crédito) o
 [tarjetas de débito](#bookmark_condición_de_pagos_para_tarjeta_de_débito).
@@ -21,11 +21,11 @@ Para configurar pagos en efectivo y también elegir la opción de recibir pagos 
 
 ## Etapas para configurar
 
-Los **pasos para comenzar a operar con Mercado Pago** son los siguientes:
+Los **pasos para comenzar a operar con Mercado Libre** son los siguientes:
 
-1. Crea una [cuenta de vendedor](https://www.mercadopago[FAKER][URL][DOMAIN]/activities) en Mercado Pago si aún no tiene una.
-2. Configurar tus códigos de comercio en Mercado Pago.
-3. Registra la afiliación con Mercado Pago en VTEX.
+1. Crea una [cuenta de vendedor](https://www.mercadopago[FAKER][URL][DOMAIN]/activities) en Mercado Libre si aún no tiene una.
+2. Configurar tus códigos de comercio en Mercado Libre.
+3. Registra la afiliación con Mercado Libre en VTEX.
 4. Configura las condiciones de pago.
 5. Agrega el device fingerprint.
 
@@ -33,19 +33,19 @@ Los **pasos para comenzar a operar con Mercado Pago** son los siguientes:
 >
 > Importante
 >
-> Es necesario que tengas configurado en tu cuenta de Mercado Pago tus códigos de comercio y los medios de pago creados para procesar con modelo gateway. En Mercado Pago solo deberás tener activada todas las cuotas disponibles y sin intereses, ya que dicha configuración la realizarás en VTEX.<br>
+> Es necesario que tengas configurado en tu cuenta de Mercado Libre tus códigos de comercio y los medios de pago creados para procesar con modelo gateway. En Mercado Libre solo deberás tener activada todas las cuotas disponibles y sin intereses, ya que dicha configuración la realizarás en VTEX.<br>
 
 
-## Configurar la afiliación de pasarela con Mercado Pago
+## Configurar la afiliación de pasarela con Mercado Libre
 
-Para crear una **afiliación de pasarela de pago con Mercado Pago**, sigue estos pasos:
+Para crear una **afiliación de pasarela de pago con Mercado Libre**, sigue estos pasos:
 
 1. Accede a las configuraciones del módulo en el panel de administración de tu tienda. 
 2. En la pestaña de Afiliación de Gateway, haz clic en el botón +. 
 3. Ingresa en el conector MercadoPagoV1.
 4. Completa los campos correspondientes y guarda los cambios. 
 
-> Para poder avanzar con la configuración, ten a mano las `merchant-account-id` brindadas por Mercado Pago. Debes crear una afiliación por cada `merchant-account-id` que tengas. 
+> Para poder avanzar con la configuración, ten a mano las `merchant-account-id` brindadas por Mercado Libre. Debes crear una afiliación por cada `merchant-account-id` que tengas. 
 
 <br>
 
@@ -53,11 +53,11 @@ Para crear una **afiliación de pasarela de pago con Mercado Pago**, sigue estos
 | --- | --- |
 | Nombre de afiliación | Define el nombre que identificará a tu afiliación. |
 | OAuth login | No es necesario. Dejar como está. |
-| PublicKey | Refiere a las credenciales de tu cuenta de Mercado Pago. Completa con tu [clave pública]([FAKER][CREDENTIALS][URL]). |
-| AccessToken | Refiere a las credenciales de tu cuenta de Mercado Pago. Completa con tu [clave privada]([FAKER][CREDENTIALS][URL]). |
+| PublicKey | Refiere a las credenciales de tu cuenta de Mercado Libre. Completa con tu [clave pública]([FAKER][CREDENTIALS][URL]). |
+| AccessToken | Refiere a las credenciales de tu cuenta de Mercado Libre. Completa con tu [clave privada]([FAKER][CREDENTIALS][URL]). |
 | RefreshToken | Dejar en blanco. |
 | ExpiredTokenIn | Dejar en blanco. |
-| Merchant Account Id | Deberás configurar este campo con la `merchant-account-id` brindada por Mercado Pago. |
+| Merchant Account Id | Deberás configurar este campo con la `merchant-account-id` brindada por Mercado Libre. |
 | Processing Mode | Elige `gateway` como modo de procesamiento a partir de MercadoPagoV1. |
 | CountryName | Argentina. |
 | SoftDescriptor | Indica el nombre que va a aparecer para identificar una transacción de tu tienda en el resumen de la tarjeta del usuario. |
@@ -67,9 +67,9 @@ Para crear una **afiliación de pasarela de pago con Mercado Pago**, sigue estos
 | External Installments | Elegir `No`. |
 | Antifraud | Elegir `Yes / Sí`. |
 | Time Zone | Indica la región que define tu horario local. |
-| Mercado Pago 3P payment due date | Elegir `1 hora`. Este campo define cada cuántas horas quieres que el sistema verifique el estado del pedido antes de que caduque. Si esta opción no se cumple, se configura al patrón de 192 horas.|
-| 3P payment due date after Mercad Pago expiration | Elegir `12 horas`. Tiempo para el vencimiento del pago en VTEX después del vencimiento del pago 3P en Mercado Pago. Si no se completa, se utilizará el tiempo estándar de 7 días después de la creación del pedido.|
-| MaxInstallments | Elige la cantidad de cuotas máximas que quieres ofrecer en Mercado Pago. |
+| Mercado Libre 3P payment due date | Elegir `1 hora`. Este campo define cada cuántas horas quieres que el sistema verifique el estado del pedido antes de que caduque. Si esta opción no se cumple, se configura al patrón de 192 horas.|
+| 3P payment due date after Mercad Pago expiration | Elegir `12 horas`. Tiempo para el vencimiento del pago en VTEX después del vencimiento del pago 3P en Mercado Libre. Si no se completa, se utilizará el tiempo estándar de 7 días después de la creación del pedido.|
+| MaxInstallments | Elige la cantidad de cuotas máximas que quieres ofrecer en Mercado Libre. |
 | Refund Method | Elegir Online. Si selecciona Reembolso Online, ejecutaremos la llamada de la API de reembolso al procesador. Si se selecciona la opción Offline, enviaremos un correo electrónico al administrador para realizar un reembolso manual. Utilice esta opción con cuidado. |
 | Plan Ahora 12 | Activar si se necesita procesar con Ahora12. En caso de seleccionar `activo`, si el comprador opta por este plan enviaremos la cuota 7 a MercadoPago. |
 | Plan Ahora 18 | Activar si se necesita procesar con Ahora18. En caso de seleccionar `activo`, si el comprador opta por este plan enviaremos la cuota 8 a MercadoPago. |
@@ -99,12 +99,12 @@ Para crear una **afiliación de pasarela de pago con Mercado Pago**, sigue estos
 
 <br>
 
-**¡Y listo! Tu afiliación con Mercado Pago ya se encuentra activa.**
+**¡Y listo! Tu afiliación con Mercado Libre ya se encuentra activa.**
 
 
 ## Configura las condiciones de pago
 
-Luego de tener creada tu afiliación con Mercado Pago, puedes configurar pagos con [tarjetas de crédito](#bookmark_condición_de_pagos_para_tarjeta_de_crédito) y [tarjetas de débito](#bookmark_condición_de_pagos_para_tarjeta_de_débito).
+Luego de tener creada tu afiliación con Mercado Libre, puedes configurar pagos con [tarjetas de crédito](#bookmark_condición_de_pagos_para_tarjeta_de_crédito) y [tarjetas de débito](#bookmark_condición_de_pagos_para_tarjeta_de_débito).
 
 
 ### Condición de pagos para el Checkout de VTEX
@@ -133,7 +133,7 @@ Para crear una condición de pagos con tarjeta de crédito, sigue estos pasos:
 >
 > Importante
 >
-> Las configuración de las cuotas e intereses se debe realizar en VTEX. Es importante que en Mercado Pago esté creado el medio de pago para ser procesado como modelo gateway con todas las cuotas prendidas y con los intereses en 0. <br>
+> Las configuración de las cuotas e intereses se debe realizar en VTEX. Es importante que en Mercado Libre esté creado el medio de pago para ser procesado como modelo gateway con todas las cuotas prendidas y con los intereses en 0. <br>
 > 
 > En caso de estar configurando un medio de pago asociado a una afiliación para procesar un *Plan Ahora* o *Plan Z*, recuerda configurar la cuota correspondiente a dicho plan. 
 <br>
@@ -152,7 +152,7 @@ Para crear una condición de pagos con tarjeta de débito, sigue estos pasos:
 2. En la pestaña Condiciones de pago, haz clic en +. 
 3. Luego, en la sección de Tarjetas de débito, elige el medio de pago que quieras agregar. Se deben agregar Visa débito, Master débito y Maestro. 
 4. Nombra la regla para ayudar facilitar la identificación y activa la condición en el campo Status. 
-5. En el campo Proceso con la afiliación, elige como afiliación a Mercado Pago (la que se corresponde al código de comercio acorde al medio de pago). 
+5. En el campo Proceso con la afiliación, elige como afiliación a Mercado Libre (la que se corresponde al código de comercio acorde al medio de pago). 
 6. En la opción de cuotas, deberá configurar solamente la cuota 1 y los intereses correspondientes al medio de pago y tu número de comercio. 
 7. Deja el medio de pago activo y haz clic en Guardar. 
 
@@ -161,25 +161,25 @@ Para crear una condición de pagos con tarjeta de débito, sigue estos pasos:
 >
 > Importante
 >
-> Es importante que en Mercado Pago esté creado el medio de pago para ser procesado como modelo gateway.
+> Es importante que en Mercado Libre esté creado el medio de pago para ser procesado como modelo gateway.
 
 <br>
 
 #### Condición de pagos con medios de pagos personalizados
 
-Los medios de pago personalizado permite sumar a VTEX tarjetas de crédito locales que VTEX no integra como un medio de pago nativo y se pueden utilizar con Mercado Pago.
+Los medios de pago personalizado permite sumar a VTEX tarjetas de crédito locales que VTEX no integra como un medio de pago nativo y se pueden utilizar con Mercado Libre.
 
 
 Para crear esta condición de pago, sigue estos pasos: 
 
 1. En el panel de administración, ingresa en Configuraciones de medios de pago. 
 2. En la pestaña Pagos personalizados, busca la sección Cobrands y haz clic en Configurar.
-3. Se desplegará un formulario donde deberás ingresar Nombre, Descripción, Medio de pago (la marca bandera), Bines (validar en Mercado Pago los mismos) y el Código de Medio de Pago (es el nombre del medio de pago en Mercado Pago). 
+3. Se desplegará un formulario donde deberás ingresar Nombre, Descripción, Medio de pago (la marca bandera), Bines (validar en Mercado Libre los mismos) y el Código de Medio de Pago (es el nombre del medio de pago en Mercado Libre). 
 4. Haz clic en Guardar. 
 5. En la pestaña Planes de Pago, haz clic en +. 
 6. En la sección Pago personalizado, elige el medio de pago que habías creado para agregar el medio de pago.
 7. Nombra la regla para ayudar facilitar la identificación y activa la condición en el campo Status. 
-8. En el campo Proceso con la afiliación, elige como afiliación a Mercado Pago (la que se corresponde al código de comercio acorde al medio de pago). 
+8. En el campo Proceso con la afiliación, elige como afiliación a Mercado Libre (la que se corresponde al código de comercio acorde al medio de pago). 
 9. En la opción de cuotas, deberás cargar las cuotas e intereses correspondientes al medio de pago y tu número de comercio. 
 10. Deja el medio de pago activo y haz clic en Guardar. 
 
@@ -193,14 +193,14 @@ En VTEX, los medios de pago personalizados que se pueden agregar son:
 | `credit_card` | Tarjeta CMR | Mastercard | cmr | 557039-557039 |
 | `credit_card` | Tarjeta Cordial | Mastercard | cordial | 522135-522135,522137-522137,527555-527555 |
 | `credit_card` | Tarjeta Cordobesa | Mastercard | cordobesa | 542702-542702,544764-544764,550073-550073,528824-528824 |
-| `credit_card` | Tarjeta Mercado Pago Patagonia | Mastercard | mercadopago_cc | 515073-515073,515070-515070,532383-532383,532384-532384 |
+| `credit_card` | Tarjeta Mercado Libre Patagonia | Mastercard | mercadopago_cc | 515073-515073,515070-515070,532383-532383,532384-532384 |
 
 
 > WARNING
 >
 > Importante
 >
-> Las configuración de las cuotas e intereses se debe realizar en VTEX. Es importante que en Mercado Pago esté creado el medio de pago para ser procesado como modelo gateway con todas las cuotas prendidas y con los intereses en 0.
+> Las configuración de las cuotas e intereses se debe realizar en VTEX. Es importante que en Mercado Libre esté creado el medio de pago para ser procesado como modelo gateway con todas las cuotas prendidas y con los intereses en 0.
 <br>
 
 
@@ -218,7 +218,7 @@ En VTEX, los medios de pago personalizados que se pueden agregar son:
 
 ## ¿Qué es VTEX?
 
-[VTEX](https://www.vtex.com/es/) es una **plataforma de e-commerce que permite recibir pagos con Mercado Pago.**
+[VTEX](https://www.vtex.com/es/) es una **plataforma de e-commerce que permite recibir pagos con Mercado Libre.**
 
 Puedes ofrecer a tus clientes la posibilidad de pagar con [tarjetas de crédito](#bookmark_condición_de_pagos_para_tarjeta_de_crédito) o [transferencia bancaria](#bookmark_condición_de_pagos_para_medios_de_pago_por_transferencia_bancaria).
 
@@ -227,11 +227,11 @@ Puedes ofrecer a tus clientes la posibilidad de pagar con [tarjetas de crédito]
 
 ## Etapas para configurar
 
-Los **pasos para comenzar a operar con Mercado Pago** son los siguientes:
+Los **pasos para comenzar a operar con Mercado Libre** son los siguientes:
 
-1. Crea una [cuenta de vendedor](https://www.mercadopago[FAKER][URL][DOMAIN]/activities) en Mercado Pago si aún no tiene una.
-2. Configurar tus códigos de comercio en Mercado Pago.
-3. Registra la afiliación con Mercado Pago en VTEX.
+1. Crea una [cuenta de vendedor](https://www.mercadopago[FAKER][URL][DOMAIN]/activities) en Mercado Libre si aún no tiene una.
+2. Configurar tus códigos de comercio en Mercado Libre.
+3. Registra la afiliación con Mercado Libre en VTEX.
 4. Configura las condiciones de pago.
 5. Agrega el device fingerprint.
 
@@ -239,19 +239,19 @@ Los **pasos para comenzar a operar con Mercado Pago** son los siguientes:
 >
 > Importante
 >
-> Es necesario que tengas configurado en tu cuenta de Mercado Pago tus códigos de comercio y los medios de pago creados para procesar con modelo gateway. En Mercado Pago solo deberás tener activada todas las cuotas disponibles y sin intereses, ya que dicha configuración la realizarás en VTEX.<br>
+> Es necesario que tengas configurado en tu cuenta de Mercado Libre tus códigos de comercio y los medios de pago creados para procesar con modelo gateway. En Mercado Libre solo deberás tener activada todas las cuotas disponibles y sin intereses, ya que dicha configuración la realizarás en VTEX.<br>
 
 
-## Configurar la afiliación de pasarela con Mercado Pago
+## Configurar la afiliación de pasarela con Mercado Libre
 
-Para crear una **afiliación de pasarela de pago con Mercado Pago**, sigue estos pasos:
+Para crear una **afiliación de pasarela de pago con Mercado Libre**, sigue estos pasos:
 
 1. Accede a las configuraciones del módulo en el panel de administración de tu tienda.
 2. En la pestaña de Afiliación de Gateway, haz clic en el botón +.
 3. Ingresa en el conector MercadoPagoV1.
 4. Completa los campos correspondientes y guarda los cambios.
 
-> Para poder avanzar con la configuración, ten a mano las `merchant-account-id` brindadas por Mercado Pago. Debes crear una afiliación por cada `merchant-account-id` que tengas.
+> Para poder avanzar con la configuración, ten a mano las `merchant-account-id` brindadas por Mercado Libre. Debes crear una afiliación por cada `merchant-account-id` que tengas.
 
 <br>
 
@@ -259,11 +259,11 @@ Para crear una **afiliación de pasarela de pago con Mercado Pago**, sigue estos
 | --- | --- |
 | Nombre de afiliación | Define el nombre que identificará a tu afiliación. |
 | OAuth login | No es necesario. Dejar como está. |
-| PublicKey | Refiere a las credenciales de tu cuenta de Mercado Pago. Completa con tu [clave pública]([FAKER][CREDENTIALS][URL]). |
-| AccessToken | Refiere a las credenciales de tu cuenta de Mercado Pago. Completa con tu [clave privada]([FAKER][CREDENTIALS][URL]). |
+| PublicKey | Refiere a las credenciales de tu cuenta de Mercado Libre. Completa con tu [clave pública]([FAKER][CREDENTIALS][URL]). |
+| AccessToken | Refiere a las credenciales de tu cuenta de Mercado Libre. Completa con tu [clave privada]([FAKER][CREDENTIALS][URL]). |
 | RefreshToken | Dejar en blanco. |
 | ExpiredTokenIn | Dejar en blanco. |
-| Merchant Account Id | Deberás configurar este campo con la `merchant-account-id` brindada por Mercado Pago |
+| Merchant Account Id | Deberás configurar este campo con la `merchant-account-id` brindada por Mercado Libre |
 | Processing Mode | Elige `gateway` como modo de procesamiento a partir de MercadoPagoV1. |
 | CountryName | Colombia. |
 | SoftDescriptor | Dejar en blanco.|
@@ -274,7 +274,7 @@ Para crear una **afiliación de pasarela de pago con Mercado Pago**, sigue estos
 | Antifraud | Elegir `Yes`. |
 | Time Zone | Indica la región que define tu horario local. |
 | OrderExpirationHours | Elegir `1 hora`. Este campo define cada cuántas horas quieres que el sistema verifique el estado del pedido antes de que caduque. Si esta opción no se cumple, se configura al patrón de 192 horas. |
-| MaxInstallments | Elige la cantidad de cuotas máximas que quieres ofrecer en Mercado Pago. |
+| MaxInstallments | Elige la cantidad de cuotas máximas que quieres ofrecer en Mercado Libre. |
 | Categoria Principal | Selecciona la categoría correspondiente a su tienda. |
 | Early Security Capture | Puede desactivar la función o elegir en cuánto tiempo desea realizar la captura (después de que se haya aprobado la transacción y se haya completado el análisis antifraude). |
 
@@ -296,12 +296,12 @@ Para crear una **afiliación de pasarela de pago con Mercado Pago**, sigue estos
 
 <br>
 
-**¡Y listo! Tu afiliación con Mercado Pago ya se encuentra activa.**
+**¡Y listo! Tu afiliación con Mercado Libre ya se encuentra activa.**
 
 
 ## Configura las condiciones de pago
 
-Luego de tener creada tu afiliación con Mercado Pago, puedes ofrecer pagos con [tarjetas de crédito](#bookmark_condición_de_pagos_para_tarjeta_de_crédito) y [transferencia bancaria](#bookmark_condición_de_pagos_para_medios_de_pago_por_transferencia_bancaria).
+Luego de tener creada tu afiliación con Mercado Libre, puedes ofrecer pagos con [tarjetas de crédito](#bookmark_condición_de_pagos_para_tarjeta_de_crédito) y [transferencia bancaria](#bookmark_condición_de_pagos_para_medios_de_pago_por_transferencia_bancaria).
 
 
 ### Condición de pagos para el Checkout de VTEX
@@ -328,7 +328,7 @@ Para crear una condición de pagos con tarjeta de crédito, sigue estos pasos:
 >
 > Importante
 >
-> Las configuración de las cuotas e intereses se debe realizar en VTEX. Es importante que en Mercado Pago esté creado el medio de pago para ser procesado como modelo gateway con todas las cuotas prendidas y con los intereses en 0.
+> Las configuración de las cuotas e intereses se debe realizar en VTEX. Es importante que en Mercado Libre esté creado el medio de pago para ser procesado como modelo gateway con todas las cuotas prendidas y con los intereses en 0.
 <br>
 
 
@@ -346,7 +346,7 @@ Para crear una condición de pago con PSE, sigue estos pasos:
 3. Luego, en la sección de Tarjetas de débito, elige el medio de pago que quieras agregar. Se deben agregar Débito online.
 4. Nombra la regla para ayudar facilitar la identificación y activa la condición en el campo Status. 
 5. En el campo Proceso con la afiliación, elige como afiliación a MercadoPagoV1.
-6. En la opción de cuotas, selecciona cuotas automáticas. Esto te permite usar la configuración de tu cuenta de Mercado Pago. 
+6. En la opción de cuotas, selecciona cuotas automáticas. Esto te permite usar la configuración de tu cuenta de Mercado Libre. 
 7. Haz clic en Guardar. 
 
 
@@ -354,7 +354,7 @@ Para crear una condición de pago con PSE, sigue estos pasos:
 >
 > Importante
 >
-> Es importante que en Mercado Pago esté creado el medio de pago para ser procesado como modelo gateway.
+> Es importante que en Mercado Libre esté creado el medio de pago para ser procesado como modelo gateway.
 <br>
 
 
@@ -370,7 +370,7 @@ Para crear una condición de pago con PSE, sigue estos pasos:
 
 ## Obtén una mejor aprobación enviando el device fingerprint
 
-Mercado Pago tiene sus propias herramientas de prevención de fraude. **Te recomendamos que envíes información sobre el comportamiento de tus clientes para detectar movimientos inusuales y evitar transacciones fraudulentas**. Y no te preocupes, cuidamos los datos de tus clientes y no los compartiremos con nadie.
+Mercado Libre tiene sus propias herramientas de prevención de fraude. **Te recomendamos que envíes información sobre el comportamiento de tus clientes para detectar movimientos inusuales y evitar transacciones fraudulentas**. Y no te preocupes, cuidamos los datos de tus clientes y no los compartiremos con nadie.
 
 Para configurar el device fingerprint, sigue estos pasos:
 
@@ -390,7 +390,7 @@ document.body.appendChild(script);
 
 ## Comprender los log de VTEX
 
-**Los logs permiten revisar la información que retorna Mercado Pago** y VTEX expone para poder tener un mayor entendimiento de lo que ocurrió con una transacción. También en caso de realizar modificaciones o prender nuevos medios de pago, los logs nos dan la posibilidad de poder validar que todo está funcionando según lo previsto.
+**Los logs permiten revisar la información que retorna Mercado Libre** y VTEX expone para poder tener un mayor entendimiento de lo que ocurrió con una transacción. También en caso de realizar modificaciones o prender nuevos medios de pago, los logs nos dan la posibilidad de poder validar que todo está funcionando según lo previsto.
 
 Por último, proveen un mayor entendimiento a los equipos comerciales para que puedan dar un mejor soporte y convertirse en una primer instancia de soporte.
 
@@ -400,12 +400,12 @@ Los datos más significativos son los siguientes:
 
 | Campo | Dato | Descripción |
 | --- | --- | --- |
-| `id` | 10302316 | Número de transacción de Mercado Pago. |
+| `id` | 10302316 | Número de transacción de Mercado Libre. |
 | `payment_method_id` | visa | Medio de pago. |
 | `payment_type_id` | credit_card | Medio de pago. |
 | `status` | authorized | Estado del pago. |
 | `status_detail` | pending_capture | Detalle del estado de pago.|
-| `external_reference` | 503451 | Identificador de VTEX enviado a Mercado Pago. |
+| `external_reference` | 503451 | Identificador de VTEX enviado a Mercado Libre. |
 | `first_six_digits` | 450995 | Bin de la tarjeta. |
 | `processing_mode` | agregador | Modo de procesamiento del pago. |
 
@@ -417,10 +417,10 @@ Los errores más comunes son los siguientes:
 
 | Mensaje | Significado |
 | --- | --- |
-| `unauthorized_use_of_live_credentials` | Las credenciales de la cuenta de Mercado Pago no están habilitadas. Tienes que ir a la página de credenciales y activarlas. |
+| `unauthorized_use_of_live_credentials` | Las credenciales de la cuenta de Mercado Libre no están habilitadas. Tienes que ir a la página de credenciales y activarlas. |
 | `invalid installments` | Se está intentando procesar el pago con una cuota que no está habilitada. Se debe ir a la configuración del medio de pago y definir las cuotas como Automáticas. |
 | `invalid_users` | Se está intentando pagar con el mismo usuario que se está cobrando. Volver a intentar el pago con un mail pagador distinto. |
-| `Cannot infer Payment Method` | Se quiere pagar con una tarjeta distinta al tipo de tarjeta seleccionado o no esta creado el medio de pago para el modo de procesamiento *gateway* en Mercado Pago. Por ejemplo, se ingresó el número de una tarjeta de crédito en la opción de tarjeta de débito. |
+| `Cannot infer Payment Method` | Se quiere pagar con una tarjeta distinta al tipo de tarjeta seleccionado o no esta creado el medio de pago para el modo de procesamiento *gateway* en Mercado Libre. Por ejemplo, se ingresó el número de una tarjeta de crédito en la opción de tarjeta de débito. |
 
 > Para más información, visita el [sitio oficial de VTEX](https://help.vtex.com/) y el [sitio de Status de Vtex](https://status.vtex.com/).
 

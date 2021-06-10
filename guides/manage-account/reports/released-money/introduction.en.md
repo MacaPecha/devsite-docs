@@ -1,7 +1,7 @@
 # What is the Releases report?
 
 
-Releases report is a **downloadable report that allows you to know the liquidity of your business and to know how your available money is composed in Mercado Pago.** It contains the **detail of all funds involved in a date period,** and includes money release cases as well as blockings and unblockings.
+Releases report is a **downloadable report that allows you to know the liquidity of your business and to know how your available money is composed in Mercado Libre.** It contains the **detail of all funds involved in a date period,** and includes money release cases as well as blockings and unblockings.
 
 ## How do I download the report?
 
@@ -10,7 +10,7 @@ Keep in mind that the report generation takes a few minutes depending on how muc
 Once available, it will be in your report tray and you can always download it two ways:
 
 * From the download link we’ll email you.
-* From your Mercado Pago account, go to *Reports* and select the Release report option. 
+* From your Mercado Libre account, go to *Reports* and select the Release report option. 
 
 ### Report Values
 

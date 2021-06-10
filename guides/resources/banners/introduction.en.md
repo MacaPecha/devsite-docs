@@ -7,9 +7,9 @@ sites_supported:
   - mlc
 ---
 
-# Mercado Pago banners
+# Mercado Libre banners
 
-Promote all the benefits of using Mercado Pago as a payment method in your site.
+Promote all the benefits of using Mercado Libre as a payment method in your site.
 
 ----[mla]----
 

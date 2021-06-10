@@ -7,7 +7,7 @@
 
 # Integrações
 
-## Como me integrar ao Mercado Pago
+## Como me integrar ao Mercado Libre
 
 Oferecemos diferentes opções para que você possa elaborar a solução de pagamentos que melhor se adapte ao seu negócio.
 
@@ -15,7 +15,7 @@ Temos ferramentas prontas para uso como SDKs, links de pagamento, módulos ou pl
 
 ### Checkout Pro
 
-Esta opção permite cobrar através do nosso formulário web dentro do ambiente seguro do Mercado Pago de maneira simples e rápida.
+Esta opção permite cobrar através do nosso formulário web dentro do ambiente seguro do Mercado Libre de maneira simples e rápida.
 
 -   **A melhor experiência garantida.** Oferecemos a melhor experiência de compra a partir de qualquer celular ou computador com um só clique e até mesmo com a possibilidade de pagar usando 2 cartões.
 
@@ -37,9 +37,9 @@ Diferente do Checkout Pro, facilitamos a criação de uma experiência de pagame
 
 - **Não se preocupe com o design.** Proporcionamos um formulário com design e front-end prontos para uso.
 
-- **Nós cuidamos da segurança.** Capturamos os dados sensíveis dos cartões dentro do ambiente seguro do Mercado Pago para estar em conformidade com os padrões do PCI Compliance, e que você possa personalizar todo o processo sem a complexidade dos protocolos de segurança.
+- **Nós cuidamos da segurança.** Capturamos os dados sensíveis dos cartões dentro do ambiente seguro do Mercado Libre para estar em conformidade com os padrões do PCI Compliance, e que você possa personalizar todo o processo sem a complexidade dos protocolos de segurança.
 
-- **Você estará sempre atualizado.** Você pode oferecer para seus compradores uma experiência que o Mercado Pago mantém em constante aperfeiçoamento.
+- **Você estará sempre atualizado.** Você pode oferecer para seus compradores uma experiência que o Mercado Libre mantém em constante aperfeiçoamento.
 
 [Integrar Web Tokenize](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/web-tokenize-checkout/introduction)
 
@@ -77,7 +77,7 @@ Mas, não se preocupe, há outros [meios de pagamento disponíveis](https://www.
 
 Criamos uma ferramenta para que você possa oferecer parcelamento sem juros e tornar seu negócio mais atrativo.
 
-Pela sua conta no Mercado Pago, na seção "Oferecer parcelamento sem juros", você pode configurar a quantidade de parcelas que quer oferecer e seu custo de financiamento.
+Pela sua conta no Mercado Libre, na seção "Oferecer parcelamento sem juros", você pode configurar a quantidade de parcelas que quer oferecer e seu custo de financiamento.
 
 Seu cliente paga sem juros, e você absorve o custo do financiamento, por isso, considere os [custos de financiamento](https://www.mercadopago.com.br/ajuda/oferecer-parcelas-sem-juros-para-compradores_454) das parcelas que quiser oferecer.
 
@@ -99,4 +99,4 @@ Um Marketplace é um site ou aplicativo que permite que você faça cobranças e
 >
 > Nota
 >
-> A comissão do Mercado Pago será descontada dos fundos que o vendedor receber. Primeiro é descontada a comissão do Mercado Pago, e a comissão do Marketplace é descontada do restante.
+> A comissão do Mercado Libre será descontada dos fundos que o vendedor receber. Primeiro é descontada a comissão do Mercado Libre, e a comissão do Marketplace é descontada do restante.

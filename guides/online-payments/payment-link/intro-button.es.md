@@ -6,17 +6,17 @@ El **link de pago** te ayudará a cobrar por medios online en simples pasos.
 Si tienes un sitio web, podrás insertar de forma sencilla un código HTML que mostrará un **botón de pago** en tu página.
 
 ## ¿Cómo funciona?
- - Desde tu cuenta de Mercado Pago, ve a [Link de pago](https://www.mercadopago[FAKER][URL][DOMAIN]/tools/list) y elige la opción de Crear nuevo.
+ - Desde tu cuenta de Mercado Libre, ve a [Link de pago](https://www.mercadopago[FAKER][URL][DOMAIN]/tools/list) y elige la opción de Crear nuevo.
  - Define título y precio de tu producto o servicio. Puedes sumarle una foto también.
  - Por último, elige por dónde quieres cobrar: redes sociales, e-mail o sitio web, ¡y listo!
 
-> ¡No hace falta que el cliente tenga una cuenta de Mercado Pago para realizar el pago!
+> ¡No hace falta que el cliente tenga una cuenta de Mercado Libre para realizar el pago!
 
 ![Como funciona](/images/button/byl_crear_compartir.png)
 
 ## Características
  - Ofrece todos los medios de pago: débito, crédito o efectivo. ¡Incluso cobrar en cuotas!
- - Administra y gestiona todas tus ventas desde tu panel de Mercado Pago.
+ - Administra y gestiona todas tus ventas desde tu panel de Mercado Libre.
  - Define las tasas y los plazos que más te convengan.
  - Organiza tu negocio a través del listado de productos o servicios.
  - Puedes compartirlos cuantas veces quieras y estará activo el tiempo que tu decidas.

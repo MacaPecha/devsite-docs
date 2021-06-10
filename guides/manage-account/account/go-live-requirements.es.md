@@ -11,7 +11,7 @@ Durante las pruebas puedes no tenerlo, pero es obligatorio para salir a producci
 
 Con este proceso, se puede garantizar la seguridad de lo datos de tus clientes, el cumplimiento de las normas o disposiciones legales de cada país y lograr la mejor experiencia de compra para tus ventas.
 
-[Conoce los términos y condiciones de Mercado Pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/resources/legal/terms-and-conditions).
+[Conoce los términos y condiciones de Mercado Libre](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/resources/legal/terms-and-conditions).
 
 ## Consideraciones adicionales
 

@@ -7,27 +7,27 @@
 
 ## ¿Qué es Linx Commerce?
 
-Es una **plataforma virtual que te permite recibir pagos con Mercado Pago**.
+Es una **plataforma virtual que te permite recibir pagos con Mercado Libre**.
 
 Puedes ofrecer a tus clientes la posibilidad de pagar con [tarjeta de crédito](#bookmark_configura_los_datos_para_tarjetas_de_crédito) y [boleto](#bookmark_configura_los_datos_para_boleto) en tu tienda.
 
 ## Pasos para configurar
 
-Los **pasos para comenzar a cobrar con Mercado Pago** son los siguientes:
+Los **pasos para comenzar a cobrar con Mercado Libre** son los siguientes:
 
-1. Crea una [cuenta vendedor](https://www.mercadopago[FAKER][URL][DOMAIN]/activities) en Mercado Pago si todavía no tienes una.
-1. Agrega a Mercado Pago como medio de pago dentro de tu tienda.
-1. Configura las formas de pago con Mercado Pago.
+1. Crea una [cuenta vendedor](https://www.mercadopago[FAKER][URL][DOMAIN]/activities) en Mercado Libre si todavía no tienes una.
+1. Agrega a Mercado Libre como medio de pago dentro de tu tienda.
+1. Configura las formas de pago con Mercado Libre.
 1. Configura los medios de pago del contrato.  
 
-## Agrega a Mercado Pago como medio de pago
+## Agrega a Mercado Libre como medio de pago
 
-Para **agregar Mercado Pago en tu tienda**, sigue estos pasos:
+Para **agregar Mercado Libre en tu tienda**, sigue estos pasos:
 
 1. Accede a “Medios de pago” en la sección de Configs del panel de administración de tu tienda. 
 1. Ingresa en “Adicionar medio de pago”.
-1. En la lista Proveedor de Servicio, busca a Mercado Pago y haz clic en “Próximo paso”.
-1. Define un nombre para el medio de pago Mercado Pago V2 y selecciona el estado “Activo”.
+1. En la lista Proveedor de Servicio, busca a Mercado Libre y haz clic en “Próximo paso”.
+1. Define un nombre para el medio de pago Mercado Libre V2 y selecciona el estado “Activo”.
 <p>&nbsp;</p>
 
 ![LINX Configuracao](/images/linx/linx_adicione_meio_pagamento-1.gif)
@@ -35,18 +35,18 @@ Para **agregar Mercado Pago en tu tienda**, sigue estos pasos:
 
 ## Configura las formas de pago
 
-Luego de agregar a Mercado Pago, tienes la opción de ofrecer pagos con [tarjeta de crédito](#bookmark_configura_los_datos_para_tarjetas_de_crédito) y [boleto](#bookmark_configura_los_datos_para_boleto).
+Luego de agregar a Mercado Libre, tienes la opción de ofrecer pagos con [tarjeta de crédito](#bookmark_configura_los_datos_para_tarjetas_de_crédito) y [boleto](#bookmark_configura_los_datos_para_boleto).
 
 También tienes la opción de [ofrecer cuotas sin interés](#bookmark_configura_las_cuotas_sin_interés_en_tu_cuenta_de_mercado_pago) y configurar las [tasas y plazos](https://www.mercadopago[FAKER][URL][DOMAIN]/settings/release-options/) de tus ventas online cuando quieras.
 
 ### Configura los datos para integrar
 
-Después de agregar el medio de pago, **configura los datos para tu integración con Mercado Pago** de la siguiente manera: 
+Después de agregar el medio de pago, **configura los datos para tu integración con Mercado Libre** de la siguiente manera: 
 
-1. Accede a la pestaña “Integración” y completa los campos Public Key y Access Token Key que corresponden a las [credenciales de producción]([FAKER][CREDENTIALS][URL]) de tu cuenta de Mercado Pago.
+1. Accede a la pestaña “Integración” y completa los campos Public Key y Access Token Key que corresponden a las [credenciales de producción]([FAKER][CREDENTIALS][URL]) de tu cuenta de Mercado Libre.
 1. Completa el nombre que aparecerá en la factura de tu cliente para que pueda reconocerte.
-1. Si quieres probar tus pagos, en la sección Modo de prueba, selecciona la opción “Sí”. Luego, completa los campos Public Key y Access Token key con las [credenciales de prueba]([FAKER][CREDENTIALS][URL]) de tu cuenta de Mercado Pago. 
-1. En la sección de Cuotas, selecciona “Externo (API de Mercado Pago) para utilizar las configuraciones de cuotas directamente de tu cuenta de Mercado Pago. 
+1. Si quieres probar tus pagos, en la sección Modo de prueba, selecciona la opción “Sí”. Luego, completa los campos Public Key y Access Token key con las [credenciales de prueba]([FAKER][CREDENTIALS][URL]) de tu cuenta de Mercado Libre. 
+1. En la sección de Cuotas, selecciona “Externo (API de Mercado Libre) para utilizar las configuraciones de cuotas directamente de tu cuenta de Mercado Libre. 
 1. Por último, haz clic en “Guardar”.
 <p>&nbsp;</p>
 
@@ -103,9 +103,9 @@ Para **configurar los datos para Boleto Bancário en su tienda**, sigue estos pa
 ![LINX Configuracao](/images/linx/linx_configurando_boleto-4.gif)
 <p>&nbsp;</p>
 
-## Configura las cuotas sin interés en tu cuenta de Mercado Pago
+## Configura las cuotas sin interés en tu cuenta de Mercado Libre
 
-1. Ingresa a tu cuenta de Mercado Pago y ve a “Tu negocio”.
+1. Ingresa a tu cuenta de Mercado Libre y ve a “Tu negocio”.
 1. Accede en la opción “Configuraciones”, navega hasta “Ofrecer cuotas sin interés” y haz clic en “Activar”.
 1. Elige “¿Cuántas quieres ofrecer?” y confirma los cambios con el botón “Activar”.
 <p>&nbsp;</p>

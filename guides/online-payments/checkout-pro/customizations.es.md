@@ -31,7 +31,7 @@ Utiliza el método `render` para mostrar un **botón de pago que permita la aper
 | Parámetro | Tipo de dato | Descripción |
 | --- | --- | --- |
 | `container` | string | CSS Selector (identificador) del elemento donde se quiere mostrar el botón de pago. |
-| `type` (opcional) | string | Permite definir el tipo de botón. Actualmente solo acepta el valor ‘wallet’ que muestra un botón de pago con la marca de Mercado Pago. **Valor por defecto**: botón de pago simple. |
+| `type` (opcional) | string | Permite definir el tipo de botón. Actualmente solo acepta el valor ‘wallet’ que muestra un botón de pago con la marca de Mercado Libre. **Valor por defecto**: botón de pago simple. |
 | `label` (opcional) | string | Valor del texto del botón. **Por defecto**: “Pagar” |
 
 Puedes utilizar este método de dos formas distintas: 
@@ -114,7 +114,7 @@ Redirige al 'init_point' de la preferencia
     <title>Pagar</title>
   </head>
   <body>
-    <a href="<?php echo $preference->init_point; ?>">Pagar con Mercado Pago</a>
+    <a href="<?php echo $preference->init_point; ?>">Pagar con Mercado Libre</a>
   </body>
 </html>
 ```
@@ -142,7 +142,7 @@ Redirige al 'init_point' de la preferencia
     <title>Pagar</title>
   </head>
   <body>
-    <a href="${preference.initPoint}">Pagar con Mercado Pago</a>
+    <a href="${preference.initPoint}">Pagar con Mercado Libre</a>
   </body>
 </html>
 ```
@@ -170,7 +170,7 @@ Redirige al 'init_point' de la preferencia
     <title>Pagar</title>
   </head>
   <body>
-    <a href="@Html.DisplayFor(model => model.InitPoint)">Pagar con Mercado Pago</a>
+    <a href="@Html.DisplayFor(model => model.InitPoint)">Pagar con Mercado Libre</a>
   </body>
 </html>
 ```
@@ -184,7 +184,7 @@ Redirige al 'init_point' de la preferencia
     <title>Pay</title>
   </head>
   <body>
-    <a href="{{ init_point }}" target="_blank">Pay with Mercado Pago</a>
+    <a href="{{ init_point }}" target="_blank">Pay with Mercado Libre</a>
   </body>
 </html>
 ```

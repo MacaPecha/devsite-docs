@@ -11,7 +11,7 @@ Durante os testes, você pode não ter um, mas é obrigatório para entrar em pr
 
 Com este processo, você pode garantir a segurança dos dados de seus clientes, cumprir os regulamentos ou disposições legais de cada país e conseguir a melhor experiência de compra para seus clientes.
 
-[Confira os termos e condições do Mercado Pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/resources/legal/terms-and-conditions).
+[Confira os termos e condições do Mercado Libre](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/resources/legal/terms-and-conditions).
 
 ## Considerações adicionais
 

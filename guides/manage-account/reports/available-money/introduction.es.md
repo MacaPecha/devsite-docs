@@ -2,7 +2,7 @@
 # ¿Qué es el reporte de Dinero retirado?
 
 
-El reporte de Dinero retirado es un **informe descargable que te permite conocer cómo está compuesto el dinero que retiraste de Mercado Pago.** Contiene el **detalle de todos los fondos involucrados en dicho retiro,** tanto para casos de liberación de dinero como para bloqueos o desbloqueos.
+El reporte de Dinero retirado es un **informe descargable que te permite conocer cómo está compuesto el dinero que retiraste de Mercado Libre.** Contiene el **detalle de todos los fondos involucrados en dicho retiro,** tanto para casos de liberación de dinero como para bloqueos o desbloqueos.
 
 > WARNING
 >
@@ -17,7 +17,7 @@ Ten en cuenta que la generación del reporte lleva unos minutos dependiendo de c
 Una vez disponible, estará en tu bandeja de reportes y siempre lo podrás descargar de dos formas:
 
 * Desde un link de descarga que te enviaremos por e-mail.
-* Desde tu cuenta de Mercado Pago, en *Reportes de Dinero retirado*. 
+* Desde tu cuenta de Mercado Libre, en *Reportes de Dinero retirado*. 
 
 ### Valores del reporte
 

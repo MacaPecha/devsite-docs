@@ -3,9 +3,9 @@
 
 ## Cómo probar el módulo
 
-El módulo de Mercado Pago viene con el entorno Sandbox activo por defecto. Simula pagos en la tienda con este entorno de pruebas y verifica que todo funciona bien antes de empezar a recibir pagos reales de tus clientes. 
+El módulo de Mercado Libre viene con el entorno Sandbox activo por defecto. Simula pagos en la tienda con este entorno de pruebas y verifica que todo funciona bien antes de empezar a recibir pagos reales de tus clientes. 
  
-Aquí es donde entran en juego las credenciales de prueba que habrás copiado en el módulo al momento de [integrar Mercado Pago a tu tienda](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/plugins/prestashop/integration). Las necesitas para poder probar el módulo.
+Aquí es donde entran en juego las credenciales de prueba que habrás copiado en el módulo al momento de [integrar Mercado Libre a tu tienda](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/plugins/prestashop/integration). Las necesitas para poder probar el módulo.
 
 Cuando hagas pruebas, verifica que el flujo de pagos funcione correctamente y que las preferencias de pago sean las que hayas configurado. ¿Ves que todo va bien? Desactiva el modo Sandbox y ve al modo Producción para recibir pagos reales.
 
@@ -27,5 +27,5 @@ Activa el modo Producción solo cuando estés listo para vender y hayas puesto a
 
 ![Flow homologación producción](/images/prestashop/receive_payments_es.gif)
 
-### ¡Listo! El módulo de Mercado Pago está preparado para recibir cobros online.
+### ¡Listo! El módulo de Mercado Libre está preparado para recibir cobros online.
 

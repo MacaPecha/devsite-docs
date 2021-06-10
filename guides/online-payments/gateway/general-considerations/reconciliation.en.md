@@ -5,7 +5,7 @@ sites_supported:
 indexable: false
 ---
 
-# Mercado Pago Gateway: Reconciliation
+# Mercado Libre Gateway: Reconciliation
 
 > WARNING
 >
@@ -13,7 +13,7 @@ indexable: false
 >
 > This product is only available through prior contact with one of our executives.
 
-You will find information below on how to reconcile your operations in Mercado Pago Gateway with the information of acquirers or issuers.
+You will find information below on how to reconcile your operations in Mercado Libre Gateway with the information of acquirers or issuers.
 
 ## Using a partner
 
@@ -116,7 +116,7 @@ The possible `operation_status` values are:
 
 ### File reconciliation
 
-In Mercado Pago's backoffice visit the _Operaciones Gateway_ section:
+In Mercado Libre's backoffice visit the _Operaciones Gateway_ section:
 
 ![Transactions](/images/gateway/operations.png)
 

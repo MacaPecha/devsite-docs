@@ -3,11 +3,11 @@
 
 ## Generating channels
 
-You can generate a Release report from your Mercado Pago account:
+You can generate a Release report from your Mercado Libre account:
 
 | Channels | Description |
 | --- | --- |
-| Mercado Pago panel | It's very simple and fast. To generate ir from your account, go to [Reports](https://www.mercadopago[FAKER][URL][DOMAIN]/movements) and choose "Created reports".<br/><br/>Follow the step by step to [generate reports from your panel](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/manage-account/reports/released-money/panel). |
+| Mercado Libre panel | It's very simple and fast. To generate ir from your account, go to [Reports](https://www.mercadopago[FAKER][URL][DOMAIN]/movements) and choose "Created reports".<br/><br/>Follow the step by step to [generate reports from your panel](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/manage-account/reports/released-money/panel). |
 
 ## Technical characteristics of the report
 
@@ -24,7 +24,7 @@ Know the characteristics of the elements that make up your report.
 | Tables Detail | The detail of the tables includes information generated in at least 1 day. |
 | Column Order | Fix |
 | Maximum Period | Reports with data of up to 60 days. |
-| Currency | Local (based on the country where the Mercado Pago account is registered) |
+| Currency | Local (based on the country where the Mercado Libre account is registered) |
 | Time zone of the columns | <br/> GMT-4 <br/> <br/> Take as reference the place where you download the report from. |
 | Date selection via web | <br/> It must be based on the timezone of the user's account. <br/> For example, the timezone of Sao Paulo corresponds to the user account registered in Brazil. |
 
@@ -37,7 +37,7 @@ All the options you have available when downloading your report.
 | --- | --- |
 | Filename format | When the report is scheduled or manual: "prefix-custom-<span style='color:#999999;'>created-date.csv</span>" <br/> Example: mystore-28-05-2019.csv |
 | Download formats | .csv, .xlsx <br/><br/>Tip:Download the report in .csv to import the data and use it in other applications. Download it in .xlsx to read the information in the spreadsheet tables. |
-| File | Generated reports are saved in your Mercado Pago account. |
+| File | Generated reports are saved in your Mercado Libre account. |
 
 
 > NOTE

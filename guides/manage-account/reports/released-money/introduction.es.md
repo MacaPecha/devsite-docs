@@ -7,7 +7,7 @@
 ------------
 
 
-El reporte de ----[mla]---- Liquidaciones ------------ ----[mlm, mlb, mlc, mco, mlu, mpe]---- Liberaciones ------------ es un **informe descargable que te permite conocer cómo está compuesto tu dinero disponible en Mercado Pago.** Contiene el **detalle de todos los fondos involucrados en un período de fechas,** e incluye los casos de ----[mla]---- liquidación ------------ ----[mlm, mlb, mlc, mco, mlu, mpe]---- liberación ------------ de dinero como de bloqueos y desbloqueos.
+El reporte de ----[mla]---- Liquidaciones ------------ ----[mlm, mlb, mlc, mco, mlu, mpe]---- Liberaciones ------------ es un **informe descargable que te permite conocer cómo está compuesto tu dinero disponible en Mercado Libre.** Contiene el **detalle de todos los fondos involucrados en un período de fechas,** e incluye los casos de ----[mla]---- liquidación ------------ ----[mlm, mlb, mlc, mco, mlu, mpe]---- liberación ------------ de dinero como de bloqueos y desbloqueos.
 
 ## ¿Cómo descargo el reporte?
 
@@ -16,7 +16,7 @@ Ten en cuenta que la generación del reporte lleva unos minutos dependiendo de c
 Una vez disponible, estará en tu bandeja de reportes y siempre lo podrás descargar de dos formas:
 
 * Desde un link de descarga que te enviaremos por e-mail.
-* Desde tu cuenta de Mercado Pago, en *Reportes*. 
+* Desde tu cuenta de Mercado Libre, en *Reportes*. 
 
 ### Valores del reporte
 

@@ -2,7 +2,7 @@
 # O que é o relatório de Dinheiro disponível?
 
 
-O relatório de Dinheiro disponível é um **relatório para ser baixado que te permite saber a liquidez do seu negócio**, ou seja, quanto você tem para usar. Ele contém **detalhes dos pagamentos liberados** que estão prontos para serem retirados para uma conta bancária, render no Mercado Pago ou para usar saldo no cartão pré-pago Cartão Mercado Pago.
+O relatório de Dinheiro disponível é um **relatório para ser baixado que te permite saber a liquidez do seu negócio**, ou seja, quanto você tem para usar. Ele contém **detalhes dos pagamentos liberados** que estão prontos para serem retirados para uma conta bancária, render no Mercado Libre ou para usar saldo no cartão pré-pago Cartão Mercado Libre.
 
 > WARNING
 >
@@ -17,7 +17,7 @@ Lembre-se de que a geração deste relatório leva alguns minutos, dependendo de
 Ao estar disponível, ele ficará na sua bandeja de relatórios e você poderá baixá-lo de duas formas: 
 
 * Por um link de download que enviaremos via e-mail.
-* Na sua conta do Mercado Pago, acesse ----[mla]---- [seus relatórios](https://www.mercadopago.com.ar/balance/reports?page=1#!/settlement-report) ------------ ----[mlm]---- [seus relatórios](https://www.mercadopago.com.mx/balance/reports?page=1#!/settlement-report) ------------ ----[mlu]---- [seus relatórios](https://www.mercadopago.com.uy/balance/reports?page=1#!/settlement-report) ------------ ----[mlc]---- [seus relatórios](https://www.mercadopago.cl/balance/reports?page=1#!/settlement-report) ------------ ----[mco]---- [seus relatórios](https://www.mercadopago.com.co/balance/reports?page=1#!/settlement-report) ------------ ----[mpe]---- [seus relatórios](https://www.mercadopago.com.pe/balance/reports?page=1#!/settlement-report) ------------ ----[mlb]---- [seus relatórios](https://www.mercadopago.com.br/balance/reports?page=1#!/settlement-report) ------------ e selecione a opção *Relatórios de Dinheiro disponível*.
+* Na sua conta do Mercado Libre, acesse ----[mla]---- [seus relatórios](https://www.mercadopago.com.ar/balance/reports?page=1#!/settlement-report) ------------ ----[mlm]---- [seus relatórios](https://www.mercadopago.com.mx/balance/reports?page=1#!/settlement-report) ------------ ----[mlu]---- [seus relatórios](https://www.mercadopago.com.uy/balance/reports?page=1#!/settlement-report) ------------ ----[mlc]---- [seus relatórios](https://www.mercadopago.cl/balance/reports?page=1#!/settlement-report) ------------ ----[mco]---- [seus relatórios](https://www.mercadopago.com.co/balance/reports?page=1#!/settlement-report) ------------ ----[mpe]---- [seus relatórios](https://www.mercadopago.com.pe/balance/reports?page=1#!/settlement-report) ------------ ----[mlb]---- [seus relatórios](https://www.mercadopago.com.br/balance/reports?page=1#!/settlement-report) ------------ e selecione a opção *Relatórios de Dinheiro disponível*.
 
 ## Valores do relatório
 

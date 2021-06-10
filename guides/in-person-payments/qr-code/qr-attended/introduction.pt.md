@@ -8,7 +8,7 @@ Depois de ter recebido o pedido de um cliente, **este modelo permite que o opera
 
 As características principais são:
 
-- O operador sempre trabalha desde seu sistema de ponto de venda onde a modalidade de Receber com Mercado Pago foi inclusa. Dessa opção, envia-se uma ordem ao caixa associado.
+- O operador sempre trabalha desde seu sistema de ponto de venda onde a modalidade de Receber com Mercado Libre foi inclusa. Dessa opção, envia-se uma ordem ao caixa associado.
 - Para o cliente realizar o pagamento, é preciso associar um pedido ao caixa.
 - O operador vê a cobrança impactada em seu sistema.
 

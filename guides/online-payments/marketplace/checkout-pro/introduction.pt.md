@@ -2,7 +2,7 @@
 
 O **MarketPlace** é um site ou aplicação que permite uma interação entre compradores e vendedores para a conclusão de uma transação comercial. O proprietário de um Marketplace fornece um espaço aos vendedores para que apresentem seus produtos ou serviços, e é responsável pela gestão de todos os aspectos da transação. Por exemplo, o Mercado Livre é um Marketplace.
 
-O Mercado Pago permite realizar cobranças em nome dos vendedores de sua plataforma e, opcionalmente cobrar uma taxa pela transação.
+O Mercado Libre permite realizar cobranças em nome dos vendedores de sua plataforma e, opcionalmente cobrar uma taxa pela transação.
 
 Quando um pagamento é gerado, o dinheiro é dividido imediatamente entre a conta do seu vendedor e a sua, em caso de taxa de comissão.
 
@@ -12,8 +12,8 @@ _Esclarecimento: O split do pagamento só pode ser realizado entre duas contas (
 >
 > Nota
 >
->A comissão do Mercado Pago será descontada do valor recebido pelo vendedor.
->Primeiro se desconta a comissão do Mercado Pago, e sobre o restante se desconta a comissão do Marketplace.
+>A comissão do Mercado Libre será descontada do valor recebido pelo vendedor.
+>Primeiro se desconta a comissão do Mercado Libre, e sobre o restante se desconta a comissão do Marketplace.
 
 O _Marketplace_ requer 3 passos:
 

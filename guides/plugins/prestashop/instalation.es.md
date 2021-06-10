@@ -1,7 +1,7 @@
-# Instala Mercado Pago para PrestaShop 1.6 & 1.7
+# Instala Mercado Libre para PrestaShop 1.6 & 1.7
 
 
-Instala el módulo de Mercado Pago de forma automática, a través del marketplace o desde tu panel de PrestaShop. 
+Instala el módulo de Mercado Libre de forma automática, a través del marketplace o desde tu panel de PrestaShop. 
 
 > NOTE
 >
@@ -33,9 +33,9 @@ Es importante que revises los requerimientos para poder instalar nuestro módulo
 
 ## Instalación automática
 
-Instala Mercado Pago para PrestaShop de forma automática siguiendo estos pasos desde la sección "Personalizar" en tu administrador:
+Instala Mercado Libre para PrestaShop de forma automática siguiendo estos pasos desde la sección "Personalizar" en tu administrador:
 
-1. Ve a Catálogo de Módulos y busca "Mercado Pago" entre la oferta de módulos.
+1. Ve a Catálogo de Módulos y busca "Mercado Libre" entre la oferta de módulos.
 2. Haz clic en Instalar y luego búscalo en la sección "Module Manager". 
 3. Actívalo para empezar a configurar el módulo en tu tienda.
 
@@ -49,7 +49,7 @@ Instala el módulo siguiendo estos pasos:
 2. Ve a la sección "Module Manager" en la sección "Personalizar" de tu administrador.
 3. Haz clic en el botón Subir un Módulo en el extremo superior derecho.
 4. Seleccione o arrastre el archivo mercadopago.zip descargado anteriormente.
-5. ¡Y listo! El módulo de Mercado Pago se instalará en tu tienda online.
+5. ¡Y listo! El módulo de Mercado Libre se instalará en tu tienda online.
 
 **Revisa que todo haya salido bien desde tu escritorio de PrestaShop. Verás el módulo entre tus Plugins instalados. Actívalo para pasar a la integración de tu cuenta y los pasos de configuración.**
 
@@ -57,7 +57,7 @@ Instala el módulo siguiendo estos pasos:
 
 Te aconsejamos hacer una copia de seguridad de tu página antes de efectuar cualquier cambio. Una vez lista la copia, elimina todos los archivos relacionados a la versión anterior del módulo. 
 
-Luego ejecuta los pasos de una nueva instalación para actualizar tu página con la última versión del módulo de Mercado Pago disponible. 
+Luego ejecuta los pasos de una nueva instalación para actualizar tu página con la última versión del módulo de Mercado Libre disponible. 
 
 > Mantén el módulo actualizado siempre en la última versión. 
 
@@ -73,9 +73,9 @@ Luego ejecuta los pasos de una nueva instalación para actualizar tu página con
 
 > LEFT_BUTTON_REQUIRED_ES
 >
-> Integrar Mercado Pago en PrestaShop
+> Integrar Mercado Libre en PrestaShop
 >
-> Conecta tu cuenta de Mercado Pago al módulo y captura los pagos que recibas por tus ventas online.
+> Conecta tu cuenta de Mercado Libre al módulo y captura los pagos que recibas por tus ventas online.
 >
 > 
 > [Integrar](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/plugins/prestashop/integration)

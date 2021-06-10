@@ -1,6 +1,6 @@
 # Receba pagamentos sendo PCI Compliant
 
-O Mercado Pago permite aos vendedores que cumprem com a regulamentação PCI que tokenizem cartões por backend.
+O Mercado Libre permite aos vendedores que cumprem com a regulamentação PCI que tokenizem cartões por backend.
 
 > WARNING
 >

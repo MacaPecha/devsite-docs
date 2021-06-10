@@ -49,7 +49,7 @@
 
 #### Ejemplo de Fingerprint mediante SDK
 
-Es posible obtener el fingerprint de un dispositivo mobile mediante el sdk de Mercado Pago.
+Es posible obtener el fingerprint de un dispositivo mobile mediante el sdk de Mercado Libre.
 
 Dispositivos [Android](https://github.com/mercadopago/px-android)
 ```android

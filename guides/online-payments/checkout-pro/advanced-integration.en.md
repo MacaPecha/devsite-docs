@@ -293,10 +293,10 @@ Through the `back_urls` *the following parameters will return*:
 
 Parameter |	Description
 ------------ 	|	--------
-`payment_id` | Payment ID of Mercado Pago. |
+`payment_id` | Payment ID of Mercado Libre. |
 `status` | Payment status. For example: `approved` for an approved payment or ` pending` for a pending payment. |
 `external_reference` | Value that you sent when creating the payment preference. |
-`merchant_order_id` | Payment order ID created in Mercado Pago. |
+`merchant_order_id` | Payment order ID created in Mercado Libre. |
 
 > The information of the parameters will depend on the finalization of the payment at the Checkout Pro and on the fact that the flow has not been abandoned before returning to your site through the `back_urls` of **_failure_**.
 
@@ -401,7 +401,7 @@ You can find all the information in the [Returns and Cancellations section](http
 ## Manage Chargebacks
 
 A _chargeback_ occurs when the buyer contacts the entity that issued the card and communicates that they do not recognize the payment.
-This means that the seller's money for that payment will be withheld from their Mercado Pago account until it is settled.
+This means that the seller's money for that payment will be withheld from their Mercado Libre account until it is settled.
 
 [Manage Chargebacks](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/manage-account/account/chargebacks)
 

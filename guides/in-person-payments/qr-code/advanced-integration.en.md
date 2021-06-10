@@ -34,11 +34,11 @@ Obtain more information in our [API Reference](https://www.mercadopago[FAKER][UR
 
 ## Generate reports of your sales
 
-Integrate [Mercado Pago reports](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/manage-account/reports/general-considerations/reconciliation-reports) with your system to make sales reconcilitation and know about your account movements.
+Integrate [Mercado Libre reports](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/manage-account/reports/general-considerations/reconciliation-reports) with your system to make sales reconcilitation and know about your account movements.
 
 ## Test and validate your integration 
 
-We detailed all necessary cases you should try to make sure your system is succesfully integrated with Mercado Pago. 
+We detailed all necessary cases you should try to make sure your system is succesfully integrated with Mercado Libre. 
 Find all this information in the [Tests section](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/in-person-payments/qr-code/integration-test).
 
 ---

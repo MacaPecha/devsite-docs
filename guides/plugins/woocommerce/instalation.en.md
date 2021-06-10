@@ -1,7 +1,7 @@
-# Install Mercado Pago on WooCommerce
+# Install Mercado Libre on WooCommerce
 <br/>
 
-Install the Mercado Pago module in WooCommerce automatically, from your WordPress panel, or manually, by importing a .zip file into your directory via FTP. 
+Install the Mercado Libre module in WooCommerce automatically, from your WordPress panel, or manually, by importing a .zip file into your directory via FTP. 
 
 > The installation of our module does not affect the speed of your store.
 
@@ -34,7 +34,7 @@ Automatically, from the ‘Plugins’ section of WordPress
 
 Follow these steps for installation:
 
-1) Go to **Add new** and search for “WooCommerce Mercado Pago” among the WordPress modules offer.
+1) Go to **Add new** and search for “WooCommerce Mercado Libre” among the WordPress modules offer.
 
 2) Click Install and then look for it in the "Installed Plugins" section. 
 
@@ -52,13 +52,13 @@ Manually, follow these steps for installation:
 >
 > [Download](https://github.com/mercadopago/cart-woocommerce/archive/master.zip)
 >
-> [Mercado Pago module for WooCommerce ](https://github.com/mercadopago/cart-woocommerce/archive/master.zip)
+> [Mercado Libre module for WooCommerce ](https://github.com/mercadopago/cart-woocommerce/archive/master.zip)
 
 2) Unzip the downloaded folder and change the name to ‘woocommerce-mercadopago’.
 
 3) Connect to your web server and copy the file ‘woocommerce-mercadopago’ into your WordPress directory, in the ‘Plugins’ folder.
 
-Done! The Mercado Pago module will be installed in your online store.
+Done! The Mercado Libre module will be installed in your online store.
 
 Check that everything went well from your WordPress desktop. You will see the module among your *Installed Plugins*. Activate it to proceed to the integration of your account and the configuration steps.
 
@@ -74,7 +74,7 @@ When you activate the plugin, WordPress will take you to the WooCommerce *Settin
 
 We advise you to make a **backup copy of your store** before making any changes. Once the copy is ready, delete all the files related to the previous version of the module.
 
-Then execute the steps of a **new installation** to update your page with the latest available version of the Mercado Pago module.
+Then execute the steps of a **new installation** to update your page with the latest available version of the Mercado Libre module.
 
 > Keep the module always updated in the latest version.
 
@@ -84,9 +84,9 @@ Then execute the steps of a **new installation** to update your page with the la
 
 > LEFT_BUTTON_REQUIRED_ES
 >
-> Integrate Mercado Pago into WooCommerce
+> Integrate Mercado Libre into WooCommerce
 >
-> Connect your Mercado Pago account to the module and capture the payments you receive for your online sales.
+> Connect your Mercado Libre account to the module and capture the payments you receive for your online sales.
 >
 >
 > [Integrate](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/plugins/woocommerce/integration)

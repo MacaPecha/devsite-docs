@@ -8,8 +8,8 @@ We know some concepts may be new for you. Before starting, here's a cheatsheet.
 | --- | --- |
 | Credentials | Your credentials are the keys we give you so you can set up your integrations. To find them, go to your [credentials]([FAKER][CREDENTIALS][URL]) and select the productive ones. |
 | `ACCESS_TOKEN` | The private app key to generate payments. You'll find it on [credentials]([FAKER][CREDENTIALS][URL]) section. You must use it to identify yourself in your integrations. Always use the Production Mode credentials. |
-| `USER_ID` | Buyer's user ID in Mercado Pago, consist on the last digits on the `access_token`, after the last dash. Also known as the `COLLECTOR_ID`. |
-| `SPONSOR_ID` | Supplier's ID on the integrated system with Mercado Pago. Consist on the last digits of the `access_token`, after the last dash mark. `sponsor_ID` must be different than `USER_ID`. |
+| `USER_ID` | Buyer's user ID in Mercado Libre, consist on the last digits on the `access_token`, after the last dash. Also known as the `COLLECTOR_ID`. |
+| `SPONSOR_ID` | Supplier's ID on the integrated system with Mercado Libre. Consist on the last digits of the `access_token`, after the last dash mark. `sponsor_ID` must be different than `USER_ID`. |
 | Store | A **physical shop** in which your clients can get products and services. You can have multiple stores on one account. |
 | Point of sale (POS) | A **place to perform a transaction** on a store or physical shop. Each POS will be linked with a unique QR code. |
 | Order | A purchase made by your client. Contains a list of product with an associated cost. |
@@ -22,7 +22,7 @@ Keep these aspects in mind before you start:
 
 ### 1. Access to an account
 
-To start the integration, you must **have a Mercado Pago or Mercado Libre account**. 
+To start the integration, you must **have a Mercado Libre or Mercado Libre account**. 
 
 You can [Sign in](https://www.mercadolibre.com/jms/[FAKER][GLOBALIZE][SITE_ID]/lgz/login?platform_id=mp&go=https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/in-person-payments/qr-code/pre-requisites) with an existing account or [Create a new account](https://www.mercadopago[FAKER][URL][DOMAIN]).
 
@@ -81,7 +81,7 @@ Response:
 > IMPORTANT
 > 
 > * You can generate up to 10 test accounts at the same time. Because of that, we recommend to save email and password for each one. 
-> * Test users expire after 60 days of no activity on Mercado Pago.
+> * Test users expire after 60 days of no activity on Mercado Libre.
 > * To make test payments we recommend to use low amounts. 
 > * Both buyer and seller should test users. 
 > * Use test cards, because is not possible to withdraw money. 

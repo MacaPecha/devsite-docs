@@ -1,13 +1,13 @@
 ---
   indexable: false
 ---
-# VirtueMart - Mercado Pago Module (v3.0.x)
+# VirtueMart - Mercado Libre Module (v3.0.x)
 
 > WARNING
 >
 > We only support official plugins
 >
-> We do not provide technical support of Mercado Pago for this documentation. If you wish to make any changes, you may [make modifications to our open code on GitHub](https://github.com/mercadopago/devsite-docs/blob/development/guides/plugins/unofficial/virtue-mart.en.md).
+> We do not provide technical support of Mercado Libre for this documentation. If you wish to make any changes, you may [make modifications to our open code on GitHub](https://github.com/mercadopago/devsite-docs/blob/development/guides/plugins/unofficial/virtue-mart.en.md).
 
 ## Requirements
 
@@ -50,7 +50,7 @@ During the sandbox mode tests, you can operate over HTTP, but for homologation y
 
 ## Features
 
-The module of Mercado Pago to VirtueMart is integrated with the features and payment solutions:
+The module of Mercado Libre to VirtueMart is integrated with the features and payment solutions:
 
 * [Basic Checkout (Redirect, Iframe ou Lightbox)](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/solutions/payments/basic-checkout/receive-payments)
   * Split payments (Two cards)
@@ -72,9 +72,9 @@ The module of Mercado Pago to VirtueMart is integrated with the features and pay
 1. Go to **VirtueMart > Payment Methods** and click **New**
 
 2. Complete the fields:
-  - **Payment Name** set **Mercado Pago**
+  - **Payment Name** set **Mercado Libre**
   - **Sef Alias** set **mercadopago**
-  - **Payment Method** select **Mercado Pago**
+  - **Payment Method** select **Mercado Libre**
   - **Published** set to **true**
 3. Click in **Save**
 
@@ -89,13 +89,13 @@ The module of Mercado Pago to VirtueMart is integrated with the features and pay
 
 ![Settings checkout](/images/virtuemart/virtuemart-checkout_settings.png) <br />
 
-  **Type Checkout**: How your customers will interact with Mercado Pago to pay their orders;<br />
+  **Type Checkout**: How your customers will interact with Mercado Libre to pay their orders;<br />
   **Auto Redirect**: If set, the platform will return to your store when the payment is approved.<br />
   **Maximum Number of Installments**: The maximum installments allowed for your customers;<br />
-  **Exclude Payment Methods**: Select the payment methods that you want to not work with Mercado Pago.<br />
+  **Exclude Payment Methods**: Select the payment methods that you want to not work with Mercado Libre.<br />
   **iFrame Width**: The width, in pixels, of the iFrame (used only with iFrame Integration Method);<br />
   **iFrame Height**: The height, in pixels, of the iFrame (used only with iFrame Integration Method);<br />
-  **Mercado Pago Sandbox**: Test your payments in Mercado Pago sandbox environment;<br/>
+  **Mercado Libre Sandbox**: Test your payments in Mercado Libre sandbox environment;<br/>
 
 6. IPN settings. <br/>
 
@@ -123,16 +123,16 @@ The module of Mercado Pago to VirtueMart is integrated with the features and pay
   1. Go to **VirtueMart > Payment Methods** and click **New**
 
   2. Complete the fields:
-  - **Payment Name** set **Credit Card - Mercado Pago**
+  - **Payment Name** set **Credit Card - Mercado Libre**
   - **Sef Alias** set **mercadopago**
-  - **Payment Method** select **Mercado Pago**
+  - **Payment Method** select **Mercado Libre**
   - **Published** set to **true**
 
   3. Click in **Save**
 
   4. Go to **Configuration** tab
 
-  5. On **Mercado Pago Product** select **Credit Card - Checkout Custom**
+  5. On **Mercado Libre Product** select **Credit Card - Checkout Custom**
 
   6. Now configure your credentials. To make it, fill your **access_token** in Credentials Configuration section.
 
@@ -165,16 +165,16 @@ The module of Mercado Pago to VirtueMart is integrated with the features and pay
   1. Go to **VirtueMart > Payment Methods** and click **New**
 
   2. Complete the fields:
-  - **Payment Name** set **Ticket - Mercado Pago**
+  - **Payment Name** set **Ticket - Mercado Libre**
   - **Sef Alias** set **mercadopago**
-  - **Payment Method** select **Mercado Pago**
+  - **Payment Method** select **Mercado Libre**
   - **Published** set to **true**
 
   3. Click in **Save**
 
   4. Go to **Configuration** tab
 
-  5. On **Mercado Pago Product** select **Ticket - Checkout Custom**
+  5. On **Mercado Libre Product** select **Ticket - Checkout Custom**
 
   6. Now configure your credentials. To make it, fill your **public_key** and **access_token** in Credentials Configuration section.
 
@@ -200,7 +200,7 @@ The module of Mercado Pago to VirtueMart is integrated with the features and pay
 
 If you have any questions, problems or errors we have a support channel. Write us at our [support form](/support) with the following information:
 
-* Email of your account Mercado Pago.
+* Email of your account Mercado Libre.
 * Details about your question, problem or error.
 * Files that can help in understanding (Print-Screen, Video, Log Files, etc.).
 * Version of VirtueMart and Joomla.

@@ -1,6 +1,6 @@
 # O que são os relatórios?
 
-Os relatórios do Mercado Pago podem ser baixados em formato .xlsx ou .csv e servem para que você veja as movimentações da sua conta e possa conciliar suas vendas e outras operações com seus sistemas de gestão internos.
+Os relatórios do Mercado Libre podem ser baixados em formato .xlsx ou .csv e servem para que você veja as movimentações da sua conta e possa conciliar suas vendas e outras operações com seus sistemas de gestão internos.
 
 Com estes relatórios, procuramos cobrir as diferentes necessidades dos nossos usuários:
 

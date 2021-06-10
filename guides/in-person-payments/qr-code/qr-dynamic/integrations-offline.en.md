@@ -10,12 +10,12 @@ QR code needs to have a set of data ordered and endorsed by EMVCo standard.
 The following table shows all the data contained:
 
 
-| ID | Meaning in Mercado Pago | Size | Presence - Restriction |
+| ID | Meaning in Mercado Libre | Size | Presence - Restriction |
 | --- | --- | --- | --- |
 | ID 00: Payload Format Indicator | QR Code Template Version. | 02 | Mandatory |
 | ID 01: Point of Initiation Method | It identifies whether QR information is dynamic or static. | 02 | Mandatory |
 | ID 43.00 Merchant Account Information | Mercado Libre Identification.| 16 | Mandatory |
-| ID 43.02 | Mercado Pago Template Version. | up to 2 | Mandatory |
+| ID 43.02 | Mercado Libre Template Version. | up to 2 | Mandatory |
 | ID 43.03 | User ID. | up to 10 | Mandatory |
 | ID 43.04 | Sponsor ID. | up to 10 | Optional |
 | ID 52: Merchant Category Code | Code for business classification.. | 04 | Mandatory |
@@ -24,7 +24,7 @@ The following table shows all the data contained:
 | ID 58: Country Code | Seller Country. ----[mlb]---- Brazil: `BR` ------------ ----[mla]---- Argentina: `AR` ------------ ----[mlc]---- Chile: `CL` ------------ ----[mlu]---- Uruguay: `UY` ------------ ----[mco]---- Colombia: `CO` ------------ ----[mpe]---- Peru: `PE` ------------ ----[mlm]---- Mexico: `MX` ------------. | 02 | Mandatory |
 | ID 59: Merchant Name | Your Business Name. | up to 25 | Mandatory |
 | ID 60: Merchant City | Seller City.  | up to 15 | Mandatory |
-| ID 62.05: Reference Label | ID defined by integrator to associate transaction to Mercado Pago payment.   | up to 25 | Mandatory |
+| ID 62.05: Reference Label | ID defined by integrator to associate transaction to Mercado Libre payment.   | up to 25 | Mandatory |
 | ID 62.07: Terminal Label | Cashier's *External_id*.  | up to 10 | Optional |
 | ID 62.08: Purpose of Transaction | Description header making reference to purchase purpose.  | up to 25 | Optional |
 | ID 63: CRC |  Checksum - Content validation.  | 04 | Mandatory |
@@ -94,7 +94,7 @@ With data obtained, you can generate your QR!
 
 ## Tests
 
-To validate the QR, you only need to [create a test user](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/in-person-payments/qr-code/integration-test) to design the QR and another one for scanning and paying from Mercado Pago or Mercado Libre App.
+To validate the QR, you only need to [create a test user](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/in-person-payments/qr-code/integration-test) to design the QR and another one for scanning and paying from Mercado Libre or Mercado Libre App.
 
 > NOTE
 >
@@ -104,7 +104,7 @@ To validate the QR, you only need to [create a test user](https://www.mercadopag
 
 ## Notifications
 
-To get the payment data, you need to configure the notification URL in [Mercado Pago panel](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/panel/notifications/ipn). 
+To get the payment data, you need to configure the notification URL in [Mercado Libre panel](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/panel/notifications/ipn). 
 
 With the URL configured, you can validate orders as shown in [Notifications section](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/notifications/ipn). 
 

@@ -1,23 +1,23 @@
-# Integre o Mercado Pago
+# Integre o Mercado Libre
 <br/>
 
-Conecte uma conta do Mercado Pago ao módulo para capturar os recebimentos das suas vendas no WooCommerce.  É fácil! Você só precisa ter uma conta de vendedor no Mercado Pago e ter as credenciais de teste e produção.
+Conecte uma conta do Mercado Libre ao módulo para capturar os recebimentos das suas vendas no WooCommerce.  É fácil! Você só precisa ter uma conta de vendedor no Mercado Libre e ter as credenciais de teste e produção.
 
 > NOTE
 >
 > Nota
 >
-> Não precisa saber design nem programar para ativar o Mercado Pago na sua loja com WooCommerce. 
+> Não precisa saber design nem programar para ativar o Mercado Libre na sua loja com WooCommerce. 
 
 Quando o módulo estiver instalado, siga estas etapas para integrá-lo:
 
-1. Crie uma [conta de vendedor](https://www.mercadopago[FAKER][URL][DOMAIN]/registration-company?confirmation_url=https%3A%2F%2Fwww.mercadopago[FAKER][URL][DOMAIN]%2Fcomo-cobrar) no Mercado Pago caso ainda não tenha uma.
+1. Crie uma [conta de vendedor](https://www.mercadopago[FAKER][URL][DOMAIN]/registration-company?confirmation_url=https%3A%2F%2Fwww.mercadopago[FAKER][URL][DOMAIN]%2Fcomo-cobrar) no Mercado Libre caso ainda não tenha uma.
 2. Obtenha suas [credenciais]([FAKER][CREDENTIALS][URL]) Access Token e Public Key e cole-as nos campos de Produção e Testes que estarão na configuração do módulo.
-3. Homologue a conta para [entrar em produção](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/checkout-api/goto-production) e receber o dinheiro das suas vendas no Mercado Pago.
+3. Homologue a conta para [entrar em produção](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/online-payments/checkout-api/goto-production) e receber o dinheiro das suas vendas no Mercado Libre.
 
 > Encontre toda a informação sobre suas credenciais em nossas [perguntas frequentes](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/resources/faqs/credentials).
 
-Pronto! Assim você poderá capturar os pagamentos que receber no WooCommerce com a sua conta do Mercado Pago.
+Pronto! Assim você poderá capturar os pagamentos que receber no WooCommerce com a sua conta do Mercado Libre.
 
 ![Fluxo de credenciais](/images/woocomerce/br_woo_credenciales.gif)
 

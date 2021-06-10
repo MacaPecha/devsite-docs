@@ -1,11 +1,11 @@
-# Mercado Pago no WooCommerce
+# Mercado Libre no WooCommerce
 <br/>
 
-O módulo do Mercado Pago para o WooCommerce permite expandir as funcionalidades da sua loja virtual e oferecer uma experiência de pagamento única aos seus clientes.
+O módulo do Mercado Libre para o WooCommerce permite expandir as funcionalidades da sua loja virtual e oferecer uma experiência de pagamento única aos seus clientes.
 
 Se você já usa o WooCommerce para criar sites de e-commerce no WordPress, um dos gerenciadores de conteúdo mais populares do mundo, pode contar com nosso módulo para adicionar um processador de pagamento confiável ao seu site ou de seus clientes.
 
-## O que posso fazer com o Mercado Pago no WooCommerce
+## O que posso fazer com o Mercado Libre no WooCommerce
 
 Instale nosso gateway de pagamento no WooCommerce e leve suas vendas para outro nível com a melhor experiência de compra:
 
@@ -13,13 +13,13 @@ Instale nosso gateway de pagamento no WooCommerce e leve suas vendas para outro 
 | --- | --- |
 | Financiamento | Venda parcelado e ofereça as promoções que deseja. |
 | Liberação de dinheiro | Instantaneamente ou com as taxas e termos que melhor se adequam ao negócio. |
-| Meios de pagamento | Aceite pagamentos com cartão de crédito, boleto, ----[mlb]---- Pix,------------ pagamento em lotérica e saldo na conta do Mercado Pago. |
+| Meios de pagamento | Aceite pagamentos com cartão de crédito, boleto, ----[mlb]---- Pix,------------ pagamento em lotérica e saldo na conta do Mercado Libre. |
 | Tipos de checkout | Checkout Pro, Checkout personalizado. |
-| Pague como convidado | Os usuários não precisam estar registrados no Mercado Pago para pagar no WooCommerce. |
+| Pague como convidado | Os usuários não precisam estar registrados no Mercado Libre para pagar no WooCommerce. |
 | Devolução de pagamentos | Devolva pagamentos pela plataforma. |
 | Cancelamento de pagamentos | Cancele pagamentos pendentes pela plataforma. |
 | Modo binário | Aprovar ou rejeitar pagamentos instantaneamente. |
-| Conversão de moeda | Não há mais problemas de compatibilidade. Faça a conversão da moeda que você usa no WooCommerce para a moeda da sua conta do Mercado Pago.|
+| Conversão de moeda | Não há mais problemas de compatibilidade. Faça a conversão da moeda que você usa no WooCommerce para a moeda da sua conta do Mercado Libre.|
 
 >**Você é desenvolvedor?**
 >Este manual também foi pensado para que você faça a instalação, integração e configuração mais rapidamente. Você não vai precisar escrever uma linha de códigos sequer para instalá-lo nas lojas dos seus clientes. 
@@ -38,9 +38,9 @@ Com estas opções de pagamento nós cobrimos as necessidades de cada negócio. 
 
 | Características | Checkout Pro | Checkout personalizado |
 | --- | --- | --- |
-| Meios de pagamento | Pagamento com cartões, ----[mlb]---- Pix,------------ em dinheiro e com saldo na conta do Mercado Pago. | Pagamento com cartões de crédito,  ----[mlb]---- Pix,------------ boleto e pagamentos presenciais. |
-| Experiência de pagamento | Seus clientes pagam na página do Mercado Pago com um formato redirect (fora da sua loja) ou modal (dentro da sua loja). | Seus clientes pagam sem sair da sua loja virtual. |
-| Usuários convidados | Seus clientes podem pagar tendo ou não uma conta no Mercado Pago. | Seus clientes pagam como convidados, sem ter uma conta no Mercado Pago.|
+| Meios de pagamento | Pagamento com cartões, ----[mlb]---- Pix,------------ em dinheiro e com saldo na conta do Mercado Libre. | Pagamento com cartões de crédito,  ----[mlb]---- Pix,------------ boleto e pagamentos presenciais. |
+| Experiência de pagamento | Seus clientes pagam na página do Mercado Libre com um formato redirect (fora da sua loja) ou modal (dentro da sua loja). | Seus clientes pagam sem sair da sua loja virtual. |
+| Usuários convidados | Seus clientes podem pagar tendo ou não uma conta no Mercado Libre. | Seus clientes pagam como convidados, sem ter uma conta no Mercado Libre.|
 
 > NOTE
 >
@@ -52,9 +52,9 @@ Com estas opções de pagamento nós cobrimos as necessidades de cada negócio. 
 
 > LEFT_BUTTON_REQUIRED_ES
 >
-> Instalar Mercado Pago no WooCommerce
+> Instalar Mercado Libre no WooCommerce
 >
-> Siga estas etapas para instalar o módulo do Mercado Pago na sua loja virtual.
+> Siga estas etapas para instalar o módulo do Mercado Libre na sua loja virtual.
 >
 > 
 > [Instalar](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/plugins/woocommerce/instalation)

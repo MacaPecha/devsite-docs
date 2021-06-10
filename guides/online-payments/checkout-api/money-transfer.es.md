@@ -6,11 +6,11 @@
 
 # Envío de dinero
 
-Desde Mercado Pago, proveemos los servicios necesarios para poder realizar envíos de dinero de manera inmediata y sin costo desde tu cuenta de Mercado Pago a otra cuenta de Mercado Pago.
+Desde Mercado Libre, proveemos los servicios necesarios para poder realizar envíos de dinero de manera inmediata y sin costo desde tu cuenta de Mercado Libre a otra cuenta de Mercado Libre.
 
 ## Crea una aplicación
 
-Para crear una aplicación tienes que ingresar con tu cuenta de Mercado Pago a: [https://applications.mercadopago.com/](https://applications.mercadopago.com/). Para poder operar con la API de envío de dinero  la aplicación deberá ser habilitada para tal fin. Estos permisos son asignados desde Mercado Pago, por lo que deberás enviarle a tu asesor comercial el APP ID obtenido para poder realizar la configuración correspondiente.
+Para crear una aplicación tienes que ingresar con tu cuenta de Mercado Libre a: [https://applications.mercadopago.com/](https://applications.mercadopago.com/). Para poder operar con la API de envío de dinero  la aplicación deberá ser habilitada para tal fin. Estos permisos son asignados desde Mercado Libre, por lo que deberás enviarle a tu asesor comercial el APP ID obtenido para poder realizar la configuración correspondiente.
 
 > WARNING
 >
@@ -65,12 +65,12 @@ En caso de que se mande el "concept_id" = "payroll" o "supply" sin que el APP ID
 
 ## Integración por API
 
-Esta solución consiste en la utilización de las API's de Mercado Pago para llevar a cabo la correspondiente creación del pago. Toda la experiencia es manejada por el integrador.
+Esta solución consiste en la utilización de las API's de Mercado Libre para llevar a cabo la correspondiente creación del pago. Toda la experiencia es manejada por el integrador.
 
 Para el envío de dinero se puede especificar el receptor del pago de dos maneras:
 
-- Utilizando el email de asociado a la cuenta de Mercado Pago.
-- Utilizando el ID de la cuenta de Mercado Pago.
+- Utilizando el email de asociado a la cuenta de Mercado Libre.
+- Utilizando el ID de la cuenta de Mercado Libre.
 
 A continuación se puede ver un ejemplo de la creación del pago utilizando el email:
 

@@ -1,11 +1,11 @@
-# Mercado Pago on WooCommerce
+# Mercado Libre on WooCommerce
 <br/>
 
-The Mercado Pago module for WooCommerce allows you to expand the functionalities of your online store and offer a unique payment experience for your customers.
+The Mercado Libre module for WooCommerce allows you to expand the functionalities of your online store and offer a unique payment experience for your customers.
 
 If you already use WooCommerce to create e-commerce sites in WordPress, one of the most popular content managers worldwide, you can count on our module to add a trusted payment processor on your website or that of your clients.
 
-## What can I do with Mercado Pago on WooCommerce
+## What can I do with Mercado Libre on WooCommerce
 
 Install the payment processor in WooCommerce and take your sales to another level with the best shopping experience:
 
@@ -13,13 +13,13 @@ Install the payment processor in WooCommerce and take your sales to another leve
 | --- | --- |
 | Installments | Sell in installments and offer the promotions you want. |
 | Money release | Instantly or with the rates and terms that best suit the business. |
-| Payment methods | Accept payments by credit and debit card, ----[mlb]---- Pix,------------ cash and payments with Mercado Pago account money. |
+| Payment methods | Accept payments by credit and debit card, ----[mlb]---- Pix,------------ cash and payments with Mercado Libre account money. |
 | Checkout types | Checkout Pro, Custom Checkout |
-| Payment as a guest | Users don’t need to be registered in Mercado Pago in order to pay in WooCommerce. |
+| Payment as a guest | Users don’t need to be registered in Mercado Libre in order to pay in WooCommerce. |
 | Payment refunds | Refund payments directly from the platform. |
 | Payment cancellations | Cancel the pending payments directly from the platform |
 | Binary mode | Approve or reject payments instantly and automatically. |
-| Currency conversion | No more compatibility issues. Convert the currency you use in WooCommerce to the currency of your Mercado Pago account. |
+| Currency conversion | No more compatibility issues. Convert the currency you use in WooCommerce to the currency of your Mercado Libre account. |
 
 >**Are you a developer?**
 >This guide is also designed to speed up the installation, integration and configuration of our module in the most recognized e-commerce platforms worldwide.
@@ -38,9 +38,9 @@ With these payment options we cover the needs of each business. Review the featu
 
 | Characteristics | Checkout Pro | Custom Checkout |
 | --- | --- | --- |
-| Payment methods | Payments with cards, ----[mlb]---- Pix,------------ cash and money in Mercado Pago account. | Payments with debit and credit cards, ----[mlb]---- Pix,------------ boleto or in-person payments. |
-| Payment experience | Your customers pay from the Mercado Pago page with a redirect (outside your store) or modal (inside your store) format. | Your customers pay without leaving your online store. |
-| Guest users | Your customers can pay with or without an account in Mercado Pago. | Your customers pay as guests, without a Mercado Pago account. |
+| Payment methods | Payments with cards, ----[mlb]---- Pix,------------ cash and money in Mercado Libre account. | Payments with debit and credit cards, ----[mlb]---- Pix,------------ boleto or in-person payments. |
+| Payment experience | Your customers pay from the Mercado Libre page with a redirect (outside your store) or modal (inside your store) format. | Your customers pay without leaving your online store. |
+| Guest users | Your customers can pay with or without an account in Mercado Libre. | Your customers pay as guests, without a Mercado Libre account. |
 
 > NOTE
 >
@@ -52,9 +52,9 @@ With these payment options we cover the needs of each business. Review the featu
 
 > LEFT_BUTTON_REQUIRED_ES
 >
-> Install Mercado Pago in WooCommerce
+> Install Mercado Libre in WooCommerce
 >
-> Follow these steps to install the Mercado Pago module in your online store.
+> Follow these steps to install the Mercado Libre module in your online store.
 >
 > 
 > [Install](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/plugins/woocommerce/instalation)

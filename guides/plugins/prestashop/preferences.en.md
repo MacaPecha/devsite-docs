@@ -19,7 +19,7 @@ Enter the name of the business to appear on your customers' invoice and make it 
 >
 > Important
 >
-> Do not forget to enter your `integrator_id` as a certified Mercado Pago [Partner](https://partners.mercadopago.com/). If you don't have it, you can [request it now](https://docs.google.com/forms/d/1EeO__nZuqHf4cb81NpwtDSybPT7COluSZVrXR4A8F7Q/viewform?edit_requested=true).
+> Do not forget to enter your `integrator_id` as a certified Mercado Libre [Partner](https://partners.mercadopago.com/). If you don't have it, you can [request it now](https://docs.google.com/forms/d/1EeO__nZuqHf4cb81NpwtDSybPT7COluSZVrXR4A8F7Q/viewform?edit_requested=true).
 
 <span></span>
 
@@ -75,8 +75,8 @@ Choose what shopping experience your customers will have when paying:
 
 | Payment Experience | Characteristics |
 | --- | --- |
-| Redirect | Your customers will be redirected to a Mercado Pago page with the payment form to complete the purchase. |
-| Modal **(NEW)** | Your customers will access the Mercado Pago payment form without leaving your store. If you deactivate it, they will be redirected to another page. |
+| Redirect | Your customers will be redirected to a Mercado Libre page with the payment form to complete the purchase. |
+| Modal **(NEW)** | Your customers will access the Mercado Libre payment form without leaving your store. If you deactivate it, they will be redirected to another page. |
 
 > NOTE
 >
@@ -88,7 +88,7 @@ Choose what shopping experience your customers will have when paying:
 
 | Configuration| Description |
 | --- | --- |
-| Discount for paying with Mercado Pago. | Offer a special discount to encourage your customers to make the purchase. |
+| Discount for paying with Mercado Libre. | Offer a special discount to encourage your customers to make the purchase. |
 
 ### Last step
 
@@ -96,7 +96,7 @@ Choose what shopping experience your customers will have when paying:
 >
 > Test and receive payments
 >
-> Test the module and verify that everything works well to start receiving money from your sales in Mercado Pago.
+> Test the module and verify that everything works well to start receiving money from your sales in Mercado Libre.
 >
 >
 > [Recibir pagos](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/plugins/prestashop/receive-payments)

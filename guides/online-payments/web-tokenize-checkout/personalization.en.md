@@ -34,7 +34,7 @@ Use the `render` function to display a <b>payment button that allows the opening
 | Parameter | Type | Description |
 | --- | --- | --- |
 |`container` |string| CSS Selector (identifier) for the element in which you want the payment button to be displayed. |
-| `type` (optional) | string | Allows you to define the button type. Currently only the 'wallet' value is accepted, which shows a payment button with Mercado Pago branding. **Default value**: basic payment button. |
+| `type` (optional) | string | Allows you to define the button type. Currently only the 'wallet' value is accepted, which shows a payment button with Mercado Libre branding. **Default value**: basic payment button. |
 | `label` (optional) | string | Value for the button's text. **Default value**: “Pay” |
 
 You can use this method in two different ways: 
@@ -94,7 +94,7 @@ button.mercadopago-button {
 }
 ```
 
-![Payment button Mercado Pago modified CSS](/images/paybutton-modified-css.png)
+![Payment button Mercado Libre modified CSS](/images/paybutton-modified-css.png)
 
 ### Opening the Web Tokenize Checkout automatically
 Add the `autoOpen` parameter to your checkout initialization options to **automatically display the Web Tokenize Checkout**, without the need of any interactions with buttons or other elements for its opening.
@@ -136,13 +136,13 @@ Add the `theme` attribute to your initialization options as shown below to custo
 
 ----[mla, mlc, mco, mpe, mlm]----
 
-![Standard status header Mercado Pago](/images/cow/cow-ui-header.png)
+![Standard status header Mercado Libre](/images/cow/cow-ui-header.png)
 
 ------------
 
 ----[mlb]----
 
-![Standard status header Mercado Pago](/images/cow/cow-ui-header__pt.png)
+![Standard status header Mercado Libre](/images/cow/cow-ui-header__pt.png)
 
 ------------
 
@@ -160,11 +160,11 @@ theme: {
 
 ----[mla, mlc, mco, mpe, mlm]----
 
-![Header customization Mercado Pago](/images/cow/cow-ui-header--custom.png)
+![Header customization Mercado Libre](/images/cow/cow-ui-header--custom.png)
 
 ------------
 
-![Header customization Mercado Pago](/images/cow/cow-ui-header--custom__pt.png)
+![Header customization Mercado Libre](/images/cow/cow-ui-header--custom__pt.png)
 
 ----[mlb]----
 ------------
@@ -227,7 +227,7 @@ theme: {
 }
 ```
 
-![Font color in light element Mercado Pago](/images/cow/cow-ui-fontcolor__light.png)
+![Font color in light element Mercado Libre](/images/cow/cow-ui-fontcolor__light.png)
 
 For a *dark* element color, the text color will be *white* or `# fff`. For example:
 
@@ -237,7 +237,7 @@ theme: {
 }
 ```
 
-![Font color in dark element Mercado Pago](/images/cow/cow-ui-fontcolor__dark.png)
+![Font color in dark element Mercado Libre](/images/cow/cow-ui-fontcolor__dark.png)
 
 ## Purchase detail
 

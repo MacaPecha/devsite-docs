@@ -1138,11 +1138,11 @@ EXTERNAL_REFERENCE;SOURCE_ID;USER_ID;PAYMENT_METHOD_TYPE;PAYMENT_METHOD;SITE;TRA
 
 > LEFT_BUTTON_RECOMMENDED_PT
 >
-> Geração a partir do Mercado Pago
+> Geração a partir do Mercado Libre
 >
-> Baixe seus relatórios de forma manual ou programada na sua conta do Mercado Pago.     
+> Baixe seus relatórios de forma manual ou programada na sua conta do Mercado Libre.     
 >
-> [Geração a partir do Mercado Pago](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/manage-account/reports/account-money/panel)
+> [Geração a partir do Mercado Libre](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/pt/guides/manage-account/reports/account-money/panel)
 
 > RIGHT_BUTTON_RECOMMENDED_PT
 >

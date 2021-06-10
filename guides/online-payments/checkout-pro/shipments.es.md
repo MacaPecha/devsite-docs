@@ -570,7 +570,7 @@ Una vez que se reciba una venta, solo hay que ----[mla, mlm]---- [preparar el pa
 >
 > Gestión de etiquetas
 >
-> Cuando se efectúe una venta, te va a llegar un e-mail con un botón para imprimir la etiqueta que tendrás que pegar en el paquete. También podrás ver los [pagos pendientes de impresión](https://www.mercadopago[FAKER][URL][DOMAIN]/activities?type=facet_type_collection&status=facet_shipping_me_all) desde la cuenta de Mercado Pago que recibió la venta.
+> Cuando se efectúe una venta, te va a llegar un e-mail con un botón para imprimir la etiqueta que tendrás que pegar en el paquete. También podrás ver los [pagos pendientes de impresión](https://www.mercadopago[FAKER][URL][DOMAIN]/activities?type=facet_type_collection&status=facet_shipping_me_all) desde la cuenta de Mercado Libre que recibió la venta.
 
 
 ## Ejemplo de una preferencia completa

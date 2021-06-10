@@ -6,7 +6,7 @@
 
 # Contacto
 
-## Cómo puedo contactar a un representante de Mercado Pago
+## Cómo puedo contactar a un representante de Mercado Libre
 
 Recordá que para consultas sobre tus pagos o cobros siempre podés consultar nuestro [portal de ayuda.](https://www.mercadopago.com.ar/ayuda)
 
@@ -20,7 +20,7 @@ No te preocupes, contáctanos para que podamos ayudarte a través de nuestro [so
 
 # Contacto
 
-## Cómo puedo contactar a un representante de Mercado Pago
+## Cómo puedo contactar a un representante de Mercado Libre
 
 Recuerda que para consultas sobre tus pagos o cobros siempre puedes consultar nuestro [portal de ayuda.](https://www.mercadopago.com.mx/ayuda)
 

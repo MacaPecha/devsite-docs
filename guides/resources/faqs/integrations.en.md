@@ -7,7 +7,7 @@
 
 # Integrations
 
-## How to integrate to Mercado Pago
+## How to integrate to Mercado Libre
 
 We offer different options so you can build the payment solution that best suits your business.
 
@@ -15,7 +15,7 @@ We have tools that are ready to use, such as SDKs, payment links, modules or plu
 
 ### Checkout Pro
 
-This option allows you to collect through our web form within the safe environment of Mercado Pago in a simple, fast and secure way
+This option allows you to collect through our web form within the safe environment of Mercado Libre in a simple, fast and secure way
 
 - **The best experience guaranteed.** We offer you the best purchase experience from any mobile phone or computer with only one click, and even with the possibility of paying with 2 different cards.
 
@@ -38,9 +38,9 @@ It's the simplified version of the Checkout Pro with a renewed user experience.
 
 - **Don't worry about the design.** We provide you with a form with design and front-end ready for you to use.
 
-- **We take care of your security.** We capture the sensitive data of the cards within the secure environment of Mercado Pago, so that you can be PCI Compliant and that you can customize the entire process free of the complexities of security protocols.
+- **We take care of your security.** We capture the sensitive data of the cards within the secure environment of Mercado Libre, so that you can be PCI Compliant and that you can customize the entire process free of the complexities of security protocols.
 
-- **You will always be up to date.** You can offer your buyers an experience that Mercado Pago keeps in constant improvement.
+- **You will always be up to date.** You can offer your buyers an experience that Mercado Libre keeps in constant improvement.
 
 [Integrate Web Tokenize](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/en/guides/online-payments/web-tokenize-checkout/introduction)
 
@@ -58,7 +58,7 @@ This way of integrating allows you to connect directly with our APIs.
 
 We created a tool so you can offer promotions of installments with no interest and make your business more appealing.
 
-From your Mercado Pago account, in the section Offer interest-free installment, you can setup the number of installments you wish along with your financing cost.
+From your Mercado Libre account, in the section Offer interest-free installment, you can setup the number of installments you wish along with your financing cost.
 
 Your customer pays no interest and you absorb the financing cost, therefore, please consider the [financing costs](https://www.mercadopago.com.ar/ayuda/cuotas-sin-interes_3299) of the installments you want.
 
@@ -74,4 +74,4 @@ A Marketplace is a site or app that allows you to make collections on behalf of 
 >
 > Note
 >
->The Mercado Pago commission will be deducted from the funds received by the seller. First, the Mercado Pago commission is discounted, and the Marketplace commission is deducted from the rest.
+>The Mercado Libre commission will be deducted from the funds received by the seller. First, the Mercado Libre commission is discounted, and the Marketplace commission is deducted from the rest.

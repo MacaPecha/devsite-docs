@@ -2,7 +2,7 @@
 
 ## Introdução
 
-As **lojas** e **caixas** são os conceitos que você usará no Mercado Pago para gerenciar seus negócios e manter um registro das suas contas. Você pode ter vários caixas dentro de uma loja.
+As **lojas** e **caixas** são os conceitos que você usará no Mercado Libre para gerenciar seus negócios e manter um registro das suas contas. Você pode ter vários caixas dentro de uma loja.
 
 ![Cajas y Sucursales](/images/mobile/stores_pos.pt.png) 
 
@@ -15,7 +15,7 @@ As **lojas** e **caixas** são os conceitos que você usará no Mercado Pago par
 Os benefícios de criar lojas são:
 
 - **Conseguir traçabilidade**. Cada pagamento ficará associado a uma loja e no momento de obter seus relatórios de conciliação será valioso para identificar transações por loja. 
-- **Visibilidade em mapas de lojas**.  As lojas criadas aparecem no mapa dos app de Mercado Pago ou Mercado Livre à medida que forem tendo pagamentos. Assim, conferem visibilidade a todos os clientes sobre a existência da loja. 
+- **Visibilidade em mapas de lojas**.  As lojas criadas aparecem no mapa dos app de Mercado Libre ou Mercado Livre à medida que forem tendo pagamentos. Assim, conferem visibilidade a todos os clientes sobre a existência da loja. 
 - **Aportar uma melhor organização dos caixas**. 
 
 ### Como criar uma loja?
@@ -86,7 +86,7 @@ Tendo lojas criadas, você pode criar seus caixas. Considere o seguinte:
 | Termo | Descrição |
 | --- | --- |
 | `EXTERNAL_STORE_ID` | Vincula o caixa com a loja. É um campo requerido e é o mesmo *external_id* da loja previamente criada. |
-| `EXTERNAL_ID` | Identifica univocamente cada caixa. É requerido e não se pode alterar nem repetir numa mesma conta de Mercado Pago. |
+| `EXTERNAL_ID` | Identifica univocamente cada caixa. É requerido e não se pode alterar nem repetir numa mesma conta de Mercado Libre. |
 
 
 [[[

@@ -11,54 +11,54 @@
 
 ## O que é Nuvemshop?
 
-Nuvemshop é uma **plataforma e-commerce para sua loja virtual, que permite processar pagamentos através do Mercado Pago.**
-Você poderá oferecer aos seus clientes a possibilidade de pagar com cartão de crédito e boleto bancário no [próprio checkout da sua loja](#bookmark_checkout_transparente) ou [redirecionado para o site do Mercado Pago](#bookmark_checkout_pro).
+Nuvemshop é uma **plataforma e-commerce para sua loja virtual, que permite processar pagamentos através do Mercado Libre.**
+Você poderá oferecer aos seus clientes a possibilidade de pagar com cartão de crédito e boleto bancário no [próprio checkout da sua loja](#bookmark_checkout_transparente) ou [redirecionado para o site do Mercado Libre](#bookmark_checkout_pro).
 
 ## Etapas para configurar
 
-Os **passos para começar a operar com Mercado Pago,** são os seguintes:
+Os **passos para começar a operar com Mercado Libre,** são os seguintes:
 
-1. Crie uma [conta de vendedor](https://www.mercadopago[FAKER][URL][DOMAIN]/activities) no Mercado Pago caso ainda não tenha uma.
-2. Ative o **Mercado Pago** como meio de pagamento dentro da sua loja.
-3. Configure as formas de pagamento Mercado Pago.
+1. Crie uma [conta de vendedor](https://www.mercadopago[FAKER][URL][DOMAIN]/activities) no Mercado Libre caso ainda não tenha uma.
+2. Ative o **Mercado Libre** como meio de pagamento dentro da sua loja.
+3. Configure as formas de pagamento Mercado Libre.
 
-## Ative o Mercado Pago em sua loja
+## Ative o Mercado Libre em sua loja
 
-Para **vincular sua conta do Mercado Pago à Nuvemshop,** siga os passos abaixo:
+Para **vincular sua conta do Mercado Libre à Nuvemshop,** siga os passos abaixo:
 
 1. Acesse as [configurações de meios de pagamentos](https://lojavirtualnuvem.com.br/admin/payments/), no painel de administração de sua loja.
-2. Localize o "Mercado Pago" na lista de meios de pagamentos.
+2. Localize o "Mercado Libre" na lista de meios de pagamentos.
 3. Clique em "Configurar" e depois em "Ativar".
-4. Você **será redirecionado para uma página do Mercado Pago** para acessar com seus dados. Clique em "Permitir" para autorizar a conexão.
+4. Você **será redirecionado para uma página do Mercado Libre** para acessar com seus dados. Clique em "Permitir" para autorizar a conexão.
 <p>&nbsp;</p>
 
 ![Payments Connect - Nuvem Shop](/images/nuvemshop/nuvemshop_connect_1.gif)
 
 <p>&nbsp;</p>
-Pronto! Sua conta Mercado Pago já está ativa!
+Pronto! Sua conta Mercado Libre já está ativa!
 
 > WARNING
 >
 > Importante
 >
-> Por padrão, a Nuvemshop apresenta algumas informações da conta que está recebendo pagamento, são elas: e-mail, país e a moeda correspondente a sua conta Mercado Pago.
+> Por padrão, a Nuvemshop apresenta algumas informações da conta que está recebendo pagamento, são elas: e-mail, país e a moeda correspondente a sua conta Mercado Libre.
 
 <!-- -->
 > NOTE
 >
-> Alterar conta do Mercado Pago
+> Alterar conta do Mercado Libre
 >
-> Se, por algum motivo, você precisar trocar a conta atual do Mercado Pago por outra, os passos são bem simples.
+> Se, por algum motivo, você precisar trocar a conta atual do Mercado Libre por outra, os passos são bem simples.
 >
-> 1. Desconectar de sua conta Mercado Pago, caso conectada em um navegador.
+> 1. Desconectar de sua conta Mercado Libre, caso conectada em um navegador.
 > 2. Clique no "Menu de opções" e depois em "Sair".
-> 3. Acesse as [configurações de meios de pagamentos](https://lojavirtualnuvem.com.br/admin/payments/), no painel de administração de sua loja, localize o "Mercado Pago" na lista de meios de pagamentos e clique em "Editar".
+> 3. Acesse as [configurações de meios de pagamentos](https://lojavirtualnuvem.com.br/admin/payments/), no painel de administração de sua loja, localize o "Mercado Libre" na lista de meios de pagamentos e clique em "Editar".
 > 4. Clique em "Mudar usuário" para desvincular a conta atual.
 > 5. Pronto! Basta você refazer o processo para [ativar uma nova conta](#bookmark_ative_o_mercado_pago_em_sua_loja).
 
 ## Configurar as formas de pagamento
 
-Você poderá escolher qual **tipo de integração utilizar em sua loja**. Você pode optar por um processo de compra diretamente em seu site ou no site do Mercado Pago, sendo possível ativar um ou outro.
+Você poderá escolher qual **tipo de integração utilizar em sua loja**. Você pode optar por um processo de compra diretamente em seu site ou no site do Mercado Libre, sendo possível ativar um ou outro.
 
 Além disso, você pode [configurar parcelas sem juros](#bookmark_configurando_o_parcelamento_em_sua_conta_mercado_pago) e consultar e configurar as [taxas e prazos](https://www.mercadopago[FAKER][URL][DOMAIN]/settings/release-options/) de suas vendas online quando quiser.
 
@@ -66,7 +66,7 @@ Além disso, você pode [configurar parcelas sem juros](#bookmark_configurando_o
 
 É o checkout em que seu **cliente finaliza o pagamento no ambiente da sua loja**, sem ser redirecionado para outro site.
 
-1. Acesse as [configurações de meios de pagamentos](https://lojavirtualnuvem.com.br/admin/payments/), no painel de administração de sua loja, localize o "Mercado Pago" na lista de meios de pagamentos e clique em "Editar".
+1. Acesse as [configurações de meios de pagamentos](https://lojavirtualnuvem.com.br/admin/payments/), no painel de administração de sua loja, localize o "Mercado Libre" na lista de meios de pagamentos e clique em "Editar".
 2. No item "Tipo de integração" altere para "Processo de compra sem sair da loja".
 3. Clique em "Salvar alterações".
 <p>&nbsp;</p>
@@ -76,10 +76,10 @@ Além disso, você pode [configurar parcelas sem juros](#bookmark_configurando_o
 
 ### Checkout Pro
 
-**O comprador será redirecionado ao site do Mercado Pago** e uma vez finalizado o processo, voltará para sua loja.
+**O comprador será redirecionado ao site do Mercado Libre** e uma vez finalizado o processo, voltará para sua loja.
 
-1. Acesse as [configurações de meios de pagamentos](https://lojavirtualnuvem.com.br/admin/payments/), no painel de administração de sua loja, localize o "Mercado Pago" na lista de meios de pagamentos e clique em "Editar".
-2. No item "Tipo de integração" altere para "Processo de compra no site do Mercado Pago".
+1. Acesse as [configurações de meios de pagamentos](https://lojavirtualnuvem.com.br/admin/payments/), no painel de administração de sua loja, localize o "Mercado Libre" na lista de meios de pagamentos e clique em "Editar".
+2. No item "Tipo de integração" altere para "Processo de compra no site do Mercado Libre".
 3. Clique em "Salvar alterações".
 <p>&nbsp;</p>
 
@@ -90,16 +90,16 @@ Além disso, você pode [configurar parcelas sem juros](#bookmark_configurando_o
 >
 > Nota
 >
-> Ao instalar o Mercado Pago, as modalidades de pagamento "Cartão de crédito" e "Boleto bancário" estarão habilitadas por padrão em sua loja.
+> Ao instalar o Mercado Libre, as modalidades de pagamento "Cartão de crédito" e "Boleto bancário" estarão habilitadas por padrão em sua loja.
 
 ## Configuração de parcelamento
 
-A Nuvemshop utiliza as informações de **parcelamento diretamente de sua conta Mercado Pago.**
-As alterações feitas nas configurações de parcelamento em sua conta "Mercado Pago" serão refletidas na sua loja online em até 24h.
+A Nuvemshop utiliza as informações de **parcelamento diretamente de sua conta Mercado Libre.**
+As alterações feitas nas configurações de parcelamento em sua conta "Mercado Libre" serão refletidas na sua loja online em até 24h.
 
 Caso queira **sincronização suas alterações manualmente**, realize os seguintes passos:
 
-1. Acesse as [configurações de meios de pagamentos](https://lojavirtualnuvem.com.br/admin/payments/), no painel de administração de sua loja, localize o "Mercado Pago" na lista de meios de pagamentos e clique em "Editar".
+1. Acesse as [configurações de meios de pagamentos](https://lojavirtualnuvem.com.br/admin/payments/), no painel de administração de sua loja, localize o "Mercado Libre" na lista de meios de pagamentos e clique em "Editar".
 2. No item "Parcelas" clique em "Ativar agora".
 3. Clique em "Salvar alterações".
 <p>&nbsp;</p>
@@ -107,9 +107,9 @@ Caso queira **sincronização suas alterações manualmente**, realize os seguin
 ![Payments Installment - Nuvem Shop](/images/nuvemshop/nuvemshop_installments_4.gif)
 
 
-## Configurando o parcelamento em sua conta Mercado Pago
+## Configurando o parcelamento em sua conta Mercado Libre
 
-1. Acesse sua [conta Mercado Pago](https://www.mercadopago[FAKER][URL][DOMAIN]/business/) e clique em "Seu negócio".
+1. Acesse sua [conta Mercado Libre](https://www.mercadopago[FAKER][URL][DOMAIN]/business/) e clique em "Seu negócio".
 2. Clique na opção Configurações, navegue até o campo "Oferecer parcelas sem acréscimo" e clique em "Ativar".
 3. Escolha "Quantas parcelas você quer oferecer?" e clique em "Ativar" para confirmar as alterações.
 <p>&nbsp;</p>

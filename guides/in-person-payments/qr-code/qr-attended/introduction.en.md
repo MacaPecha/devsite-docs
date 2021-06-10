@@ -9,7 +9,7 @@ This system is recommended for retail and restaurants, among others.
 
 The main characteristics are:
 
-- Operator always works from its Point of Sale system, that was previously set up with a Mercado Pago charge function. From that option, the order is sent to the associated POS.
+- Operator always works from its Point of Sale system, that was previously set up with a Mercado Libre charge function. From that option, the order is sent to the associated POS.
 - For a client to make a payment, an order needs to be linked to a POS.
 - Operator can see the completed payment on its system.
 

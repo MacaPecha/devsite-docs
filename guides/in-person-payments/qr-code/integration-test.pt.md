@@ -2,7 +2,7 @@
 
 ## Como testar sua integração? 
 
-Os usuários de teste lhe permitem checar a integração de seu sistema com Mercado Pago sem utilizar dinheiro real. 
+Os usuários de teste lhe permitem checar a integração de seu sistema com Mercado Libre sem utilizar dinheiro real. 
 
 Pra realizar os testes, é necessário ter pelo menos dois usuários: um comprador e um vendedor.
 
@@ -10,8 +10,8 @@ Pra realizar os testes, é necessário ter pelo menos dois usuários: um comprad
 
 | Tipos de usuários | Descrição |
 | --- | --- |
-| Vendedor | É a **conta de testes que você utiliza para obter as credenciais** a ser configuradas em seu sistema para poder interagir com os APIs de Mercado Pago. Também poderá acessar a [conta Mercado Pago](https://www.mercadopago.com.br/activities) e revisar as transações comprovadas. |
-| Comprador | É a **conta de testes que você utiliza para comprovar o processo de compra**.  Deve acessar o app de Mercado Pago com os dados deste usuário. Se houver dinheiro disponível na conta ou cartões guardados, estarão habilitados como meio de pagamento. |
+| Vendedor | É a **conta de testes que você utiliza para obter as credenciais** a ser configuradas em seu sistema para poder interagir com os APIs de Mercado Libre. Também poderá acessar a [conta Mercado Libre](https://www.mercadopago.com.br/activities) e revisar as transações comprovadas. |
+| Comprador | É a **conta de testes que você utiliza para comprovar o processo de compra**.  Deve acessar o app de Mercado Libre com os dados deste usuário. Se houver dinheiro disponível na conta ou cartões guardados, estarão habilitados como meio de pagamento. |
 
 ## Cartões de teste
 
@@ -40,7 +40,7 @@ Para testar o modelo atendido, gere um pedido com as [credenciais]([FAKER][CREDE
 
 
 ### 2. Realize um pagamento com seu usuário comprador
-- A. Inicie sessão no app de Mercado Pago com seu usuário de teste comprador. 
+- A. Inicie sessão no app de Mercado Libre com seu usuário de teste comprador. 
 - B. Clique em Pagar com QR e escaneie o QR do ponto de venda. 
 - C. Escolha um cartão já carregado ou preencha os dados com um cartão novo e faça o pagamento. 
 
@@ -64,7 +64,7 @@ Comprove que tenha recebido as notificações do estado do pedido em seu sistema
 
 Quando tiver o aplicativo **pronto e funcionando** na modalidade de teste e quiser começar a processar pagamentos reais, deverá [ativar suas credenciais]([FAKER][CREDENTIALS][URL]). 
 
-Posteriormente, Mercado Pago poderá auditar seu website, app ou Software de Ponto de Venda, verificando que as regras detalhadas acima sejam atendidas. No caso contrário, um assessor entrará em contato com você para discutir se tem coisas para corrigir em sua integração. 
+Posteriormente, Mercado Libre poderá auditar seu website, app ou Software de Ponto de Venda, verificando que as regras detalhadas acima sejam atendidas. No caso contrário, um assessor entrará em contato com você para discutir se tem coisas para corrigir em sua integração. 
 
 > WARNING
 > 

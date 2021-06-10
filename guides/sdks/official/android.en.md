@@ -3,7 +3,7 @@
 ---
 # MercadoPago - Android SDK
 
-The Mercado Pago Android SDK makes it easy to collect your user's credit card details inside your android app. By creating tokens, Mercado Pago handles the bulk of PCI compliance by preventing sensitive card data from hitting your server.
+The Mercado Libre Android SDK makes it easy to collect your user's credit card details inside your android app. By creating tokens, Mercado Libre handles the bulk of PCI compliance by preventing sensitive card data from hitting your server.
 
 ![Screenshot MercadoPago](images/sdk/android.png)
 
@@ -24,7 +24,7 @@ Add this line to your app's `build.gradle` inside the `dependencies` section:
 
 ### ProGuard
 
-If you're planning on optimizing your app with ProGuard, make sure that you exclude the Mercado Pago bindings. You can do this by adding the following to your app's `proguard.cfg` file:
+If you're planning on optimizing your app with ProGuard, make sure that you exclude the Mercado Libre bindings. You can do this by adding the following to your app's `proguard.cfg` file:
 
     -keep class com.mercadopago.** { *; }
 

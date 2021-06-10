@@ -9,11 +9,11 @@
 > Consideraciones
 >
 > Se facilita este instructivo con el objetivo de  brindarle todas las herramientas para poder realizar la integración de la solución.
-> El Vendedor deberá cumplir con las políticas de integración de Mercado Pago,
+> El Vendedor deberá cumplir con las políticas de integración de Mercado Libre,
 >
-> A. El Vendedor deberá comunicar en forma clara e inequívoca a su base de usuarios o clientes que la plataforma de pago en su sitio web es provista por Mercado Pago, y los plazos o fechas y los montos de los pagos recurrentes.
+> A. El Vendedor deberá comunicar en forma clara e inequívoca a su base de usuarios o clientes que la plataforma de pago en su sitio web es provista por Mercado Libre, y los plazos o fechas y los montos de los pagos recurrentes.
 >
-> B. En caso de que usuarios o clientes existentes del Vendedor estuvieran siendo migrados a la plataforma de Pagos Recurrentes de Mercado Pago, el Vendedor deberá comunicarlo por escrito indicando que Mercado Pago procesará los pagos, informando que en el resumen verá el cargo como Mercado Pago/Mercado Libre” (*).
+> B. En caso de que usuarios o clientes existentes del Vendedor estuvieran siendo migrados a la plataforma de Pagos Recurrentes de Mercado Libre, el Vendedor deberá comunicarlo por escrito indicando que Mercado Libre procesará los pagos, informando que en el resumen verá el cargo como Mercado Libre/Mercado Libre” (*).
 >
 > C. Pre-Approval solo está disponible a través del Checkout Pro personalizado o Web Tokenize Checkout, es decir, vía la utilización de nuestras API’s.
 
@@ -21,13 +21,13 @@
 >
 > Nota
 >
-> En el caso de tarjetas de crédito Master y Amex, en la tarjeta de crédito aparecerá como: “MERPAG*<brand_name>”. Por lo que para estos medios de pago podrán comunicar: “En tu resumen verás el cargo como MERPAG*<brand_name>” donde <Brand_name> se configura desde la cuenta de Mercado Pago del vendedor: Menu -> Configuracion > Nombre de mi negocio.
+> En el caso de tarjetas de crédito Master y Amex, en la tarjeta de crédito aparecerá como: “MERPAG*<brand_name>”. Por lo que para estos medios de pago podrán comunicar: “En tu resumen verás el cargo como MERPAG*<brand_name>” donde <Brand_name> se configura desde la cuenta de Mercado Libre del vendedor: Menu -> Configuracion > Nombre de mi negocio.
 
-Con los pagos sin cvv, se podrán realizar cobros recurrentes con Mercado Pago teniendo la libertad de amoldar la solución de la forma más óptima para tu negocio.
+Con los pagos sin cvv, se podrán realizar cobros recurrentes con Mercado Libre teniendo la libertad de amoldar la solución de la forma más óptima para tu negocio.
 
 ## Crea una aplicación
 
-Para crear una aplicación tienes que ingresar con tu cuenta de Mercado Pago a: [https://applications.mercadopago.com/](https://applications.mercadopago.com/), para poder operar pagos sin cvv la aplicación deberá ser habilitada para tal fin. Estos permisos son asignados desde Mercado Pago, por lo que deberás enviarnos el APP ID obtenido para poder realizar la configuración correspondiente.
+Para crear una aplicación tienes que ingresar con tu cuenta de Mercado Libre a: [https://applications.mercadopago.com/](https://applications.mercadopago.com/), para poder operar pagos sin cvv la aplicación deberá ser habilitada para tal fin. Estos permisos son asignados desde Mercado Libre, por lo que deberás enviarnos el APP ID obtenido para poder realizar la configuración correspondiente.
 
 ## Cobrá el primer pago
 
@@ -114,7 +114,7 @@ $payment = $mp->post("/v1/payments", $payment_data);
 
 ## Escucha notificaciones de los pagos
 
-Cada que vez que se curse un pago y haya una novedad sobre el pago, Mercado Pago te enviará una notificación para que puedas actualizar tus sistemas. Podrás ver el paso a paso en nuestra sección de [notificaciones](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/notifications/webhooks)
+Cada que vez que se curse un pago y haya una novedad sobre el pago, Mercado Libre te enviará una notificación para que puedas actualizar tus sistemas. Podrás ver el paso a paso en nuestra sección de [notificaciones](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/notifications/webhooks)
 
 ## Reintentos
 
@@ -158,4 +158,4 @@ Para ello te informaremos con un HTTP Status 201 OK que el pago ha sido creado c
 
 ## Verifica haber recibido la notificación Webhook
 
-Mercado Pago te enviará una notificación del evento ocurrido. Valida que la hayas recibido correctamente e impactado en forma correcta en tu sistema de gestión.
+Mercado Libre te enviará una notificación del evento ocurrido. Valida que la hayas recibido correctamente e impactado en forma correcta en tu sistema de gestión.

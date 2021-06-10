@@ -1,7 +1,7 @@
-# Instala Mercado Pago en WooCommerce
+# Instala Mercado Libre en WooCommerce
 <br/>
 
-Instala el módulo de Mercado Pago en WooCommerce de forma automática, desde tu panel de WordPress, o de forma manual, importando un .zip en tu directorio vía FTP.
+Instala el módulo de Mercado Libre en WooCommerce de forma automática, desde tu panel de WordPress, o de forma manual, importando un .zip en tu directorio vía FTP.
 
 > La instalación de nuestro módulo no afecta la velocidad de tu tienda.
 
@@ -34,7 +34,7 @@ De forma automática, desde la sección ‘Plugins’ de WordPress
 
 Sigue estos pasos para la instalación:
 
-1) Ve a **Añadir** nuevo y busca “WooCommerce Mercado Pago” entre la oferta de módulos de WordPress.
+1) Ve a **Añadir** nuevo y busca “WooCommerce Mercado Libre” entre la oferta de módulos de WordPress.
 
 2) Haz clic en Instalar y luego búscalo en la sección “Plugins Instalados”. 
 
@@ -52,13 +52,13 @@ De forma manual, instala el módulo siguiendo estos pasos:
 >
 > [Descargar](https://github.com/mercadopago/cart-woocommerce/archive/master.zip)
 >
-> [Módulo de Mercado Pago para WooCommerce](https://github.com/mercadopago/cart-woocommerce/archive/master.zip)
+> [Módulo de Mercado Libre para WooCommerce](https://github.com/mercadopago/cart-woocommerce/archive/master.zip)
 
 2) Descomprime la carpeta descargada y cambia el nombre a ‘woocommerce-mercadopago’.
 
 3) Conéctate a tu servidor web y copia el archivo ‘woocommerce-mercadopago’ en tu directorio de WordPress, dentro de la carpeta ‘Plugins’.
 
-¡Y listo! El módulo de Mercado Pago se instalará en tu tienda online.
+¡Y listo! El módulo de Mercado Libre se instalará en tu tienda online.
 
 Revisa que todo haya salido bien desde tu escritorio de WordPress. Verás el módulo entre tus *Plugins instalados*. Actívalo para pasar a la integración de tu cuenta y los pasos de configuración. 
 
@@ -85,9 +85,9 @@ Luego ejecuta los pasos de una **nueva instalación** para actualizar tu tienda 
 
 > LEFT_BUTTON_REQUIRED_ES
 >
-> Integrar Mercado Pago en WooCommerce
+> Integrar Mercado Libre en WooCommerce
 >
-> Conecta tu cuenta de Mercado Pago al módulo y captura los pagos que recibas por tus ventas online.
+> Conecta tu cuenta de Mercado Libre al módulo y captura los pagos que recibas por tus ventas online.
 >
 > 
 > [Integrar](https://www.mercadopago[FAKER][URL][DOMAIN]/developers/es/guides/plugins/woocommerce/integration)
